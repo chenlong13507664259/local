@@ -1,49 +1,4 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 2.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 63015
-    server: 108.181.5.130
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria2
-    up: ''
-  - auth: dongtaiwang.com
-    delay: 1096
-    down: 100 Mbps
-    name: "\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 6.1MB/s"
-    password: dongtaiwang.com
-    port: 50066
-    server: 51.158.218.2
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    udp: true
-    up: 100 Mbps
-  - cipher: rc4-md5
-    name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.6MB/s"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 23.251.121.242
-    type: ss
-    udp: true
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 4.5MB/s"
-    port: 38845
-    protocol: udp
-    server: 208.87.243.151
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria
-    udp: true
-    up: '100'
   - auth: 3C8h8X6kimbOX68joVe3kTERw
     client-fingerprint: chrome
     name: "\U0001F1EC\U0001F1E7英国1 | ⬇️ 1.7MB/s"
@@ -54,11 +9,35 @@ proxies:
     sni: bing.com
     type: hysteria2
     udp: true
+  - auth: dongtaiwang.com
+    delay: 1096
+    down: 100 Mbps
+    name: "\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 4.8MB/s"
+    password: dongtaiwang.com
+    port: 50066
+    server: 51.158.218.2
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    udp: true
+    up: 100 Mbps
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 887KB/s"
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 63015
+    server: 108.181.5.130
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria2
+    up: ''
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 1.7MB/s"
+    name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 1.3MB/s"
     port: 37872
     protocol: udp
     server: 108.181.24.77
@@ -66,41 +45,23 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-  - name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 854KB/s"
-    network: ws
-    port: 8880
-    server: 66.45.118.143
-    skip-cert-verify: false
-    tls: false
-    type: vless
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: '100'
+    name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 1.8MB/s"
+    port: 38845
+    protocol: udp
+    server: 208.87.243.151
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria
     udp: true
-    uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-    ws-opts:
-      headers:
-        Host: yg.bantony199.top
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2
-    servername: Telegram-channel-WangCai2
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 6.0MB/s"
-    network: ws
-    port: 443
-    server: 104.18.13.145
-    tls: true
-    type: vless
-    udp: true
-    uuid: f19ed531-81cb-433e-8746-1a69e009f9df
-    ws-opts:
-      headers:
-        Host: usa.rtot.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /bing
-    xudp: true
-    servername: usa.rtot.me
+    up: '100'
   - alterId: 2
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8美国7 | ⬇️ 6.4MB/s"
+    name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 1.2MB/s"
     network: ws
     port: 30829
     server: v29.heduian.link
@@ -111,382 +72,86 @@ proxies:
         Host: ocbc.com
       path: /oooo
   - client-fingerprint: chrome
-    name: "\U0001F300其他1-未识别 | ⬇️ 1.1MB/s"
-    network: ws
-    port: 8880
-    server: 103.245.229.168
-    tls: false
-    type: vless
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: kjgx.laoyoutiao.link
-      max-early-data: '2560'
-      path: /Telegram @freecodes /
-    servername: kjgx.laoyoutiao.link
-  - name: "\U0001F1E6\U0001F1EA阿拉伯酋长国1 | ⬇️ 1.8MB/s"
-    network: ws
-    port: 8880
-    server: 156.238.18.13
-    tls: false
-    type: vless
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: yd.laoyoutiao.link
-      max-early-data: '2560'
-      path: /Telegram @MxlShare @freecodes /
-    servername: yd.laoyoutiao.link
-  - name: "\U0001F1E6\U0001F1EA阿拉伯酋长国2 | ⬇️ 3.5MB/s"
-    network: ws
-    port: 8880
-    server: 45.192.224.68
-    tls: false
-    type: vless
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: yd.laoyoutiao.link
-      max-early-data: '2560'
-      path: /Telegram @freecodes /
-    servername: yd.laoyoutiao.link
+    name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 1.0MB/s"
+    password: dongtaiwang.com
+    port: 22222
+    server: 208.87.243.187
+    skip-cert-verify: true
+    sni: www.bing.com
+    tfo: false
+    type: hysteria2
   - client-fingerprint: chrome
-    name: "\U0001F300其他2-未识别 | ⬇️ 1.6MB/s"
-    network: ws
-    port: 8880
-    server: 104.129.167.177
-    tls: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: ip.langmanshanxi.top
-      max-early-data: '2560'
-      path: /Telegram@freecodes/
-    servername: Telegram-channel-freecodes
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国8 | ⬇️ 4.4MB/s"
-    network: ws
-    port: 8880
-    server: 167.68.5.177
-    tls: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: ip.langmanshanxi.top
-      max-early-data: '2560'
-      path: /Telegram@freecodes/
-    servername: Telegram-channel-freecodes
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国9 | ⬇️ 847KB/s"
-    network: ws
-    port: 8880
-    server: 86.38.214.143
-    tls: false
-    type: vless
-    udp: true
-    uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: yg.bantony199.top
-      max-early-data: '2560'
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-    servername: Telegram-channel-WangCai2
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国10 | ⬇️ 958KB/s"
-    network: ws
-    port: 8880
-    server: 66.235.200.186
-    skip-cert-verify: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      headers:
-        Host: ip.langmanshanxi.top
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed
-    servername: Telegram-channel-WangCai2
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国11 | ⬇️ 1.0MB/s"
-    network: ws
-    port: 8880
-    server: 89.116.250.3
-    tls: false
-    type: vless
-    uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-    ws-opts:
-      headers:
-        Host: bitget1.asdasd.click
-      path: /TelegramU0001F1E8U0001F1F3
-    servername: Telegram-channel-freecodes
-  - client-fingerprint: chrome
-    name: "\U0001F300其他3-未识别 | ⬇️ 805KB/s"
-    network: ws
-    port: 8880
-    server: 194.53.53.143
-    tls: false
-    type: vless
-    udp: true
-    uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: yg.bantony199.top
-      max-early-data: '2560'
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-    servername: Telegram-channel-WangCai2
-  - name: "\U0001F1FA\U0001F1F8美国12 | ⬇️ 1.0MB/s"
-    network: ws
-    port: 8880
-    server: 185.148.104.251
-    skip-cert-verify: false
-    type: vless
-    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-    ws-opts:
-      headers:
-        Host: cf.d3z.net
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed
-    servername: cf.d3z.net
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国13 | ⬇️ 2.0MB/s"
-    network: ws
-    port: 8880
-    server: 212.183.88.188
-    skip-cert-verify: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      headers:
-        Host: ip.langmanshanxi.top
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed
-    servername: Telegram-channel-WangCai2
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国14 | ⬇️ 929KB/s"
-    network: ws
-    port: 8880
-    server: 89.116.180.186
-    skip-cert-verify: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      headers:
-        Host: ip.langmanshanxi.top
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed
-    servername: Telegram-channel-WangCai2
-  - client-fingerprint: chrome
-    name: "\U0001F300其他4-未识别 | ⬇️ 1.7MB/s"
-    network: ws
-    port: 8880
-    server: 193.124.224.3
-    skip-cert-verify: false
-    type: vless
-    uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-    ws-opts:
-      headers:
-        Host: bitget1.asdasd.click
-      path: /TelegramU0001F1E8U0001F1F3
-    servername: bitget1.asdasd.click
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 4.0MB/s"
-    network: ws
-    port: 11002
-    server: 185.148.13.32
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edgc.aimercc.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-          Gecko) Chrome/26.0.1410.64 Safari/537.31
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    xudp: true
-    servername: edgc.aimercc.dpdns.org
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1E6乌克兰1 | ⬇️ 2.0MB/s"
-    network: ws
+    name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 2.6MB/s"
+    password: 51de9de9-3445-4dd3-8ac9-f42dc0baa230
     port: 443
-    server: mybb.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 102e5f34-1913-4dd3-a1f2-f831d891a490
-    ws-opts:
-      headers:
-        Host: rayan-config-telegram-a03.traneh.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.77 Safari/537.36
-      path: /@Rayan_Config
-    xudp: true
-    servername: rAyAn-cOnFiG-TeLeGrAm-a03.tRaNeH.DpDnS.OrG
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7英国2 | ⬇️ 2.2MB/s"
-    network: ws
-    port: 443
-    server: 1password.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1688039e-a45f-499e-b9f4-c098c87d3b32
-    ws-opts:
-      headers:
-        Host: rayan-config-telegram-a02.rayan.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /@Rayan_Config
-    xudp: true
-    servername: rAyAn-cOnFiG-TeLeGrAm-a02.rAyAn.dPdNs.oRg
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1荷兰2 | ⬇️ 965KB/s"
-    network: ws
-    port: 2096
-    server: 92.243.74.23
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edgc.aimercc.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    xudp: true
-    servername: edgc.aimercc.dpdns.org
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 8.1MB/s"
-    network: ws
-    port: 443
-    server: 64.49.46.181
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: cv.ylka.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /?ed=2560
-    xudp: true
-    servername: cv.ylka.dpdns.org
-  - client-fingerprint: chrome
-    name: "\U0001F300其他5-PH | ⬇️ 1.0MB/s"
-    network: ws
-    port: 2053
-    server: 154.219.5.242
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edgc.aimercc.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.80 Safari/537.36
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    xudp: true
-    servername: edgc.aimercc.dpdns.org
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F300其他6-未识别 | ⬇️ 2.1MB/s"
-    network: ws
-    port: 30837
-    server: v37.heduian.link
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      headers:
-        Host: v37.heduian.link
-      path: /oooo
-    xudp: true
-    servername: ocbc.com
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 1.6MB/s"
-    network: ws
-    port: 2096
-    server: 27.50.49.41
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edgc.aimercc.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.99 Safari/537.36
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    xudp: true
-    servername: edgc.aimercc.dpdns.org
-  - client-fingerprint: chrome
-    name: "\U0001F300其他7-未识别 | ⬇️ 909KB/s"
-    network: ws
-    port: 10010
-    server: 46.232.106.214
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edgc.aimercc.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/31.0.1650.57 Safari/537.36
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    xudp: true
-    servername: edgc.aimercc.dpdns.org
-  - client-fingerprint: chrome
-    name: "\U0001F300其他8-未识别 | ⬇️ 5.0MB/s"
-    network: ws
-    port: 443
-    server: 64.49.47.64
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: cv1.ylka.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.110 Safari/537.36
-      path: /?ed=2560
-    xudp: true
-    servername: cv1.ylka.dpdns.org
-  - alterId: 0
-    cipher: auto
+    server: 129.146.215.233
+    skip-cert-verify: true
+    sni: cn.cremedelamer.com
+    tfo: false
+    type: hysteria2
+  - auth: ok6aX0A7QX9SkYo6R0GBBJDUsK4
     client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EA德国2 | ⬇️ 1.7MB/s"
+    name: "\U0001F1EE\U0001F1F3印度1 | ⬇️ 1.5MB/s"
+    password: ok6aX0A7QX9SkYo6R0GBBJDUsK4
+    port: 8460
+    server: 143.244.140.87
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1F3\U0001F1F1荷兰2 | ⬇️ 6.3MB/s"
     network: ws
-    port: 8443
-    server: fk3.620720.xyz
+    port: 12270
+    server: 119.200.48.55
     skip-cert-verify: true
     tls: true
-    type: vmess
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    type: vless
+    udp: true
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     ws-opts:
       headers:
-        Host: fk3.620720.xyz
-      path: /
-    servername: fk3.620720.xyz
+        Host: edgc.esslh.filegear-sg.me
+      path: /?ed=2560&proxyip=ts.hpc.tw
+    servername: edgc.esslh.filegear-sg.me
+  - name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 2.6MB/s"
+    network: ws
+    password: Aimer
+    port: 7000
+    server: 154.17.12.30
+    skip-cert-verify: true
+    sni: epgc.aimercc.dpdns.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: epgc.aimercc.dpdns.org
+      path: /?ed=2560
+  - name: "\U0001F1F3\U0001F1F1荷兰3 | ⬇️ 1.2MB/s"
+    network: ws
+    password: Aimer
+    port: 12354
+    server: 107.172.87.159
+    skip-cert-verify: true
+    sni: epgc.aimercc.dpdns.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: epgc.aimercc.dpdns.org
+      path: /?ed=2560
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1F3\U0001F1F1荷兰4 | ⬇️ 1.1MB/s"
+    port: 37519
+    ports: 10000-20000
+    server: 109.104.153.91
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+    auth-str: dongtaiwang.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
