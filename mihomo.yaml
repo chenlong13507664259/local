@@ -59,18 +59,7 @@ proxies:
     type: hysteria
     udp: true
     up: '100'
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 1.2MB/s"
-    network: ws
-    port: 30829
-    server: v29.heduian.link
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      headers:
-        Host: ocbc.com
-      path: /oooo
+
   - client-fingerprint: chrome
     name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 1.0MB/s"
     password: dongtaiwang.com
@@ -80,15 +69,7 @@ proxies:
     sni: www.bing.com
     tfo: false
     type: hysteria2
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 2.6MB/s"
-    password: 51de9de9-3445-4dd3-8ac9-f42dc0baa230
-    port: 443
-    server: 129.146.215.233
-    skip-cert-verify: true
-    sni: cn.cremedelamer.com
-    tfo: false
-    type: hysteria2
+ 
   - auth: ok6aX0A7QX9SkYo6R0GBBJDUsK4
     client-fingerprint: chrome
     name: "\U0001F1EE\U0001F1F3印度1 | ⬇️ 1.5MB/s"
@@ -113,32 +94,7 @@ proxies:
         Host: edgc.esslh.filegear-sg.me
       path: /?ed=2560&proxyip=ts.hpc.tw
     servername: edgc.esslh.filegear-sg.me
-  - name: "\U0001F1E9\U0001F1EA德国1 | ⬇️ 2.6MB/s"
-    network: ws
-    password: Aimer
-    port: 7000
-    server: 154.17.12.30
-    skip-cert-verify: true
-    sni: epgc.aimercc.dpdns.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: epgc.aimercc.dpdns.org
-      path: /?ed=2560
-  - name: "\U0001F1F3\U0001F1F1荷兰3 | ⬇️ 1.2MB/s"
-    network: ws
-    password: Aimer
-    port: 12354
-    server: 107.172.87.159
-    skip-cert-verify: true
-    sni: epgc.aimercc.dpdns.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: epgc.aimercc.dpdns.org
-      path: /?ed=2560
+  
   - alpn:
       - h3
     auth_str: dongtaiwang.com
