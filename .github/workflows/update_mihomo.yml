@@ -13,6 +13,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      - name: Ensure local folder exists
+        run: |
+          New-Item -ItemType Directory -Force -Path .\local
+
       - name: Download subs-check.exe from Release
         run: |
           Invoke-WebRequest -Uri "https://github.com/chenlong13507664259/local/releases/download/subs-check-1.0/subs-check.exe" -OutFile ".\local\subs-check.exe"
