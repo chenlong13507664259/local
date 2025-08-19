@@ -7,19 +7,19 @@ on:
 
 jobs:
   update_yaml:
-    runs-on: windows-latest  # 使用 Windows
+    runs-on: windows-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Download subs-check.exe
+      - name: Download subs-check.exe from Release
         run: |
-          curl -L -o subs-check.exe https://ghcr.io/beck-8/subs-check:latest
+          Invoke-WebRequest -Uri "https://github.com/chenlong13507664259/local/releases/download/subs-check-1.0/subs-check.exe" -OutFile ".\local\subs-check.exe"
 
       - name: Run subs-check
         run: |
-          .\subs-check.exe -f .\local\config.yaml
+          .\local\subs-check.exe -f .\local\config.yaml
 
       - name: Configure Git
         run: |
