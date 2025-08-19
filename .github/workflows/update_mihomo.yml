@@ -1,43 +1,45 @@
 name: Update mihomo.yaml
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:       # 手动触发
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * *'   # 每天 6 点自动运行
 
 jobs:
   update_yaml:
     runs-on: windows-latest
 
     steps:
+      # 1. Checkout 仓库，使用个人访问令牌 GH_PAT
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_PAT }}
 
+      # 2. 确保 local 文件夹存在
       - name: Ensure local folder exists
         run: |
           New-Item -ItemType Directory -Force -Path .\local
 
+      # 3. 下载 subs-check.exe
       - name: Download subs-check.exe from Release
         run: |
-          Invoke-WebRequest `
-            -Uri "https://github.com/chenlong13507664259/local/releases/download/subs-check-1.0/subs-check.exe" `
-            -OutFile ".\local\subs-check.exe"
+          Invoke-WebRequest -Uri "https://github.com/chenlong13507664259/local/releases/download/subs-check-1.0/subs-check.exe" -OutFile ".\local\subs-check.exe"
 
+      # 4. 运行 subs-check.exe
       - name: Run subs-check
         run: |
           .\local\subs-check.exe -f .\local\config.yaml
 
+      # 5. 配置 Git 用户信息
       - name: Configure Git
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
+      # 6. 提交并 push，使用 GH_PAT
       - name: Commit and push
         run: |
           git add mihomo.yaml local/
           git commit -m "Update mihomo.yaml [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/chenlong13507664259/local.git HEAD:main
-
-
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
