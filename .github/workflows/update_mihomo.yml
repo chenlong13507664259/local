@@ -15,7 +15,8 @@ jobs:
 
       - name: Run subs-check in Docker
         run: |
-          docker run --rm -v $PWD:/app ghcr.io/beck-8/subs-check:latest -f /app/local/config.yaml
+         docker run --rm -v $PWD:/app ghcr.io/beck-8/subs-check:latest -f /app/local/config.yaml
+
 
       - name: Configure Git
         run: |
