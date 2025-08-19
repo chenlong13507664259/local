@@ -1,0 +1,35 @@
+name: Update mihomo.yaml
+
+on:
+  workflow_dispatch:   # 手动触发
+  schedule:
+    - cron: '0 6 * * *'  # 每天 6 点自动运行
+
+jobs:
+  update_yaml:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Download subs-check.exe
+        run: |
+          curl -L -o subs-check.exe https://ghcr.io/beck-8/subs-check:latest
+
+      - name: Run subs-check
+        run: |
+          .\subs-check.exe -f config.yaml
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Commit and push
+        run: |
+          git add mihomo.yaml
+          git commit -m "Update mihomo.yaml [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
