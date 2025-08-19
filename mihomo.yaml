@@ -1,6 +1,6 @@
 proxies:
   - auth: 3C8h8X6kimbOX68joVe3kTERw
-    client-fingerprint: chrome
+    client-fingerprint: chrome 
     name: "\U0001F1EC\U0001F1E7英国1 | ⬇️ 1.7MB/s"
     password: 3C8h8X6kimbOX68joVe3kTERw
     port: 7197
