@@ -1,36 +1,27 @@
 name: Update mihomo.yaml
 
 on:
-  workflow_dispatch:   # 手动触发
+  workflow_dispatch:       # 手动触发
   schedule:
-    - cron: '0 6 * * *'  # 每天 6 点自动运行
+    - cron: '0 6 * * *'   # 每天 6 点自动运行
 
 jobs:
   update_yaml:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
-      # 拉取仓库内容
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # 下载 Windows exe 文件
-      - name: Download subs-check.exe
+      - name: Run subs-check in Docker
         run: |
-          curl -L -o subs-check.exe https://github.com/beck-8/subs-check/releases/download/v2.2.8/subs-check-win.exe
+          docker run --rm -v $PWD:/app ghcr.io/beck-8/subs-check:latest -f /app/local/config.yaml
 
-      # 运行 subs-check 生成 mihomo.yaml
-      - name: Run subs-check
-        run: |
-          .\subs-check.exe -f .\local\config.yaml
-
-      # 配置 Git
       - name: Configure Git
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-      # 提交更新的 mihomo.yaml 并推送
       - name: Commit and push
         run: |
           git add mihomo.yaml
