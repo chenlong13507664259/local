@@ -10,22 +10,27 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      # 拉取仓库内容
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # 下载 Windows exe 文件
       - name: Download subs-check.exe
         run: |
-          curl -L -o subs-check.exe https://ghcr.io/beck-8/subs-check:latest
+          curl -L -o subs-check.exe https://github.com/beck-8/subs-check/releases/download/v2.2.8/subs-check-win.exe
 
+      # 运行 subs-check 生成 mihomo.yaml
       - name: Run subs-check
         run: |
-          .\subs-check.exe -f config.yaml
+          .\subs-check.exe -f .\local\config.yaml
 
+      # 配置 Git
       - name: Configure Git
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
+      # 提交更新的 mihomo.yaml 并推送
       - name: Commit and push
         run: |
           git add mihomo.yaml
