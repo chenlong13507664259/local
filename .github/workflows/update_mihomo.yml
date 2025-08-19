@@ -10,18 +10,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. 拉取仓库
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Run subs-check in Docker
+      # 2. 下载 Linux 可执行的 subs-check
+      - name: Download subs-check
         run: |
-          docker run --rm -v $PWD:/app ghcr.io/beck-8/subs-check:latest subs-check -f /app/local/config.yaml
+          curl -L -o subs-check https://github.com/beck-8/subs-check/releases/latest/download/subs-check-linux
+          chmod +x subs-check
 
+      # 3. 执行生成 mihomo.yaml
+      - name: Run subs-check
+        run: |
+          ./subs-check -f local/config.yaml
+
+      # 4. 配置 git
       - name: Configure Git
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
+      # 5. 提交并推送修改
       - name: Commit and push
         run: |
           git add mihomo.yaml
