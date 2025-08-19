@@ -1,40 +1,35 @@
-name: Update mihomo.yaml
+name: Run subs-check internally
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:       # 手动触发
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * *'   # 每天 6 点自动运行
 
 jobs:
-  update_yaml:
+  run_subs_check:
     runs-on: windows-latest
 
     steps:
+      # 1. Checkout 仓库
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # 2. 确保 local 文件夹存在
       - name: Ensure local folder exists
-        run: New-Item -ItemType Directory -Force -Path .\local
+        run: |
+          New-Item -ItemType Directory -Force -Path .\local
 
-      - name: Download subs-check.exe
-        run: Invoke-WebRequest -Uri "https://github.com/chenlong13507664259/local/releases/download/subs-check-1.0/subs-check.exe" -OutFile ".\local\subs-check.exe"
+      # 3. 下载 subs-check.exe（Release 里）
+      - name: Download subs-check.exe from Release
+        run: |
+          Invoke-WebRequest -Uri "https://github.com/chenlong13507664259/local/releases/download/subs-check-1.0/subs-check.exe" -OutFile ".\local\subs-check.exe"
 
+      # 4. 运行 subs-check 生成文件，保存在 local 文件夹
       - name: Run subs-check
-        run: .\local\subs-check.exe -f .\local\config.yaml
+        run: |
+          .\local\subs-check.exe -f .\local\config.yaml
 
-      - name: Create or update Release
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: subs-check-1.0   # 每次可用新版本号
-          name: subs-check-1.0
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload generated files to Release
-        uses: softprops/action-gh-release@v1
-        with:
-          files: local/*
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # 5. 查看生成的文件（可选，调试用）
+      - name: List generated files
+        run: |
+          dir .\local
