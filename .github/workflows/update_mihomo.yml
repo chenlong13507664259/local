@@ -1,9 +1,9 @@
 name: Update mihomo.yaml
 
 on:
-  workflow_dispatch:       # 手动触发
+  workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'   # 每天 6 点自动运行
+    - cron: '0 6 * * *'
 
 jobs:
   update_yaml:
@@ -19,7 +19,9 @@ jobs:
 
       - name: Download subs-check.exe from Release
         run: |
-          Invoke-WebRequest -Uri "https://github.com/chenlong13507664259/local/releases/download/subs-check-1.0/subs-check.exe" -OutFile ".\local\subs-check.exe"
+          Invoke-WebRequest `
+            -Uri "https://github.com/chenlong13507664259/local/releases/download/subs-check-1.0/subs-check.exe" `
+            -OutFile ".\local\subs-check.exe"
 
       - name: Run subs-check
         run: |
@@ -33,8 +35,7 @@ jobs:
       - name: Commit and push
         run: |
           git add mihomo.yaml local/
-
           git commit -m "Update mihomo.yaml [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/chenlong13507664259/local.git HEAD:main
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/chenlong13507664259/local.git HEAD:main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
