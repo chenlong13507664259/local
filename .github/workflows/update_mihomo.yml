@@ -34,6 +34,6 @@ jobs:
         run: |
           git add mihomo.yaml
           git commit -m "Update mihomo.yaml [skip ci]" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/chenlong13507664259/local.git HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
