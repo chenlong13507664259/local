@@ -7,7 +7,7 @@ on:
 
 jobs:
   update_yaml:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # 改为 Linux
 
     steps:
       - name: Checkout repo
