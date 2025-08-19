@@ -80,21 +80,6 @@ proxies:
     sni: bing.com
     type: hysteria2
     udp: true
-  - name: "\U0001F1F3\U0001F1F1荷兰2 | ⬇️ 6.3MB/s"
-    network: ws
-    port: 12270
-    server: 119.200.48.55
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edgc.esslh.filegear-sg.me
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    servername: edgc.esslh.filegear-sg.me
-  
   - alpn:
       - h3
     auth_str: dongtaiwang.com
