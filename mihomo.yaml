@@ -10,18 +10,6 @@ proxies:
     sni: bing.com
     type: hysteria2
     udp: true
-  - auth: dongtaiwang.com
-    delay: 1096
-    down: 100 Mbps
-    name: "\U0001F1F3\U0001F1F1荷兰1 | ⬇️ 4.8MB/s"
-    password: dongtaiwang.com
-    port: 50066
-    server: 51.158.218.2
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    udp: true
-    up: 100 Mbps
   - down: ''
     fingerprint: ''
     name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 887KB/s"
