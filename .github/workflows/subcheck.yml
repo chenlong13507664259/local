@@ -1,8 +1,8 @@
-name: 定时 Subcheck 测速并更新 mihomo.yaml
+name: 定时 Subcheck 并更新 mihomo.yaml
 
 on:
   schedule:
-    # 每天 0点、8点、16点 UTC（北京时间 8点、16点、0点）
+    # UTC 时间每天 0点、8点、16点（北京时间 8点、16点、0点）
     - cron: '0 0,8,16 * * *'
   workflow_dispatch: # 支持手动触发
 
@@ -17,8 +17,7 @@ jobs:
     - name: 安装依赖
       run: |
         sudo apt-get update
-        sudo apt-get install -y wget tar python3-pip git
-        pip install pyyaml
+        sudo apt-get install -y wget tar git
 
     - name: 下载 subs-check
       run: |
@@ -28,24 +27,7 @@ jobs:
 
     - name: 运行 subs-check
       run: |
-        ./subs-check --config config.yaml --output result.json
-
-    - name: 生成 mihomo.yaml
-      run: |
-        python3 << 'EOF'
-        import json, yaml
-
-        # 读取 subcheck 的结果
-        with open("result.json", "r") as f:
-            data = json.load(f)
-
-        # 筛选规则示例：仅保留延迟 < 100ms 的节点
-        selected = [node for node in data if node.get("delay", 9999) < 100]
-
-        # 写入 mihomo.yaml
-        with open("mihomo.yaml", "w") as f:
-            yaml.safe_dump(selected, f, sort_keys=False)
-        EOF
+        ./subs-check --config config.yaml
 
     - name: 提交更新到仓库
       run: |
