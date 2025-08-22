@@ -28,6 +28,7 @@ sub-urls:
   - https://v2raysubscribe.github.io/uploads/2025/08/0-20250822.yaml
   - https://raw.githubusercontent.com/Epodonios/bulk-xray-v2ray-vless-vmess-...-configs/main/sub/Japan/config.txt
   - https://v2rayngnode.github.io/uploads/2025/08/3-20250822.txt
+
   - https://raw.githubusercontent.com/danmaifu/mianfeijiedian/main/feed/v2ray-20250822.txt
 mihomo-overwrite-url: http://127.0.0.1:8190/ACL4SSR_Online_Full.yaml
 rename-node: true
