@@ -25,30 +25,13 @@ jobs:
         tar -xzf subs-check_Linux_x86_64.tar.gz
         chmod +x subs-check
 
-    - name: 运行 subs-check 并监控日志
+    - name: 运行 subs-check（超时 300 秒）
       run: |
-        # 启动 sub-check 并写入日志
-        ./subs-check -f config.yaml > subcheck.log 2>&1 &
-        SUBCHECK_PID=$!
+        # 使用 timeout 运行 subs-check，确保进程不会无限阻塞
+        timeout 300 ./subs-check -f config.yaml
 
-        # 等待日志出现 "下次检查时间"
-        while ! grep -m 1 "下次检查时间" subcheck.log; do
-          sleep 1
-        done
-
-        # 文件可能还在写入，等待几秒确保生成完成
-        sleep 5
-
-        # 结束 sub-check 进程
-        kill $SUBCHECK_PID
-        wait $SUBCHECK_PID || true
-
-    - name: 提交更新到仓库
+    - name: 等待 mihomo.yaml 文件生成
       run: |
-        git config user.name "github-actions"
-        git config user.email "github-actions@github.com"
-
-        # 等待 mihomo.yaml 文件生成
         echo "等待 mihomo.yaml 生成..."
         for i in {1..30}; do
           if [ -f local/output/mihomo.yaml ]; then
@@ -57,6 +40,11 @@ jobs:
           fi
           sleep 1
         done
+
+    - name: 提交更新到仓库
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
 
         cp local/output/mihomo.yaml ./mihomo.yaml
         git add mihomo.yaml
