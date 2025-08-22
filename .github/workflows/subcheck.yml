@@ -35,7 +35,7 @@ jobs:
         git config user.email "github-actions@github.com"
         cp local/output/mihomo.yaml ./mihomo.yaml
         git add mihomo.yaml
-        git commit -m "自动更新 mihomo.yaml"
+        git commit -m "自动更新 mihomo.yaml" || echo "no changes"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
