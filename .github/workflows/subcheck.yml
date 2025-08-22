@@ -1,0 +1,35 @@
+name: 定时 Subcheck 测速
+
+on:
+  schedule:
+    # UTC 时间，每天 0点、8点、16点运行（北京时间 8点、16点、0点）
+    - cron: '0 0,8,16 * * *'
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  speedtest:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout 仓库
+      uses: actions/checkout@v3
+
+    - name: 安装依赖
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget tar
+
+    - name: 解压 subs-check
+      run: |
+        tar -xzf subs-check_Linux_x86_64.tar.gz
+        chmod +x subs-check
+
+    - name: 运行 subs-check
+      run: |
+        ./subs-check --config config.yaml --output result.txt
+
+    - name: 上传测速结果
+      uses: actions/upload-artifact@v3
+      with:
+        name: subcheck-result
+        path: result.txt
