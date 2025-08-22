@@ -244,19 +244,6 @@ proxies:
         Host: mv1.ylka.dpdns.org
       path: /?ed=2560
     servername: mv1.ylka.dpdns.org
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8美国9 | ⬇️ 931KB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 104.192.226.106
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8美国10 | ⬇️ 1.0MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 990
-    server: 104.192.226.106
-    type: ss
-proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
     proxies:
