@@ -1,8 +1,8 @@
-name: 定时 Subcheck 测速
+name: 定时 Subcheck 测速并更新 mihomo.yaml
 
 on:
   schedule:
-    # UTC 时间，每天 0点、8点、16点运行（北京时间 8点、16点、0点）
+    # 每天 0点、8点、16点 UTC（北京时间 8点、16点、0点）
     - cron: '0 0,8,16 * * *'
   workflow_dispatch: # 支持手动触发
 
@@ -17,19 +17,42 @@ jobs:
     - name: 安装依赖
       run: |
         sudo apt-get update
-        sudo apt-get install -y wget tar
+        sudo apt-get install -y wget tar python3-pip git
+        pip install pyyaml
 
-    - name: 解压 subs-check
+    - name: 下载 subs-check
       run: |
+        wget https://github.com/chenlong13507664259/local/releases/download/sub-check-1.3.9/subs-check_Linux_x86_64.tar.gz
         tar -xzf subs-check_Linux_x86_64.tar.gz
         chmod +x subs-check
 
     - name: 运行 subs-check
       run: |
-        ./subs-check --config config.yaml --output result.txt
+        ./subs-check --config config.yaml --output result.json
 
-    - name: 上传测速结果
-      uses: actions/upload-artifact@v3
-      with:
-        name: subcheck-result
-        path: result.txt
+    - name: 生成 mihomo.yaml
+      run: |
+        python3 << 'EOF'
+        import json, yaml
+
+        # 读取 subcheck 的结果
+        with open("result.json", "r") as f:
+            data = json.load(f)
+
+        # 筛选规则示例：仅保留延迟 < 100ms 的节点
+        selected = [node for node in data if node.get("delay", 9999) < 100]
+
+        # 写入 mihomo.yaml
+        with open("mihomo.yaml", "w") as f:
+            yaml.safe_dump(selected, f, sort_keys=False)
+        EOF
+
+    - name: 提交更新到仓库
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add mihomo.yaml
+        git commit -m "自动更新 mihomo.yaml"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
