@@ -25,10 +25,10 @@ jobs:
         tar -xzf subs-check_Linux_x86_64.tar.gz
         chmod +x subs-check
 
-    - name: 运行 subs-check（超时 300 秒）
+    - name: 运行 subs-check（超时 200 秒）
       run: |
-        # 使用 timeout 运行 subs-check，确保进程不会无限阻塞
-        timeout 300 ./subs-check -f config.yaml
+        # 使用 timeout 确保 subs-check 不会无限阻塞
+        timeout 200 ./subs-check -f config.yaml
 
     - name: 等待 mihomo.yaml 文件生成
       run: |
@@ -41,14 +41,20 @@ jobs:
           sleep 1
         done
 
+    - name: 查看生成文件（调试用）
+      run: ls -R local/output
+
     - name: 提交更新到仓库
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
 
+        # 复制到仓库根目录
         cp local/output/mihomo.yaml ./mihomo.yaml
-        git add mihomo.yaml
+
+        # 强制 add 和 commit（即使没变化也会更新）
+        git add -f mihomo.yaml
         git commit -m "自动更新 mihomo.yaml" || echo "no changes"
-        git push
+        git push origin main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
