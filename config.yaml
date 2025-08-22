@@ -28,29 +28,6 @@ sub-urls:
   - https://v2raysubscribe.github.io/uploads/2025/08/0-20250822.yaml
   - https://raw.githubusercontent.com/Epodonios/bulk-xray-v2ray-vless-vmess-...-configs/main/sub/Japan/config.txt
   - https://v2rayngnode.github.io/uploads/2025/08/3-20250822.txt
-  - https://raw.githubusercontent.com/Surfboardv2ray/Proxy-sorter/main/custom/udp.txt
-  - https://clashnyanpasugithub.github.io/uploads/2025/08/4-20250822.txt
-  - https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub5.txt
-  - https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml
-  - https://vpnbaba.github.io/uploads/2025/08/3-20250821.yaml
-  - https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/refs/heads/main/sub.txt
-  - https://freevlessnode.github.io/uploads/2025/08/1-20250820.yaml
-  - https://v2raydesktop.github.io/uploads/2025/08/0-20250822.yaml
-  - https://clashvergerev.github.io/uploads/2025/08/3-20250822.txt
-  - https://clashxmeta.github.io/uploads/2025/08/1-20250822.yaml
-  - https://clashmihomo.github.io/uploads/2025/08/2-20250822.txt
-  - https://v2raywindows.github.io/uploads/2025/08/0-20250822.yaml
-  - https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml
-  - https://free-v2raynode.github.io/uploads/2025/08/2-20250820.yaml
-  - https://v2rayunode.github.io/uploads/2025/08/0-20250822.txt
-  - https://raw.githubusercontent.com/ccpthisbigdog/freedomchina/refs/heads/main/subdom.txt
-  - https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub13.txt
-  - https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/main/detailed/vmess/8880.txt
-  - https://v2raylinux.github.io/uploads/2025/08/2-20250822.yaml
-  - https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/all.yaml
-  - https://clash-meta.github.io/uploads/2025/08/3-20250822.txt
-  - https://free-clash-node.github.io/uploads/2025/08/2-20250822.yaml
-  - https://raw.cosr.eu.org/HalfLife.txt
   - https://raw.githubusercontent.com/danmaifu/mianfeijiedian/main/feed/v2ray-20250822.txt
 mihomo-overwrite-url: http://127.0.0.1:8190/ACL4SSR_Online_Full.yaml
 rename-node: true
