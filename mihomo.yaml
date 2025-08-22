@@ -1,199 +1,46 @@
 proxies:
-  - alpn:
-      - h3
-    client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 749KB/s"
-    network: ws
-    port: 50001
-    server: 115.22.153.73
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edgd.esslh.filegear-sg.me
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    xudp: true
-    servername: edgd.esslh.filegear-sg.me
-  - alpn:
-      - h3
-    client-fingerprint: random
-    name: "\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 816KB/s"
-    network: ws
-    port: 443
-    server: 64.49.46.181
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: mv1.ylka.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /?ed=2560
-    xudp: true
-    servername: mv1.ylka.dpdns.org
-  - alpn:
-      - h3
-    client-fingerprint: random
-    name: "\U0001F1E8\U0001F1E6加拿大2 | ⬇️ 1.0MB/s"
-    network: ws
-    port: 50001
-    server: 125.134.241.76
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: mv.ylka.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /?ed=2560
-    xudp: true
-    servername: mv.ylka.dpdns.org
-  - alpn:
-      - h3
-    client-fingerprint: random
-    name: "\U0001F300其他1-未识别 | ⬇️ 3.1MB/s"
-    network: ws
-    port: 443
-    server: 46.3.26.12
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: mv.ylka.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /?ed=2560
-    xudp: true
-    servername: mv.ylka.dpdns.org
-  - name: "\U0001F300其他2-未识别 | ⬇️ 1.6MB/s"
-    network: ws
-    port: 443
-    server: 46.3.26.12
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 3.8MB/s"
+    password: 253bc477d4e43c209f2d427272968280
+    port: 14568
+    server: 36.156.102.78
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: mv1.ylka.dpdns.org
-      path: /?ed=2560
-    servername: mv1.ylka.dpdns.org
-  - name: "\U0001F1E8\U0001F1E6加拿大3 | ⬇️ 964KB/s"
-    network: ws
-    port: 443
-    server: 64.49.46.181
+    sni: www.baidu.com
+    type: trojan
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 8.8MB/s"
+    password: 253bc477d4e43c209f2d427272968280
+    port: 15015
+    server: 36.156.102.78
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: mv.ylka.dpdns.org
-      path: /?ed=2560
-    servername: mv.ylka.dpdns.org
-  - name: "\U0001F300其他3-未识别 | ⬇️ 1.2MB/s"
-    network: ws
-    port: 60002
-    server: 119.64.242.60
+    sni: www.baidu.com
+    type: trojan
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 1.8MB/s"
+    password: 253bc477d4e43c209f2d427272968280
+    port: 347
+    server: 36.156.102.125
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: mv1.ylka.dpdns.org
-      path: /?ed=2560
-    servername: mv1.ylka.dpdns.org
-  - name: "\U0001F1E8\U0001F1E6加拿大4 | ⬇️ 601KB/s"
-    network: ws
-    port: 443
-    server: 162.159.152.69
+    sni: www.baidu.com
+    type: trojan
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 1.2MB/s"
+    password: 253bc477d4e43c209f2d427272968280
+    port: 444
+    server: 36.156.102.125
     skip-cert-verify: true
-    tls: true
-    type: vless
+    sni: www.ithome.com
+    type: trojan
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: mv.ylka.dpdns.org
-      path: /?ed=2560
-    servername: mv.ylka.dpdns.org
-  - name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 1.5MB/s"
-    network: ws
-    port: 443
-    server: thaddeus.ns.cloudflare.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.0MB/s"
+    password: 253bc477d4e43c209f2d427272968280
+    port: 22006
+    server: 36.156.102.78
     skip-cert-verify: true
-    tls: true
-    type: vless
+    sni: www.baidu.com
+    type: trojan
     udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edgd.esslh.filegear-sg.me
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    servername: edgd.esslh.filegear-sg.me
-  - name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 716KB/s"
-    network: ws
-    port: 50000
-    server: 121.155.240.168
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-    ws-opts:
-      headers:
-        Host: edgd.esslh.filegear-sg.me
-      path: /?ed=2560&proxyip=ts.hpc.tw
-    servername: edgd.esslh.filegear-sg.me
-  - name: "\U0001F1F0\U0001F1F7韩国1 | ⬇️ 746KB/s"
-    network: ws
-    port: 50000
-    server: 221.159.156.189
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-    ws-opts:
-      headers:
-        Host: mv.ylka.dpdns.org
-      path: /?ed=2560
-    servername: mv.ylka.dpdns.org
-  - name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 1.1MB/s"
-    network: ws
-    port: 8880
-    server: 5.182.84.177
-    type: vless
-    udp: true
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      headers:
-        Host: ip.langmanshanxi.top
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /Telegram@freecodes/?ed=2560
-    xudp: true
-    servername: Telegram-channel-freecodes
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
