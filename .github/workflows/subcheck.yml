@@ -27,16 +27,19 @@ jobs:
 
     - name: 运行 subs-check 并监控日志
       run: |
-        # 启动 sub-check 并将输出写入 log.txt
+        # 启动 sub-check 并写入日志
         ./subs-check -f config.yaml > subcheck.log 2>&1 &
         SUBCHECK_PID=$!
 
-        # 等待日志里出现 "下次检查时间"
+        # 等待日志出现 "下次检查时间"
         while ! grep -m 1 "下次检查时间" subcheck.log; do
           sleep 1
         done
 
-        # 出现后结束 sub-check
+        # 文件可能还在写入，等待几秒确保生成完成
+        sleep 5
+
+        # 结束 sub-check 进程
         kill $SUBCHECK_PID
         wait $SUBCHECK_PID || true
 
@@ -44,6 +47,17 @@ jobs:
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
+
+        # 等待 mihomo.yaml 文件生成
+        echo "等待 mihomo.yaml 生成..."
+        for i in {1..30}; do
+          if [ -f local/output/mihomo.yaml ]; then
+            echo "文件已生成"
+            break
+          fi
+          sleep 1
+        done
+
         cp local/output/mihomo.yaml ./mihomo.yaml
         git add mihomo.yaml
         git commit -m "自动更新 mihomo.yaml" || echo "no changes"
