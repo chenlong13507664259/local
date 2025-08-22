@@ -27,7 +27,7 @@ jobs:
 
     - name: 运行 subs-check
       run: |
-        ./subs-check --config config.yaml
+        ./subs-check -f config.yaml
 
     - name: 提交更新到仓库
       run: |
