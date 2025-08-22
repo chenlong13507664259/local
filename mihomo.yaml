@@ -1,249 +1,79 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 827KB/s"
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1EB\U0001F1F7法国1 | ⬇️ 3.7MB/s"
     network: ws
-    port: 8880
-    server: 45.159.219.177
-    tls: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: ip.langmanshanxi.top
-      max-early-data: '2560'
-      path: /Telegram@freecodes/
-    servername: Telegram-channel-freecodes
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 2.0MB/s"
-    network: ws
-    port: 8880
-    server: 160.79.105.143
-    tls: false
-    type: vless
-    udp: true
-    uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: yg.bantony199.top
-      max-early-data: '2560'
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-    servername: Telegram-channel-WangCai2
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 825KB/s"
-    network: ws
-    port: 8880
-    server: 194.53.53.143
-    tls: false
-    type: vless
-    udp: true
-    uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: yg.bantony199.top
-      max-early-data: '2560'
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-    servername: Telegram-channel-WangCai2
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 3.1MB/s"
-    network: ws
-    port: 8880
-    server: 89.116.250.177
-    tls: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: ip.langmanshanxi.top
-      max-early-data: '2560'
-      path: /Telegram@freecodes/
-    servername: Telegram-channel-freecodes
-  - name: "\U0001F1E6\U0001F1EA阿拉伯酋长国1 | ⬇️ 2.0MB/s"
-    network: ws
-    port: 8880
-    server: 45.192.224.145
-    tls: false
-    type: vless
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: yd.laoyoutiao.link
-      max-early-data: '2560'
-      path: /Telegram @freecodes /
-    servername: yd.laoyoutiao.link
-  - client-fingerprint: chrome
-    name: "\U0001F300其他1-未识别 | ⬇️ 858KB/s"
-    network: ws
-    port: 8880
-    server: 103.245.229.168
-    tls: false
-    type: vless
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: kjgx.laoyoutiao.link
-      max-early-data: '2560'
-      path: /Telegram @freecodes /
-    servername: kjgx.laoyoutiao.link
-  - name: "\U0001F1FA\U0001F1F8美国4 | ⬇️ 6.1MB/s"
-    network: ws
-    port: 8880
-    server: 45.194.53.215
-    tls: false
-    type: vless
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: ld.laoyoutiao.link
-      max-early-data: '2560'
-      path: /Telegram @freecodes /
-    servername: ld.laoyoutiao.link
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 1.8MB/s"
-    network: ws
-    port: 8880
-    server: 188.42.89.186
-    skip-cert-verify: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      headers:
-        Host: ip.langmanshanxi.top
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed
-    servername: Telegram-channel-WangCai2
-  - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1EA阿拉伯酋长国2 | ⬇️ 1.4MB/s"
-    network: ws
-    port: 8880
-    server: 156.238.18.239
-    skip-cert-verify: false
-    type: vless
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    ws-opts:
-      headers:
-        Host: yd.laoyoutiao.link
-      path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed
-    servername: yd.laoyoutiao.link
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国5 | ⬇️ 1.7MB/s"
-    network: ws
-    port: 8880
-    server: 25.129.198.186
-    skip-cert-verify: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      headers:
-        Host: ip.langmanshanxi.top
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed
-    servername: Telegram-channel-WangCai2
-  - name: "\U0001F1FA\U0001F1F8美国6 | ⬇️ 5.1MB/s"
-    network: ws
-    port: 8880
-    server: 92.53.191.251
-    tls: false
-    type: vless
-    uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-    ws-opts:
-      headers:
-        Host: cf.d3z.net
-      path: /Telegram @freecodes /?ed=2560fp=chrome
-    servername: cf.d3z.net
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国7 | ⬇️ 1.1MB/s"
-    network: ws
-    port: 8880
-    server: 45.159.216.3
-    tls: false
-    type: vless
-    uuid: b5441b0d-2147-4898-8a6a-9b2c87f58382
-    ws-opts:
-      headers:
-        Host: bitget1.asdasd.click
-      path: /
-    servername: Telegram-channel-freecodes
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8美国8 | ⬇️ 1.6MB/s"
-    network: ws
-    port: 8880
-    server: 45.67.215.186
-    tls: false
-    type: vless
-    uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-    ws-opts:
-      headers:
-        Host: ip.langmanshanxi.top
-      path: /
-    servername: Telegram-channel-freecodes
-  - cipher: aes-256-cfb
-    name: "\U0001F300其他2-IE | ⬇️ 2.0MB/s"
-    password: amazonskr05
-    port: 443
-    server: 176.34.150.214
-    type: ss
-  - name: "\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 852KB/s"
-    network: ws
-    port: 80
-    server: 104.18.26.90
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
-    ws-opts:
-      headers:
-        Host: blaze-can-118.blazecanada.site
-      path: /?ed=2560
-    servername: blaze-can-118.blazecanada.site
-  - client-fingerprint: randomized
-    fingerprint: ''
-    name: "\U0001F300其他3-AM | ⬇️ 939KB/s"
-    network: ws
-    port: 8880
-    server: 172.67.141.140
-    tls: false
-    type: vless
-    udp: false
-    uuid: 7e948e09-fa6f-4b8e-8c5d-181fa15fbec5
-    ws-opts:
-      headers:
-        Host: 8IzcpZflHzz4bVc0fW15f5O126R-WGPG.hEKOp71365.wOrkerS.DEv
-      path: /QaaLdIiGgWNoIxOF?ed=2560
-    servername: 8IzcpZflHzz4bVc0fW15f5O126R-WGPG.hEKOp71365.wOrkerS.DEv
-  - alterId: 0
-    auth: ''
-    fast-open: false
-    name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 4.6MB/s"
-    password: 3hszBhqVsUhqOOFWJlev6k6Tkc
-    port: 22509
-    server: 47.129.224.62
-    servername: bing.com
+    port: 30837
+    server: v37.heduian.link
     skip-cert-verify: true
-    sni: bing.com
-    tfo: false
-    type: hysteria2
-    udp: true
-  - alterId: 0
-    name: "\U0001F300其他4-未识别 | ⬇️ 825KB/s"
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: v37.heduian.link
+      path: /oooo
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1EE\U0001F1F9意大利1 | ⬇️ 1.3MB/s"
     network: ws
-    port: 443
-    server: 162.159.152.205
+    port: 30805
+    server: v5.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: v5.heduian.link
+      path: /oooo
+    xudp: true
+    servername: v5.heduian.link
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F300其他1-未识别 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 30836
+    server: v36.heduian.link
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: v36.heduian.link
+      path: /oooo
+  - name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 12257
+    server: 112.173.231.254
     skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
     ws-opts:
       headers:
-        Host: mv1.ylka.dpdns.org
-      path: /?ed=2560
-    servername: mv1.ylka.dpdns.org
+        Host: edgd.esslh.filegear-sg.me
+      path: /?ed=2560&proxyip=ts.hpc.tw
+    servername: edgd.esslh.filegear-sg.me
+  - client-fingerprint: chrome
+    name: "\U0001F300其他2-AT | ⬇️ 1.0MB/s"
+    network: ws
+    port: 443
+    server: web.xhamster.biz.id
+    tls: true
+    type: vless
+    udp: true
+    uuid: aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1
+    ws-opts:
+      headers:
+        Host: web.xhamster.biz.id
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: /Free-CF-Proxy-AT4
+    xudp: true
+    servername: web.xhamster.biz.id
+proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
     proxies:
