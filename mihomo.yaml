@@ -1,17 +1,5 @@
 proxies:
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|3.9MB/s"
-    port: 37872
-    protocol: udp
-    server: 108.181.24.77
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-  - name: "\U0001F1FA\U0001F1F8US_2|2.8MB/s"
+  - name: "\U0001F1FA\U0001F1F8US_1|3.9MB/s"
     password: sysadmin.sysadmin
     port: 446
     server: 148.135.43.253
@@ -19,20 +7,11 @@ proxies:
     sni: ss.aslirico3212.nyc.mn
     tfo: false
     type: hysteria2
-  - auth: dd1e4ade-746b-4ab6-88ee-744336fabf7a
-    name: "\U0001F1FA\U0001F1F8US_3|3.0MB/s"
-    password: dd1e4ade-746b-4ab6-88ee-744336fabf7a
-    port: 14558
-    server: us3.xilucloud.top
-    skip-cert-verify: true
-    sni: us3.xilucloud.top
-    type: hysteria2
-    udp: true
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_4|2.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_2|3.3MB/s"
     port: 38845
     server: 208.87.243.151
     skip-cert-verify: true
@@ -40,52 +19,21 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_5|972KB/s"
-    network: ws
-    port: 443
-    server: us23.998998.best
-    tls: true
-    type: vless
-    udp: true
-    uuid: b3d99d13-61e1-4120-94a1-c066efb975bc
-    ws-opts:
-      headers:
-        Host: server7-30.99887766.best
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /esdryhwerty4wryrtehujdfg
-    xudp: true
-    servername: server7-30.99887766.best
-  - name: "\U0001F1E9\U0001F1EADE_1|646KB/s"
-    network: ws
-    port: 80
-    server: tgju.org
-    tls: false
-    type: vless
-    uuid: 2b277eea-66b2-4f3a-b934-46225c1f5e6f
-    ws-opts:
-      headers:
-        Host: SeRvER12.VtNEt.InFO
-      path: /
-    servername: SeRvER12.VtNEt.InFO
   - alpn:
       - h3
-    auth_str: dongtaiwang.com
+    auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1F3\U0001F1F1NL_1|746KB/s"
-    port: 37519
-    ports: 10000-20000
-    server: 109.104.153.91
+    name: "\U0001F1FA\U0001F1F8US_3|3.2MB/s"
+    port: 37872
+    protocol: udp
+    server: 108.181.24.77
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-    auth-str: dongtaiwang.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_6|2.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s"
     obfs: ''
     obfs-password: ''
     password: 28063c5d-cbcb-4420-b31c-d394b2ad0ead
@@ -95,7 +43,7 @@ proxies:
     sni: 2.daka778.top
     type: hysteria2
     up: ''
-  - name: "\U0001F1E9\U0001F1EADE_2|732KB/s"
+  - name: "\U0001F1E9\U0001F1EADE_1|871KB/s"
     network: ws
     port: 80
     server: tgju.org
@@ -104,54 +52,59 @@ proxies:
     uuid: 2b277eea-66b2-4f3a-b934-46225c1f5e6f
     ws-opts:
       headers:
-        Host: SeRvER07.VtNEt.InFO
+        Host: SeRvER02.VtNEt.InFO
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
     xudp: true
-    servername: SeRvER07.VtNEt.InFO
+    servername: SeRvER02.VtNEt.InFO
+  - name: "\U0001F1FA\U0001F1F8US_5|607KB/s"
+    password: dongtaiwang.com
+    port: 22222
+    server: 208.87.243.187
+    skip-cert-verify: true
+    sni: www.bing.com
+    tfo: false
+    type: hysteria2
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_7|872KB/s"
-    network: ws
-    port: 443
-    server: 104.21.24.195
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB_1|885KB/s"
+    port: 35000
+    server: gzyd.cg.xxality.cn
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2
-    ws-opts:
-      headers:
-        Host: 9999uuuu.999836.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /MIrEVIUviSe8ydvnmRKWDa8
-    xudp: true
-    servername: 9999UUuU.999836.XYZ
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_8|839KB/s"
-    network: ws
-    port: 443
-    server: 104.21.71.83
-    tls: true
+    uuid: 5c1bf6a3-d378-45c8-b1fa-f94a256380cf
+    network: tcp
+    servername: cggb.hysality.com
+  - http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_2|816KB/s"
+    network: tcp
+    port: 6745
+    server: 91.107.251.143
     type: vless
     udp: true
-    uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
+    uuid: cde791a7-d355-4ff4-b6f7-385b7bc3c6e0
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    delay: 2191
+    name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s"
+    network: ws
+    port: 80
+    server: 104.21.29.200
+    type: vmess
+    udp: true
+    uuid: bd8f4c3a-b55a-4a55-a4be-d2ead4a4c66a
     ws-opts:
       headers:
-        Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
-    xudp: true
-    servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+        Host: 50989839190812025083021471392150.s15.chibaba.filegear-sg.me
+      path: /index.html
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
