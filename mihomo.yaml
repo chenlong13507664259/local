@@ -3,7 +3,7 @@ proxies:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|2.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s"
     port: 37872
     protocol: udp
     server: 108.181.24.77
@@ -15,7 +15,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s"
+    name: "\U0001F1FA\U0001F1F8US_2|1.9MB/s"
     port: 38845
     server: 208.87.243.151
     skip-cert-verify: true
@@ -23,23 +23,11 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|891KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 16461a78-363c-457a-92f9-83b0a68edc37
-    port: 2056
-    server: zp1.eyucdn.xyz
-    skip-cert-verify: true
-    sni: zp1.eyujichang.xyz
-    type: hysteria2
-    up: ''
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s"
     port: 50011
     protocol: udp
     server: 62.210.127.217
@@ -47,28 +35,90 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-  - name: "\U0001F1FA\U0001F1F8US_3|652KB/s"
+  - name: "\U0001F1FA\U0001F1F8US_3|550KB/s"
     network: ws
     password: slch2024
     port: 2096
-    server: 185.238.228.195
-    skip-cert-verify: false
+    server: 199.34.229.195
+    skip-cert-verify: true
     sni: ocost-dy.wmlefl.cc
     type: trojan
     ws-opts:
       headers:
         Host: ocost-dy.wmlefl.cc
       path: "/Telegram\U0001F1E8\U0001F1F3"
-  - auth: fWydUhyG3woKe4a0kcKKKdx78
-    client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|824KB/s"
-    password: fWydUhyG3woKe4a0kcKKKdx78
-    port: 6467
-    server: 8.219.232.60
+  - name: "\U0001F1FA\U0001F1F8US_4|616KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 190.93.244.195
     skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    udp: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_5|543KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 188.42.88.195
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_6|594KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.251.81.195
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_7|651KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.162.230.195
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_8|787KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 188.164.248.195
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_9|589KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.148.104.195
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
