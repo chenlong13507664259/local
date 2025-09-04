@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|4.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s"
     port: 38845
     server: 208.87.243.151
     skip-cert-verify: true
@@ -15,7 +15,7 @@ proxies:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_2|4.5MB/s"
+    name: "\U0001F1FA\U0001F1F8US_2|2.6MB/s"
     port: 37872
     protocol: udp
     server: 108.181.24.77
@@ -23,101 +23,21 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|3.7MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 22222
-    server: 208.87.243.187
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_1|908KB/s"
+    port: 50011
+    protocol: udp
+    server: 62.210.127.217
     skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1FA\U0001F1F8US_4|1.8MB/s"
-    network: ws
-    password: slch2024
-    port: 2096
-    server: 195.85.59.195
-    skip-cert-verify: true
-    sni: ocost-dy.wmlefl.cc
-    type: trojan
-    ws-opts:
-      headers:
-        Host: ocost-dy.wmlefl.cc
-      path: "/Telegram\U0001F1E8\U0001F1F3"
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|1.6MB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    port: 2055
-    server: xjp1.mangshe.xyz
-    skip-cert-verify: true
-    sni: xjp1.mangshe.xyz
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1FA\U0001F1F8US_5|3.1MB/s"
-    network: ws
-    password: slch2024
-    port: 2096
-    server: 185.156.19.195
-    skip-cert-verify: true
-    sni: ocost-dy.wmlefl.cc
-    type: trojan
-    ws-opts:
-      headers:
-        Host: ocost-dy.wmlefl.cc
-      path: "/Telegram\U0001F1E8\U0001F1F3"
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
   - alterId: 2
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_6|1.9MB/s"
-    network: ws
-    port: 30829
-    server: v29.heduian.link
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      headers:
-        Host: ocbc.com
-      path: /oooo
-    xudp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|906KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 16461a78-363c-457a-92f9-83b0a68edc37
-    port: 2056
-    server: zp1.eyucdn.xyz
-    skip-cert-verify: true
-    sni: zp1.eyujichang.xyz
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_7|1.6MB/s"
-    network: ws
-    password: slch2024
-    port: 2096
-    server: 194.53.53.195
-    skip-cert-verify: false
-    sni: ocost-dy.wmlefl.cc
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3"
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1EE\U0001F1F9IT_1|3.4MB/s"
+    name: "\U0001F1EE\U0001F1F9IT_1|1.7MB/s"
     network: ws
     port: 30805
     server: v5.heduian.link
@@ -128,50 +48,43 @@ proxies:
       headers:
         Host: v5.heduian.link
       path: /oooo
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: 1000
-    fast-open: true
-    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
-    port: 37519
-    ports: 10000-20000
-    protocol: udp
-    server: 109.104.153.91
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 1000
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s"
-    port: 50011
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_8|3.2MB/s"
+  - name: "\U0001F1FA\U0001F1F8US_3|779KB/s"
     network: ws
     password: slch2024
     port: 2096
-    server: 190.93.247.195
-    skip-cert-verify: false
+    server: 209.46.30.195
+    skip-cert-verify: true
     sni: ocost-dy.wmlefl.cc
     type: trojan
-    udp: true
     ws-opts:
       headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.75 Safari/537.36
+        Host: ocost-dy.wmlefl.cc
       path: "/Telegram\U0001F1E8\U0001F1F3"
-  - name: "\U0001F1FA\U0001F1F8US_9|4.6MB/s"
+  - name: "\U0001F1FA\U0001F1F8US_4|570KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 188.42.89.195
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_5|571KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 205.233.181.195
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_6|4.2MB/s"
     password: sysadmin.sysadmin
     port: 446
     server: 148.135.43.253
@@ -179,52 +92,10 @@ proxies:
     sni: ss.aslirico3212.nyc.mn
     tfo: false
     type: hysteria2
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_10|2.8MB/s"
-    network: ws
-    password: slch2024
-    port: 2096
-    server: 209.94.90.195
-    skip-cert-verify: false
-    sni: ocost-dy.wmlefl.cc
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.63 Safari/537.36
-      path: "/Telegram\U0001F1E8\U0001F1F3"
-  - auth: fWydUhyG3woKe4a0kcKKKdx78
-    client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_2|3.3MB/s"
-    password: fWydUhyG3woKe4a0kcKKKdx78
-    port: 6467
-    server: 8.219.232.60
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_2|588KB/s"
-    network: ws
-    port: 80
-    server: aio.loophole.biz.id
-    type: vless
-    udp: true
-    uuid: f282b878-8711-45a1-8c69-5564172123c1
-    ws-opts:
-      headers:
-        Host: aio.loophole.biz.id
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-      path: /aioproxybot/129.150.49.58-18650
-    xudp: true
-    servername: aio.loophole.biz.id
   - alterId: '2'
     cipher: auto
     client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|4.7MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_1|806KB/s"
     network: ws
     port: 80
     server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
@@ -238,33 +109,16 @@ proxies:
       path: /
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_2|2.4MB/s"
+    name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s"
     obfs: ''
     obfs-password: ''
-    password: qq4Wc9UakExypzw4Jd00fWqrDTY
-    port: 22712
-    server: 8.209.223.212
+    password: 16461a78-363c-457a-92f9-83b0a68edc37
+    port: 2056
+    server: zp1.eyucdn.xyz
     skip-cert-verify: true
-    sni: bing.com
+    sni: zp1.eyujichang.xyz
     type: hysteria2
     up: ''
-  - name: "\U0001F1EB\U0001F1EEFI_1|651KB/s"
-    network: ws
-    port: 8080
-    server: 104.21.80.1
-    type: vless
-    udp: true
-    uuid: 4c266f5d-5836-4417-d5ab-f253ca9de933
-    ws-opts:
-      headers:
-        Host: shad.ir.fin.test.digicyber.click.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /olem/ws
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 1024
-    xudp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
