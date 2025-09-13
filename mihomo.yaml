@@ -1,40 +1,435 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|8.2MB/s"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 45.87.175.28
-    type: ss
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1EC\U0001F1F7GR_1|8.2MB/s"
-    port: 443
-    reality-opts:
-      public-key: Mjz6Gz75xTMe9ZU08h0y-A_VgRQ6tnt3qoOzdEn1k1M
-      short-id: 0fa84b90
-    server: 185.39.207.121
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6035325d-399a-5148-9126-29cedfd5966a
-    network: tcp
-    servername: outlook.office.com
   - alterId: 2
     cipher: auto
-    name: ❓Other_1|2.1MB/s
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s"
     network: ws
-    port: 80
-    server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    port: 30829
+    server: v29.heduian.link
     skip-cert-verify: false
+    tfo: false
     tls: false
     type: vmess
-    uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     ws-opts:
       headers:
-        Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-      path: /
-    servername: "\U0001F1ED\U0001F1F0HK-119.237.27.132-0241 | 27.724MB"
+        Host: ocbc.com
+      path: /oooo
+  - delay: 1412
+    name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 194.76.18.87
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - delay: 1168
+    name: "\U0001F1FA\U0001F1F8US_3|545KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 190.93.247.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - delay: 1672
+    name: "\U0001F1FA\U0001F1F8US_4|1.6MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.238.228.195
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /Telegram
+  - delay: 2479
+    name: "\U0001F1FA\U0001F1F8US_5|517KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.7.240.195
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /Telegram
+  - delay: 1039
+    name: "\U0001F1FA\U0001F1F8US_6|2.1MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.176.24.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /由零开始
+  - delay: 2871
+    name: "\U0001F1FA\U0001F1F8US_7|897KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 199.181.197.87
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - delay: 1536
+    name: "\U0001F1FA\U0001F1F8US_8|1.6MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 209.94.90.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /由零开始@ShadowProxy66
+  - delay: 2156
+    name: "\U0001F1FA\U0001F1F8US_9|646KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.18.250.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /由零开始
+  - delay: 1411
+    name: "\U0001F1FA\U0001F1F8US_10|1.3MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 209.46.30.87
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - delay: 2484
+    name: "\U0001F1FA\U0001F1F8US_11|579KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 212.183.88.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /Telegram
+  - name: "\U0001F1FA\U0001F1F8US_12|909KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.59.218.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /Telegram
+  - name: "\U0001F1FA\U0001F1F8US_13|826KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 188.164.248.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /由零开始
+  - name: "\U0001F1FA\U0001F1F8US_14|1.4MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 192.200.160.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /由零开始
+  - name: "\U0001F1FA\U0001F1F8US_15|793KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 188.42.145.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /由零开始
+  - name: "\U0001F1FA\U0001F1F8US_16|536KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 192.200.160.87
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /Telegram
+  - name: "\U0001F1FA\U0001F1F8US_17|684KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 195.26.229.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /由零开始
+  - name: "\U0001F1FA\U0001F1F8US_18|586KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.18.184.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_19|1.7MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.148.106.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /Telegram
+  - name: "\U0001F1FA\U0001F1F8US_20|827KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 199.181.197.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /Telegram
+  - name: "\U0001F1FA\U0001F1F8US_21|1.7MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 188.42.88.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /由零开始
+  - name: "\U0001F1FA\U0001F1F8US_22|749KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.148.105.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /TelegramShadowProxy66
+  - name: "\U0001F1FA\U0001F1F8US_23|825KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.174.138.195
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /由零开始
+  - name: "\U0001F1FA\U0001F1F8US_24|1.3MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.148.104.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_25|1.4MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 216.24.57.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /Telegram
+  - name: "\U0001F1FA\U0001F1F8US_26|1.6MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 199.34.229.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: /Telegram
+  - name: "\U0001F1FA\U0001F1F8US_27|585KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.16.110.195
+    servername: ocost-dy.wmlefl.cc
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_28|1.3MB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.238.228.195
+    servername: ocost-dy.wmlefl.cc
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_29|539KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.7.240.195
+    servername: ocost-dy.wmlefl.cc
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_30|559KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 195.13.45.195
+    servername: ocost-dy.wmlefl.cc
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_31|688KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.176.24.195
+    servername: ocost-dy.wmlefl.cc
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_32|754KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.148.104.195
+    servername: ocost-dy.wmlefl.cc
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_33|625KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 188.164.248.195
+    servername: ocost-dy.wmlefl.cc
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_34|640KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.59.218.195
+    servername: ocost-dy.wmlefl.cc
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1FA\U0001F1F8US_35|753KB/s"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.251.81.195
+    servername: ocost-dy.wmlefl.cc
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3"
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
