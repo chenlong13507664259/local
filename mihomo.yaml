@@ -1,50 +1,7 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 🇺🇸US_1|1.1MB/s
-  obfs: plain
-  obfs-param: 45672222545.microsoft.com
-  password: bxsnucrgk6hfish
-  port: 1082
-  protocol: auth_aes128_sha1
-  protocol-param: 222545:TIvS2C
-  server: yd-02.paofunlink.com
-  type: ssr
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 🇺🇸US_21|973KB/s
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-  disable-sni: true
-  servername: ''
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰HK_1|973KB/s
-  network: ws
-  port: 80
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK_2|7.3MB/s
+  name: 🇭🇰HK_1|7.4MB/s
   port: 41109
   server: 9.mxkl1.top
   tls: false
@@ -52,14 +9,14 @@ proxies:
   udp: true
   uuid: 4f9df9eb-b233-3416-b858-6edd84f93460
 - cipher: chacha20-ietf
-  name: ❓Other_1|5.6MB/s
+  name: 🇺🇸US_19|3.5MB/s
   obfs: plain
   obfs-param: 45672222545.microsoft.com
   password: bxsnucrgk6hfish
-  port: 1096
+  port: 1082
   protocol: auth_aes128_sha1
   protocol-param: 222545:TIvS2C
-  server: yd-03.paofunlink.com
+  server: yd-02.paofunlink.com
   type: ssr
   udp: true
 proxy-groups:
