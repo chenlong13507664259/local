@@ -1,7 +1,19 @@
 proxies:
   - alterId: '64'
     cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_1|3.9MB/s|YT-HK|NF|D+|0%"
+    name: "\U0001F1FA\U0001F1F8US_1|7.2MB/s|YT-CN|NF|0%"
+    network: tcp
+    port: 42272
+    server: 183.240.245.253
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    xudp: true
+  - alterId: '64'
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_1|3.8MB/s|YT-HK|NF|D+|0%"
     network: tcp
     port: 59952
     server: 183.240.180.47
@@ -13,33 +25,9 @@ proxies:
     xudp: true
   - alterId: '64'
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_1|4.7MB/s|YT-CN|NF|0%"
+    name: "\U0001F1ED\U0001F1F0HK_1|3.6MB/s|YT-CN|NF|D+|0%"
     network: tcp
-    port: 52882
-    server: 183.240.245.251
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    xudp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1E6UA_1|3.5MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: f901861b-6491-450c-b500-606b2e921625
-    port: 53432
-    server: 185.126.255.78
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - alterId: '64'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|4.0MB/s|YT-CN|NF|D+|0%"
-    network: tcp
-    port: 54022
+    port: 52512
     server: 183.240.180.47
     skip-cert-verify: false
     tls: false
@@ -51,7 +39,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '100'
-    name: "\U0001F1FA\U0001F1F8US_2|4.0MB/s|GPT⁺|YT-US|NF"
+    name: "\U0001F1FA\U0001F1F8US_2|3.8MB/s|GPT⁺|YT-US|NF"
     obfs: ''
     port: 15823
     protocol: ''
@@ -65,7 +53,7 @@ proxies:
     cipher: auto
     name: "\U0001F1ED\U0001F1F0HK_2|2.2MB/s|YT-CN|NF|D+|0%"
     network: tcp
-    port: 52512
+    port: 54022
     server: 183.240.180.47
     skip-cert-verify: false
     tls: false
@@ -73,11 +61,59 @@ proxies:
     udp: true
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     xudp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1E6UA_2|724KB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: f901861b-6491-450c-b500-606b2e921625
+    port: 53432
+    server: 185.126.255.78
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1E6UA_1|695KB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 80b2ac81-ba69-41f9-bb46-820b7b3af4dd
+    port: 53432
+    server: 185.126.255.78
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1E6UA_3|716KB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e
+    port: 53432
+    server: 185.126.255.78
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1E6UA_4|726KB/s|GPT⁺|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9
+    port: 53432
+    server: 185.126.255.78
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s|GPT⁺|YT-NL|NF|18%"
+    name: "\U0001F1F3\U0001F1F1NL_1|2.8MB/s|GPT⁺|YT-NL|NF|18%"
     obfs: ''
     port: 49003
     protocol: ''
@@ -87,78 +123,20 @@ proxies:
     type: hysteria
     up: '11'
     auth-str: dongtaiwang.com
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|1.7MB/s|YT-US|NF|D+"
+  - name: "\U0001F1FA\U0001F1F8US_3|767KB/s|YT-US|NF|D+|GM"
     network: ws
     password: slch2024
     port: 2096
-    server: 209.46.30.195
+    server: 195.13.44.87
     skip-cert-verify: false
     sni: ocost-dy.wmlefl.cc
     type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /Telegram
-  - alterId: '64'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s|YT-CN|NF|0%"
-    network: tcp
-    port: 42272
-    server: 183.240.245.253
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_5|811KB/s|YT-US|NF|D+"
-    network: ws
-    password: slch2024
-    port: 2096
-    server: 185.148.105.195
-    skip-cert-verify: false
-    sni: ocost-dy.wmlefl.cc
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /TelegramShadowProxy66
-  - name: "\U0001F1FA\U0001F1F8US_6|740KB/s|YT-US|NF|D+"
-    network: ws
-    password: slch2024
-    port: 2096
-    server: 195.13.45.195
-    skip-cert-verify: true
-    sni: ocost-dy.wmlefl.cc
-    type: trojan
-    udp: true
     ws-opts:
       headers:
         Host: ocost-dy.wmlefl.cc
       path: /Telegram
-  - name: "\U0001F1FA\U0001F1F8US_7|1.7MB/s|YT-US|NF|D+"
-    network: ws
-    password: slch2024
-    port: 2096
-    server: 185.174.138.195
-    skip-cert-verify: true
-    sni: ocost-dy.wmlefl.cc
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: ocost-dy.wmlefl.cc
-      path: "/Telegram\U0001F1E8\U0001F1F3"
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_8|636KB/s|YT-US|NF"
+    name: "\U0001F1FA\U0001F1F8US_4|604KB/s|GPT|YT-US|NF|D+|GM"
     network: ws
     password: slch2024
     port: 2096
@@ -170,23 +148,11 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
       path: "/Telegram\U0001F1E8\U0001F1F3"
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s|GPT⁺|NF|24%"
-    port: 50011
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_9|749KB/s|GPT|YT-US|NF|D+"
+    name: "\U0001F1FA\U0001F1F8US_5|722KB/s|YT-US|NF|D+|GM"
     network: ws
     password: slch2024
     port: 2096
@@ -202,79 +168,7 @@ proxies:
           AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
           Safari/537.36
       path: /Telegram
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_3|1.1MB/s|GPT⁺|YT-CN|D+|0%"
-    network: ws
-    port: 16622
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 4be5eae6-09fb-4dcb-b495-c131f55e5192
-    ws-opts:
-      headers:
-        Host: 8449ea5931e8a52bf20cb5c763196970.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - cipher: rc4-md5
-    name: "\U0001F1FA\U0001F1F8US_10|652KB/s|GPT⁺|YT-US|NF|GM|67%"
-    password: 14fFPrbezE3HDZzsMOr6
-    port: 8080
-    server: 23.251.121.242
-    type: ss
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_11|3.2MB/s|YT-US|NF|D+"
-    network: ws
-    password: slch2024
-    port: 2096
-    server: 103.133.1.91
-    skip-cert-verify: true
-    sni: ocost-dy.wmlefl.cc
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: ocost-dy.wmlefl.cc
-      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_1|727KB/s|GPT⁺|D+"
-    password: d98cb94a-86ce-4903-80e1-bb14a72dc02a
-    port: 10013
-    server: 118.170.233.242
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_12|656KB/s|GPT⁺|YT-US|NF|D+|GM|44%"
-    network: ws
-    port: 80
-    server: s2.houge.ggff.net
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 53cddd30-34a1-32dd-b598-c1c4c8a0f813
-    ws-opts:
-      headers:
-        Host: 3b971b4f9c306d0bfc999ad66c50cad5.s2.houge.ggff.net
-      path: /dabai.in?=3b971b4f9c306d0bfc999ad66c50cad5
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_13|1.4MB/s|GPT|YT-US|NF|D+|GM|22%"
-    network: tcp
-    port: 10001
-    reality-opts:
-      public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
-    server: 1002.952326.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: a395a4c4-7b3e-4fd3-b278-48911cd13b0a
-    servername: www.python.org
-  - name: "\U0001F1FA\U0001F1F8US_14|723KB/s|GPT|NF|D+"
+  - name: "\U0001F1FA\U0001F1F8US_6|559KB/s|GPT⁺|YT-US|D+|GM"
     network: ws
     password: slch2024
     port: 2096
@@ -289,58 +183,259 @@ proxies:
       path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-  - client-fingerprint: safari
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_15|829KB/s|GPT|YT-US|D+|GM|22%"
-    network: tcp
-    port: 10001
-    reality-opts:
-      public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
-    server: 1002.952326.xyz
-    tls: true
-    type: vless
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_7|756KB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.148.105.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
     udp: true
-    uuid: 7fa7daa2-5b07-45e7-9b64-5886b9dad5d5
-    servername: www.python.org
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /TelegramShadowProxy66
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_2|8.1MB/s|GPT⁺|YT-SG|NF|GM|48%"
+    password: 253bc477d4e43c209f2d427272968280
+    port: 3957
+    server: xingxing.jiasu123.org
+    skip-cert-verify: true
+    sni: 23.45.86.28
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_8|2.3MB/s|GPT⁺|YT-US|NF|GM|48%"
+    password: 253bc477d4e43c209f2d427272968280
+    port: 2966
+    server: xingxing.jiasu123.org
+    skip-cert-verify: true
+    sni: 23.45.86.28
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_9|6.0MB/s|GPT⁺|YT-US|NF|GM|48%"
+    password: 253bc477d4e43c209f2d427272968280
+    port: 1823
+    server: xingxing.jiasu123.org
+    skip-cert-verify: true
+    sni: 23.45.86.28
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_10|623KB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 193.124.224.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /由零开始
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_11|1.0MB/s|GPT|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 209.94.90.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: /由零开始@ShadowProxy66
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_12|650KB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.238.228.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_13|582KB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 209.46.30.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: /由零开始
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_14|515KB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 192.200.160.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /Telegram
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_15|1.2MB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 188.42.88.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /由零开始
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_16|1.3MB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.18.184.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_17|605KB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 185.251.83.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /TelegramU0001F1E8U0001F1F3
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_18|1.4MB/s|GPT|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 199.34.230.87
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /Telegram
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_19|1.7MB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 199.68.156.87
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.101 Safari/537.36
+      path: /Telegram
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_20|715KB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 188.164.248.87
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /Telegram
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_21|597KB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 199.34.230.195
+    skip-cert-verify: false
+    sni: ocost-dy.wmlefl.cc
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3"
   - alpn:
       - h3
     auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 2095
-    down: '100'
-    name: ❓Other_1|1.4MB/s|GPT⁺
-    obfs: ''
-    port: 15010
-    protocol: ''
-    server: 195.154.200.40
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_1|860KB/s|GPT⁺|24%"
+    port: 50011
+    protocol: udp
+    server: 62.210.127.217
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
-    up: '100'
-  - name: "\U0001F1E9\U0001F1EADE_1|801KB/s|GPT⁺|NF|48%"
-    network: ws
-    port: 8880
-    server: 172.66.40.99
-    type: vless
-    udp: true
-    uuid: 7459af23-1cec-451c-9412-7d53a4836bd6
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.python.elmahstyle.xyz.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.181 Safari/537.36
-      path: >-
-        /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
+    up: 11 Mbps
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '100'
-    name: ❓Other_2|1.2MB/s|GPT
+    name: "\U0001F1EB\U0001F1F7FR_2|1.3MB/s|GPT⁺|24%"
     obfs: ''
     port: 40099
     protocol: ''
@@ -350,36 +445,94 @@ proxies:
     type: hysteria
     up: '100'
     auth-str: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1E6UA_2|2.0MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9
-    port: 53432
-    server: 185.126.255.78
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s|GPT⁺|NF|9%"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_22|815KB/s|GPT⁺|YT-US|NF|D+|GM|44%"
     network: ws
-    password: XWnVX2ASHl
-    port: 37757
-    server: 5.255.103.217
-    skip-cert-verify: false
-    sni: moshali.arshiacomplus.dpdns.org
+    port: 80
+    server: s2.houge.ggff.net
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 53cddd30-34a1-32dd-b598-c1c4c8a0f813
+    ws-opts:
+      headers:
+        Host: 3b971b4f9c306d0bfc999ad66c50cad5.s2.houge.ggff.net
+      path: /dabai.in?=3b971b4f9c306d0bfc999ad66c50cad5
+  - name: "\U0001F1FA\U0001F1F8US_23|508KB/s|GPT|YT-US|NF|D+|GM"
+    network: ws
+    password: slch2024
+    port: 2096
+    server: 103.133.1.91
+    skip-cert-verify: true
+    sni: ocost-dy.wmlefl.cc
     type: trojan
     udp: true
     ws-opts:
       headers:
+        Host: ocost-dy.wmlefl.cc
+      path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_3|1.2MB/s|GPT⁺|NF|32%"
+    network: ws
+    port: 443
+    server: 104.21.28.82
+    tls: true
+    type: vless
+    udp: true
+    uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
+    ws-opts:
+      headers:
+        Host: backhaxus.dh04.shop
+      path: /
+    servername: backhaxus.dh04.shop
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_24|539KB/s|YT-US|NF|D+"
+    network: ws
+    port: 2053
+    server: 141.101.120.100
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/48.0.2564.109 Safari/537.36
-      path: /moshaliplus
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /telegram@V2ray_Alpha/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
+  - alpn:
+      - http/1.1
+      - h2
+      - h3
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_1|564KB/s|GPT⁺|YT-US|NF|14%"
+    network: ws
+    port: 443
+    server: numberland.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: fe774836-1faf-4d93-87ad-ee2fda74bcbe
+    ws-opts:
+      headers:
+        Host: join-to.unlimiteddev-service.shoP
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: >-
+        /@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2480
+    xudp: true
+    servername: join-to.unlimiteddev-service.ShoP.
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
