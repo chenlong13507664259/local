@@ -1,0 +1,33 @@
+name: Update YAML
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # 每6小时执行一次
+  workflow_dispatch:       # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install pyyaml requests
+
+      - name: Run converter
+        run: python convert.py
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add proxies.yaml
+          git commit -m "Update proxies.yaml" || echo "No changes"
+          git push
