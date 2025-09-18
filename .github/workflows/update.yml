@@ -1,17 +1,22 @@
-name: Update YAML
+name: Update Clash Verge Config
 
 on:
   schedule:
     - cron: "0 */6 * * *"  # 每6小时执行一次
-  workflow_dispatch:       # 允许手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write   # ✅ 允许 Actions 写入仓库
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true   # ✅ 保持 token
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -27,7 +32,7 @@ jobs:
       - name: Commit and push
         run: |
           git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.name "github-actions[bot]"
           git add proxies.yaml
           git commit -m "Update proxies.yaml" || echo "No changes"
           git push
