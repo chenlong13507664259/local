@@ -1,21 +1,9 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s|GPT⁺|YT-US|NF|GM|19%"
-    obfs: ''
-    obfs-password: ''
-    password: zqmLjskPhQ
-    port: 36033
-    server: 3h001.futurelove.me
-    skip-cert-verify: true
-    sni: aadcdn.msftauth.net
-    type: hysteria2
-    up: ''
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '100'
-    name: "\U0001F1FA\U0001F1F8US_2|4.1MB/s|GPT⁺|YT-US|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s|GPT⁺|YT-US|NF"
     obfs: ''
     port: 15823
     protocol: ''
@@ -25,104 +13,11 @@ proxies:
     type: hysteria
     up: '100'
     auth-str: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_1|2.8MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 07c122ad-50b2-4f61-9435-efcf112bb10b
-    port: 57588
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1E6UA_1|1.0MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 07c122ad-50b2-4f61-9435-efcf112bb10b
-    port: 53430
-    server: 185.126.255.78
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s|GPT⁺|YT-US|GM|50%"
-    obfs: ''
-    obfs-password: ''
-    password: 20050105zhu
-    port: 51541
-    server: 204.44.110.129
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_2|1.7MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 48c2c901-72e6-46d4-ac78-169d73264cbf
-    port: 57588
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_3|2.3MB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 23125f6e-ec56-4c26-9714-0bbacdb53d01
-    port: 57588
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_4|1.8MB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: ebbeef45-0fd8-40cd-aca5-1e2ce18abeff
-    port: 57588
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - auth: 9a7976a9-f97a-4390-9fe2-37555fcd4703
-    name: "\U0001F1ED\U0001F1F0HK_1|813KB/s|YT-CN|NF|D+|0%"
-    password: 9a7976a9-f97a-4390-9fe2-37555fcd4703
-    port: 37771
-    server: hg1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: hg1.xiaohuolongjc.top
-    type: hysteria2
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_5|944KB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 413c8b50-96bf-4457-82f2-54dfa8685f53
-    port: 57588
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|2.4MB/s|GPT⁺|YT-NL|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s|GPT⁺|YT-NL|NF"
     obfs: ''
     port: 49003
     protocol: ''
@@ -132,451 +27,7 @@ proxies:
     type: hysteria
     up: '11'
     auth-str: dongtaiwang.com
-  - name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 160.79.105.32
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_6|1.6MB/s|GPT⁺|NF"
-    obfs: ''
-    port: 40099
-    protocol: ''
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_7|804KB/s|GPT⁺|NF"
-    obfs: ''
-    port: 35511
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_8|1.1MB/s|GPT⁺"
-    port: 50011
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11 Mbps
-  - name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|GPT⁺|YT-US|NF|11%"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: cd2e6a75-4c6b-4ee1-b3d9-9569b869e9f6
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/46.0.2490.86 Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - name: "\U0001F1FA\U0001F1F8US_5|1.5MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 166.62.106.32
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_6|898KB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 185.193.29.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_7|2.6MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 88.216.66.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_8|879KB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 154.92.9.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_9|1.2MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 114.129.43.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_10|1.0MB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 154.211.8.32
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_11|2.5MB/s|GPT⁺|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 216.205.52.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_12|1.1MB/s|GPT|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 185.170.166.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_13|1.5MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 167.68.4.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_14|1.6MB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 108.165.216.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_15|2.4MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 198.62.62.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_16|841KB/s|GPT|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 89.116.180.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_17|2.5MB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 185.148.105.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_18|1.3MB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 195.245.221.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_19|804KB/s|GPT|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 104.239.72.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - client-fingerprint: randomized
-    encryption: none
-    name: "\U0001F1F8\U0001F1EASE_1|825KB/s|GPT⁺|D+|17%"
-    network: ws
-    port: 443
-    server: openai.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 101e6a7d-7d10-4859-a626-8a76daab4547
-    ws-opts:
-      headers:
-        Host: nkAnG2rEpLACE.airlineSHoma.Com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: nkAnG2rEpLACE.airlineSHoma.Com
-  - name: "\U0001F1FA\U0001F1F8US_20|970KB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 91.206.71.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_21|2.9MB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 102.177.176.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_22|3.2MB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 166.62.115.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_23|3.4MB/s|GPT|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 109.176.239.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_24|2.9MB/s|GPT|YT-US|NF|GM"
-    network: ws
-    port: 2096
-    server: 103.160.204.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_25|2.4MB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 160.153.136.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_26|1.3MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 185.207.199.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_27|2.6MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 198.177.56.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_28|1.8MB/s|GPT⁺|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 89.116.161.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_29|2.2MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 80.93.202.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_30|831KB/s|GPT⁺|YT-US|NF|D+|GM|8%"
+  - name: "\U0001F1FA\U0001F1F8US_2|979KB/s|GPT⁺|YT-US|NF|D+|8%"
     network: ws
     port: 2096
     server: 159.112.235.32
@@ -590,10 +41,10 @@ proxies:
         Host: kejiland.freewarp.eu.org
       path: /snippets
     servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_31|1.1MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
+  - name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s|GPT|YT-US|NF|D+|8%"
     network: ws
     port: 2096
-    server: 155.46.213.32
+    server: 102.177.176.32
     skip-cert-verify: true
     tls: true
     type: vless
@@ -604,10 +55,10 @@ proxies:
         Host: kejiland.freewarp.eu.org
       path: /snippets
     servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_32|1.7MB/s|GPT|YT-US|NF|D+|GM|8%"
+  - name: "\U0001F1FA\U0001F1F8US_4|1.2MB/s|GPT⁺|YT-US|NF|D+|8%"
     network: ws
     port: 2096
-    server: 156.238.19.32
+    server: 198.62.62.32
     skip-cert-verify: true
     tls: true
     type: vless
@@ -618,10 +69,10 @@ proxies:
         Host: kejiland.freewarp.eu.org
       path: /snippets
     servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_33|1.8MB/s|GPT⁺|YT-US|D+|GM|8%"
+  - name: "\U0001F1FA\U0001F1F8US_5|828KB/s|GPT⁺|YT-US|NF|D+|8%"
     network: ws
     port: 2096
-    server: 108.165.152.32
+    server: 108.165.216.32
     skip-cert-verify: true
     tls: true
     type: vless
@@ -632,112 +83,7 @@ proxies:
         Host: kejiland.freewarp.eu.org
       path: /snippets
     servername: kejiland.freewarp.eu.org
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_1|3.3MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10053
-    server: 114.46.89.56
-    type: ss
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_34|1021KB/s|GPT⁺|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 185.162.231.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_35|1.3MB/s|GPT⁺|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 86.38.214.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_36|1.6MB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 92.53.188.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_37|1000KB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 156.225.72.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_38|2.7MB/s|GPT⁺|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 185.193.28.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_2|3.6MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10028
-    server: 1.165.125.83
-    type: ss
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_39|3.1MB/s|GPT|YT-US|NF|D+|GM|8%"
-    network: ws
-    port: 2096
-    server: 156.243.246.32
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_3|1.7MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10061
-    server: 1.165.75.211
-    type: ss
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_40|866KB/s|GPT|YT-US|NF|D+|GM|8%"
+  - name: "\U0001F1FA\U0001F1F8US_6|2.9MB/s|GPT⁺|YT-US|NF|D+|8%"
     network: ws
     port: 2096
     server: 204.93.210.32
@@ -751,10 +97,22 @@ proxies:
         Host: kejiland.freewarp.eu.org
       path: /snippets
     servername: kejiland.freewarp.eu.org
-  - name: "\U0001F1FA\U0001F1F8US_41|901KB/s|GPT|YT-US|NF|D+|GM|8%"
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_1|2.4MB/s|GPT⁺|YT-GB|NF|49%"
+    obfs: ''
+    obfs-password: ''
+    password: 16461a78-363c-457a-92f9-83b0a68edc37
+    port: 2056
+    server: sg2.eyucdn.xyz
+    skip-cert-verify: true
+    sni: sg2.eyucdn.xyz
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1FA\U0001F1F8US_7|2.0MB/s|GPT|YT-US|NF|D+|8%"
     network: ws
     port: 2096
-    server: 185.162.230.32
+    server: 198.202.211.32
     skip-cert-verify: true
     tls: true
     type: vless
@@ -765,66 +123,24 @@ proxies:
         Host: kejiland.freewarp.eu.org
       path: /snippets
     servername: kejiland.freewarp.eu.org
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_4|3.1MB/s|GPT⁺|YT-TW|NF"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10088
-    server: 36.235.33.27
-    type: ss
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s|GPT⁺"
+    port: 50011
+    protocol: udp
+    server: 62.210.127.217
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_5|1.6MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10025
-    server: 1.165.82.122
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_6|3.1MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10020
-    server: 1.165.65.219
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_7|2.0MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10130
-    server: 36.232.86.33
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_8|1.9MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10078
-    server: 114.46.72.28
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_9|2.0MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10139
-    server: 111.253.206.105
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_10|1.2MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10084
-    server: 1.170.16.165
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_11|1.3MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 4319231d-24d2-4202-be99-9452ff166258
-    port: 10096
-    server: 1.170.14.135
-    type: ss
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5JP_1|1.8MB/s|GPT|YT-JP|D+"
+    up: 11 Mbps
+  - name: "\U0001F1FA\U0001F1F8US_8|881KB/s|GPT⁺|YT-US|NF|D+|8%"
     network: ws
-    port: 587
-    server: 138.2.49.197
+    port: 2096
+    server: 104.129.164.32
     skip-cert-verify: true
     tls: true
     type: vless
@@ -833,75 +149,97 @@ proxies:
     ws-opts:
       headers:
         Host: kejiland.freewarp.eu.org
-      path: '/snippets/ip=proxyip.fxxk.dedyn.io:443'
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+      path: /snippets
     servername: kejiland.freewarp.eu.org
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_42|1.3MB/s|GPT⁺|NF|D+|8%"
+  - name: "\U0001F1FA\U0001F1F8US_9|890KB/s|GPT⁺|YT-US|NF|D+"
     network: ws
-    port: 2087
-    server: 172.66.47.31
+    port: 2096
+    server: 185.174.138.32
     skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 2cec2733-389a-46a7-9053-218594a6336d
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
     ws-opts:
       headers:
-        Host: nEwMTPROxI.PAGes.DEv
-      path: /
-    servername: nEwMTPROxI.PAGes.DEv
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_43|6.6MB/s|GPT⁺|YT-US|NF"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 22222
-    server: 208.87.243.187
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - cipher: aes-256-cfb
-    country: "\U0001F1EC\U0001F1E7 GB"
-    name: "\U0001F1EC\U0001F1E7GB_1|1.2MB/s|GPT⁺|NF|33%"
-    obfs: plain
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    protocol: origin
-    server: 62.100.205.48
-    type: ssr
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s|GPT⁺|YT-DE|NF|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 2b67ONZROv+fRVMxB94BSw==
-    port: 443
-    server: 5.231.70.79
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|2.3MB/s|GPT⁺|YT-GB|NF|49%"
-    obfs: ''
-    obfs-password: ''
-    password: 16461a78-363c-457a-92f9-83b0a68edc37
-    port: 2056
-    server: sg2.eyucdn.xyz
-    skip-cert-verify: true
-    sni: sg2.eyucdn.xyz
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_3|1.2MB/s|GPT⁺|NF|D+|8%"
+        Host: kejiland.freewarp.eu.org
+      path: /snippets
+    servername: kejiland.freewarp.eu.org
+  - name: "\U0001F1FA\U0001F1F8US_10|979KB/s|GPT⁺|YT-US|NF|8%"
     network: ws
-    port: 443
-    server: 89.22.227.239
+    port: 2096
+    server: 77.75.199.32
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    ws-opts:
+      headers:
+        Host: kejiland.freewarp.eu.org
+      path: /snippets
+    servername: kejiland.freewarp.eu.org
+  - name: "\U0001F1FA\U0001F1F8US_11|2.8MB/s|GPT⁺|YT-US|NF|D+|8%"
+    network: ws
+    port: 2096
+    server: 188.42.145.32
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    ws-opts:
+      headers:
+        Host: kejiland.freewarp.eu.org
+      path: /snippets
+    servername: kejiland.freewarp.eu.org
+  - name: "\U0001F1FA\U0001F1F8US_12|1.4MB/s|GPT⁺|YT-US|D+|8%"
+    network: ws
+    port: 2096
+    server: 94.140.0.32
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    ws-opts:
+      headers:
+        Host: kejiland.freewarp.eu.org
+      path: /snippets
+    servername: kejiland.freewarp.eu.org
+  - name: "\U0001F1FA\U0001F1F8US_13|1.7MB/s|GPT|YT-US|NF|D+|8%"
+    network: ws
+    port: 2096
+    server: 135.84.76.32
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    ws-opts:
+      headers:
+        Host: kejiland.freewarp.eu.org
+      path: /snippets
+    servername: kejiland.freewarp.eu.org
+  - name: "\U0001F1FA\U0001F1F8US_14|1.3MB/s|GPT⁺|YT-US|D+|8%"
+    network: ws
+    port: 2096
+    server: 195.13.45.32
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    ws-opts:
+      headers:
+        Host: kejiland.freewarp.eu.org
+      path: /snippets
+    servername: kejiland.freewarp.eu.org
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_15|1.3MB/s|GPT⁺|YT-US|NF|D+"
+    network: ws
+    port: 2096
+    server: 185.7.240.32
     tls: true
     type: vless
     udp: true
@@ -910,96 +248,204 @@ proxies:
       headers:
         Host: kejiland.freewarp.eu.org
         User-Agent: >-
-          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko)
-          Chrome/11.0.696.3 Safari/534.24
-      path: '/snippets/ip=proxyip.fxxk.dedyn.io:443'
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /snippets
+    xudp: true
+    servername: kejiland.freewarp.eu.org
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_2|3.1MB/s|GPT⁺|NF|29%"
+    network: ws
+    port: 443
+    server: record.persianmizban.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 160cc7e0-1e01-44e8-71fd-b162fbb1c83e
+    ws-opts:
+      headers:
+        Host: lgoin.persianmizban.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: lgoin.persianmizban.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s|GPT⁺|NF|D+|25%"
+    network: ws
+    port: 443
+    server: net2026cd.zanddynastyofpersia.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /eJsVXFVZ6iavNx1EFxOyH861WH
+    xudp: true
+    servername: net2026cd.zanddynastyofpersia.org
+  - alpn:
+      - h3
+    client-fingerprint: random
+    name: "\U0001F1E9\U0001F1EADE_2|2.2MB/s|GPT⁺|YT-DE|NF|D+|8%"
+    network: ws
+    port: 2083
+    server: 162.159.142.252
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
+    servername: fei.634676.xyz
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_3|3.7MB/s|GPT⁺|YT-DE|NF|D+|50%"
+    obfs: salamander
+    obfs-password: ed5s8665dsss
+    password: TELEGRAM-ID-conf0088.TELEGRAM-ID-conf0088
+    port: 2084
+    server: repuestoslibertad.cl.repuestoslibertad.cl
+    skip-cert-verify: false
+    sni: repuestoslibertad.cl.repuestoslibertad.cl
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_16|852KB/s|GPT|YT-US|NF|D+|8%"
+    network: ws
+    port: 2096
+    server: 185.159.247.32
+    tls: true
+    type: vless
+    udp: true
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    ws-opts:
+      headers:
+        Host: kejiland.freewarp.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /snippets
+    xudp: true
     servername: kejiland.freewarp.eu.org
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_9|3.2MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 52816135-d3bc-46bc-a915-09886a2e2b2e
-    port: 57588
-    server: 172.252.236.213
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_17|1.0MB/s|GPT⁺|YT-US|NF|D+"
+    network: ws
+    port: 2096
+    server: 167.68.5.32
+    tls: true
+    type: vless
+    udp: true
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    ws-opts:
+      headers:
+        Host: kejiland.freewarp.eu.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: /snippets
+    xudp: true
+    servername: kejiland.freewarp.eu.org
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_18|2.8MB/s|GPT⁺|YT-US|NF|D+|8%"
+    network: ws
+    port: 2096
+    server: 199.181.197.32
+    tls: true
+    type: vless
+    udp: true
+    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    ws-opts:
+      headers:
+        Host: kejiland.freewarp.eu.org
+      path: /snippets
+    servername: kejiland.freewarp.eu.org
+  - auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    name: "\U0001F1FB\U0001F1F3VN_1|1.2MB/s|GPT⁺|YT-VN|NF|GM"
+    password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    port: 3000
+    server: vnvnnian-u-do-vn2.9966661.xyz
     skip-cert-verify: false
-    sni: real.getafreenode.sbs
+    sni: vnvnnian-u-do-vn2.9966661.xyz
     type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_10|3.1MB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
-    port: 57588
-    server: 172.252.236.213
+    udp: true
+  - auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    name: "\U0001F1ED\U0001F1F0HK_1|2.1MB/s|YT-CN|NF|20%"
+    password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    port: 3000
+    server: 1036a5-330-co.9966661.xyz
     skip-cert-verify: false
-    sni: real.getafreenode.sbs
+    sni: 1036a5-330-co.9966661.xyz
     type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_11|2.4MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 80b2ac81-ba69-41f9-bb46-820b7b3af4dd
-    port: 57588
-    server: 172.252.236.213
+    udp: true
+  - auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    name: "\U0001F1FB\U0001F1F3VN_2|1.6MB/s|GPT⁺|GM"
+    password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    port: 3000
+    server: vnvn-u-do-vn1.9966661.xyz
     skip-cert-verify: false
-    sni: real.getafreenode.sbs
+    sni: vnvn-u-do-vn1.9966661.xyz
     type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_12|2.0MB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 29fbd51f-03c8-4d76-849a-436e54d58317
-    port: 57588
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_13|2.0MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: e31ad3e6-e341-42ac-bdc7-bea02d126fc1
-    port: 57588
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_14|1.5MB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 9c859345-959f-491b-b6fc-65cd7a57aeb3
-    port: 57588
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8 US"
-    name: "\U0001F1FA\U0001F1F8US_44|938KB/s|GPT⁺|YT-US|NF|D+|GM|0%"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '(TG @WangCai2)32cf132:178330'
-      mode: tls
-    port: 2377
-    server: 23.247.137.165
-    type: ss
+    udp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_4|2.3MB/s|GPT⁺|NF|D+|0%"
+    network: ws
+    port: 443
+    server: 172.66.40.99
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2e54d111-18f0-4b69-a1af-3aa40e1f8ad6
+    ws-opts:
+      headers:
+        Host: www.dollardoon.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: >-
+        /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: www.dollardoon.com
+  - encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_2|1.0MB/s|GPT⁺|YT-GB|NF"
+    network: ws
+    port: 80
+    server: www.zula.ir
+    type: vless
+    udp: true
+    uuid: ESKE-COPE--AZ--JKVPN--JKVPN
+    ws-opts:
+      headers:
+        Host: jokervip.ahang-alpha.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.84 Safari/537.36
+      path: >-
+        /TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN-TELEGRAM-KANAL-JKVPN-@JKVPN
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
