@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '100'
-    name: "\U0001F1FA\U0001F1F8US_1|4.0MB/s|GPT⁺|YT-US|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s|GPT⁺|YT-US|NF"
     obfs: ''
     port: 15823
     protocol: ''
@@ -13,11 +13,20 @@ proxies:
     type: hysteria
     up: '100'
     auth-str: dongtaiwang.com
+  - name: "\U0001F1F3\U0001F1F1NL_1|927KB/s|GPT⁺|YT-NL|NF|D+|0%"
+    obfs: salamander
+    obfs-password: Telegram-->@Ln2Ray
+    password: Telegram-->@Ln2Ray
+    port: 45000
+    server: gavazn.lnmarketplace.net
+    skip-cert-verify: true
+    sni: gavazn.55994421.xyz
+    type: hysteria2
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_2|5.0MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_2|3.0MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -27,1459 +36,21 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - name: "\U0001F1FA\U0001F1F8US_3|3.6MB/s|GPT⁺|YT-US|NF|GM|65%"
-    password: miaoge110
-    port: 40112
-    server: 45.58.38.153
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|4.4MB/s|GPT⁺|YT-NL|NF"
-    obfs: ''
-    port: 49003
-    protocol: ''
-    server: 51.159.226.1
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|3.0MB/s|GPT⁺|YT-FR|NF"
-    obfs: ''
-    port: 15010
-    protocol: ''
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 1318
-    down: 1000
-    fast-open: true
-    name: "\U0001F1F3\U0001F1F1NL_2|2.8MB/s|GPT⁺|YT-CN|NF|24%"
-    port: 37519
-    ports: 10000-20000
-    protocol: udp
-    server: 109.104.153.91
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 1000
-  - cipher: aes-256-gcm
-    client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|835KB/s|YT-CN|NF|D+|0%"
-    password: ccf426f1fe78
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: newroot2v1.dsjsapp.com
-      mode: websocket
-      mux: true
-      path: /zksuapgx
-      skip-cert-verify: false
-      tls: true
-    port: 443
-    server: 103.103.245.158
-    tfo: false
-    type: ss
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|GPT⁺|YT-DE|NF|D+|20%"
-    port: 6666
-    reality-opts:
-      public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-      short-id: b525ecd2fc
-    server: 188.68.53.100
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-    network: tcp
-    servername: Tgju.org
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1F9LT_1|1.6MB/s|GPT⁺|YT-RU|NF|26%"
-    network: tcp
-    port: 8080
-    reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 195.66.25.21
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    xudp: true
-    servername: yandex.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1FFCZ_1|3.4MB/s|GPT⁺|YT-RU|NF|27%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: f79448a30d
-    server: 2.56.176.173
-    tls: true
-    type: vless
-    udp: true
-    uuid: 80074d6b-23c5-465e-a348-dcf0378fd1f2
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_1|4.0MB/s|GPT⁺|YT-GB|NF|0%"
-    network: tcp
-    port: 3041
-    reality-opts:
-      public-key: uHj-YSliobSCte9w83Jm1VWpOnXl64sKghSSNVdFvVw
-      short-id: 4c14
-    server: 2margate.superip.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9e728936-8015-41a1-a0ab-80997c084465
-    xudp: true
-    servername: www.refersion.com
-  - name: "\U0001F1EB\U0001F1EEFI_1|855KB/s|GPT⁺|YT-US|NF|6%"
-    network: ws
-    port: 32000
-    server: 46.62.206.155
-    type: vless
-    udp: true
-    uuid: fc3d2ca2-0f38-48dc-8938-688b78c403f2
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/68.0.3440.106 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_2|3.6MB/s|GPT⁺|YT-DE|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 104.26.12.31
-    skip-cert-verify: true
-    tfo: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6877b96c-a092-4f90-8e46-cbb4cad2bb9f
-    ws-opts:
-      headers:
-        Host: vless-10.webn.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/120.0.0.0 Safari/537.36
-      path: '/snippets?ip=proxyip:port(443)&nat64=6to4'
-    servername: vless-10.webn.cc
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_2|1.9MB/s|GPT⁺|NF"
-    obfs: ''
-    port: 40099
-    protocol: ''
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-    auth-str: dongtaiwang.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_3|1.1MB/s|GPT⁺|YT-DE|NF|D+|0%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
-      short-id: 2d46a79deebf50fd
-    server: 94.143.231.62
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2e532561-7a61-4fdf-a534-706682c2e209
-    xudp: true
-    servername: deepl.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_3|2.0MB/s|GPT⁺|NF"
-    port: 50011
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11 Mbps
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1EAAE_1|1.0MB/s|GPT⁺|YT-US|NF|0%"
-    network: tcp
-    port: 30634
-    reality-opts:
-      public-key: jh2QjXeD_8SQGE0y5JEm8KqJKz0lZed79F5ugrdynCg
-      short-id: 844c6e33
-    server: fear.anabelrz.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5c3afc1e-4efc-43fd-a4a6-07a14998efe0
-    xudp: true
-    servername: yahoo.com
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_4|1.8MB/s|GPT⁺|NF"
-    obfs: ''
-    port: 35511
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_5|4.4MB/s|GPT⁺|NF"
+    name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s|GPT⁺|YT-US|NF|GM|41%"
     obfs: ''
     obfs-password: ''
-    password: dongtaiwang.com
-    port: 5355
-    server: 51.159.111.32
+    password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+    port: 47974
+    server: 75.127.13.83
     skip-cert-verify: true
     sni: www.bing.com
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_3|1.4MB/s|GPT⁺|8%"
-    obfs: salamander
-    obfs-password: GdQ4bgvT8RFwuWi2
-    password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
-    port: 30205
-    server: 185.92.220.240
-    skip-cert-verify: true
-    sni: net2025.afsharidempire.uk
-    type: hysteria2
-    up: ''
-  - cipher: aes-256-gcm
-    name: "\U0001F1E6\U0001F1EAAE_2|4.9MB/s|YT-HK|0%"
-    password: 8e94ed0e-3717-4c46-aa13-6757a89b392e
-    port: 47081
-    server: entrance02.qqa678.cc
-    type: ss
-    udp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s|GPT⁺|YT-US|NF|0%"
-    network: ws
-    port: 443
-    server: ssssssssssssfffffffgh.2032.pp.ua
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-    ws-opts:
-      headers:
-        Host: ssssssssssssfffffffgh.2032.pp.ua
-      path: /6We3U9Df1WGxgFnoFPw1
-    xudp: true
-    servername: ssssssssssssfffffffgh.2032.pp.ua
-  - name: "\U0001F1FA\U0001F1F8US_5|1.3MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 103.245.229.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_6|2.5MB/s|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 185.251.80.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_7|1.9MB/s|GPT⁺|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 25.129.198.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_8|1.7MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 193.124.18.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_9|2.8MB/s|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 188.244.122.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_10|1.1MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 185.18.184.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_11|1.1MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 188.42.88.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_12|1.1MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 45.153.7.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_13|2.2MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 154.197.80.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_14|3.4MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 5.10.245.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_15|1.8MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 103.160.204.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_16|3.2MB/s|GPT⁺|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 103.245.228.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_17|2.8MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 204.93.210.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_18|1.4MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 45.192.223.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_19|1.1MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 185.18.250.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_20|3.1MB/s|GPT|YT-US|D+"
-    network: ws
-    port: 2096
-    server: 185.148.107.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_21|2.1MB/s|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 188.244.122.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_22|1.1MB/s|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 204.93.210.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_23|802KB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 154.198.173.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_24|4.6MB/s|GPT⁺|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 154.219.5.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_25|2.0MB/s|GPT⁺|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 167.68.42.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_26|2.2MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 45.194.53.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_27|3.4MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 193.233.132.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_28|4.2MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 45.85.118.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_29|2.7MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 185.59.218.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_30|1.1MB/s|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 5.10.215.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_31|1.3MB/s|YT-US|NF|0%"
-    network: ws
-    port: 2096
-    server: 8.34.70.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_32|4.0MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 159.246.55.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_33|939KB/s|GPT⁺|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 166.62.106.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_34|1.3MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 185.225.195.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_35|4.2MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 130.250.137.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_36|3.5MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 166.62.112.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_37|1.8MB/s|GPT⁺|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 166.62.114.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_38|5.3MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 45.40.153.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_39|3.2MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 194.76.18.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_40|1.0MB/s|GPT⁺|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 198.12.145.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_41|810KB/s|GPT⁺|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 185.133.35.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_42|4.0MB/s|GPT⁺|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 198.177.57.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_43|2.5MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 185.225.195.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_44|2.4MB/s|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 212.183.88.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_45|3.5MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 166.62.114.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_46|831KB/s|GPT⁺|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 176.124.223.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_47|3.6MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 198.177.56.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_48|1.2MB/s|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 216.24.57.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_49|4.2MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 166.62.110.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_50|2.8MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 199.68.156.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_51|1.1MB/s|GPT⁺|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 160.153.1.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_52|2.7MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 192.169.221.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_53|2.5MB/s|GPT⁺|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 195.26.229.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_54|933KB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 50.62.89.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_55|1.2MB/s|GPT⁺|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 5.182.34.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_56|5.0MB/s|GPT⁺|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 192.65.217.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_57|823KB/s|NF|D+"
-    network: ws
-    port: 2096
-    server: 188.164.248.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_58|2.0MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 195.13.44.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_59|3.0MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 195.85.23.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_60|1.2MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 194.59.5.52
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes+@节点狂魔+/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_61|1.2MB/s|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 167.68.11.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1F8\U0001F1ECSG_1|3.5MB/s|GPT⁺|YT-BD|NF|GM"
-    password: installshield
-    port: 8443
-    server: 38.180.249.177
-    skip-cert-verify: true
-    sni: 38.180.249.177
-    type: trojan
-    udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8 US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_62|3.8MB/s|GPT⁺|YT-US|NF|GM|43%"
-    network: none
-    port: 16082
-    server: 198.23.148.39
-    type: vmess
-    uuid: f96e94b6-1d90-4984-9388-66295fcb27e1
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_2|1015KB/s|YT-HK"
-    password: asd123456
-    port: 8388
-    server: 103.149.182.191
-    type: ss
-    udp: true
-  - cipher: chacha20
-    name: "\U0001F1ED\U0001F1F0HK_3|1.3MB/s|YT-HK|37%"
-    obfs: tls1.2_ticket_auth
-    password: mPQ5C9
-    port: 40155
-    protocol: auth_chain_a
-    protocol-param: '69815854:p4LFSN'
-    server: 92.223.121.59
-    type: ssr
-    udp: true
-  - cipher: chacha20
-    name: "\U0001F1ED\U0001F1F0HK_4|2.4MB/s|YT-HK|25%"
-    obfs: tls1.2_ticket_auth
-    password: mPQ5C9
-    port: 40155
-    protocol: auth_chain_a
-    protocol-param: '69815854:p4LFSN'
-    server: 194.99.79.31
-    type: ssr
-    udp: true
-  - grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_6|1.6MB/s|GPT|YT-RU|NF|0%"
-    network: grpc
-    port: 21232
-    server: 141.227.170.178
-    tls: false
-    type: vless
-    udp: true
-    uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
-  - grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EC\U0001F1E7GB_2|2.2MB/s|GPT|YT-GB|NF|0%"
-    network: grpc
-    port: 25365
-    server: 51.89.230.180
-    tls: false
-    type: vless
-    udp: true
-    uuid: 72c17850-c1a8-4915-a437-45de2645a6e1
-  - name: "\U0001F1FA\U0001F1F8US_63|2.0MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 45.159.219.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_64|2.9MB/s|GPT⁺|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 45.135.235.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_65|1.2MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 166.62.113.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_66|2.5MB/s|GPT|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 185.176.24.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1F3\U0001F1F1NL_4|961KB/s|GPT⁺|YT-NL|NF|D+|0%"
-    obfs: salamander
-    obfs-password: Telegram-->@Ln2Ray
-    password: Telegram-->@Ln2Ray
-    port: 45000
-    server: gavazn.lnmarketplace.net
-    skip-cert-verify: true
-    sni: gavazn.55994421.xyz
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_67|1.2MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 104.239.72.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1E8\U0001F1E6CA_1|1.3MB/s|NF|GM|22%"
-    network: grpc
-    port: 40853
-    server: 15.235.45.229
-    tls: false
-    type: vless
-    udp: true
-    uuid: b0ff01b1-04d3-4b01-8ba9-b1dc47416c07
-  - name: "\U0001F1FA\U0001F1F8US_68|1.0MB/s|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 185.207.199.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_69|3.3MB/s|GPT|YT-US|NF|D+"
-    network: ws
-    port: 2096
-    server: 45.205.0.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_70|1.8MB/s|YT-US|NF|D+|0%"
-    network: ws
-    port: 2096
-    server: 139.64.235.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_71|930KB/s|GPT⁺|YT-US|NF|GM|38%"
-    password: ZmQyM
-    port: 8388
-    server: us1.opensocks.site
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_1|931KB/s|GPT⁺|YT-US|NF"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.25
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_2|801KB/s|GPT⁺|YT-US|NF"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.21
-    type: ss
-  - alpn:
-      - 'h2,http/1.1'
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_4|3.4MB/s|GPT⁺|YT-DE|NF|D+|0%"
-    network: ws
-    port: 443
-    server: mangaread.org
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 63005378-e32e-4e23-bc6e-84812f147a6f
-    ws-opts:
-      headers:
-        Host: configmr.pages.dev
-      path: >-
-        /--JoiN--@FREEV2RNG--Bia--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: ConFIgmr.PaGeS.dEV
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_5|3.7MB/s|GPT⁺|YT-NL|NF|0%"
-    network: ws
-    port: 2087
-    server: 188.114.97.11
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b9b8cf4c-29a3-4288-9c6c-8811dc37beec
-    ws-opts:
-      headers:
-        Host: Xlz767V2Ray.PAGEs.DEv
-      path: /bethzrzkz5ljs32v
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: Xlz767V2Ray.PAGEs.DEv
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_72|4.3MB/s|GPT⁺|YT-US|NF|24%"
-    network: ws
-    port: 443
-    server: 172.67.130.204
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
-    ws-opts:
-      headers:
-        Host: hhhhhhhhhhh.777198.xyz
-      path: /OjdW89Bpg4ykd4O
-    servername: HHhhhHhhhhH.777198.xYz
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_7|4.3MB/s|GPT⁺|YT-US|NF|0%"
-    network: grpc
-    port: 43239
-    server: 141.227.180.86
-    type: vless
-    udp: true
-    uuid: 0001e585-a648-4db2-8c9e-af346110c642
-    xudp: true
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_2|8.4MB/s|GPT|YT-SG|NF|D+|GM|0%"
+    name: "\U0001F1F8\U0001F1ECSG_1|1.6MB/s|GPT⁺|YT-SG|NF|D+|GM|3%"
     network: ws
     port: 443
     server: 162.159.43.92
@@ -1498,177 +69,25 @@ proxies:
       max-early-data: 2560
     xudp: true
     servername: juzi.634676.xyz
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F1\U0001F1F9LT_2|1.1MB/s|GPT⁺|YT-RU|NF|D+|26%"
-    network: tcp
-    port: 8080
-    reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 147.45.217.250
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    xudp: true
-    servername: yandex.com
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "\U0001F1F3\U0001F1F1NL_2|1.8MB/s|GPT⁺|YT-NL|NF"
+    obfs: ''
+    port: 49003
+    protocol: ''
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
   - encryption: none
     grpc-opts:
       grpc-service-name: >-
         ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_8|1.8MB/s|GPT⁺|YT-FR|NF|29%"
-    network: grpc
-    port: 10298
-    server: 91.134.100.4
-    type: vless
-    udp: true
-    uuid: 1ebff68a-ad3f-4ba9-a682-fa618ed3cc10
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1ED\U0001F1F7HR_1|5.9MB/s|GPT⁺|YT-GB|NF|26%"
-    network: tcp
-    port: 8080
-    reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 5.181.2.51
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    xudp: true
-    servername: yandex.com
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        @Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-    name: "\U0001F1EB\U0001F1F7FR_9|4.7MB/s|GPT⁺|YT-GB|NF|52%"
-    network: grpc
-    port: 3479
-    server: 51.89.176.242
-    type: vless
-    udp: true
-    uuid: 3f0dc29b-e8af-484b-9745-3c52f33efcd9
-    xudp: true
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_10|1.0MB/s|GPT⁺|YT-FR|NF|29%"
-    network: grpc
-    port: 23279
-    server: 141.94.210.231
-    type: vless
-    udp: true
-    uuid: 30198cba-c828-4b34-8165-25942bad201e
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_5|3.8MB/s|GPT⁺|YT-DE|NF|D+|0%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
-      short-id: 2d46a79deebf50fd
-    server: ge.connect-iskra.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2e532561-7a61-4fdf-a534-706682c2e209
-    xudp: true
-    servername: deepl.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_6|3.1MB/s|GPT⁺|YT-NL|NF|10%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
-      short-id: 2d46a79deebf50fd
-    server: nl.iskra-connect.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2e532561-7a61-4fdf-a534-706682c2e209
-    xudp: true
-    servername: deepl.com
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        @Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-    name: "\U0001F1F9\U0001F1F7TR_1|2.5MB/s|GPT⁺|YT-TR|NF|D+|GM|0%"
-    network: grpc
-    port: 5437
-    server: 95.134.130.138
-    type: vless
-    udp: true
-    uuid: 3f0dc29b-e8af-484b-9745-3c52f33efcd9
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1FFKZ_1|3.1MB/s|GPT⁺|YT-KZ|NF|0%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
-      short-id: 2d46a79deebf50fd
-    server: kz.connect-iskra.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2e532561-7a61-4fdf-a534-706682c2e209
-    xudp: true
-    servername: deepl.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_11|1.7MB/s|GPT⁺|NF|21%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
-      short-id: 2d46a79deebf50fd
-    server: univovh.iskra-connect.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2e532561-7a61-4fdf-a534-706682c2e209
-    xudp: true
-    servername: deepl.com
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_12|4.3MB/s|GPT⁺|YT-US|NF|52%"
-    network: grpc
-    port: 47765
-    server: 141.227.174.234
-    type: vless
-    udp: true
-    uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
-    xudp: true
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_13|3.8MB/s|GPT⁺|YT-RU|NF|0%"
-    network: grpc
-    port: 59995
-    server: 141.227.162.18
-    type: vless
-    udp: true
-    uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
-    xudp: true
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_14|2.5MB/s|GPT⁺|YT-IT|NF|D+|0%"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s|GPT|YT-IT|NF|D+|0%"
     network: grpc
     port: 51079
     server: 141.227.140.55
@@ -1676,338 +95,603 @@ proxies:
     udp: true
     uuid: 7fe2935c-0b1a-4bff-a392-79081b23d820
     xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_73|1.6MB/s|GPT⁺|YT-US|NF|25%"
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_2|1.9MB/s|GPT⁺|YT-FR|NF"
+    obfs: ''
+    port: 15010
+    protocol: ''
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+    auth-str: dongtaiwang.com
+  - alpn:
+      - 'h2,http/1.1'
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s|GPT⁺|YT-DE|NF|D+|3%"
     network: ws
     port: 443
-    server: 104.18.20.69
+    server: mangaread.org
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+    uuid: 63005378-e32e-4e23-bc6e-84812f147a6f
     ws-opts:
       headers:
-        Host: cdn-node-oss-93.paofu.de
+        Host: configmr.pages.dev
+      path: >-
+        /--JoiN--@FREEV2RNG--Bia--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG--@FREEV2RNG
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: ConFIgmr.PaGeS.dEV
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_3|1.3MB/s|GPT⁺"
+    port: 50011
+    protocol: udp
+    server: 62.210.127.217
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11 Mbps
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_4|1.6MB/s|GPT⁺"
+    obfs: ''
+    port: 40099
+    protocol: ''
+    server: 62.210.127.217
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+    auth-str: dongtaiwang.com
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "\U0001F1EB\U0001F1F7FR_5|1.1MB/s|GPT⁺"
+    obfs: ''
+    port: 35511
+    protocol: udp
+    server: 62.210.127.217
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_3|1.5MB/s|GPT⁺|YT-RU|NF|26%"
+    port: 8080
+    reality-opts:
+      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+      short-id: 27cfa05000c23cc4
+    server: 194.87.31.155
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+    network: tcp
+    servername: yandex.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_4|1.3MB/s|GPT⁺|YT-RU|NF|0%"
+    port: 443
+    reality-opts:
+      public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
+      short-id: 16895459a2c7768d
+    server: 66.90.90.10
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
+    network: tcp
+    servername: wa.sfasti.ru
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F8\U0001F1E8SC_1|2.9MB/s|GPT⁺|YT-US|83%"
+    port: 443
+    reality-opts:
+      public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
+    server: 146.19.90.10
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: a0de1607-5b63-fab8-a759-9f98706b6125
+    network: tcp
+    servername: speed.cloudflare.com
+  - delay: 1094
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR_6|5.7MB/s|GPT⁺|YT-CZ|NF|0%"
+    network: grpc
+    port: 54983
+    server: 141.227.134.240
+    type: vless
+    udp: true
+    uuid: 6016845b-61d0-49c5-b20c-d61e860778d4
+    xudp: true
+  - delay: 970
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR_7|2.8MB/s|GPT⁺|YT-CZ|NF|0%"
+    network: grpc
+    port: 13905
+    server: 141.227.134.241
+    type: vless
+    udp: true
+    uuid: 9eecee32-1abb-42db-b296-af0168c17412
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_4|824KB/s|GPT⁺|YT-US|NF|D+|GM|3%"
+    network: ws
+    port: 443
+    server: cf.0sm.com
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: baipiao.CMLiussss.abrdns.com
+      path: >-
+        /snippets/ip=tw.tp81.netlib.re:81vless:/0c6b0284-77b9-48c8-969a-4be6b18b10d3
+    servername: baipiao.CMLiussss.abrdns.com
+  - alpn:
+      - 'h2,http/1.1'
+    client-fingerprint: randomized
+    name: "\U0001F1FA\U0001F1F8US_5|1.2MB/s|GPT⁺|YT-US|NF|GM|3%"
+    network: ws
+    port: 443
+    server: 108.165.152.82
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
+    ws-opts:
+      headers:
+        Host: ggggr.pages.dev
+      path: /gLHWGBXwDuMKHx2C
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: GgGgr.PaGES.dEV
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_6|3.4MB/s|GPT⁺|YT-RU|NF|GM|19%"
+    obfs: ''
+    obfs-password: ''
+    password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca
+    port: 37771
+    server: xjp1.xiaohuolongjc.top
+    skip-cert-verify: true
+    sni: xjp1.xiaohuolongjc.top
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1FA\U0001F1F8US_7|908KB/s|YT-US|NF|D+|GM"
+    network: ws
+    port: 8880
+    server: 185.207.199.247
+    skip-cert-verify: true
+    type: vless
+    udp: true
+    uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+    ws-opts:
+      headers:
+        Host: ex.sue.x10.mx
+      path: "/Telegram\U0001F1E8\U0001F1F3"
+    servername: ex.sue.x10.mx
+  - name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s|GPT⁺|YT-DE|NF|10%"
+    network: ws
+    port: 443
+    server: 138.199.219.74
+    type: vless
+    udp: true
+    uuid: 9a04ee08-59f3-4de9-8424-6b32f06fbc68
+    ws-opts:
+      headers:
+        Host: 138.199.219.74
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.103 Safari/537.36
-      path: /profile/telegram@ssrsub
-    xudp: true
-    servername: cdn-node-oss-93.paofu.de
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1EEFI_2|4.4MB/s|GPT⁺|YT-RU|NF|0%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 48720c
-    server: fin01-vlr01.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 80074d6b-23c5-465e-a348-dcf0378fd1f2
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_15|5.0MB/s|GPT⁺|YT-BE|NF|0%"
-    network: grpc
-    port: 13833
-    server: 141.227.136.29
-    type: vless
-    udp: true
-    uuid: b33105c5-e37d-4ad1-a3b9-102390b3e1b8
-    xudp: true
-  - grpc-opts:
-      grpc-service-name: EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420
-    name: "\U0001F1E9\U0001F1EADE_6|3.2MB/s|GPT⁺|YT-US|NF|43%"
-    network: grpc
-    port: 15349
-    server: 84.201.4.247
-    type: vless
-    udp: true
-    uuid: b797d2a9-37b7-47e2-a7d2-d5f4c41c28e9
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_7|1.0MB/s|GPT⁺|YT-US|NF|43%"
-    network: tcp
-    port: 15940
-    reality-opts:
-      public-key: Q7B94qjnMk48_2054jmhOKdPbqRkyUbLIHSNLb8Zz2w
-      short-id: 90658dac0f08c239
-    server: 84.201.4.247
-    tls: true
-    type: vless
-    udp: true
-    uuid: b797d2a9-37b7-47e2-a7d2-d5f4c41c28e9
-    xudp: true
-    servername: refersion.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_8|5.0MB/s|GPT⁺|YT-DE|NF"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: fVtKLgnLnnS9SXhHujGSWEiqQipzlTV1lG7C2dNThSM
-      short-id: '48'
-    server: 5.75.192.6
-    tls: true
-    type: vless
-    udp: true
-    uuid: c4b46615-5a3c-4431-f3b9-01b16a9fde69
-    xudp: true
-    servername: iubenda.com
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_16|4.7MB/s|GPT⁺|YT-FR|NF|29%"
-    network: grpc
-    port: 42817
-    server: 141.227.132.199
-    type: vless
-    udp: true
-    uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F1\U0001F1F9LT_3|3.9MB/s|GPT⁺|YT-NL|NF|38%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
-      short-id: '31'
-    server: lva-0001-xr.packet-drop-society.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: fe27c0c7-6602-4b20-a8e4-d8eff275dbee
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1FFCZ_2|3.6MB/s|GPT⁺|YT-RU|NF|27%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: f79448a30d
-    server: cze01-vlr01.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 80074d6b-23c5-465e-a348-dcf0378fd1f2
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_17|1.0MB/s|GPT⁺|YT-BE|NF|0%"
-    network: grpc
-    port: 11716
-    server: 141.227.136.11
-    type: vless
-    udp: true
-    uuid: 98b988ba-fe55-402e-824a-6f7bb3436f22
+          Gecko) Chrome/48.0.2564.116 Safari/537.36
+      path: /linkws?ed
     xudp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_74|7.1MB/s|GPT⁺|YT-US|NF|GM|43%"
+    name: "\U0001F1F9\U0001F1EDTH_1|2.6MB/s|GPT⁺|YT-TH|GM|22%"
     obfs: ''
     obfs-password: ''
-    password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-    port: 47974
-    server: 75.127.13.83
-    skip-cert-verify: true
-    sni: www.bing.com
+    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+    port: 3000
+    server: af01e9-330-3.9966661.xyz
+    skip-cert-verify: false
+    sni: af01e9-330.9966661.xyz
     type: hysteria2
     up: ''
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_7|858KB/s|GPT⁺|YT-RU|0%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: '31'
-    server: nl02-vlr01.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 80074d6b-23c5-465e-a348-dcf0378fd1f2
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - alpn:
-      - h3
-    client-fingerprint: random
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_9|5.7MB/s|GPT⁺|YT-DE|NF|D+"
+    name: "\U0001F1E9\U0001F1EADE_3|4.5MB/s|GPT|D+"
     network: ws
     port: 2083
-    server: 162.159.142.252
+    server: 104.26.12.31
+    skip-cert-verify: true
+    tfo: true
     tls: true
     type: vless
     udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    uuid: b67d8a57-e335-497b-afeb-f4ead830c834
     ws-opts:
       headers:
-        Host: fei.634676.xyz
+        Host: vless-10.webn.cc
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/120.0.0.0 Safari/537.36
+      path: '/snippets?ip=proxyip:port(443)&nat64=6to4'
+    servername: vless-10.webn.cc
+  - client-fingerprint: random
+    name: "\U0001F1F3\U0001F1F1NL_5|2.2MB/s|GPT⁺|YT-NL|D+"
+    network: ws
+    port: 443
+    server: 188.114.99.93
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 72982133-27fb-46fc-9061-61113e77e201
+    ws-opts:
+      headers:
+        Host: jack.jack-cq.click
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: jack.jack-cq.click
+  - grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR_8|4.2MB/s|GPT⁺|YT-FR|NF|29%"
+    network: grpc
+    port: 8080
+    server: 141.227.132.245
+    type: vless
+    udp: true
+    uuid: aa6c6cd6-9e4a-4ec8-88b8-0ce1232d111f
+    xudp: true
+  - grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR_9|3.9MB/s|GPT⁺|YT-FR|NF|29%"
+    network: grpc
+    port: 22808
+    server: 51.178.253.133
+    type: vless
+    udp: true
+    uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
+    xudp: true
+  - name: "\U0001F1EC\U0001F1E7GB_1|2.3MB/s|GPT⁺|YT-US|NF|0%"
+    network: ws
+    port: 80
+    server: 172.66.156.81
+    type: vless
+    udp: true
+    uuid: dacf0561-ff27-491c-8583-df7bc63f28a4
+    ws-opts:
+      headers:
+        Host: >-
+          websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: >-
+        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+    xudp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_4|2.2MB/s|GPT⁺|YT-US|NF|24%"
+    network: ws
+    port: 443
+    server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+    tls: true
+    type: vless
+    udp: true
+    uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+    ws-opts:
+      headers:
+        Host: nareni.rtxiran.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /
+    xudp: true
+    servername: nareni.rtxiran.info
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_6|2.3MB/s|GPT⁺|YT-NL|NF|D+"
+    network: ws
+    port: 443
+    server: 104.21.67.60
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2737c5a4-50d5-46a2-9c8c-86920088b8c7
+    ws-opts:
+      headers:
+        Host: 4g.zippza404abp.webredirect.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
       path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     xudp: true
-    servername: fei.634676.xyz
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_18|1.2MB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 0cb527d9-6117-4bcf-a52b-1704b3458cef
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_19|987KB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_20|912KB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 52816135-d3bc-46bc-a915-09886a2e2b2e
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_21|840KB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_22|829KB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 48c2c901-72e6-46d4-ac78-169d73264cbf
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_23|877KB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 4685eb2a-5ddb-4dc6-9e53-f0c90d6124c1
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_24|836KB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 5eaa121d-4362-444d-8219-29b02c35303a
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_25|1.0MB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 29fbd51f-03c8-4d76-849a-436e54d58317
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_26|875KB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 6bf726db-fb0b-405b-899a-3e263f092eda
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_27|925KB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: f901861b-6491-450c-b500-606b2e921625
-    port: 52368
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: firefox
-    name: "\U0001F1EC\U0001F1E7GB_3|995KB/s|GPT⁺|YT-US|NF|D+|0%"
+    servername: 4g.zippza404abp.webredirect.org
+  - client-fingerprint: chrome
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1EEFI_1|1.2MB/s|GPT⁺|YT-NL|NF|37%"
+    network: tcp
+    port: 17422
+    reality-opts:
+      public-key: 0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA
+      short-id: '33'
+    server: 5.181.20.219
+    tls: true
+    type: vless
+    udp: true
+    uuid: fe837fd0-840d-4cee-9334-0dc6c2b15c1c
+    xudp: true
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_8|1.1MB/s|GPT⁺|YT-US|NF|26%"
     network: ws
-    password: biOrJGlcfX
-    port: 443
-    server: creativecommons.org
+    password: 82ba36ec-dafe-40eb-b9ad-0f8a98101020
+    port: 8443
+    server: fastcup.net
     skip-cert-verify: false
-    sni: ghasem.kotlet.org
+    sni: cdn-node-oss-82.paofu.de
     type: trojan
     udp: true
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: /kos-madaret-khamneii
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.63 Safari/537.36
+      path: /profile/telegram@ssrsub
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F0\U0001F1FFKZ_1|2.1MB/s|GPT⁺|YT-RU|0%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: f79448a30d
+    server: kz01-vlr01.tcp-reset-club.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: c80bbc09-837d-495f-bebc-3e8ac5dede41
+    xudp: true
+    servername: hls-svod.itunes.apple.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1F4RO_1|2.3MB/s|GPT⁺|NF|0%"
+    network: tcp
+    port: 27229
+    reality-opts:
+      public-key: 1_vS_JKpOvJnqPUDyaREbXWd5M59bIIKsNyV5Kt0uD8
+      short-id: cd1f804d
+    server: 31.6.1.187
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6a19af6c-aa6f-4f3b-a088-09e8a089338d
+    xudp: true
+    servername: store.steampowered.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F1\U0001F1FBLV_1|3.3MB/s|GPT⁺|YT-RU|NF|0%"
+    password: uSP0xCMu9d6cdVxkH9JMDE
+    port: 14731
+    server: 91.204.75.128
+    type: ss
+    udp: true
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR_10|3.4MB/s|GPT⁺|YT-RU|NF|0%"
+    network: grpc
+    port: 443
+    server: 141.227.160.19
+    type: vless
+    udp: true
+    uuid: 23d72134-6086-4652-aecf-5aa9df5a79af
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F5\U0001F1F9PT_1|2.0MB/s|GPT⁺|NF|D+|45%"
+    network: tcp
+    port: 8080
+    reality-opts:
+      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+      short-id: 27cfa05000c23cc4
+    server: 31.129.22.117
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+    xudp: true
+    servername: yandex.com
+  - client-fingerprint: chrome
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_5|2.9MB/s|GPT⁺|YT-DE|NF|D+|0%"
+    network: tcp
+    port: 49330
+    reality-opts:
+      public-key: Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8
+      short-id: b3
+    server: 193.46.81.151
+    tls: true
+    type: vless
+    udp: true
+    uuid: ac7b6757-05c0-4a28-8b08-14ab496a5fe4
+    xudp: true
+    servername: miro.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_6|1.2MB/s|GPT⁺|YT-DE|NF|D+|0%"
+    network: tcp
+    port: 49330
+    reality-opts:
+      public-key: Dee9YE139lZpb4V3QytB8DvHY3nTCnEXzk2IjvMLHi8
+      short-id: b3
+    server: vfast7.hvitrin.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: ac7b6757-05c0-4a28-8b08-14ab496a5fe4
+    xudp: true
+    servername: miro.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_7|3.3MB/s|GPT⁺|YT-NL|NF|D+|0%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: d4nrz5jZn6OcMGmRr4H-2v6hKexlwe4hKaDMgMqSV3A
+      short-id: 305b25f707eb
+    server: nl.vip-get.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: b88a2e58-aebb-41c2-b1aa-509e6bbff335
+    xudp: true
+    servername: yahoo.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_11|2.9MB/s|GPT⁺|NF|100%"
+    obfs: ''
+    obfs-password: ''
+    password: 07c122ad-50b2-4f61-9435-efcf112bb10b
+    port: 43649
+    server: 172.252.236.213
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_12|2.0MB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 23125f6e-ec56-4c26-9714-0bbacdb53d01
+    port: 43649
+    server: 172.252.236.213
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_13|1.1MB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e
+    port: 43649
+    server: 172.252.236.213
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_14|1.3MB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 1045aedf-053c-4585-875d-e2fc3f3ea6dd
+    port: 43649
+    server: 172.252.236.213
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_15|1.5MB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 0cb527d9-6117-4bcf-a52b-1704b3458cef
+    port: 43649
+    server: 172.252.236.213
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_16|2.2MB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
+    port: 43649
+    server: 172.252.236.213
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_17|1.0MB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 413c8b50-96bf-4457-82f2-54dfa8685f53
+    port: 43649
+    server: 172.252.236.213
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_18|863KB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 9c859345-959f-491b-b6fc-65cd7a57aeb3
+    port: 43649
+    server: 172.252.236.213
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
