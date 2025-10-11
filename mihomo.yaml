@@ -1,33 +1,9 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_1|2.8MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
-    port: 57275
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_2|1.8MB/s|GPT⁺|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 23125f6e-ec56-4c26-9714-0bbacdb53d01
-    port: 57275
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '100'
-    name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s|GPT⁺|YT-US|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|3.9MB/s|GPT⁺|YT-US|NF"
     obfs: ''
     port: 15823
     protocol: ''
@@ -39,19 +15,7 @@ proxies:
     auth-str: dongtaiwang.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_3|1.9MB/s|GPT⁺|NF|100%"
-    obfs: ''
-    obfs-password: ''
-    password: 07c122ad-50b2-4f61-9435-efcf112bb10b
-    port: 57275
-    server: 172.252.236.213
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s|GPT⁺|YT-US|NF|33%"
+    name: "\U0001F1FA\U0001F1F8US_2|987KB/s|GPT⁺|YT-US|NF|D+|33%"
     obfs: ''
     obfs-password: ''
     password: c232f411-96b5-4b07-b2f7-66a434725ffb
@@ -65,7 +29,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_4|1.7MB/s|GPT⁺|YT-FR|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|958KB/s|GPT⁺|YT-FR|NF"
     obfs: ''
     port: 15010
     protocol: ''
@@ -79,7 +43,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_5|1.1MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_2|1.5MB/s|GPT⁺"
     obfs: ''
     port: 50011
     protocol: udp
@@ -89,6 +53,157 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
+  - name: "\U0001F1E9\U0001F1EADE_1|998KB/s|GPT|YT-DE|NF|D+|3%"
+    network: ws
+    port: 2083
+    server: 5.75.139.127
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0 HK"
+    name: "\U0001F1ED\U0001F1F0HK_1|1.6MB/s|YT-CN|0%"
+    password: asd123456
+    port: 8388
+    server: 103.149.182.191
+    type: ss
+  - alpn:
+      - h3
+    disable-sni: false
+    name: "\U0001F1E8\U0001F1E6CA_1|1021KB/s|GPT⁺|YT-CA|NF|GM|4%"
+    password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+    port: 52434
+    reduce-rtt: false
+    request-timeout: 0
+    server: 40.233.77.57
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: tuic
+    uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+    version: 5
+  - auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+    name: "\U0001F1E7\U0001F1F7BR_1|890KB/s|GPT⁺|YT-US|NF|33%"
+    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+    port: 3000
+    server: afb4b1-20-2.9966661.xyz
+    skip-cert-verify: false
+    sni: afb4b1-20.9966661.xyz
+    type: hysteria2
+    udp: true
+  - auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+    name: "\U0001F1E8\U0001F1EDCH_1|1.7MB/s|GPT⁺|YT-US|NF|36%"
+    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+    port: 3000
+    server: f0ba91-20-3.9966661.xyz
+    skip-cert-verify: false
+    sni: f0ba91-20.9966661.xyz
+    type: hysteria2
+    udp: true
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1FA\U0001F1F8US_3|2.8MB/s|GPT⁺|YT-CN|NF"
+    obfs: ''
+    port: 38845
+    protocol: ''
+    server: 208.87.243.151
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria
+    up: 11 Mbps
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1E9\U0001F1EADE_2|1023KB/s|GPT|NF|D+|3%"
+    network: ws
+    port: 2096
+    server: 5.75.194.120
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - name: "\U0001F1E9\U0001F1EADE_3|1.0MB/s|GPT|YT-DE|NF|D+"
+    network: ws
+    port: 8443
+    server: 91.107.230.41
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - name: "\U0001F1E9\U0001F1EADE_4|1.1MB/s|GPT⁺|NF|D+|3%"
+    network: ws
+    port: 443
+    server: 45.38.145.120
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - name: "\U0001F1FA\U0001F1F8US_4|829KB/s|GPT|D+"
+    network: ws
+    port: 443
+    server: 178.32.58.147
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_5|889KB/s|GPT⁺|NF|7%"
+    network: ws
+    port: 4040
+    server: netcdn.parsgit.com
+    type: vless
+    udp: true
+    uuid: b55203fc-19a6-4e18-9cbc-7a7b94be7f58
+    ws-opts:
+      headers:
+        Host: webde2.parsgit.com.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: >-
+        /admin?ed=1024--join--skypro_vpn--join--skypro_vpn--join--skypro_vpn--join--skypro_vpn--join--skypro_vpn--join--skypro_vpn--join--skypro_vpn--join--skypro_vpn--
+    xudp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
