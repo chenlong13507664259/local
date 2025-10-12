@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '100'
-    name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s|GPT⁺|YT-US|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|3.6MB/s|GPT⁺|YT-US|NF"
     obfs: ''
     port: 15823
     protocol: ''
@@ -17,7 +17,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_2|1.9MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -27,23 +27,11 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|1.7MB/s|GPT⁺|YT-CN|NF|19%"
-    obfs: ''
-    obfs-password: ''
-    password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca
-    port: 37771
-    server: xjp1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: xjp1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s|GPT⁺|YT-NL|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s|GPT⁺|YT-NL|NF"
     obfs: ''
     port: 49003
     protocol: ''
@@ -57,7 +45,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|916KB/s|GPT⁺|YT-FR|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|858KB/s|GPT⁺|YT-FR|NF"
     obfs: ''
     port: 15010
     protocol: ''
@@ -67,10 +55,132 @@ proxies:
     type: hysteria
     up: '100'
     auth-str: dongtaiwang.com
-  - name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s|GPT|YT-DE|NF|D+|3%"
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc-jd
+    name: "\U0001F1EC\U0001F1E7GB_1|810KB/s|GPT⁺|YT-GB|NF|6%"
+    network: grpc
+    port: 8443
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 41a4cee2c50c4fc3
+    server: fr.pixvpn.app
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8c9a7ef4-b692-41ee-90ca-669b04990ac5
+    xudp: true
+    servername: jd.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    delay: 2364
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_2|881KB/s|GPT⁺"
+    port: 50011
+    protocol: udp
+    server: 62.210.127.217
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_3|2.6MB/s|GPT⁺|YT-US|NF|D+|33%"
+    obfs: ''
+    obfs-password: ''
+    password: c232f411-96b5-4b07-b2f7-66a434725ffb
+    port: 23891
+    server: 108.165.213.197
+    skip-cert-verify: true
+    sni: fus01.mistea.top
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1E9\U0001F1EADE_1|2.9MB/s|YT-DE|NF|D+"
+    network: ws
+    port: 443
+    server: 91.107.251.232
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s|GPT⁺|YT-DE|NF|3%"
+    network: ws
+    port: 2096
+    server: 91.107.161.112
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - name: "\U0001F1FA\U0001F1F8US_4|1.4MB/s|YT-DE|D+"
+    network: ws
+    port: 2096
+    server: 5.75.207.125
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - name: "\U0001F1EB\U0001F1F7FR_3|826KB/s|GPT⁺|YT-FR|NF|D+"
+    network: ws
+    port: 2053
+    server: 87.98.237.23
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - name: "\U0001F1E9\U0001F1EADE_3|1.3MB/s|NF|D+|3%"
+    network: ws
+    port: 2083
+    server: 188.245.92.220
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - name: "\U0001F1E9\U0001F1EADE_4|1.0MB/s|GPT|YT-DE|NF|D+|3%"
     network: ws
     port: 8443
-    server: 91.107.230.41
+    server: 136.243.204.103
     skip-cert-verify: true
     tls: true
     type: vless
@@ -84,104 +194,67 @@ proxies:
       max-early-data: 2560
     servername: fei.634676.xyz
   - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_4|845KB/s|GPT⁺|YT-US|NF|26%"
-    network: ws
-    password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
-    port: 443
-    server: 172.67.157.220
-    skip-cert-verify: false
-    sni: 6666YHjU.777159.xYz
-    type: trojan
-    udp: true
-    ws-opts:
-      path: /dilyfCPEmLvYr5hYXD
-  - name: "\U0001F1E9\U0001F1EADE_2|2.4MB/s|GPT|YT-DE|NF|D+"
-    network: ws
-    port: 443
-    server: 159.69.185.118
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "\U0001F1EB\U0001F1F7FR_4|1.6MB/s|GPT⁺|NF"
+    obfs: ''
+    port: 35511
+    protocol: udp
+    server: 62.210.127.217
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_3|1.6MB/s|NF|D+"
-    network: ws
-    port: 2087
-    server: 5.75.192.9
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_2|1.0MB/s|YT-FR|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 91.121.40.210
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_5|877KB/s|GPT⁺|NF|29%"
-    network: ws
-    port: 2053
-    server: 95.169.162.223
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_6|839KB/s|GPT|D+|3%"
-    network: ws
-    port: 8443
-    server: 135.181.198.101
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_4|1.1MB/s|GPT|NF|D+"
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1E9\U0001F1EADE_5|1.6MB/s|GPT⁺|YT-DE|NF|D+|3%"
     network: ws
     port: 2083
-    server: 46.62.139.251
-    skip-cert-verify: true
+    server: 91.107.182.33
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1|1.2MB/s|GPT⁺|YT-VN|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.45
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_2|1.2MB/s|GPT⁺|YT-VN|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.118
+    type: ss
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_5|1.4MB/s|GPT|YT-DE|NF|D+"
+    network: ws
+    port: 443
+    server: 45.38.145.87
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - name: "\U0001F1FA\U0001F1F8US_6|1.3MB/s|GPT|NF|D+"
+    network: ws
+    port: 443
+    server: 45.38.145.232
     tls: true
     type: vless
     udp: true
@@ -194,62 +267,43 @@ proxies:
       max-early-data: 2560
     servername: fei.634676.xyz
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1EAAE_1|1.0MB/s|GPT⁺|NF|26%"
-    network: tcp
-    port: 20223
-    reality-opts:
-      public-key: RsbED0LyE3f2byTPx5t-dQewju6z9R4xqTWrADM4WnM
-      short-id: c6842be1
-    server: ae1-4.9966662.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    servername: www.cloudflare.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F2\U0001F1F0MK_1|1.8MB/s|GPT⁺|NF|D+|26%"
-    network: tcp
-    port: 51423
-    reality-opts:
-      public-key: aTmRClRKFCvNi6aFQnmKt3CJ2hrLG3wQJ5WgrbWk1Xs
-      short-id: b8ee759f
-    server: mk5.9966662.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    servername: www.cloudflare.com
-  - client-fingerprint: chrome
     encryption: none
-    grpc-opts:
-      grpc-service-name: grpc-jd
-    name: "\U0001F1EC\U0001F1E7GB_1|883KB/s|GPT⁺|YT-GB|NF|6%"
-    network: grpc
-    port: 8443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 41a4cee2c50c4fc3
-    server: fr.pixvpn.app
+    name: "\U0001F1FA\U0001F1F8US_7|1.2MB/s|GPT⁺|YT-US|NF|D+|GM|3%"
+    network: ws
+    port: 443
+    server: 104.21.48.1
     tls: true
     type: vless
     udp: true
-    uuid: 8c9a7ef4-b692-41ee-90ca-669b04990ac5
+    uuid: e5c2e234-333e-48b4-8199-2793a64527bc
+    ws-opts:
+      headers:
+        Host: s1-c3r.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /
     xudp: true
-    servername: jd.com
+    servername: s1-c3r.pages.dev
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_2|1.8MB/s|GPT⁺|YT-US|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    port: 22156
-    server: hsyg.huasuan666.top
+    name: "\U0001F1EB\U0001F1EEFI_1|3.9MB/s|GPT⁺|YT-FI|NF|0%"
+    obfs: salamander
+    obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
+    password: 'perspoliszibatarineshghjahan:FsJucWq9I3xWM4ocQcUh7h8EB4mIqLWI'
+    port: 443
+    server: 80.85.241.237
     skip-cert-verify: true
-    sni: hsyg.huasuan666.top
+    sni: stackoverflow.com
     type: hysteria2
     up: ''
+  - cipher: aes-256-cfb
+    country: "\U0001F1FA\U0001F1F8 US"
+    name: "\U0001F1F8\U0001F1F0SK_1|2.0MB/s|GPT⁺|NF|0%"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 156.146.40.194
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
