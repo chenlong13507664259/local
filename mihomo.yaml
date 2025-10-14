@@ -2,22 +2,8 @@ proxies:
   - alpn:
       - h3
     auth_str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1FA\U0001F1F8US_1|4.3MB/s|GPT⁺|YT-US|NF"
-    obfs: ''
-    port: 15823
-    protocol: ''
-    server: 208.87.243.187
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_2|4.0MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|3.1MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -27,11 +13,18 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1|1.6MB/s|GPT⁺|YT-US|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.233
+    type: ss
+    udp: true
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|3.3MB/s|GPT⁺|YT-NL|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.4MB/s|GPT⁺|YT-NL|NF"
     obfs: ''
     port: 49003
     protocol: ''
@@ -41,111 +34,19 @@ proxies:
     type: hysteria
     up: '11'
     auth-str: dongtaiwang.com
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc-jd
-    name: "\U0001F1EC\U0001F1E7GB_1|1.0MB/s|GPT⁺|YT-GB|NF|6%"
-    network: grpc
-    port: 8443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 41a4cee2c50c4fc3
-    server: fr.pixvpn.app
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8c9a7ef4-b692-41ee-90ca-669b04990ac5
-    xudp: true
-    servername: jd.com
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s|GPT⁺|YT-FR|NF"
-    obfs: ''
-    port: 15010
-    protocol: ''
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-    auth-str: dongtaiwang.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|2.9MB/s|GPT⁺|YT-JP|NF|D+|GM|1%"
-    password: 253bc477d4e43c209f2d427272968280
+  - auth: 0114339c-488d-11ee-8792-f23c9164ca5d
+    name: "\U0001F1ED\U0001F1F0HK_1|2.6MB/s|YT-HK|3%"
+    password: 0114339c-488d-11ee-8792-f23c9164ca5d
     port: 443
-    server: 126.66.52.118
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_2|929KB/s|GPT⁺|YT-CN|NF|0%"
-    password: 253bc477d4e43c209f2d427272968280
-    port: 1920
-    server: 36.156.102.84
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 2096
-    server: 5.75.207.125
-    skip-cert-verify: true
-    tls: true
-    type: vless
+    server: d1aa77e5-t46kg0-tbpkla-1otc2.hk2.hyhuawei.com
+    type: hysteria2
     udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|2.5MB/s|GPT⁺|YT-SG|NF|GM"
-    password: 253bc477d4e43c209f2d427272968280
-    port: 5321
-    server: 36.156.102.84
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-  - name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s|GPT⁺|YT-DE|NF|D+"
-    network: ws
-    port: 2096
-    server: 91.107.161.112
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - cipher: chacha20-ietf-poly1305
-    client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_2|2.0MB/s|GPT⁺|YT-SG|NF|20%"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '(TG @ripaojiedian)32cf132:178330'
-      mode: tls
-    port: 2377
-    server: 5.44.249.43
-    tfo: false
-    type: ss
+    sni: d1aa77e5-t46kg0-tbpkla-1otc2.hk2.hyhuawei.com
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_2|2.2MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.0MB/s|GPT⁺"
     obfs: ''
     port: 35511
     protocol: udp
@@ -155,1653 +56,370 @@ proxies:
     type: hysteria
     up: '11'
     auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    delay: 2364
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_3|1.8MB/s|GPT⁺|NF"
-    port: 50011
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_2|3.5MB/s|GPT⁺|YT-US|NF|50%"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 151.242.251.152
-    type: ss
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_3|4.3MB/s|GPT⁺|YT-DE|NF|D+|0%"
-    obfs: salamander
-    obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-    password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
-    port: 35000
-    server: dir.cybsecguru.com
-    skip-cert-verify: true
-    sni: jnir.pichondan.com
-    type: hysteria2
-    up: ''
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_4|3.0MB/s|GPT⁺|YT-RU|NF|100%"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 151.242.251.133
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|2.3MB/s|YT-HK|NF|D+"
-    password: 253bc477d4e43c209f2d427272968280
-    port: 443
-    server: 58.152.53.162
-    skip-cert-verify: true
-    sni: fe2.update.microsoft.com
-    type: trojan
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s|GPT⁺|YT-US|NF|D+|0%"
-    obfs: salamander
-    obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-    password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
-    port: 35000
-    server: 77.90.41.197
-    skip-cert-verify: true
-    sni: jnir.pichondan.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_4|898KB/s|GPT⁺|YT-US|NF"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 22222
-    server: 208.87.243.187
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_5|3.3MB/s|GPT⁺|YT-NL|NF|D+|0%"
-    obfs: salamander
-    obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-    password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
-    port: 35000
-    server: 206.71.158.41
-    skip-cert-verify: true
-    sni: jnir.pichondan.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_5|2.8MB/s|GPT⁺|YT-US|NF|GM|11%"
-    obfs: salamander
-    obfs-password: MiraCLeOPV2RayyNGvpntheBestt
-    password: qdO7WGPPQV
-    port: 8443
-    server: 138.124.60.198
-    skip-cert-verify: true
-    sni: cdnjs.cloudflare.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_4|3.1MB/s|GPT⁺|YT-FR|NF"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 5355
-    server: 51.159.111.32
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_6|2.3MB/s|GPT⁺|YT-US|NF|72%"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 151.242.251.142
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc-jd
-    name: "\U0001F1E6\U0001F1F2AM_1|2.4MB/s|GPT⁺|YT-GB|NF|0%"
-    network: grpc
-    port: 8443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 41a4cee2c50c4fc3
-    server: at.pixvpn.app
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8c9a7ef4-b692-41ee-90ca-669b04990ac5
-    xudp: true
-    servername: jd.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_3|3.1MB/s|GPT⁺|NF|24%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
-      short-id: e499f276e7bd6420
-    server: deu-0001-xr.packet-drop-society.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_4|4.4MB/s|GPT⁺|YT-DE|NF"
-    network: ws
-    port: 443
-    server: androidauthority.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 028ad849-cb35-4934-9a6a-79a7b480ab0f
-    ws-opts:
-      headers:
-        Host: rAyAn-cOnFiG-fr-1.pArIsA.DpDnS.OrG
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /ws
-    xudp: true
-    servername: rAyAn-cOnFiG-fr-1.pArIsA.DpDnS.OrG
   - cipher: aes-256-cfb
-    name: "\U0001F1EB\U0001F1F7FR_5|2.1MB/s|GPT⁺|NF|4%"
-    password: amazonskr05
-    port: 443
-    server: 13.38.44.116
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN_2|2.9MB/s|GPT⁺|YT-VN|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.30
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN_3|1.1MB/s|GPT|YT-VN|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.25
+    type: ss
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_2|1.8MB/s|YT-CN|NF|D+|0%"
+    password: asd123456
+    port: 8388
+    server: 103.149.182.191
     type: ss
     udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_7|2.3MB/s|GPT⁺|YT-NL|NF|D+|0%"
-    obfs: salamander
-    obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-    password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
-    port: 35000
-    server: 206.71.158.40
-    skip-cert-verify: true
-    sni: jnir.pichondan.com
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1EB\U0001F1EEFI_1|1.2MB/s|GPT⁺|NF|13%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
-      short-id: d3b13f31
-    server: fin-0001-xr.packet-drop-society.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_5|2.1MB/s|GPT⁺|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 45.38.145.119
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.79 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: fei.634676.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1EASE_1|1.7MB/s|GPT⁺|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 95.182.99.108
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: fei.634676.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_6|3.2MB/s|GPT⁺|YT-US|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 129.146.46.164
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.79 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: fei.634676.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_7|2.3MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 89.19.44.247
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.118 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: fei.634676.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1E6CA_1|2.8MB/s|GPT⁺|YT-CA|NF|GM|20%"
-    network: ws
-    port: 443
-    server: glassdoor.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0f65a4ee-ac15-4451-8b37-72230181c06c
-    ws-opts:
-      headers:
-        Host: rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko)
-          Chrome/11.0.696.3 Safari/534.24
-      path: /ws
-    xudp: true
-    servername: rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_6|876KB/s|GPT⁺|D+|3%"
-    network: ws
-    port: 443
-    server: 194.233.167.252
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/41.0.2272.104 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: fei.634676.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_7|2.1MB/s|GPT⁺|NF"
-    network: ws
-    port: 443
-    server: seriouseats.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 028ad849-cb35-4934-9a6a-79a7b480ab0f
-    ws-opts:
-      headers:
-        Host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.102 Safari/537.36
-      path: /ws
-    xudp: true
-    servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL_8|2.5MB/s|GPT⁺|0%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
-      short-id: d3b13f31
-    server: nld-0001-xr.packet-drop-society.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - name: "\U0001F1FA\U0001F1F8US_8|1.6MB/s|GPT⁺|YT-US|NF|D+|GM|3%"
-    network: ws
-    port: 443
-    server: 134.199.185.31
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_9|3.5MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 51.195.102.68
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F3IN_1|2.1MB/s|GPT⁺|YT-IN"
-    network: ws
-    port: 443
-    server: 1password.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: e4114a7b-ab89-4670-9948-28192363b9b1
-    ws-opts:
-      headers:
-        Host: rAyAn-cOnFiG-in-1.pArSa.dPdNs.oRg
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-      path: /ws
-    xudp: true
-    servername: rAyAn-cOnFiG-in-1.pArSa.dPdNs.oRg
-  - name: "\U0001F1E9\U0001F1EADE_8|3.6MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 2087
-    server: 5.75.192.9
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_9|820KB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 54.37.64.98
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_10|2.9MB/s|GPT⁺|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 89.19.44.61
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_11|2.3MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 162.19.253.47
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_12|1.1MB/s|GPT⁺|YT-DE|D+|3%"
-    network: ws
-    port: 2096
-    server: 51.195.25.187
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_13|2.9MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 162.55.92.198
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_14|2.1MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 91.107.179.48
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_10|1.4MB/s|GPT⁺|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 49.12.160.221
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_15|4.2MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 89.19.44.43
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_16|3.7MB/s|GPT⁺|YT-DE|NF|D+"
-    network: ws
-    port: 8443
-    server: 128.140.121.191
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EC\U0001F1E7GB_2|1.9MB/s|GPT⁺|YT-GB|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 5.144.182.188
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_11|3.5MB/s|GPT|YT-SG|D+|GM|0%"
-    network: ws
-    port: 443
-    server: 172.104.188.73
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_6|1.9MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 91.121.40.210
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_17|2.2MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 91.107.135.29
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_12|1.4MB/s|GPT⁺|YT-DE|NF|D+"
-    network: ws
-    port: 443
-    server: 148.251.75.158
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_18|1.9MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 91.107.230.41
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_7|1.3MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 141.94.220.64
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_8|4.5MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 141.94.221.119
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_13|1.1MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 91.107.191.42
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EC\U0001F1E7GB_3|3.7MB/s|GPT⁺|YT-GB|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 91.199.32.132
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_9|1.1MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 37.59.96.47
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_10|854KB/s|GPT⁺|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 51.91.251.144
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_19|1.3MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 54.37.73.185
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_20|1.3MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 148.251.134.94
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_11|5.1MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 141.94.221.163
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_12|2.0MB/s|GPT⁺|YT-FR|NF|D+"
-    network: ws
-    port: 443
-    server: 51.91.249.241
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_13|1.6MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 51.91.251.153
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_14|878KB/s|GPT⁺|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 141.94.70.24
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_15|2.9MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 51.91.251.144
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_16|4.3MB/s|GPT|YT-FR|NF|D+"
-    network: ws
-    port: 443
-    server: 51.91.248.38
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_14|4.0MB/s|GPT⁺|YT-US|NF|D+|GM|26%"
-    network: ws
-    port: 443
-    server: bestcdn3.the-best-airport.top
-    tls: true
-    type: vmess
-    uuid: 27c291e8-0391-42d1-a79b-4e491e0d7502
-    ws-opts:
-      headers:
-        Host: vv-a3-cdn.the-best-airport.top
-      path: /aejynik
-    servername: bestcdn3.the-best-airport.top
-  - name: "\U0001F1FA\U0001F1F8US_15|2.9MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 152.228.134.60
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_17|1.9MB/s|GPT⁺|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 141.94.221.78
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_18|1.2MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 51.91.254.97
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_19|814KB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 51.91.253.174
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_20|2.3MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 51.91.250.183
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_21|4.4MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 141.94.206.137
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_21|1.2MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 194.233.167.212
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_22|1.6MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 51.91.254.173
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1F8\U0001F1EASE_2|4.4MB/s|GPT⁺|YT-SE|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 104.252.127.253
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_23|931KB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 51.91.255.121
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_24|2.9MB/s|GPT⁺|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 51.91.253.174
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1F8\U0001F1EASE_3|833KB/s|GPT⁺|YT-SE|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 45.38.139.10
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_16|4.3MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 51.89.23.94
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_22|1.9MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 139.144.181.40
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_25|1.4MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 51.91.251.87
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_23|1.2MB/s|GPT⁺|YT-DE|NF|D+|3%"
-    network: ws
-    port: 443
-    server: 45.38.145.22
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_26|1.6MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 51.91.254.111
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1E9\U0001F1EADE_24|1018KB/s|GPT⁺|NF|D+|3%"
-    network: ws
-    port: 2053
-    server: 51.195.101.75
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_27|1.6MB/s|GPT⁺|YT-FR|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 141.94.222.42
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1F7FR_28|832KB/s|GPT|YT-FR|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 141.94.221.189
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1EB\U0001F1EEFI_2|1.6MB/s|GPT⁺|YT-FI|NF|D+|3%"
-    network: ws
-    port: 8443
-    server: 65.109.200.234
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_17|5.7MB/s|YT-US|NF|D+|GM"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: koma-yt.pages.dev
+    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 5eaa121d-4362-444d-8219-29b02c35303a
+    port: 49425
+    server: 104.250.239.32
     skip-cert-verify: false
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: /tro8sFW1S91B6sZrM1
-  - auth: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
-    name: "\U0001F1ED\U0001F1F0HK_2|969KB/s|YT-HK|0%"
-    password: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
-    port: 443
-    server: 8f096199-t44ps0-tk4rx8-1n7d9.hk1.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 8f096199-t44ps0-tk4rx8-1n7d9.hk1.hyhuawei.com
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8US_18|5.2MB/s|GPT⁺|YT-US|NF|D+|GM|0%"
-    password: 'TG:@Enkelte_notif&&TG:@Notif_Chat'
-    port: 34045
-    server: 38.150.0.172
-    type: ss
-    udp: true
-  - cipher: 2022-blake3-aes-256-gcm
-    name: "\U0001F1EC\U0001F1E7GB_4|3.3MB/s|GPT|YT-GB|33%"
-    password: >-
-      5CX5dFRzQ29X1CTxHC/vsB35i7lLe82HeloZ3LBBbRw=:lVWD5jwK0Z2r7SodPX41giubPaDi4IrgkTfQ+ejUaFw=
-    port: 2053
-    server: adas-polo-ba-mahi.kotlet.org
-    type: ss
-    udp: true
-  - name: "\U0001F1F3\U0001F1F1NL_9|3.0MB/s|GPT⁺|YT-NL|NF|D+|0%"
-    obfs: salamander
-    obfs-password: Telegram-->@Ln2Ray
-    password: Telegram-->@Ln2Ray
-    port: 45000
-    server: 206.71.158.23
-    skip-cert-verify: true
-    sni: gavazn.55994421.xyz
-    type: hysteria2
-  - name: "\U0001F1F3\U0001F1F1NL_10|3.0MB/s|GPT⁺|YT-NL|NF|D+|0%"
-    obfs: salamander
-    obfs-password: Telegram-->@Ln2Ray
-    password: Telegram-->@Ln2Ray
-    port: 45000
-    server: gavazn.lnmarketplace.net
-    skip-cert-verify: true
-    sni: gavazn.55994421.xyz
-    type: hysteria2
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_11|4.0MB/s|GPT⁺|NF|0%"
-    password: HL2t4lllOq3Huzlna43Ix8
-    port: 25767
-    server: 5.129.219.177
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EE\U0001F1F9IT_1|2.5MB/s|GPT⁺|YT-RO|NF"
-    password: SwTShXYSQd404FISs8NFeJ
-    port: 443
-    server: promo19v.bystrivpn.ru
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_12|4.5MB/s|GPT⁺|YT-US|NF|72%"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 45.87.175.168
-    type: ss
-    udp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EADE_25|4.3MB/s|GPT⁺|YT-DE|NF"
-    network: ws
-    port: 80
-    server: 161.35.207.27
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 3c4ba4dd-fdf5-4441-8b42-efed8559b63d
-    ws-opts:
-      headers: {}
-      path: /cdn-cgi/trace
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F5\U0001F1F9PT_1|3.1MB/s|GPT⁺|NF|D+|45%"
-    network: tcp
-    port: 8080
-    reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 31.129.22.117
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    xudp: true
-    servername: yandex.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_13|984KB/s|GPT⁺|YT-NL|NF|0%"
-    network: tcp
-    port: 32155
-    reality-opts:
-      public-key: 6-b7u_t7wG_jbda_lucHW4Au9biBl1E0tA2Zkqm8mSw
-      short-id: 737af772
-    server: 31.207.44.210
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2e23b585-a486-4541-83d8-5832a1409c6e
-    xudp: true
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_29|4.5MB/s|GPT⁺|YT-FR|NF|29%"
-    network: tcp
-    port: 23
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: fr.l00l.vip
-    tls: true
-    type: vless
-    udp: true
-    uuid: 39d82d4b-8c32-471a-9f70-4cfe054fdd04
-    xudp: true
-    servername: www.deepl.com
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7FR_30|5.2MB/s|GPT⁺|YT-DE|NF|37%"
-    network: ws
-    port: 443
-    server: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: >-
-        /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
-    xudp: true
-    servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EE\U0001F1F9IT_2|4.2MB/s|GPT⁺|YT-US|NF|0%"
-    network: tcp
-    port: 15615
-    reality-opts:
-      public-key: 74g1eX2r4tNtYKLLBjdetBdrNRJ-zjpE89-ggFpTjDs
-      short-id: 8bf91d50ee48dfeb
-    server: bela-chaw-chaw-chaw.yas-baaq.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6c635537-ab39-f22c-b470-f908efc54ce0
-    xudp: true
-    servername: refersion.com
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_31|4.3MB/s|GPT⁺|YT-DE|NF|37%"
-    network: grpc
-    port: 15298
-    server: 54.36.115.88
-    type: vless
-    udp: true
-    uuid: 9c42231c-c24e-4cbd-8491-29a29e171ff0
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_14|4.3MB/s|GPT⁺|YT-RU|NF|32%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
-      short-id: 16895459a2c7768d
-    server: wa.sfasti.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
-    xudp: true
-    servername: wa.sfasti.ru
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_19|854KB/s|GPT⁺|YT-US|NF|D+|GM|3%"
-    network: ws
-    port: 443
-    server: www.speedtest.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: d7d6745c-7264-44a4-a62f-97b4ce83a951
-    ws-opts:
-      headers:
-        Host: totoo.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    servername: totoo.pages.dev
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_20|2.8MB/s|GPT⁺|YT-RU|NF|26%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
-      short-id: f8c64c7a
-    server: 212.18.104.19
-    tls: true
-    type: vless
-    udp: true
-    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-    xudp: true
-    servername: vk.cc
-  - down: ''
-    fingerprint: >-
-      49:95:39:6A:0A:DE:B6:46:FD:F5:52:68:9E:DC:DA:64:78:B3:5F:3E:81:6A:38:D3:1E:2B:F2:52:55:0E:BD:75
-    name: "\U0001F1EB\U0001F1EEFI_3|3.9MB/s|GPT⁺|YT-FI|NF|0%"
-    obfs: salamander
-    obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
-    password: 'theredarmy:GERDTRGHFSRqP8SyMqtVE0pPjQneGUia'
-    port: 443
-    server: 80.85.241.237
-    skip-cert-verify: true
-    sni: stackoverflow.com
+    sni: real.getafreenode.sbs
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_21|1.7MB/s|GPT⁺|YT-US|NF|GM|26%"
-    obfs: ''
-    obfs-password: ''
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    port: 22154
-    server: hsxjp.huasuan666.top
-    skip-cert-verify: true
-    sni: hsxjp.huasuan666.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_22|1.6MB/s|GPT⁺|YT-US|NF|GM|26%"
-    obfs: ''
-    obfs-password: ''
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    port: 22159
-    server: hsadly.huasuan666.top
-    skip-cert-verify: true
-    sni: hsadly.huasuan666.top
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_26|5.0MB/s|GPT⁺|YT-DE|NF"
-    network: ws
-    port: 443
-    server: 1password.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-    ws-opts:
-      headers:
-        Host: rayan-007.foton.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.110 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: rAyAn-007.fOtOn.dPdNs.oRg
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_23|1.7MB/s|GPT⁺|YT-US|NF|GM|26%"
-    obfs: ''
-    obfs-password: ''
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    port: 22151
-    server: hsmg.huasuan666.top
-    skip-cert-verify: true
-    sni: hsmg.huasuan666.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1EASE_4|900KB/s|GPT⁺|NF|11%"
+    name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s|GPT⁺|NF|D+|GM|0%"
     obfs: ''
     obfs-password: ''
     password: 0cb527d9-6117-4bcf-a52b-1704b3458cef
-    port: 56684
-    server: 147.45.73.70
+    port: 49425
+    server: 104.250.239.32
     skip-cert-verify: false
     sni: real.getafreenode.sbs
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1EASE_5|1.0MB/s|GPT⁺|NF|11%"
+    name: "\U0001F1FA\U0001F1F8US_4|1.2MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_5|1.3MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 6bf726db-fb0b-405b-899a-3e263f092eda
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_6|1.3MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 52816135-d3bc-46bc-a915-09886a2e2b2e
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_7|1.5MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 48c2c901-72e6-46d4-ac78-169d73264cbf
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_8|1.9MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 4685eb2a-5ddb-4dc6-9e53-f0c90d6124c1
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_9|1.2MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 1fdb6b30-5371-4ff8-a001-efdc4b43d79b
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_10|1.2MB/s|GPT⁺|NF|D+|GM|0%"
     obfs: ''
     obfs-password: ''
     password: 07c122ad-50b2-4f61-9435-efcf112bb10b
-    port: 56684
-    server: 147.45.73.70
+    port: 49425
+    server: 104.250.239.32
     skip-cert-verify: false
     sni: real.getafreenode.sbs
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1EASE_6|968KB/s|GPT⁺|NF|11%"
+    name: "\U0001F1FA\U0001F1F8US_11|1.3MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_12|1.3MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 23125f6e-ec56-4c26-9714-0bbacdb53d01
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_13|1021KB/s|GPT⁺|NF|D+|GM|0%"
     obfs: ''
     obfs-password: ''
     password: 80b2ac81-ba69-41f9-bb46-820b7b3af4dd
-    port: 56684
-    server: 147.45.73.70
+    port: 49425
+    server: 104.250.239.32
     skip-cert-verify: false
     sni: real.getafreenode.sbs
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1EASE_7|2.6MB/s|GPT⁺|NF|11%"
+    name: "\U0001F1FA\U0001F1F8US_14|1.1MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 29fbd51f-03c8-4d76-849a-436e54d58317
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_15|1.9MB/s|GPT⁺|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: c6e02cd8-ce11-40f0-afeb-e2c412b6cc3a
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_16|959KB/s|GPT⁺|NF|D+|GM|0%"
     obfs: ''
     obfs-password: ''
     password: 9c859345-959f-491b-b6fc-65cd7a57aeb3
-    port: 56684
-    server: 147.45.73.70
+    port: 49425
+    server: 104.250.239.32
     skip-cert-verify: false
     sni: real.getafreenode.sbs
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1EASE_8|3.3MB/s|GPT⁺|NF|11%"
-    obfs: ''
-    obfs-password: ''
-    password: ebbeef45-0fd8-40cd-aca5-1e2ce18abeff
-    port: 56684
-    server: 147.45.73.70
-    skip-cert-verify: false
-    sni: real.getafreenode.sbs
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1EASE_9|3.9MB/s|GPT⁺|NF|11%"
+    name: "\U0001F1FA\U0001F1F8US_17|1.3MB/s|GPT⁺|NF|D+|GM|0%"
     obfs: ''
     obfs-password: ''
     password: e31ad3e6-e341-42ac-bdc7-bea02d126fc1
-    port: 56684
-    server: 147.45.73.70
+    port: 49425
+    server: 104.250.239.32
     skip-cert-verify: false
     sni: real.getafreenode.sbs
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_15|877KB/s|GPT|YT-NL|NF|D+|0%"
+    name: "\U0001F1FA\U0001F1F8US_18|1.6MB/s|GPT⁺|NF|D+|GM|0%"
     obfs: ''
     obfs-password: ''
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    port: 22157
-    server: hshl.huasuan666.top
-    skip-cert-verify: true
-    sni: hshl.huasuan666.top
+    password: ebbeef45-0fd8-40cd-aca5-1e2ce18abeff
+    port: 49425
+    server: 104.250.239.32
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
     type: hysteria2
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F8\U0001F1EASE_10|3.7MB/s|GPT⁺|NF|11%"
+    name: "\U0001F1FA\U0001F1F8US_19|2.7MB/s|GPT⁺|NF|D+|GM|0%"
     obfs: ''
     obfs-password: ''
     password: f901861b-6491-450c-b500-606b2e921625
-    port: 56684
-    server: 147.45.73.70
+    port: 49425
+    server: 104.250.239.32
     skip-cert-verify: false
     sni: real.getafreenode.sbs
     type: hysteria2
     up: ''
+  - client-fingerprint: randomized
+    name: "\U0001F1F8\U0001F1ECSG_1|4.1MB/s|GPT⁺|YT-SG|NF|D+|GM|3%"
+    network: ws
+    port: 2095
+    server: openai.com
+    tls: false
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: freedom.pusytroller.cf
+      path: /
+  - client-fingerprint: randomized
+    name: "\U0001F1F8\U0001F1ECSG_2|2.8MB/s|GPT⁺|YT-SG|NF|D+|GM|3%"
+    network: ws
+    port: 2095
+    server: www.wto.org
+    tls: false
+    type: vless
+    udp: true
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: freedom.pusytroller.cf
+      path: /
+  - auth: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b
+    name: "\U0001F1FA\U0001F1F8US_20|936KB/s|GPT⁺|YT-US|NF|33%"
+    password: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b
+    port: 443
+    server: d3710ffb-t48f40-tkgk4w-1fvdh.us.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: d3710ffb-t48f40-tkgk4w-1fvdh.us.hyhuawei.com
+  - auth: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+    name: "\U0001F1ED\U0001F1F0HK_3|2.2MB/s|YT-HK"
+    password: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
+    port: 443
+    server: 61efb1cc-t46kg0-tkp3tl-1s09x.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 61efb1cc-t46kg0-tkp3tl-1s09x.hk2.hyhuawei.com
+  - auth: 3549abda-3854-11ef-b71e-f23c9164ca5d
+    name: "\U0001F1ED\U0001F1F0HK_4|1.9MB/s|3%"
+    password: 3549abda-3854-11ef-b71e-f23c9164ca5d
+    port: 443
+    server: c96ac54c-t48f40-tkg9xn-1ruih.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: c96ac54c-t48f40-tkg9xn-1ruih.hk2.hyhuawei.com
   - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_1|957KB/s|GPT⁺|YT-VN|GM"
+    name: "\U0001F1FB\U0001F1F3VN_4|3.4MB/s|GPT⁺|YT-VN|NF|GM"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.154.18
+    server: 103.186.155.113
     type: ss
+    udp: true
+  - auth: b02327ac-a49a-11ef-a673-f23c913c8d2b
+    name: "\U0001F1ED\U0001F1F0HK_5|2.1MB/s|YT-HK|3%"
+    password: b02327ac-a49a-11ef-a673-f23c913c8d2b
+    port: 443
+    server: ca488717-t48f40-t7udc0-1pqhp.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: ca488717-t48f40-t7udc0-1pqhp.hk2.hyhuawei.com
+  - auth: 431026c8-7397-11ed-a8bf-f23c91cfbbc9
+    name: "\U0001F1ED\U0001F1F0HK_6|1.6MB/s|YT-HK|NF|3%"
+    password: 431026c8-7397-11ed-a8bf-f23c91cfbbc9
+    port: 443
+    server: 83f9c5f1-t48f40-t4vaxk-1la2q.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 83f9c5f1-t48f40-t4vaxk-1la2q.hk2.hyhuawei.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_5|2.5MB/s|GPT⁺|YT-VN|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.229
+    type: ss
+    udp: true
+  - auth: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+    name: "\U0001F1ED\U0001F1F0HK_7|1.3MB/s|YT-HK|3%"
+    password: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+    port: 443
+    server: 3fe6528e-t48f40-tnqudu-1mim2.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 3fe6528e-t48f40-tnqudu-1mim2.hk2.hyhuawei.com
+  - auth: baa46fd6-63c1-11ed-8ea9-f23c913c8d2b
+    name: "\U0001F1ED\U0001F1F0HK_8|1.6MB/s|YT-HK"
+    password: baa46fd6-63c1-11ed-8ea9-f23c913c8d2b
+    port: 443
+    server: 0fc4fb3d-t48f40-tb36ag-1jfq7.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 0fc4fb3d-t48f40-tb36ag-1jfq7.hk2.hyhuawei.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_6|828KB/s|GPT⁺|YT-US|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.51
+    type: ss
+    udp: true
+  - auth: 7c077572-6da9-11ef-b786-f23c91cfbbc9
+    name: "\U0001F1ED\U0001F1F0HK_9|1.2MB/s|YT-HK|3%"
+    password: 7c077572-6da9-11ef-b786-f23c91cfbbc9
+    port: 443
+    server: eecb937c-t48f40-t9hghw-1sdoq.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: eecb937c-t48f40-t9hghw-1sdoq.hk2.hyhuawei.com
+  - auth: 775baa4a-d75b-11ef-a11a-f23c913c8d2b
+    name: "\U0001F1ED\U0001F1F0HK_10|834KB/s|3%"
+    password: 775baa4a-d75b-11ef-a11a-f23c913c8d2b
+    port: 443
+    server: f7d16a27-t46kg0-t6gglr-1t8q3.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: f7d16a27-t46kg0-t6gglr-1t8q3.hk2.hyhuawei.com
+  - auth: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
+    name: "\U0001F1ED\U0001F1F0HK_11|1.0MB/s|YT-HK"
+    password: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
+    port: 443
+    server: 9b9ed57f-t48f40-t7u86c-1s2ks.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 9b9ed57f-t48f40-t7u86c-1s2ks.hk2.hyhuawei.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
