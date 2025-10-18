@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -15,7 +15,7 @@ proxies:
     auth-str: dongtaiwang.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1E6\U0001F1F1AL_1|3.0MB/s|GPT⁺|YT-US|NF|0%"
+    name: "\U0001F1E6\U0001F1F1AL_1|953KB/s|GPT|YT-US|0%"
     obfs: salamander
     obfs-password: Parsashonam
     password: NxiqWfMY5A
@@ -26,416 +26,9 @@ proxies:
     type: hysteria2
     up: ''
     disable-sni: true
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|3.4MB/s|GPT⁺|YT-NL|NF"
-    obfs: ''
-    port: 49003
-    protocol: udp
-    server: 51.159.226.1
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
-  - name: "\U0001F1F0\U0001F1F7KR_1|899KB/s|GPT|YT-KR|NF|D+"
-    network: ws
-    port: 12151
-    server: 218.151.91.131
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_2|1.7MB/s|GPT|YT-KR|NF|D+"
-    network: ws
-    port: 50001
-    server: 220.126.185.107
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔 /
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_3|1.2MB/s|GPT⁺|YT-KR|NF|D+|GM"
-    network: ws
-    port: 50001
-    server: 125.141.38.50
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s|GPT⁺|NF"
-    port: 50011
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11 Mbps
-  - name: "\U0001F1F0\U0001F1F7KR_4|1.1MB/s|GPT|YT-KR|NF|D+|GM"
-    network: ws
-    port: 50001
-    server: 220.90.247.28
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_2|1.7MB/s|GPT⁺"
-    obfs: ''
-    port: 35511
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
-  - name: "\U0001F1F0\U0001F1F7KR_5|2.2MB/s|YT-KR|NF|D+|GM"
-    network: ws
-    port: 30010
-    server: 112.173.185.16
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_6|844KB/s|GPT|YT-KR|NF|D+|GM"
-    network: ws
-    port: 50001
-    server: 118.45.152.231
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔 /
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_7|2.1MB/s|YT-KR|NF|D+|GM"
-    network: ws
-    port: 50000
-    server: 118.47.194.165
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_8|993KB/s|YT-KR|NF|D+|GM"
-    network: ws
-    port: 50001
-    server: 106.252.245.199
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s|GPT|YT-JP|GM"
-    network: ws
-    port: 33817
-    server: 121.167.16.189
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_9|3.0MB/s|GPT|YT-KR|NF|D+"
-    network: ws
-    port: 50001
-    server: 115.94.122.118
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_10|857KB/s|YT-KR|NF|D+"
-    network: ws
-    port: 50004
-    server: 121.145.201.24
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_11|897KB/s|YT-KR|NF|GM"
-    network: ws
-    port: 10030
-    server: 183.106.76.116
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_12|1.7MB/s|GPT|YT-KR|NF|D+"
-    network: ws
-    port: 50001
-    server: 182.210.59.164
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_13|952KB/s|YT-KR|NF|D+"
-    network: ws
-    port: 10041
-    server: 211.197.161.123
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s|D+|3%"
-    network: ws
-    port: 80
-    server: 38721ce7-t3rr40-tdnzz0-1qtp7.hk3.p5pv.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
-    ws-opts:
-      path: /
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: 38721ce7-t3rr40-tdnzz0-1qtp7.hk3.p5pv.com
-    servername: broadcastlv.chat.bilibili.com
-  - name: "\U0001F1F0\U0001F1F7KR_14|1.1MB/s|YT-KR|NF|D+|GM"
-    network: ws
-    port: 10001
-    server: 119.201.195.135
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔 /
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_15|936KB/s|GPT|YT-KR|NF"
-    network: ws
-    port: 30051
-    server: 175.201.95.5
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_16|1.2MB/s|GPT|YT-KR|NF|D+"
-    network: ws
-    port: 12336
-    server: 182.31.70.92
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_17|1.8MB/s|YT-KR|NF|D+|GM"
-    network: ws
-    port: 30106
-    server: 112.184.45.203
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /telegram @freecodes /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_18|815KB/s|GPT"
-    network: ws
-    port: 50000
-    server: 115.93.169.180
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔 /
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_19|1.1MB/s|YT-KR|NF|D+"
-    network: ws
-    port: 50000
-    server: 125.128.215.162
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /X@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_20|1.1MB/s|YT-KR|D+|GM"
-    network: ws
-    port: 50000
-    server: 125.136.226.1
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔 /
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1F0\U0001F1F7KR_21|824KB/s|GPT⁺|YT-KR|NF|D+|GM|3%"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
-    name: "\U0001F1FB\U0001F1F3VN_1|1.4MB/s|GPT⁺|YT-VN|GM"
-    network: tcp
-    port: 20006
-    reality-opts:
-      public-key: mSMsSffmzvBDOLYt_pX3lV1dxfvD2_5QH11GKcgXcxM
-    server: ntw01.619101.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9db8c629-783a-405b-a660-ce25ef9c0aff
-    servername: v1-dy.ixigua.com
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1FB\U0001F1F3VN_2|1.8MB/s|GPT⁺|YT-VN|NF|GM"
+    name: "\U0001F1FB\U0001F1F3VN_1|1.4MB/s|GPT⁺|YT-VN|NF|GM"
     network: tcp
     port: 20006
     reality-opts:
@@ -446,6 +39,55 @@ proxies:
     udp: true
     uuid: e57730ee-613d-4e04-8f13-9ef1a8cc03ce
     servername: v1-dy.ixigua.com
+  - name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s"
+    network: ws
+    port: 16923
+    server: 183.104.0.181
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    ws-opts:
+      headers:
+        Host: gaosir.unfeeling.sbs
+      path: /x @节点狂魔 /
+    servername: gaosir.unfeeling.sbs
+  - auth: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+    name: "\U0001F1ED\U0001F1F0HK_2|5.3MB/s|YT-HK|NF|D+|3%"
+    password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+    port: 443
+    server: 4cbc824e-t4fts0-t8xyf4-1l0qa.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 4cbc824e-t4fts0-t8xyf4-1l0qa.hk2.hyhuawei.com
+  - auth: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+    name: "\U0001F1FA\U0001F1F8US_2|2.1MB/s|GPT⁺|YT-US|NF|GM|33%"
+    password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+    port: 443
+    server: d00775a8-t4fts0-t8xyf4-1l0qa.us.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: d00775a8-t4fts0-t8xyf4-1l0qa.us.hyhuawei.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_2|1.9MB/s|GPT⁺|YT-VN|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.80
+    type: ss
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1E6UA_1|812KB/s|GPT⁺|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: c6e02cd8-ce11-40f0-afeb-e2c412b6cc3a
+    port: 45294
+    server: 185.126.255.78
+    skip-cert-verify: false
+    sni: real.getafreenode.sbs
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
