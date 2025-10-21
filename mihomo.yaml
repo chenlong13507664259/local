@@ -1,9 +1,33 @@
 proxies:
+  - name: ❓Other_2|7.3MB/s
+    password: BxceQaOe
+    port: 4451
+    server: 36.150.215.138
+    skip-cert-verify: true
+    tfo: false
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: ❓Other_1|1.3MB/s
+    password: BxceQaOe
+    port: 2088
+    server: 36.156.102.115
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - name: ❓Other_3|846KB/s
+    password: BxceQaOe
+    port: 2145
+    server: 36.151.251.18
+    skip-cert-verify: true
+    tfo: false
+    type: trojan
+    udp: true
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|3.5MB/s|GPT⁺|YT-CN|NF"
+    name: ❓Other_4|3.9MB/s
     obfs: ''
     port: 38845
     protocol: ''
@@ -15,7 +39,7 @@ proxies:
     auth-str: dongtaiwang.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_1|2.9MB/s|GPT"
+    name: ❓Other_5|2.1MB/s
     obfs: ''
     obfs-password: ''
     password: dongtaiwang.com
@@ -31,7 +55,7 @@ proxies:
     auth_str: dongtaiwang.com
     delay: 960
     down: 55
-    name: "\U0001F1F3\U0001F1F1NL_1|825KB/s|GPT⁺|NF"
+    name: ❓Other_6|1.3MB/s
     port: 49003
     protocol: udp
     server: 51.159.226.1
@@ -40,74 +64,6 @@ proxies:
     type: hysteria
     udp: true
     up: 11
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_2|992KB/s|GPT⁺"
-    obfs: ''
-    port: 35511
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
-  - name: "\U0001F1F0\U0001F1F7KR_1|880KB/s|GPT|YT-KR|NF|D+|GM"
-    network: ws
-    port: 30067
-    server: 112.156.154.95
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /x @节点狂魔security=tls
-    servername: gaosir.unfeeling.sbs
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_1|1.2MB/s|YT-US|D+|40%"
-    obfs: ''
-    obfs-password: ''
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    port: 22153
-    server: 103.136.150.23
-    skip-cert-verify: true
-    sni: hsxg.huasuan666.top
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1EE\U0001F1F6IQ_1|1.0MB/s|GPT⁺|D+|33%"
-    network: ws
-    port: 8080
-    server: 172.66.156.81
-    type: vless
-    udp: true
-    uuid: b3fe1652-b091-445e-aa81-f0b94f2bfe7d
-    ws-opts:
-      headers:
-        Host: >-
-          goodyear.eu.r6.tracker.network.websocket.com.www.speedtest.net.lightningtw.blog
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: >-
-        /@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8 US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_2|4.4MB/s|GPT⁺|YT-US|GM|0%"
-    network: none
-    port: 58914
-    server: 216.167.44.228
-    type: vmess
-    uuid: 14d66eeb-18d3-4380-a011-846db7580df7
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
