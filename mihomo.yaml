@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|3.0MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -13,59 +13,13 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_2|4.8MB/s|GPT⁺|YT-US|NF|D+|GM|14%"
-    network: tcp
-    port: 10001
-    reality-opts:
-      public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
-      short-id: ''
-    server: 1002.952326.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 199f7011-3820-4589-9c32-4b7e5ec46f16
-    xudp: true
-    servername: www.python.org
-  - client-fingerprint: ios
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s|GPT⁺|YT-US|NF|D+|GM|14%"
-    network: tcp
-    port: 10001
-    reality-opts:
-      public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
-      short-id: ''
-    server: 1002.952326.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 196a3e4e-0580-4fcd-8d90-c3025cf1fdf2
-    xudp: true
-    servername: www.python.org
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|2.8MB/s|GPT⁺|YT-SG|NF|GM"
-    password: BxceQaOe
-    port: 24392
-    server: 36.151.251.35
-    skip-cert-verify: true
-    type: trojan
-    udp: true
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     delay: 960
     down: 55
-    name: "\U0001F1F3\U0001F1F1NL_1|2.8MB/s|GPT⁺|YT-NL|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|3.5MB/s|GPT⁺|YT-NL|NF"
     port: 49003
     protocol: udp
     server: 51.159.226.1
@@ -75,56 +29,26 @@ proxies:
     udp: true
     up: 11
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|1.9MB/s|YT-HK|NF|D+|0%"
+    name: "\U0001F1F8\U0001F1ECSG_1|2.2MB/s|GPT⁺|YT-SG|NF|GM"
+    password: BxceQaOe
+    port: 24392
+    server: 36.151.251.35
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_1|1.0MB/s|YT-HK|NF|D+|0%"
     password: BxceQaOe
     port: 4451
     server: 36.151.251.23
     skip-cert-verify: true
     type: trojan
     udp: true
-  - encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s|GPT⁺|YT-US|NF|7%"
-    network: ws
-    port: 2095
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 25BYA--KANAL--JKVPN--JKVPN
-    ws-opts:
-      headers:
-        Host: jokervip.ahang-alpha.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/68.0.3440.106 Safari/537.36
-      path: >-
-        /TELEGRAM--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s|GPT⁺|YT-US|NF|GM|0%"
-    network: ws
-    port: 80
-    server: 172.66.156.81
-    type: vless
-    udp: true
-    uuid: 0d960308-500d-4bfb-a4d8-a5992a7577d0
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.store.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile
-          Safari/537.36
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    xudp: true
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s|GPT⁺|NF"
     obfs: ''
     port: 35511
     protocol: udp
@@ -138,7 +62,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_2|1.7MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_2|1.3MB/s|GPT⁺|NF"
     obfs: ''
     port: 50011
     protocol: udp
@@ -148,259 +72,73 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_2|978KB/s|YT-US|NF|D+|40%"
-    obfs: ''
-    obfs-password: ''
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    port: 22153
-    server: 103.136.150.23
-    skip-cert-verify: true
-    sni: hsxg.huasuan666.top
-    type: hysteria2
-    up: ''
-  - auth: cee9ee26-48d0-4683-8b4f-d93a815d97b9
-    name: "\U0001F1ED\U0001F1F0HK_3|2.4MB/s|YT-US|0%"
-    password: cee9ee26-48d0-4683-8b4f-d93a815d97b9
-    port: 7009
-    server: cn.eans.top
-    skip-cert-verify: true
-    sni: h.eans.top
-    type: hysteria2
-    udp: true
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1EC\U0001F1E7GB_1|2.4MB/s|GPT⁺|YT-CN|NF|19%"
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_2|3.0MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
     network: ws
-    port: 30829
-    server: v29.heduian.link
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    port: 2096
+    server: 104.21.238.2
+    tls: true
+    type: vless
     udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    uuid: 7937d663-a3bf-4218-9295-edfa224b72c4
     ws-opts:
       headers:
-        Host: ocbc.com
-      path: /oooo
+        Host: fei.634676.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
     xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_1|991KB/s|GPT⁺|YT-US|NF|9%"
-    network: tcp
-    port: 11000
-    reality-opts:
-      public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-      short-id: ''
-    server: de.pg.gozarino.com
-    tls: true
+    servername: fei.634676.xyz
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_3|1.7MB/s|GPT⁺"
+    obfs: ''
+    port: 40099
+    protocol: udp
+    server: 62.210.127.217
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1E9\U0001F1EADE_1|807KB/s|GPT⁺|YT-US"
+    network: ws
+    port: 2082
+    server: www.speedtest.net
     type: vless
     udp: true
-    uuid: 326ee258-7381-43c9-bd5c-4e1edf6b2470
+    uuid: a53a9a56-cdf4-4805-d039-a923d87e0413
+    ws-opts:
+      headers:
+        Host: >-
+          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2082
     xudp: true
-    servername: refersion.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_5|3.8MB/s|3%"
-    network: tcp
-    port: 30003
-    reality-opts:
-      public-key: byRurNKW8gQ1_aTAA20NlZ7xmnV0dkrJOmYjcfOdoX8
-      short-id: 609bd738
-    server: 144.24.7.139
-    tls: true
-    type: vless
-    udp: true
-    uuid: fb2502cd-7012-4ac9-8089-23a0ceef96f2
-    xudp: true
-    servername: gateway.icloud.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|2.4MB/s|GPT⁺|YT-CN|NF|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 19044
-    server: jp02.weyaf9sdoh2h.space
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s|GPT⁺|YT-US|NF|GM|23%"
+    network: ws
+    password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+    port: 443
+    server: 172.67.157.220
     skip-cert-verify: false
+    sni: 6666YHjU.777159.xYz
     type: trojan
     udp: true
-    sni: jp02.weyaf9sdoh2h.space
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_2|4.5MB/s|GPT|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 19053
-    server: jp02.weyaf9sdoh2h.space
-    skip-cert-verify: false
-    type: trojan
-    udp: true
-    sni: jp02.weyaf9sdoh2h.space
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_3|1.4MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 17081
-    server: jp03.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_4|924KB/s|GPT|YT-CN|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 19061
-    server: jp02.weyaf9sdoh2h.space
-    skip-cert-verify: false
-    type: trojan
-    udp: true
-    sni: jp02.weyaf9sdoh2h.space
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_5|897KB/s|GPT|YT-CN|NF|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 19098
-    server: jp02.weyaf9sdoh2h.space
-    skip-cert-verify: false
-    type: trojan
-    udp: true
-    sni: jp02.weyaf9sdoh2h.space
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_6|1.3MB/s|GPT⁺|YT-CN|D+|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 17086
-    server: jp03.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_7|897KB/s|GPT⁺|YT-CN|NF|D+|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 17062
-    server: jp03.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_8|861KB/s|GPT⁺|YT-CN|NF|D+|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 17084
-    server: jp03.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_9|3.5MB/s|GPT|YT-JP|D+"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18086
-    server: jp01.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_10|2.7MB/s|GPT|YT-JP|D+|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18048
-    server: jp01.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_11|974KB/s|GPT⁺|YT-CN|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 17005
-    server: jp03.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_12|981KB/s|GPT|YT-JP|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18005
-    server: jp01.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_13|1.0MB/s|GPT⁺|YT-CN|D+|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 17051
-    server: jp03.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_14|1.5MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 17060
-    server: jp03.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_15|903KB/s|GPT|YT-JP|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18035
-    server: jp01.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_16|960KB/s|GPT|YT-JP|NF|D+"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18039
-    server: jp01.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_17|830KB/s|GPT|YT-JP|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18069
-    server: jp01.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_18|1.3MB/s|GPT"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18079
-    server: jp01.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_19|1.6MB/s|GPT|YT-JP|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18022
-    server: jp01.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EF\U0001F1F5JP_20|1.3MB/s|GPT|D+|0%"
-    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
-    port: 18081
-    server: jp01.weyaf9sdoh2h.space
-    skip-cert-verify: true
-    sni: TG.WangCai2
-    type: trojan
-    udp: true
+    ws-opts:
+      path: /dilyfCPEmLvYr5hYXD
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
