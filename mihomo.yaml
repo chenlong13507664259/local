@@ -1,21 +1,9 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|4.0MB/s|GPT⁺|YT-US|NF|31%"
-    obfs: ''
-    obfs-password: ''
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    port: 1743
-    server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-    skip-cert-verify: false
-    sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-    type: hysteria2
-    up: ''
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_2|4.2MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|3.1MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -25,8 +13,28 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_2|3.8MB/s|GPT⁺|YT-US|NF|36%"
+    obfs: ''
+    obfs-password: ''
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    port: 1743
+    server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+    skip-cert-verify: false
+    sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+    type: hysteria2
+    up: ''
+  - auth: 94931862-1484-11f0-9ab7-f23c95b6f51d
+    name: "\U0001F1FA\U0001F1F8US_3|2.9MB/s|GPT⁺|YT-US|NF|36%"
+    password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+    port: 1743
+    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+    type: hysteria2
+    udp: true
+    sni: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
   - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-    name: "\U0001F1FA\U0001F1F8US_3|3.6MB/s|GPT⁺|YT-US|NF|31%"
+    name: "\U0001F1FA\U0001F1F8US_4|2.7MB/s|GPT⁺|YT-US|NF|36%"
     password: a16d62f6-048d-11f0-af5a-f23c93136cb3
     port: 1743
     server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
@@ -34,24 +42,16 @@ proxies:
     type: hysteria2
     udp: true
   - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-    name: "\U0001F1FA\U0001F1F8US_4|3.1MB/s|GPT⁺|YT-US|NF|31%"
+    name: "\U0001F1FA\U0001F1F8US_5|2.9MB/s|GPT⁺|YT-US|NF|36%"
     password: a16d62f6-048d-11f0-af5a-f23c93136cb3
     port: 1743
     server: 697c3dc5-t4v9c0-t4zzea-d6ar.la.shifen.uk
     type: hysteria2
     udp: true
     sni: 697c3dc5-t4v9c0-t4zzea-d6ar.la.shifen.uk
-  - auth: 94931862-1484-11f0-9ab7-f23c95b6f51d
-    name: "\U0001F1FA\U0001F1F8US_5|3.0MB/s|GPT⁺|YT-US|NF|31%"
-    password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-    port: 1743
-    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
-    type: hysteria2
-    udp: true
-    sni: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_6|3.4MB/s|GPT⁺|YT-US|NF|31%"
+    name: "\U0001F1FA\U0001F1F8US_6|2.8MB/s|GPT⁺|YT-US|NF|36%"
     obfs: ''
     obfs-password: ''
     password: 1b609740-eec2-11ef-8543-f23c93136cb3
@@ -61,32 +61,11 @@ proxies:
     sni: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
     type: hysteria2
     up: ''
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_1|1.2MB/s|GPT⁺|YT-VN|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.80
-    type: ss
-    udp: true
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|2.1MB/s|GPT⁺|NF"
-    obfs: ''
-    port: 40099
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-    auth-str: dongtaiwang.com
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_2|1.9MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s|GPT⁺|NF"
     obfs: ''
     port: 35511
     protocol: udp
@@ -100,7 +79,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_3|1.7MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_2|1.9MB/s|GPT⁺|NF"
     obfs: ''
     port: 50011
     protocol: udp
@@ -110,123 +89,123 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F5\U0001F1F1PL_1|817KB/s|GPT⁺|NF|12%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: e83edrY4QdUvXdmwO2iQbgyTeYjemYh7tpCzwJUZAw8
-      short-id: 75a982c6
-    server: 91.224.75.112
-    tls: true
-    type: vless
-    udp: true
-    uuid: 88b9b7e2-7d97-4a6c-9c19-7e9d1da82183
-    xudp: true
-    servername: poland24.clearorbitllc.com
-  - delay: 1926
-    name: "\U0001F1FA\U0001F1F8US_7|1.6MB/s|GPT|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 104.19.50.238
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: gaosir.unfeeling.sbs
-      max-early-data: 2560
-      path: "/telegram\U0001F1E8\U0001F1F3@wangcai2/"
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1FA\U0001F1F8US_8|835KB/s|GPT|YT-US|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 188.42.145.253
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - name: "\U0001F1FA\U0001F1F8US_9|3.0MB/s|GPT⁺|YT-US|NF|GM"
-    password: BxceQaOe
-    port: 27409
-    server: 36.150.215.241
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_3|1.7MB/s|GPT⁺|NF"
+    obfs: ''
+    port: 40099
+    protocol: udp
+    server: 62.210.127.217
     skip-cert-verify: true
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_10|1.5MB/s|NF|D+|GM|0%"
-    password: c232f411-96b5-4b07-b2f7-66a434725ffb
-    port: 23892
-    server: 38.45.89.97
+    sni: apple.com
+    type: hysteria
+    up: '100'
+    auth-str: dongtaiwang.com
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "\U0001F1F3\U0001F1F1NL_1|2.6MB/s|GPT⁺|YT-NL|NF"
+    obfs: ''
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
     skip-cert-verify: true
-    sni: fus02.mistea.top
-    type: hysteria2
-  - name: "\U0001F1ED\U0001F1F0HK_1|2.4MB/s|YT-HK|NF|D+|0%"
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1|1.1MB/s|GPT⁺|YT-US|NF"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.19
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK_1|2.0MB/s|YT-HK|NF|D+|0%"
     network: tcp
-    port: 11443
-    server: 183.240.252.102
+    port: 3443
+    server: 183.240.252.82
     skip-cert-verify: true
     tls: false
     type: vless
     udp: true
-    uuid: df245bf8-8253-4029-90d8-ef30cfac75f4
+    uuid: 3c7a1d84-2f9e-4c13-a5b2-8d9e7f4c2a66
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7FR_4|4.5MB/s|GPT⁺|YT-US|NF|7%"
+    network: ws
+    port: 443
+    server: colin.ns.cloudflare.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: a02fd758-c58b-48a8-bfb3-2b451ab44bb5
+    ws-opts:
+      headers:
+        Host: 638971674693810969.brussels-prmpl-aaaad.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: /fiedpnws
+    xudp: true
+    servername: 638971674693810969.brussels-prmpl-aaaad.com
   - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|5.1MB/s|GPT"
+    name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s|GPT⁺|YT-US|NF|9%"
     network: ws
     port: 2082
     server: www.speedtest.net
     type: vless
     udp: true
-    uuid: 1816bed5-27c0-42b4-9ae2-18f80054d440
+    uuid: 0d4dc7c4-d85e-4619-fe5d-4f4bda54a210
     ws-opts:
       headers:
         Host: >-
           novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
         User-Agent: >-
           Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-          Slackware/Chrome/12.0.742.100 Safari/534.30
+          Chrome/12.0.742.100 Safari/534.30
       path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2082
     xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_1|3.9MB/s|GPT⁺|YT-NL|NF"
-    network: ws
-    port: 2095
-    server: bm.boulvarmoein.shop
-    tls: true
-    type: vless
-    udp: true
-    uuid: v2rayng_76
-    ws-opts:
-      headers:
-        Host: bm.boulvarmoein.shop
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.84 Safari/537.36
-      path: /Telegram@v2rayng_76=
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: bm.boulvarmoein.shop
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_7|1.7MB/s|36%"
+    obfs: ''
+    obfs-password: ''
+    password: 712bdc36-24be-11ee-be53-f23c9313b177
+    port: 1743
+    server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
+    skip-cert-verify: false
+    sni: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_8|1.7MB/s|36%"
+    obfs: ''
+    obfs-password: ''
+    password: a16d62f6-048d-11f0-af5a-f23c93136cb3
+    port: 1743
+    server: 16004295-t4x400-t4zzea-d6ar.la.shifen.uk
+    skip-cert-verify: false
+    sni: 16004295-t4x400-t4zzea-d6ar.la.shifen.uk
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_9|1.5MB/s|36%"
+    obfs: ''
+    obfs-password: ''
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    port: 1743
+    server: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
+    skip-cert-verify: false
+    sni: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
