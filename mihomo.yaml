@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|4.1MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -13,251 +13,29 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - auth: 4a6bf640-5c5e-41d3-8078-89a12174cf57
-    name: "\U0001F1E9\U0001F1EADE_1|1.0MB/s|GPT⁺|YT-CN|NF|48%"
-    password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
-    port: 48450
-    server: de1.jueduibupao.top
-    skip-cert-verify: true
-    sni: de1.jueduibupao.top
-    type: hysteria2
-    udp: true
-  - name: "\U0001F1F8\U0001F1ECSG_1|2.8MB/s|GPT⁺|YT-SG|NF|D+|GM|6%"
-    network: ws
-    port: 2095
-    server: www.wto.org
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: fuckingfangbinxing.pusytroller.cf
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|6.7MB/s|YT-HK|NF|D+"
-    password: BxceQaOe
-    port: 1655
-    server: 36.150.215.231
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_2|4.6MB/s|GPT⁺|YT-CN|NF|0%"
-    password: dc9ea653-becc-44f1-95f9-16773a0519e9
-    port: 31013
-    server: fl01.lr9soflhleb.top
-    type: ss
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_1|2.4MB/s|GPT⁺|YT-NL|NF|D+|22%"
-    obfs: ''
-    obfs-password: ''
-    password: JOh7tQHdp8
-    port: 48361
-    server: 191.96.11.107
-    skip-cert-verify: true
-    sni: ''
-    type: hysteria2
-    up: ''
-    disable-sni: true
-  - name: "\U0001F1F9\U0001F1FCTW_1|2.5MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|2.6MB/s|GPT⁺|YT-CN|NF"
-    password: BxceQaOe
-    port: 4041
-    server: 36.150.215.245
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|3.0MB/s|GPT⁺|YT-US|NF"
-    password: BxceQaOe
-    port: 9269
-    server: 36.150.215.245
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_2|1.5MB/s|GPT⁺|NF"
-    obfs: ''
-    port: 49003
-    protocol: udp
-    server: 51.159.226.1
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s|GPT⁺|YT-US|NF|GM|33%"
-    obfs: ''
-    obfs-password: ''
-    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
-    port: 30000
-    server: us3.oomz.ru
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_5|1.2MB/s|GPT⁺|YT-US|NF|GM|33%"
-    obfs: ''
-    obfs-password: ''
-    password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
-    port: 30000
-    server: us1.oomz.ru
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    up: ''
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_6|1.2MB/s|GPT⁺|YT-US|NF|GM|28%"
-    network: ws
-    password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
-    port: 443
-    server: 172.67.157.220
-    skip-cert-verify: false
-    sni: 6666YHjU.777159.xYz
-    type: trojan
-    udp: true
-    ws-opts:
-      path: /dilyfCPEmLvYr5hYXD
-  - auth: 3807d049-edf7-47f2-af91-b601f89caf88
-    name: "\U0001F1FA\U0001F1F8US_7|977KB/s|GPT⁺|YT-US|NF|GM|33%"
-    password: 3807d049-edf7-47f2-af91-b601f89caf88
-    port: 20101
-    server: azcus1.jueduibupao.top
-    skip-cert-verify: true
-    sni: azcus1.jueduibupao.top
-    type: hysteria2
-    udp: true
-  - auth: 1c4a05b0-f6bc-4256-98a4-79a2db4056d2
-    name: "\U0001F1FA\U0001F1F8US_8|826KB/s|GPT⁺|YT-CN|NF|D+|100%"
-    password: 1c4a05b0-f6bc-4256-98a4-79a2db4056d2
-    port: 54265
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    skip-cert-verify: true
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-    type: hysteria2
-    udp: true
-  - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    name: "\U0001F1FA\U0001F1F8US_9|2.5MB/s|GPT⁺|YT-US|NF|33%"
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    port: 1743
-    server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-    skip-cert-verify: false
-    sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-    type: hysteria2
-    udp: true
-  - auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-    name: "\U0001F1FA\U0001F1F8US_10|1.7MB/s|GPT⁺|YT-US|NF|33%"
-    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-    port: 1743
-    server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-    skip-cert-verify: false
-    type: hysteria2
-    udp: true
-    sni: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-  - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    name: "\U0001F1FA\U0001F1F8US_11|1.6MB/s|GPT⁺|YT-US|NF|33%"
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    port: 1743
-    server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-    skip-cert-verify: false
-    type: hysteria2
-    udp: true
-    sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-  - auth: 92b2a3d4-f353-11ef-b714-f23c93136cb3
-    name: "\U0001F1FA\U0001F1F8US_12|1.3MB/s|GPT⁺|YT-US|NF|33%"
-    password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
-    port: 1743
-    ports: 20000-50000
-    server: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
-    type: hysteria2
-    udp: true
-    sni: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
-  - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-    name: "\U0001F1FA\U0001F1F8US_13|1.3MB/s|GPT⁺|YT-US|NF|33%"
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    port: 1743
-    ports: 20000-50000
-    server: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
-    skip-cert-verify: false
-    type: hysteria2
-    udp: true
-    sni: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
-  - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-    name: "\U0001F1FA\U0001F1F8US_14|1.6MB/s|GPT⁺|YT-US|NF|33%"
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    port: 1743
-    ports: 20000-50000
-    server: e89e3f91-t55r40-t5h706-dnss.la.shifen.uk
-    type: hysteria2
-    udp: true
-    sni: e89e3f91-t55r40-t5h706-dnss.la.shifen.uk
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_1|1.3MB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.25
-    type: ss
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_3|1.8MB/s|GPT⁺|NF|D+|6%"
-    network: ws
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F0\U0001F1F7KR_1|5.3MB/s|GPT⁺|YT-KR|NF|GM|3%"
+    network: tcp
     port: 443
-    server: 172.67.166.211
+    reality-opts:
+      public-key: yh4yX6_pM_VzpAx-tYb33PCzHYE6vC9w7Ov1FwNUjR8
+      short-id: ''
+    server: 3.36.62.128
     tls: true
     type: vless
     udp: true
-    uuid: c27bdfe9-929c-45cd-a917-aa47dae1cff7
-    ws-opts:
-      headers:
-        Host: soft98m.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: >-
-        /eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+    uuid: ead2118c-8b60-4805-b264-bb794c8600d0
     xudp: true
-    servername: soft98m.dPdNS.OrG
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_2|10.6MB/s|YT-HK|NF|D+|0%"
-    password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-    port: 20021
-    server: oss-cn-shanghai.letssepub.com
-    skip-cert-verify: false
-    sni: dingding-doc.com
-    type: trojan
-    udp: true
+    servername: www.ebay.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_1|4.3MB/s|GPT⁺|YT-FR|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s|GPT⁺|YT-FR|NF"
     obfs: ''
     obfs-password: ''
     password: dongtaiwang.com
@@ -267,6 +45,234 @@ proxies:
     sni: www.bing.com
     type: hysteria2
     up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT⁺|YT-CN|NF|D+|100%"
+    obfs: ''
+    obfs-password: ''
+    password: 28caf368-831f-49d4-8e2b-5496cb6ce197
+    port: 58338
+    server: lsus6.lansecs.top
+    skip-cert-verify: true
+    sni: lsus6.lansecs.top
+    type: hysteria2
+    up: ''
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 100
+    name: "\U0001F1EB\U0001F1F7FR_2|891KB/s|GPT⁺|YT-FR|NF"
+    port: 15010
+    protocol: udp
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 100
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1|1.1MB/s|GPT⁺|YT-US|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.233
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_2|980KB/s|GPT⁺|YT-US|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.71
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7FR_3|849KB/s|GPT⁺|YT-US|31%"
+    network: ws
+    port: 443
+    server: delilah.ns.cloudflare.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8b69546f-56eb-4fb7-a3a9-642a0c259f3d
+    ws-opts:
+      headers:
+        Host: 638980501945994339.insight-amshb.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/69.0.3497.100 Safari/537.36
+      path: /mdtduaws
+    xudp: true
+    servername: 638980501945994339.insight-amshb.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s|GPT⁺|YT-US|NF|GM|28%"
+    network: ws
+    port: 443
+    server: 172.67.162.50
+    tls: true
+    type: vless
+    udp: true
+    uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+    ws-opts:
+      headers:
+        Host: eEedFR5.7777155.Xyz
+      path: /6OWLjRc26b0nHYr5hYXD
+    servername: eEedFR5.7777155.Xyz
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1EE\U0001F1F7 IR"
+    name: "\U0001F1F3\U0001F1F1NL_1|3.7MB/s|GPT⁺|YT-RU|NF|100%"
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 151.242.251.133
+    type: ss
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG_1|1.8MB/s|GPT⁺|YT-SG|GM"
+    network: ws
+    port: 2096
+    server: news.zoom.us
+    tls: true
+    type: vless
+    udp: true
+    uuid: f8f192d7-44df-477c-b1f5-76e77a42f511
+    ws-opts:
+      headers:
+        Host: shalana.onhit.xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: /admin
+    xudp: true
+    servername: shalana.onhit.xyz
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "\U0001F1F3\U0001F1F1NL_2|2.0MB/s|GPT⁺|NF"
+    obfs: ''
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_4|1.5MB/s|GPT⁺|NF"
+    port: 50011
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN_3|1.4MB/s|GPT⁺|YT-LA|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.35
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EB\U0001F1EEFI_1|2.0MB/s|GPT⁺|NF|6%"
+    password: passxzHDLxkZoSAzqgKyq24Z
+    port: 31043
+    server: solar-3xui-hel-40-002.devastation.ru
+    type: ss
+    udp: true
+  - congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1ED\U0001F1F0HK_1|1.5MB/s|YT-HK|NF|D+|0%"
+    password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    port: 12955
+    reduce-rtt: false
+    request-timeout: 0
+    server: hktuic01.yydzx.xyz
+    sni: hktuic01.yydzx.xyz
+    type: tuic
+    uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    alpn:
+      - h3
+    version: 5
+  - auth: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    name: "\U0001F1FA\U0001F1F8US_4|2.7MB/s|GPT⁺|YT-US|NF|33%"
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    port: 1743
+    ports: 20000-50000
+    server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
+    type: hysteria2
+    udp: true
+    sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
+  - auth: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    name: "\U0001F1FA\U0001F1F8US_5|1.0MB/s|GPT⁺|YT-US|NF|GM|33%"
+    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
+    port: 20101
+    server: azcus1.jueduibupao.top
+    skip-cert-verify: true
+    sni: azcus1.jueduibupao.top
+    type: hysteria2
+    udp: true
+  - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    name: "\U0001F1FA\U0001F1F8US_6|2.7MB/s|GPT⁺|YT-US|NF|33%"
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    port: 1743
+    server: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    udp: true
+    sni: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
+  - auth: 94931862-1484-11f0-9ab7-f23c95b6f51d
+    name: "\U0001F1FA\U0001F1F8US_7|2.5MB/s|GPT⁺|YT-US|NF|33%"
+    password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+    port: 1743
+    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    udp: true
+    sni: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  - auth: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+    name: "\U0001F1FA\U0001F1F8US_8|2.4MB/s|GPT⁺|YT-US|NF|33%"
+    password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+    port: 1743
+    ports: 20000-50000
+    server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
+    type: hysteria2
+    udp: true
+    sni: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
+  - auth: 712bdc36-24be-11ee-be53-f23c9313b177
+    name: "\U0001F1FA\U0001F1F8US_9|2.4MB/s|GPT⁺|YT-US|NF|33%"
+    password: 712bdc36-24be-11ee-be53-f23c9313b177
+    port: 1743
+    server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    udp: true
+    sni: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
+  - auth: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    name: "\U0001F1FA\U0001F1F8US_10|2.3MB/s|GPT⁺|YT-US|NF|33%"
+    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+    port: 1743
+    server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    udp: true
+    sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+  - auth: 7b56a495-39a9-421d-8bed-81fe33b0e365
+    name: "\U0001F1EF\U0001F1F5JP_1|810KB/s|GPT⁺|YT-CN|NF|D+|100%"
+    password: 7b56a495-39a9-421d-8bed-81fe33b0e365
+    port: 48413
+    server: linjp1.jueduibupao.top
+    skip-cert-verify: true
+    sni: linjp1.jueduibupao.top
+    type: hysteria2
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
