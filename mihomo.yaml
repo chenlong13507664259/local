@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|3.9MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -13,62 +13,32 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_1|3.3MB/s|GPT⁺|YT-FR|NF"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 5355
-    server: 163.172.21.105
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|5.7MB/s|GPT⁺|YT-US|NF|GM"
-    password: 1b57001bd214304027025a740b6cf1ac
-    port: 373
-    server: 117.172.176.22
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-  - auth: ef392d8a-3473-4812-8d9d-cc91992dd49c
-    name: "\U0001F1FA\U0001F1F8US_3|996KB/s|GPT⁺|YT-US|NF|GM|33%"
-    password: ef392d8a-3473-4812-8d9d-cc91992dd49c
-    port: 20101
-    server: azcus1.jueduibupao.top
-    skip-cert-verify: true
-    sni: azcus1.jueduibupao.top
-    type: hysteria2
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|2.4MB/s|GPT⁺|YT-RU|NF|100%"
-    password: QCXDxuDlTTMD7jtgHUjIoj
-    port: 8080
-    server: 151.242.251.131
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN_1|1.6MB/s|GPT⁺|YT-US|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.22
     type: ss
-    udp: true
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
-    down: 100
-    name: "\U0001F1EB\U0001F1F7FR_2|1.7MB/s|GPT⁺|YT-FR|NF"
-    port: 15010
+    down: 55
+    name: "\U0001F1EB\U0001F1F7FR_1|849KB/s|GPT⁺"
+    port: 35511
     protocol: udp
-    server: 195.154.200.40
+    server: 62.210.10.186
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
     udp: true
-    up: 100
+    up: 11
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s|GPT⁺|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|2.0MB/s|GPT⁺|NF"
     obfs: ''
     port: 49003
     protocol: udp
@@ -82,7 +52,7 @@ proxies:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_3|1.7MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_2|1.4MB/s|GPT⁺"
     port: 50011
     protocol: udp
     server: 62.210.10.186
@@ -90,269 +60,34 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_1|885KB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.36
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_2|1009KB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.21
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_3|2.1MB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.22
-    type: ss
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_4|2.5MB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.215
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_5|2.0MB/s|GPT⁺|YT-US|NF"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.207
-    type: ss
-    udp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|3.0MB/s|GPT⁺|YT-US|NF|11%"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: f7aedffd-1209-4bd3-a58b-86f78c2e886b
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.77 Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|7.4MB/s|GPT⁺|YT-SG|NF|GM"
-    password: BxceQaOe
-    port: 2753
-    server: 36.150.215.244
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_4|5.8MB/s|GPT⁺|NF|GM"
-    password: BxceQaOe
-    port: 25891
-    server: 36.151.251.38
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: ❓Other_1|1.0MB/s|GPT⁺|YT-US
-    network: tcp
-    port: 17597
-    server: usvless.yydzx.xyz
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    xudp: true
-    servername: usvless.yydzx.xyz
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_6|1.3MB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.193
-    type: ss
-    udp: true
-  - encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_3|3.1MB/s|YT-NL|NF|D+|6%"
-    network: ws
-    port: 8880
-    server: 104.21.31.4
-    type: vless
-    udp: true
-    uuid: 0a5ab719-2407-4398-b507-8437ef365023
-    ws-opts:
-      headers:
-        Host: underthegun.cfd.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: >-
-        /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
-    xudp: true
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_5|1.3MB/s|GPT⁺|YT-US|NF|GM|0%"
-    network: ws
-    port: 80
-    server: 172.66.156.81
-    type: vless
-    udp: true
-    uuid: c5afd573-6716-413c-aa64-ad80e26408a0
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|7.5MB/s|GPT⁺|YT-CN|NF|D+|GM|48%"
-    network: ws
-    port: 80
-    server: hk2.nodea6a6.skynode.me
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: node-59-175-206-86.speedtest.cn
-      max-early-data: 2560
-      path: /download
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_6|863KB/s|GPT⁺|YT-US|NF|GM"
-    network: ws
-    port: 80
-    server: us2.nodea6a6.skynode.me
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: node-59-175-206-86.speedtest.cn
-      max-early-data: 2560
-      path: /download
-    xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FALU_1|2.6MB/s|GPT|YT-LU|NF|25%"
-    password: 0f908ebc-ab40-4c54-8880-9dbb8be773ad
-    port: 12004
-    server: lu.lyhycloud.org
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: lu.lyhycloud.org
-  - auth: 41eb08e1-e258-4fed-9c38-a3d459eb1d34
-    name: "\U0001F1FA\U0001F1F8US_7|1.2MB/s|GPT⁺|YT-CN|NF|D+|100%"
-    password: 41eb08e1-e258-4fed-9c38-a3d459eb1d34
-    port: 58338
-    server: lsus1.lansecs.top
-    skip-cert-verify: true
-    sni: lsus1.lansecs.top
-    type: hysteria2
-    udp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_1|5.8MB/s|GPT⁺|YT-JP|NF|D+|GM|100%"
-    network: ws
-    port: 8443
-    server: jp3.nodea6a6.skynode.me
-    tls: false
-    type: vmess
-    udp: true
-    uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
-    ws-opts:
-      headers:
-        Host: node-59-175-206-86.speedtest.cn
-      path: /download
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: node-59-175-206-86.speedtest.cn
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_7|2.4MB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.206
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_8|2.1MB/s|GPT⁺|YT-US|NF|GM"
-    network: ws
-    port: 80
-    server: us3.nodea6a6.skynode.me
-    tls: false
-    type: vmess
-    udp: true
-    uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
-    ws-opts:
-      headers:
-        Host: node-59-175-206-86.speedtest.cn
-      path: /download
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: node-59-175-206-86.speedtest.cn
-  - alpn:
+  - congestion-controller: bbr
+    disable-sni: false
+    name: ❓Other_1|3.7MB/s
+    password: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    port: 14081
+    reduce-rtt: false
+    request-timeout: 0
+    server: jptuic01.yydzx.xyz
+    sni: jptuic01.yydzx.xyz
+    type: tuic
+    uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    alpn:
       - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR_4|1.6MB/s|GPT⁺|NF"
-    port: 35511
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_9|4.0MB/s|GPT|YT-US|NF|GM"
-    network: ws
-    port: 8880
-    server: 104.17.147.22
-    type: vless
-    udp: true
-    uuid: Parsashonam-Bot-35
-    ws-opts:
-      headers:
-        Host: Fi.Parsashonam.CfD.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: >-
-        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2056
-    xudp: true
+    version: 5
+  - congestion-controller: bbr
+    disable-sni: false
+    name: ❓Other_2|5.0MB/s|GPT⁺|YT-SG
+    password: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    port: 13174
+    reduce-rtt: false
+    request-timeout: 0
+    server: sgtuic01.yydzx.xyz
+    sni: sgtuic01.yydzx.xyz
+    type: tuic
+    uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    alpn:
+      - h3
+    version: 5
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
