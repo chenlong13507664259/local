@@ -1,0 +1,394 @@
+全量同步和增量同步的区别？
+全量同步：不带过滤参数，全部数据（防止本地信息出现错误，或者操作失误导致数据错误，保证数据一致性）
+增量同步：带时间过滤参数的变化的数据（快速，挺高实时性）
+
+
+
+多线程并发处理供应商数据时，如何确保所有任务完成后再统一处理？
+ CountDownLatch 作为同步工具，完成的线程调用countdown()计数器减一,await()等待。
+
+
+如何设计失败重试机制？遇到过哪些典型异常？
+基于注解（如 @Retryable）设置最大重试次数和间隔
+记录失败数据到DB，便于后续排查
+HTTP客户端超时
+
+
+分布式锁的具体实现方案？如何避免死锁？
+Redis 的 SETNX 命令生成唯一锁标识，设置过期时间防止死锁。
+
+
+采购车如何支持多种商品类型？设计上有什么难点？
+使用公共字段（如商品ID、数量、用户ID）通过商品类型字段区分不同商品
+
+
+库存校验是如何集成的？
+用户添加商品到采购车时，预校验库存（读操作）；
+
+
+采购车数据存储方案为什么选择 Redis？数据结构如何设计的？
+读写频繁的场景下，内存操作远快于数据库
+Key：cart:{userId}，Value：Hash(JSON 字符串)。
+
+
+如何监控数据同步任务的健康状态？
+记录任务执行日志（如开始/结束时间、处理数据量）
+
+
+多线程处理时遇到性能瓶颈怎么优化的？
+初期直接为每个供应商创建线程，供应商增多后线程爆炸。改用线程池，控制最大并发数 （核心10，最大线程20，空闲线程存货时间60秒）
+
+
+大数据量同步时的分页策略？
+避免深度分页
+游标分页：基于ID范围查询，WHERE id > last_max_id LIMIT size（下一个分页接上一段末尾id）
+时间片分页：按时间范围分段拉取，配合索引提升效率
+
+
+同步过程中系统崩溃如何恢复？
+在DB中记录同步进度（最后成功时间戳/ID）
+每处理完一批数据立即记录检查点
+
+
+ES与数据库数据不一致怎么排查和解决？
+排查方法：在ES同步增加日志轨迹，便于追踪
+解决方法：异步线程池的方式来解决ES和数据库的数据同步问题（一般大部分数据能一致，可能较慢出现短暂不一致的情况）
+                 重试机制：内置重试，超过次数仍然失败就写进日志（修复方法：调用修复接口）
+                 修复：提取数据库数据-转换成ES文档-保存到ES
+
+
+采购车支持多种商品类型，具体怎么设计的？
+策略模式 创建接口，根据不同类型创建不同的类实现接口。
+
+
+如果现在重新设计这个系统，你会做哪些改进？
+增加全链路追踪，便于问题定位
+
+
+
+全局变量多线程（例题）
+
+
+countdownlatch优势 其它类似工具对比？
+子线程之间不需要互相等待，主线程需要知道“所有子任务都完成”这个状态。不需要阻塞。
+
+
+分布式含义？
+服务范围和适用场景，即跨进程、跨机器的。
+
+
+查询慢如何排查定位解决？
+开启慢查询日志（数据库）
+使用APM（应用性能管理）工具（链路追踪工具），它们可以自动生成调用链路图，清晰地展示一次请求调用了哪些服务、每个服务耗时多少、哪个方法是瓶颈。
+
+cpu 或内存满了分别如何排查？ 如何清理？
+任务管理器 (Ctrl+Shift+Esc) ->找到 java.exe 进程，记下 PID（再转16进制），找到对应的线程栈，查看这个高CPU线程正在执行什么Java方法。修复对应的代码（如优化循环、增加缓存、修复算法）
+紧急恢复：重启服务：最有效，立竿见影。清理缓存：如果应用提供了手动清理缓存的接口（如调用 /actuator/cache 端点），可以尝试执行。
+优化JVM参数：调整堆大小 (-Xmx, -Xms)，调整元空间大小 (-XX:MaxMetaspaceSize)，选择合适的垃圾收集器 (如G1)。
+
+
+
+怎么保证代码质量是可以的
+代码质量分析平台：分析潜在代码缺陷和漏洞。
+
+
+bean生命周期,beanfactory?
+实例化：Spring 容器通过反射调用构造函数创建一个 Bean 的实例。
+属性赋值：Spring 容器将 Bean 定义中的属性值（通过 Setter 方法或字段）注入到 Bean 实例中。
+初始化：执行各种初始化回调方法，使 Bean 达到可用状态。
+使用：Bean 在应用程序上下文中处于就绪状态，可以被其他 Bean 使用。
+销毁：当容器关闭时，执行销毁回调方法，进行资源清理。
+BeanFactory 是 Spring 框架的 核心接口，它是 Spring IoC 容器的基础实现。可以把它理解为一个 高级的 HashMap，负责管理 Bean 的定义、创建、配置和生命周期
+
+
+线程的生命周期？
+新建、可运行、阻塞、等待、超时等待、终止。
+
+
+redis用的单点还是集群？
+折中： Redis 主从复制 + Sentinel（哨兵）
+一主多从：一个主节点负责写，多个从节点复制数据并负责读（读写分离）。
+Sentinel 集群：一个独立的哨兵进程集群，负责监控主节点，并在其宕机时自动执行故障转移。
+
+
+
+redis的5个关键字？
+string hash list shortset set。
+
+
+mybatis-plus一级缓存二级缓存
+一级默认开启无法关闭，容易有脏数据。
+在分布式环境下，默认的基于内存的二级缓存基本不可用，因为它会导致节点间数据不一致。
+所以：使用 Redis、Memcached 等集中式缓存作为 MyBatis 的二级缓存实现。
+
+使用临时表再更新到正式表与直接正式表区别？
+正式表：
+（更新前到先查询商品存不存在）
+新商品：数据库里不存在，处理方式是 INSERT。
+已有商品的更新：数据库里已经存在了，处理方式是 UPDATE。
+
+临时表：直接把数据全部插入临时表，再更新正式表的gia列。
+
+
+
+购物车的redis锁避免库存被扣成负的。
+
+ES与数据库一致性？
+代码中修改数据库信息要同步更新对应字段到ES。                                                                                                                                                                                                 
+
+数据同步缓存与数据库不一致情况？
+先更新数据库后删缓存，删除缓存后，系统会通过后续的“读请求”自动、按需地将最新的数据重新加载到缓存中。 这个模式被称为 “懒加载” 或 “按需缓存”。
+
+
+join/innerjoin(高频5级):只返回两个表中匹配的行。两个表的交集。
+left join/left outer join(高频5级):返回左表所有记录 + 右表匹配记录。左表全集 + 右表匹配部分。
+right join/right outer join(低频使用1级)：返回右表所有记录 + 左表匹配记录。右表全集 + 左表匹配部分。
+full outer join(2级):返回两个表的所有记录。两个表的并集。
+cross join(2级):返回两个表的笛卡尔积。左表每行与右表所有行组合。
+self join(3级):表与自身连接。查询层次结构数据。
+
+
+索引类型	作用	示例
+普通索引	加速查询	CREATE INDEX idx_name ON users(name);
+唯一索引	加速查询 + 保证唯一性	CREATE UNIQUE INDEX idx_email ON users(email);
+主键索引	特殊唯一索引，每表一个	ALTER TABLE users ADD PRIMARY KEY (id);
+复合索引	多列组合索引	CREATE INDEX idx_name_age ON users(name, age);
+全文索引	文本内容搜索	CREATE FULLTEXT INDEX idx_content ON articles(content);
+应该创建索引的情况
+主键和外键（通常自动创建）
+WHERE 条件中的列
+JOIN 连接条件的列
+ORDER BY 和 GROUP BY 的列
+
+
+
+数据同步到ES调用同步方法就行，不用自己写同步方法。
+
+
+redis锁：
+String result = jedis.set(lockKey, lockValue, "NX", "PX", expireMs);
+public void unlock(String requestId) {
+    // 使用Lua脚本保证原子性
+    String luaScript = 
+        "if redis.call('get', KEYS[1]) == ARGV[1] then " +
+        "   return redis.call('del', KEYS[1]) " +
+        "else " +
+        "   return 0 " +
+        "end";
+    
+    // 执行Lua脚本
+    jedis.eval(luaScript, 1, LOCK_KEY, requestId);
+    // eval方法参数：脚本, key的数量, key, arg
+}
+本人数据同步增量同步超时时间10分钟，全量1小时。
+核心实现上，我们使用了Redis的 SET lock_key unique_value NX PX timeout 这个原子命令来获取锁。 其中unique_value是一个像UUID这样的唯一标识，timeout设置了锁的自动过期时间，这是防止死锁的关键。
+在释放锁的时候，我们特别注意了安全性。 我们使用Lua脚本实现了‘检查再删除’的原子操作。脚本会先检查当前锁的value是否和自己持有的unique_value一致，只有一致才会执行删除。这样就避免了因为网络延迟或程序执行时间偏差，导致误删其他客户端锁的风险。
+当然，我们也意识到这个基础方案存在一些可以优化的点，比如缺乏自动续期机制。 当时由于我们的同步任务执行时间远小于锁的超时时间，所以风险可控。但如果业务逻辑执行时间不确定，或者我们现在来设计，我会优先考虑使用Redisson框架，它内置的看门狗机制能很好地解决锁续期的问题。”
+
+
+
+乐观锁(就是提供版本号控制)版本不一致问题：内部重试（重新获取最新数据和版本号）和重新提交lua脚本。
+重试方法：前端发送请求，后端执行发现版本不一致后重试（重新获取当前版本号重试）成功后提交数据发给前端。
+初始状态
+商品A在购物车中：{quantity: 2, version: 5}
+并发请求流程
+请求1：数量 2 → 3，携带版本号5
+请求2：数量 2 → 4，携带版本号5
+服务端处理：
+请求1先到达：执行Lua脚本成功，数量=3，版本=6
+请求2后到达：执行Lua脚本失败（期望版本5 ≠ 实际版本6）
+
+
+
+代码提交流程：1.本地开发与自测：本地测试、checkstyle插件检查代码、本地打包确保没有编译错误
+                        2.提交与触发流水线：提交到feature分支，在GitHub上面创建Pull Request到develop分支。触发(CI流水线是跟PR绑定的。一旦创建PR，系统就会自动触发流水线执行编译和测试或者手动运行工作流)流水线进行自动编译代码，单元和集成测试，扫描代码和覆盖率。需全部通过。
+                        3.代码审查：流水线运行的同时邀请组长进行代码审查，根据意见修改代码，流水线再次运行。
+                        4.合并：审查通过，流水线全绿，组长合并代码到develop分支。
+
+
+
+临时表转正式表:
+增量模式在临时表带active和inactive状态数据更新到正式表。
+全量模式将本次从供应商同步来的全量有效商品数据和无效商品数据，批量插入到临时表中，再将本地有但供应商数据没有的数据写入临时表，修改状态为inactive。最后临时表切成正式表。
+-- 事件：定期清理过期数据
+CREATE EVENT weekly_cleanup
+ON SCHEDULE EVERY 1 WEEK
+--开始执行时间
+STARTS '2024-05-27 03:00:00'
+DO
+BEGIN
+    DECLARE deleted_count INT DEFAULT 0;
+    -- 删除30天前的过期记录
+    DELETE FROM expired_products 
+    WHERE expired_at < NOW() - INTERVAL 30 DAY;
+    SET deleted_count = ROW_COUNT();
+    -- 记录清理日志
+    INSERT INTO cleanup_log 
+    (table_name, records_deleted, executed_at, status)
+    VALUES ('expired_products', deleted_count, NOW(), 'SUCCESS');
+END;
+
+
+
+rocketMQ:
+购物车商品信息先存入redis再通过消息中间件让mysql存入数据。
+ // 1. 先更新 Redis (核心缓存)
+        String cartKey = CART_KEY_PREFIX + userId;
+        // 使用 Hash 结构存储，field 是 skuId, value 是 CartItem 对象
+        redisTemplate.opsForHash().put(cartKey, skuId.toString(), cartItem);
+// 目的地：Topic: CartTopic, Tag: Update
+            String destination = "CartTopic:Update";
+ // 将 cartItem 转换为 JSON 字符串发送
+            rocketMQTemplate.asyncSend(destination, cartItem, new SendCallback(){
+                @Override
+                public void onSuccess(SendResult sendResult) {
+                    log.info("购物车同步消息发送成功。msgId: {}", sendResult.getMsgId());
+                }
+}
+// 2. 发送删除消息到 RocketMQ
+        CartItem deleteMsg = new CartItem();
+        deleteMsg.setUserId(userId);
+        deleteMsg.setSkuId(skuId);
+        deleteMsg.setQuantity(0); // 用数量为0表示删除操作
+        String destination = "CartTopic:Update";
+        rocketMQTemplate.sendOneWay(destination, deleteMsg); // 单向消息，不关心结果，性能最高
+这个组件监听 RocketMQ 的消息，并负责将数据写入 MySQL。
+@Component
+@RocketMQMessageListener(
+        topic = "CartTopic",          // 监听的 Topic
+        selectorExpression = "Update", // 监听的 Tag，这里是 "Update"
+        consumerGroup = "cart-mysql-consumer-group" // 消费者组
+)
+@Slf4j
+public class CartMessageConsumer implements RocketMQListener<CartItem> {
+    @Autowired
+    private CartMapper cartMapper; // 假设你有一个 MyBatis 的 Mapper
+    @Override
+    public void onMessage(CartItem cartItem) {
+        log.info("接收到购物车同步消息，开始处理。userId: {}, skuId: {}", cartItem.getUserId(), cartItem.getSkuId());
+
+        try {
+            // 判断是更新/新增还是删除
+            if (cartItem.getQuantity() <= 0) {
+                // 执行删除操作
+                int deletedRows = cartMapper.deleteByUserIdAndSkuId(cartItem.getUserId(), cartItem.getSkuId());
+                log.info("MySQL购物车数据删除完成。userId: {}, skuId: {}, 影响行数: {}",
+                        cartItem.getUserId(), cartItem.getSkuId(), deletedRows);
+            } else {
+                // 执行插入或更新操作 (ON DUPLICATE KEY UPDATE)
+                int affectedRows = cartMapper.insertOrUpdate(cartItem);
+                log.info("MySQL购物车数据同步完成。userId: {}, skuId: {}, 影响行数: {}",
+                        cartItem.getUserId(), cartItem.getSkuId(), affectedRows);
+            }
+        } catch (Exception e) {
+            log.error("处理购物车同步消息时发生异常！消息体: {}", cartItem, e);
+            // 非常重要！如果消费失败，RocketMQ 会自动重试。
+            // 如果重试多次后仍然失败，消息会进入死信队列，需要人工处理。
+            throw new RuntimeException("消费失败，触发重试", e);
+        }
+    }
+}
+
+
+
+购物车（创建时间，更新时间，userId,catId,商品id,数量，销售id，状态，类型，units件套,乐观锁号）。
+外部源商品（创建时间，修改时间，证书编号，证书类型，清晰度，颜色，切割，光泽，格令(0.25克拉)单价，格令重量，打磨，形状，尺寸，状态，乐观锁，图片链接，地点，供应商id）
+
+
+完整业务流程总结
+  【阶段1：同步准备】
+  定时任务触发 → 冲突检查 → 分布式锁获取 → 环境权限验证
+  【阶段2：数据爬取】
+  多供应商并行爬取 → API接口调用 → 分页数据获取 → 数据格式验证 → 临时表存储
+  【阶段3：数据处理】
+  数据清洗去重 → GIA证书验证 → 钻石参数校验 → 业务规则应用
+  【阶段4：数据迁移】
+  事务开启 → 增量/全量更新 → 过期数据处理 → 同步日志记录 → 事务提交
+  【阶段5：业务联动】
+  搜索引擎同步 → 购物车更新 → MQ消息发送 → 状态缓存刷新
+  【阶段6：清理收尾】
+  分布式锁释放 → 临时表清理 → 统计信息更新 → 监控告警
+
+
+表隔离的决策逻辑流程图
+  graph TD
+      A[新供应商接入] --> B{数据量评估}
+      B -->|大数据量>10万条| C[考虑专用表]
+      B -->|中等数据量1-10万条| D[考虑专用表]
+      B -->|小数据量<1万条| E[使用共享表]
+
+
+
+  | 保障维度  | 具体实现                | 作用         |
+  |-------|---------------------|------------|
+  | 事务一致性 | Spring事务管理 + 批处理原子性 | 确保数据操作的完整性 |
+  | 并发控制  | Redis分布式锁 + 多级锁策略   | 防止并发操作冲突   |
+  | 数据准确性 | 多层验证 + 重复数据清理       | 保证数据质量     |
+  | 版本控制  | 乐观锁 + 同步版本标识        | 防止数据冲突     |
+  | 幂等性   | 状态检查 + 消息去重         | 避免重复操作     |
+  | 异常恢复  | 自动重试 + 事务回滚         | 提高系统可靠性
+
+
+
+  6.3 自动重试调度
+  // 定时重试机制
+  @Scheduled(cron = "0 0/30 * * * *")
+  public void retryFullDumpGia() {
+      Boolean retry = dumpResultOpr.get(CrawlerRedisKeyConstant.Info.RETRY_FLAG);
+      if (retry != null && retry) {
+          fullDumpGia(null);  // 自动重试全量同步
+      }
+  }
+● 7. 数据质量监控和告警
+  7.1 性能监控
+
+  // 同步操作性能监控
+  public void fastDumpGia() {
+      StopWatch watch = new StopWatch();
+      watch.start();
+      try {
+          // 同步操作
+          // ...
+      } finally {
+          watch.stop();
+          logger.info("GIA快速同步结束，耗时：{}ms", watch.getTime());
+      }
+  }
+  7.2 实时状态监控
+  // 同步状态实时跟踪
+  public class GIADumpResultVO {
+      private Boolean result;      // 同步结果
+      private String tmpTableName; // 临时表名
+      private Integer supplierId;  // 供应商ID
+      private Integer recordCount; // 记录数量
+      private Long costTime;       // 耗时
+  }
+  7.3 告警机制
+  // 关键操作短信通知
+  public void sendOpenOuterSourceSwitchMessage(Integer supplierId) {
+      SpecialSupplierEnum specialSupplierEnum = SpecialSupplierEnum.getSpecialSupplierBySupplierId(supplierId);
+      if (specialSupplierEnum == null) return;
+
+      List<String> phones = Lists.newArrayList("18855974569");
+      Map<String, String> content = new HashMap<>();
+      content.put("applyName", specialSupplierEnum.getDesc() + ",打开外部货源:" + supplierId);
+      content.put("phoneNo", "18855974569");
+
+      messageAdapter.sendMessage(phones, SMSTemplate.PLATFORM_USER_APPLY_NOTICE.name(), content);
+  }
+
+
+
+
+
+
+stream流用法：批量状态更新，过滤数据采集，去重，数据存在性检查。
+数据同步场景
+  - 数据清洗: 过滤无效数据、去重、格式转换
+  - 批量更新: 状态更新、属性设置
+  - 数据聚合: 按供应商分组、按证书号统计
+  1. 数据转换 (Map) - DTO转换、对象映射
+  2. 数据过滤 (Filter) - 条件筛选、数据清洗
+  3. 数据分组 (Grouping) - 分类统计、去重处理
+  4. 数据查找 (Min/Max/Optional) - 最优选择、存在性检查
+  5. 数据提取 (FlatMap/Peek) - 属性提取、批量操作
