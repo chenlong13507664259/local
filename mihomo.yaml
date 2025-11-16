@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|4.7MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -13,22 +13,10 @@ proxies:
     type: hysteria
     up: 11 Mbps
     auth-str: dongtaiwang.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_2|3.8MB/s|GPT⁺|YT-US|NF|D+|GM|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 4e084535-bd62-458b-84a2-a0dc57c957aa
-    port: 13504
-    server: us2083.yydzx.xyz
-    skip-cert-verify: false
-    sni: us2083.yydzx.xyz
-    type: hysteria2
-    up: ''
   - alpn:
       - h3
     congestion-controller: bbr
-    name: "\U0001F1E9\U0001F1EADE_1|2.3MB/s|GPT⁺|YT-DE|NF|D+|14%"
+    name: ❓Other_1|2.9MB/s|GPT⁺|YT-DE|NF|D+
     password: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
     port: 15863
     server: detuic.yydzx.xyz
@@ -37,75 +25,12 @@ proxies:
     udp: true
     uuid: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
     version: 5
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|2.0MB/s|GPT⁺|YT-CN|NF|54%"
-    obfs: ''
-    obfs-password: ''
-    password: 338ce171-d764-4610-8fd5-6688b0d321f0
-    port: 30102
-    server: 51.81.223.22
-    skip-cert-verify: true
-    sni: ''
-    type: hysteria2
-    up: ''
-    disable-sni: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_1|2.3MB/s|GPT⁺|YT-NL|NF"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 50066
-    server: 51.158.218.2
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_1|2.3MB/s|GPT⁺|YT-FR|NF"
-    obfs: ''
-    obfs-password: ''
-    password: dongtaiwang.com
-    port: 5355
-    server: 163.172.21.105
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1E6CA_1|1.8MB/s|GPT⁺|NF|GM|4%"
-    obfs: ''
-    obfs-password: ''
-    password: 338ce171-d764-4610-8fd5-6688b0d321f0
-    port: 30102
-    server: 140.238.137.165
-    skip-cert-verify: true
-    sni: du.wish.ml
-    type: hysteria2
-    up: ''
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_2|1.9MB/s|GPT⁺|NF"
-    obfs: ''
-    port: 49003
-    protocol: udp
-    server: 51.159.226.1
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 55
-    name: "\U0001F1EB\U0001F1F7FR_2|1.2MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s|GPT⁺|NF"
     port: 35511
     protocol: udp
     server: 62.210.10.186
@@ -115,97 +40,30 @@ proxies:
     udp: true
     up: 11
   - encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_3|1.3MB/s|GPT⁺|YT-NL|NF|D+|10%"
+    name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|GPT⁺|YT-US|NF|10%"
     network: ws
-    port: 80
-    server: joKer.mEmBerGolaBi.IR
+    port: 2082
+    server: www.speedtest.net
     type: vless
     udp: true
-    uuid: RK_VPS--RK_VPS-10
-    ws-opts:
-      headers:
-        Host: joKer.mEmBerGolaBi.IR
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.110 Safari/537.36
-      path: >-
-        /RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_1|1.6MB/s|GPT⁺|YT-US|NF"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.248
-    type: ss
-    udp: true
-  - encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_4|1.8MB/s|GPT⁺|YT-US|NF|D+|10%"
-    network: ws
-    port: 2095
-    server: numberland.ir
-    type: vless
-    udp: true
-    uuid: TEL--JKVPN--JKVPN-9
-    ws-opts:
-      headers:
-        Host: joKer.mEmBerGolaBi.IR
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.94 Safari/537.36
-      path: >-
-        /TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_3|835KB/s|GPT⁺|YT-FR|NF"
-    obfs: ''
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-    auth-str: dongtaiwang.com
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_4|909KB/s|GPT⁺|YT-US|NF|GM|0%"
-    network: ws
-    port: 80
-    server: 172.66.156.81
-    type: vless
-    udp: true
-    uuid: f8f19bc7-54c1-4612-9cff-4ce3852d2bba
+    uuid: a6f5aa72-d000-4a05-b175-f18a47f3605a
     ws-opts:
       headers:
         Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2082
     xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_5|1.7MB/s|GPT|NF|GM"
-    password: BxceQaOe
-    port: 4094
-    server: 116.49.237.130
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 80
-    name: "\U0001F1EB\U0001F1F7FR_4|1.1MB/s|GPT⁺"
+    name: "\U0001F1EB\U0001F1F7FR_2|1.2MB/s|GPT⁺|NF"
     port: 50011
     protocol: udp
     server: 62.210.10.186
@@ -215,26 +73,31 @@ proxies:
     udp: true
     up: 50
   - alpn:
-      - http/1.1
-    client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_1|1.8MB/s|GPT⁺|YT-SG|NF|D+|GM"
-    network: ws
-    port: 443
-    server: 104.18.47.207
-    tls: true
-    type: vless
-    udp: true
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    ws-opts:
-      headers:
-        Host: d342d11e.cialloneko.netlib.re
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-    servername: d342d11e.cialloneko.netlib.re
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s|GPT⁺|NF"
+    obfs: ''
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EE\U0001F1E9ID_1|1.9MB/s|GPT⁺|YT-GB|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 110f8d29-f9d0-47dc-abe4-2f4ac679879b
+    port: 21622
+    server: my.xn--9kqx4sc0n.shop
+    skip-cert-verify: false
+    sni: my.xn--9kqx4sc0n.shop
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
