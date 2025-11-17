@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|4.0MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -15,55 +15,10 @@ proxies:
     auth-str: dongtaiwang.com
   - alpn:
       - h3
-    congestion-controller: bbr
-    name: ❓Other_1|2.9MB/s|GPT⁺|YT-DE|NF|D+
-    password: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
-    port: 15863
-    server: detuic.yydzx.xyz
-    sni: detuic.yydzx.xyz
-    type: tuic
-    udp: true
-    uuid: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
-    version: 5
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s|GPT⁺|NF"
-    port: 35511
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|GPT⁺|YT-US|NF|10%"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: a6f5aa72-d000-4a05-b175-f18a47f3605a
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - alpn:
-      - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 80
-    name: "\U0001F1EB\U0001F1F7FR_2|1.2MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.7MB/s|GPT⁺|NF"
     port: 50011
     protocol: udp
     server: 62.210.10.186
@@ -74,9 +29,23 @@ proxies:
     up: 50
   - alpn:
       - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55
+    name: "\U0001F1EB\U0001F1F7FR_2|2.1MB/s|GPT⁺|NF"
+    port: 35511
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
+  - alpn:
+      - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s|GPT⁺|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s|GPT⁺|NF"
     obfs: ''
     port: 49003
     protocol: udp
@@ -88,16 +57,90 @@ proxies:
     auth-str: dongtaiwang.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EE\U0001F1E9ID_1|1.9MB/s|GPT⁺|YT-GB|NF|0%"
+    name: "\U0001F1E7\U0001F1F7BR_1|1.4MB/s|GPT⁺|YT-BR|NF|GM|4%"
     obfs: ''
     obfs-password: ''
-    password: 110f8d29-f9d0-47dc-abe4-2f4ac679879b
-    port: 21622
-    server: my.xn--9kqx4sc0n.shop
-    skip-cert-verify: false
-    sni: my.xn--9kqx4sc0n.shop
+    password: 338ce171-d764-4610-8fd5-6688b0d321f0
+    port: 30102
+    server: 132.226.162.10
+    skip-cert-verify: true
+    sni: ''
     type: hysteria2
     up: ''
+    disable-sni: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_3|1.8MB/s|NF"
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 5355
+    server: 163.172.21.105
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_1|5.9MB/s|GPT⁺|YT-JP|GM"
+    network: ws
+    port: 443
+    server: 104.18.46.50
+    tls: true
+    type: vless
+    udp: true
+    uuid: ec52eb59-a9d6-4693-bed4-490f2b244195
+    ws-opts:
+      headers:
+        Host: pq-jps.pqvip.top
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /pq/jp1
+    xudp: true
+    servername: pq-jps.pqvip.top
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|2.9MB/s|GPT⁺|YT-US|NF"
+    network: ws
+    port: 2082
+    server: www.speedtest.net
+    type: vless
+    udp: true
+    uuid: d2cb6223-f6b2-42a2-df5d-8454c9efe4ce
+    ws-opts:
+      headers:
+        Host: >-
+          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2082
+    xudp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|3.1MB/s"
+    network: ws
+    port: 2083
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: d818c2c8-6bae-4171-b442-6429b1a5fe20
+    ws-opts:
+      headers:
+        Host: webfa.dnss-mobile.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.101 Safari/537.36
+      path: >-
+        /@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config-@Alfred_Config
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: webfa.dnss-mobile.ir
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
