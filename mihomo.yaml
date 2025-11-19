@@ -3,7 +3,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|4.0MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -15,55 +15,35 @@ proxies:
     auth-str: dongtaiwang.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_1|2.5MB/s|GPT⁺|YT-FR|NF"
+    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT|YT-US|NF|47%"
     obfs: ''
     obfs-password: ''
-    password: dongtaiwang.com
-    port: 5355
-    server: 163.172.21.105
+    password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+    port: 47974
+    server: 75.127.13.83
     skip-cert-verify: true
     sni: www.bing.com
     type: hysteria2
     up: ''
-  - name: "\U0001F1FA\U0001F1F8US_2|4.0MB/s|GPT⁺|YT-US|NF|GM|28%"
-    password: BxceQaOe
-    port: 2569
-    server: 116.49.237.130
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E7\U0001F1F7BR_1|1.6MB/s|GPT⁺|YT-BR|NF|GM|4%"
-    obfs: ''
-    obfs-password: ''
-    password: 338ce171-d764-4610-8fd5-6688b0d321f0
-    port: 30102
-    server: 132.226.162.10
-    skip-cert-verify: true
-    sni: ''
-    type: hysteria2
-    up: ''
-    disable-sni: true
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR_2|2.0MB/s|GPT⁺|NF"
-    port: 35511
+    down: 80
+    name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s|GPT⁺|NF"
+    port: 50011
     protocol: udp
     server: 62.210.10.186
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
     udp: true
-    up: 11
+    up: 50
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|3.4MB/s|GPT⁺|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s|GPT⁺|NF"
     obfs: ''
     port: 49003
     protocol: udp
@@ -77,175 +57,161 @@ proxies:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
-    down: 80
-    name: "\U0001F1EB\U0001F1F7FR_3|1.1MB/s|GPT⁺|NF"
-    port: 50011
+    down: 55
+    name: "\U0001F1EB\U0001F1F7FR_2|1.9MB/s|GPT⁺"
+    port: 35511
     protocol: udp
     server: 62.210.10.186
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
     udp: true
-    up: 50
+    up: 11
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F7\U0001F1FARU_1|887KB/s|GPT|YT-RU"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: UEKLXjQmUAh_6hhHqB4fmCo68a15hC18hgRCWbzr3UE
+      short-id: 27e53bbcab7593d7
+    server: 217.12.40.91
+    tls: true
+    type: vless
+    udp: true
+    uuid: 74946f36-45d7-436c-b24e-ba5002cad041
+    xudp: true
+    servername: m.vk.ru
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|2.8MB/s|GPT⁺|YT-CN|NF|47%"
+    name: "\U0001F1FA\U0001F1F8US_3|2.4MB/s|GPT⁺|NF|GM|34%"
     obfs: ''
     obfs-password: ''
-    password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-    port: 47974
-    server: 75.127.13.83
+    password: e7965e64-e001-4e8c-8273-39c61ff4a094
+    port: 30000
+    server: us4.oomz.ru
     skip-cert-verify: true
-    sni: www.bing.com
+    sni: bing.com
     type: hysteria2
     up: ''
-  - name: "\U0001F1ED\U0001F1F0HK_1|3.5MB/s|GPT⁺|YT-HK|NF|D+"
-    network: ws
-    port: 555
-    server: 38.147.186.31
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s|GPT⁺|YT-NL|NF|D+|0%"
+    obfs: ''
+    obfs-password: ''
+    password: e7965e64-e001-4e8c-8273-39c61ff4a094
+    port: 30000
+    server: sb1.oomz.ru
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-sg.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-sg.netlib.re
-  - name: "\U0001F1ED\U0001F1F0HK_2|2.5MB/s|YT-HK|NF|D+|2%"
-    network: ws
-    port: 666
-    server: 103.30.78.232
+    sni: bing.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_1|3.6MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
+    obfs: ''
+    obfs-password: ''
+    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+    port: 17712
+    server: jp9.dexlos.com
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-hk.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-hk.netlib.re
-  - name: "\U0001F1F8\U0001F1ECSG_1|3.6MB/s|YT-SG|NF|D+|GM|2%"
-    network: ws
-    port: 443
-    server: 18.136.31.77
+    sni: jp9.dexlos.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_2|2.8MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
+    obfs: ''
+    obfs-password: ''
+    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+    port: 13778
+    server: jp7.dexlos.com
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-hk.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-hk.netlib.re
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s|GPT⁺|YT-US|NF|10%"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 90b6c5fd-1518-4090-a4c6-067deedc0bb8
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - name: "\U0001F1ED\U0001F1F0HK_3|1.2MB/s|GPT⁺|YT-HK|NF|D+|2%"
-    network: ws
-    port: 444
-    server: 38.147.184.173
+    sni: jp7.dexlos.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_3|2.4MB/s|GPT⁺|YT-JP|NF|D+|1%"
+    obfs: ''
+    obfs-password: ''
+    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+    port: 7940
+    server: jp4.dexlos.com
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-tw.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-tw.netlib.re
-  - name: "\U0001F1ED\U0001F1F0HK_4|837KB/s|YT-HK|NF|D+|2%"
-    network: ws
-    port: 443
-    server: 83.229.120.177
+    sni: jp4.dexlos.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_4|2.6MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
+    obfs: ''
+    obfs-password: ''
+    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+    port: 11591
+    server: jp6.dexlos.com
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-hk.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-hk.netlib.re
-  - name: "\U0001F1F8\U0001F1ECSG_2|1.1MB/s|GPT⁺|YT-SG|NF|D+|GM|2%"
-    network: ws
-    port: 443
-    server: 13.214.82.195
+    sni: jp6.dexlos.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_5|2.2MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
+    obfs: ''
+    obfs-password: ''
+    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+    port: 15481
+    server: jp8.dexlos.com
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-jp.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-jp.netlib.re
-  - name: "\U0001F1ED\U0001F1F0HK_5|1.3MB/s|GPT⁺|YT-HK|NF|D+|2%"
-    network: ws
-    port: 443
-    server: 149.104.31.162
+    sni: jp8.dexlos.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_4|2.3MB/s|GPT|YT-CN|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+    port: 17375
+    server: us9.dexlos.com
     skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-jp.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-jp.netlib.re
-  - name: "\U0001F1F8\U0001F1ECSG_3|3.0MB/s|GPT⁺|YT-SG|NF|D+|GM"
-    network: ws
-    port: 2087
-    server: 162.159.35.249
+    sni: us9.dexlos.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s|GPT|YT-CN|NF|D+"
+    obfs: ''
+    obfs-password: ''
+    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+    port: 13554
+    server: us7.dexlos.com
     skip-cert-verify: true
-    tls: true
-    type: vless
+    sni: us7.dexlos.com
+    type: hysteria2
+    up: ''
+  - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
+    name: "\U0001F1EF\U0001F1F5JP_6|6.4MB/s|GPT⁺|NF"
+    password: e7965e64-e001-4e8c-8273-39c61ff4a094
+    port: 30000
+    server: jp6.oomz.ru
+    skip-cert-verify: true
+    sni: bing.com
+    type: hysteria2
     udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-sg.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-sg.netlib.re
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_3|1.2MB/s|GPT⁺|YT-FR|NF"
+    port: 15010
+    protocol: udp
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -253,295 +219,19 @@ proxies:
       headers: {}
       path:
         - /
-    name: "\U0001F1F7\U0001F1F4RO_1|1.0MB/s|GPT⁺|YT-RU|100%"
+    name: "\U0001F1EE\U0001F1F7IR_1|833KB/s|GPT⁺|D+|17%"
     network: tcp
     port: 443
     reality-opts:
-      public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-      short-id: 43dcff53849b81e6
-    server: it.quattro-tech.ru
+      public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+      short-id: 428ef87fd47a3a32
+    server: de.nodes.rocketnetwork.ru
     tls: true
     type: vless
     udp: true
-    uuid: ab3aece1-4719-4093-826e-d320f64f6a25
+    uuid: bccbecc9-c1d2-45d1-b3fa-771a19b9831c
     xudp: true
-    servername: it.quattro-tech.ru
-  - name: "\U0001F1F8\U0001F1ECSG_4|3.4MB/s|GPT⁺|YT-SG|NF|D+|GM"
-    network: ws
-    port: 2087
-    server: 162.159.19.89
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-sg.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-sg.netlib.re
-  - name: "\U0001F1F8\U0001F1ECSG_5|3.3MB/s|YT-SG|NF|D+|GM|2%"
-    network: ws
-    port: 8443
-    server: www.wto.org
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-hk.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-hk.netlib.re
-  - name: "\U0001F1F8\U0001F1ECSG_6|1.1MB/s|GPT⁺|YT-SG|NF|D+|GM|2%"
-    network: ws
-    port: 2087
-    server: 172.64.38.142
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-jp.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-jp.netlib.re
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1F9AT_1|879KB/s|GPT⁺|NF|D+|0%"
-    network: tcp
-    port: 21763
-    reality-opts:
-      public-key: RZax6slpjvfUJ46gHwIfIBApUSapP7i7yPz1f1WwBXE
-      short-id: a193
-    server: dwarvensniper.fonixapp.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 90c6cd82-5fad-4d31-9909-8b53b2ea15f4
-    xudp: true
-    servername: stackoverflow.com
-  - name: "\U0001F1F8\U0001F1ECSG_7|4.2MB/s|GPT⁺|YT-SG|NF|D+|GM|2%"
-    network: ws
-    port: 2087
-    server: 162.159.61.233
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-tw.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-tw.netlib.re
-  - name: "\U0001F1ED\U0001F1F0HK_6|1.4MB/s|GPT⁺|YT-HK|NF|D+|2%"
-    network: ws
-    port: 443
-    server: 38.38.251.184
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-tw.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-tw.netlib.re
-  - name: "\U0001F1F9\U0001F1FCTW_1|3.4MB/s|GPT⁺|YT-HK|D+|1%"
-    network: ws
-    port: 555
-    server: 103.30.78.240
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-tw.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-tw.netlib.re
-  - name: "\U0001F1FA\U0001F1F8US_4|895KB/s|YT-US|NF|D+|GM|2%"
-    network: ws
-    port: 443
-    server: 104.16.15.241
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-hk.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-hk.netlib.re
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_1|2.5MB/s|YT-KR|NF|D+|GM"
-    network: ws
-    port: 30031
-    server: 121.147.60.220
-    tls: true
-    type: vless
-    udp: true
-    uuid: 00000000-0000-4000-8000-000000000000
-    ws-opts:
-      headers:
-        Host: mot.gike.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /@Marisa_kristi
-    xudp: true
-    servername: mot.gike.dpdns.org
-  - name: "\U0001F1FA\U0001F1F8US_5|832KB/s|YT-US|NF|D+|GM|2%"
-    network: ws
-    port: 443
-    server: 104.21.237.106
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-hk.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-hk.netlib.re
-  - name: "\U0001F1FA\U0001F1F8US_6|931KB/s|GPT⁺|YT-US|NF|D+|GM|2%"
-    network: ws
-    port: 443
-    server: 104.21.238.119
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-tw.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-tw.netlib.re
-  - name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s|GPT⁺|YT-DE|NF|D+|2%"
-    network: ws
-    port: 2087
-    server: icook.tw
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-tw.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-tw.netlib.re
-  - name: "\U0001F1F3\U0001F1F1NL_2|1008KB/s|GPT⁺|NF|D+|2%"
-    network: ws
-    port: 2096
-    server: icook.hk
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-jp.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-jp.netlib.re
-  - name: "\U0001F1E9\U0001F1EADE_3|1.3MB/s|YT-DE|NF|D+|2%"
-    network: ws
-    port: 8443
-    server: ip.sb
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-hk.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-hk.netlib.re
-  - name: "\U0001F1F3\U0001F1F1NL_3|1.3MB/s|YT-NL|NF|D+|2%"
-    network: ws
-    port: 443
-    server: 104.21.78.156
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e258977b-e413-4718-a3af-02d75492c349
-    ws-opts:
-      headers:
-        Host: www.x-aniu-hk.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: www.x-aniu-hk.netlib.re
-  - cipher: aes-256-cfb
-    name: "\U0001F1EB\U0001F1F7FR_4|2.7MB/s|GPT⁺|NF"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 195.154.119.77
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf
-    name: ❓Other_1|1.2MB/s
-    password: asd123456
-    port: 8388
-    server: 103.149.182.38
-    type: ss
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_7|879KB/s|GPT⁺|NF|D+"
-    network: ws
-    password: 0507fbcd-b983-43a7-8e1d-2c561960ad4f
-    port: 443
-    server: a76-4179-8a78-c8b78b3c00cb.664.qzz.io
-    skip-cert-verify: true
-    sni: A76-4179-8a78-c8B78B3C00Cb.664.QZz.iO
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: a76-4179-8a78-c8B78B3C00cB.664.qzz.Io
-      path: /E2JXJM5geneWfr9noOhn
-  - cipher: chacha20-ietf
-    country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK_7|2.0MB/s|YT-HK|NF|D+|0%"
-    password: asd123456
-    port: 8388
-    server: 103.149.182.158
-    type: ss
+    servername: fr.nodes.rocketnetwork.ru
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
