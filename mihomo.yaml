@@ -1,91 +1,7 @@
 proxies:
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s|GPT⁺|YT-CN|NF"
-    obfs: ''
-    port: 38845
-    protocol: ''
-    server: 208.87.243.151
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria
-    up: 11 Mbps
-    auth-str: dongtaiwang.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT|YT-US|NF|47%"
-    obfs: ''
-    obfs-password: ''
-    password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-    port: 47974
-    server: 75.127.13.83
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-    up: ''
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 80
-    name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s|GPT⁺|NF"
-    port: 50011
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 50
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s|GPT⁺|NF"
-    obfs: ''
-    port: 49003
-    protocol: udp
-    server: 51.159.226.1
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR_2|1.9MB/s|GPT⁺"
-    port: 35511
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1FARU_1|887KB/s|GPT|YT-RU"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UEKLXjQmUAh_6hhHqB4fmCo68a15hC18hgRCWbzr3UE
-      short-id: 27e53bbcab7593d7
-    server: 217.12.40.91
-    tls: true
-    type: vless
-    udp: true
-    uuid: 74946f36-45d7-436c-b24e-ba5002cad041
-    xudp: true
-    servername: m.vk.ru
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_3|2.4MB/s|GPT⁺|NF|GM|34%"
+    name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s|GPT⁺|NF|GM|34%"
     obfs: ''
     obfs-password: ''
     password: e7965e64-e001-4e8c-8273-39c61ff4a094
@@ -97,7 +13,7 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s|GPT⁺|YT-NL|NF|D+|0%"
+    name: "\U0001F1E9\U0001F1EADE_1|3.0MB/s|GPT⁺|YT-NL|NF|D+|0%"
     obfs: ''
     obfs-password: ''
     password: e7965e64-e001-4e8c-8273-39c61ff4a094
@@ -107,92 +23,8 @@ proxies:
     sni: bing.com
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|3.6MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
-    obfs: ''
-    obfs-password: ''
-    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-    port: 17712
-    server: jp9.dexlos.com
-    skip-cert-verify: true
-    sni: jp9.dexlos.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_2|2.8MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
-    obfs: ''
-    obfs-password: ''
-    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-    port: 13778
-    server: jp7.dexlos.com
-    skip-cert-verify: true
-    sni: jp7.dexlos.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_3|2.4MB/s|GPT⁺|YT-JP|NF|D+|1%"
-    obfs: ''
-    obfs-password: ''
-    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-    port: 7940
-    server: jp4.dexlos.com
-    skip-cert-verify: true
-    sni: jp4.dexlos.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_4|2.6MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
-    obfs: ''
-    obfs-password: ''
-    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-    port: 11591
-    server: jp6.dexlos.com
-    skip-cert-verify: true
-    sni: jp6.dexlos.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_5|2.2MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
-    obfs: ''
-    obfs-password: ''
-    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-    port: 15481
-    server: jp8.dexlos.com
-    skip-cert-verify: true
-    sni: jp8.dexlos.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_4|2.3MB/s|GPT|YT-CN|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-    port: 17375
-    server: us9.dexlos.com
-    skip-cert-verify: true
-    sni: us9.dexlos.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s|GPT|YT-CN|NF|D+"
-    obfs: ''
-    obfs-password: ''
-    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-    port: 13554
-    server: us7.dexlos.com
-    skip-cert-verify: true
-    sni: us7.dexlos.com
-    type: hysteria2
-    up: ''
   - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-    name: "\U0001F1EF\U0001F1F5JP_6|6.4MB/s|GPT⁺|NF"
+    name: "\U0001F1EF\U0001F1F5JP_1|2.8MB/s|GPT⁺|YT-CN|NF|4%"
     password: e7965e64-e001-4e8c-8273-39c61ff4a094
     port: 30000
     server: jp6.oomz.ru
@@ -202,9 +34,23 @@ proxies:
     udp: true
   - alpn:
       - h3
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s|GPT⁺|YT-CN|NF"
+    obfs: ''
+    port: 38845
+    protocol: ''
+    server: 208.87.243.151
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria
+    up: 11 Mbps
+    auth-str: dongtaiwang.com
+  - alpn:
+      - h3
     auth-str: dongtaiwang.com
     down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_3|1.2MB/s|GPT⁺|YT-FR|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|809KB/s|GPT⁺|YT-FR|NF"
     port: 15010
     protocol: udp
     server: 195.154.200.40
@@ -212,26 +58,75 @@ proxies:
     sni: apple.com
     type: hysteria
     up: '100'
-  - client-fingerprint: chrome
-    encryption: none
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55
+    name: "\U0001F1EB\U0001F1F7FR_2|1.5MB/s|GPT⁺|NF"
+    port: 35511
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
+  - client-fingerprint: edge
     flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1EE\U0001F1F7IR_1|833KB/s|GPT⁺|D+|17%"
-    network: tcp
-    port: 443
+    name: "\U0001F1F9\U0001F1FCTW_1|1.7MB/s|GPT⁺|YT-TW|NF|D+|GM"
+    port: 20519
     reality-opts:
-      public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
-      short-id: 428ef87fd47a3a32
-    server: de.nodes.rocketnetwork.ru
+      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+      short-id: 4b070735
+    server: hinet2.gzcloud.shop
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: bccbecc9-c1d2-45d1-b3fa-771a19b9831c
-    xudp: true
-    servername: fr.nodes.rocketnetwork.ru
+    uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
+    network: tcp
+    servername: buylite.music.apple.com
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "\U0001F1F3\U0001F1F1NL_1|824KB/s|GPT⁺|NF"
+    obfs: ''
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F2\U0001F1FDMX_1|3.2MB/s|GPT⁺|YT-MX|GM|4%"
+    password: d9b85218-da37-42a7-8906-67bab810252c
+    port: 48907
+    server: slur.izenny.com
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_1|917KB/s|YT-CN|NF|D+|0%"
+    password: asd123456
+    port: 8388
+    server: 103.149.182.86
+    type: ss
+    udp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E8\U0001F1E6CA_1|1.3MB/s|GPT⁺|YT-US|NF|GM|4%"
+    obfs: ''
+    obfs-password: ''
+    password: 338ce171-d764-4610-8fd5-6688b0d321f0
+    port: 30102
+    server: 40.233.76.38
+    skip-cert-verify: true
+    sni: du.wish.ml
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
