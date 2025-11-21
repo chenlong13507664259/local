@@ -1,42 +1,9 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|2.9MB/s|GPT⁺|NF|GM|34%"
-    obfs: ''
-    obfs-password: ''
-    password: e7965e64-e001-4e8c-8273-39c61ff4a094
-    port: 30000
-    server: us4.oomz.ru
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_1|3.0MB/s|GPT⁺|YT-NL|NF|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: e7965e64-e001-4e8c-8273-39c61ff4a094
-    port: 30000
-    server: sb1.oomz.ru
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    up: ''
-  - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-    name: "\U0001F1EF\U0001F1F5JP_1|2.8MB/s|GPT⁺|YT-CN|NF|4%"
-    password: e7965e64-e001-4e8c-8273-39c61ff4a094
-    port: 30000
-    server: jp6.oomz.ru
-    skip-cert-verify: true
-    sni: bing.com
-    type: hysteria2
-    udp: true
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1FA\U0001F1F8US_1|4.0MB/s|GPT⁺|YT-CN|NF"
     obfs: ''
     port: 38845
     protocol: ''
@@ -48,50 +15,9 @@ proxies:
     auth-str: dongtaiwang.com
   - alpn:
       - h3
-    auth-str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|809KB/s|GPT⁺|YT-FR|NF"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR_2|1.5MB/s|GPT⁺|NF"
-    port: 35511
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11
-  - client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1F9\U0001F1FCTW_1|1.7MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    port: 20519
-    reality-opts:
-      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-      short-id: 4b070735
-    server: hinet2.gzcloud.shop
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
-    network: tcp
-    servername: buylite.music.apple.com
-  - alpn:
-      - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|824KB/s|GPT⁺|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|3.3MB/s|GPT⁺|NF"
     obfs: ''
     port: 49003
     protocol: udp
@@ -101,32 +27,212 @@ proxies:
     type: hysteria
     up: '11'
     auth-str: dongtaiwang.com
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F2\U0001F1FDMX_1|3.2MB/s|GPT⁺|YT-MX|GM|4%"
-    password: d9b85218-da37-42a7-8906-67bab810252c
-    port: 48907
-    server: slur.izenny.com
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_1|917KB/s|YT-CN|NF|D+|0%"
-    password: asd123456
-    port: 8388
-    server: 103.149.182.86
-    type: ss
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1E6CA_1|1.3MB/s|GPT⁺|YT-US|NF|GM|4%"
-    obfs: ''
-    obfs-password: ''
-    password: 338ce171-d764-4610-8fd5-6688b0d321f0
-    port: 30102
-    server: 40.233.76.38
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55
+    name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s|GPT⁺|NF"
+    port: 35511
+    protocol: udp
+    server: 62.210.10.186
     skip-cert-verify: true
-    sni: du.wish.ml
-    type: hysteria2
-    up: ''
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_1|4.6MB/s|GPT|NF"
+    network: ws
+    password: 8b7d4642-dff2-4c16-81a4-88ca738d6718
+    port: 2053
+    server: 91.199.32.191
+    skip-cert-verify: false
+    sni: joss.gpj1.web.id
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /Free-VPN-CF-Geo-Project/91.199.32.191=2053
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_2|1.7MB/s|GPT⁺|YT-US|NF|GM|0%"
+    network: ws
+    port: 80
+    server: 172.66.156.81
+    type: vless
+    udp: true
+    uuid: 67c47519-d3d4-4305-8f49-50697a586249
+    ws-opts:
+      headers:
+        Host: >-
+          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: >-
+        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s|D+"
+    network: ws
+    password: 38af00d3-7c80-49fe-b91a-34d0d8044ee2
+    port: 2053
+    server: 57.129.16.72
+    skip-cert-verify: false
+    sni: joss.gpj1.web.id
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/53.0.2785.143 Safari/537.36
+      path: /Free-VPN-CF-Geo-Project/57.129.16.72=2053
+  - name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: 172.66.44.230
+    skip-cert-verify: false
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: /tro8sFW1S91B6sZrM1
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_2|2.1MB/s|GPT⁺|NF"
+    port: 50011
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11 Mbps
+  - name: "\U0001F1FA\U0001F1F8US_4|987KB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 8443
+    server: koma-yt.pages.dev
+    skip-cert-verify: false
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: /tro8sFW1S91B6sZrM1
+  - alpn:
+      - h2
+      - http/1.1
+      - h3
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F9\U0001F1F7TR_1|854KB/s|GPT⁺|YT-TR|NF|D+|GM|0%"
+    network: ws
+    port: 49361
+    server: telegram-armanstore2.dynv6.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 86dbe182-c349-4aca-96dd-403172522feb
+    ws-opts:
+      headers:
+        Host: telewebion.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: >-
+        /@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----@armanstore2---Telegram----
+    xudp: true
+    servername: telegram-armanstore2.dynv6.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|3.6MB/s|GPT⁺|NF|49%"
+    network: ws
+    port: 443
+    server: www.visaeurope.ch
+    tls: true
+    type: vless
+    udp: true
+    uuid: b4a81818-e8b6-4c04-ae98-a116e019dbb3
+    ws-opts:
+      headers:
+        Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: /ws
+    xudp: true
+    servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN_1|973KB/s|GPT⁺|YT-VN|NF"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.37
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s|GPT⁺|YT-NL|NF|18%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+      short-id: ''
+    server: nld26.luckernld.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 40d7798a-6c76-4298-a9d4-9e6181cd2dd7
+    xudp: true
+    servername: www.cybo.com
+  - encryption: none
+    name: "\U0001F1F9\U0001F1F7TR_2|2.7MB/s|GPT⁺|YT-TR|NF|D+|0%"
+    network: ws
+    port: 33839
+    server: 95.134.130.68
+    type: vless
+    udp: true
+    uuid: 912fdd15-a62e-4c49-b01c-d551799a6a08
+    ws-opts:
+      headers:
+        Host: telewebion.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/43.0.2357.65 Safari/537.36
+      path: >-
+        /@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----@armanstore2----telegram----
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EE\U0001F1F9IT_1|2.4MB/s|GPT⁺|YT-IT|NF|27%"
+    network: ws
+    port: 443
+    server: zula.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9a904c91-a684-40df-a283-23b08668e7e0
+    ws-opts:
+      headers:
+        Host: rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /ws
+    xudp: true
+    servername: rAyAn-cOnFiG-it-1.pArSa.dPdNs.oRg
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
