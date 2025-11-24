@@ -1,6 +1,6 @@
 proxies:
   - encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|3.6MB/s|GPT⁺|YT-JP|NF|GM|2%"
+    name: "\U0001F1EF\U0001F1F5JP_1|3.8MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
     network: ws
     port: 2096
     server: 108.162.198.11
@@ -15,36 +15,7 @@ proxies:
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
   - encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_2|1.3MB/s|GPT⁺|YT-JP|NF|GM|2%"
-    network: ws
-    port: 2096
-    server: 108.162.198.24
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|GPT⁺|YT-CN|NF"
-    obfs: ''
-    port: 38845
-    protocol: ''
-    server: 208.87.243.151
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria
-    up: 11 Mbps
-    auth-str: dongtaiwang.com
-  - encryption: none
-    name: "\U0001F1F8\U0001F1ECSG_1|2.4MB/s|YT-SG|NF|D+|GM"
+    name: "\U0001F1F8\U0001F1ECSG_1|3.4MB/s|YT-SG|NF|D+|GM"
     network: ws
     port: 2096
     server: wangcai.cf.877774.xyz
@@ -60,7 +31,7 @@ proxies:
       - h3
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F9\U0001F1FCTW_1|955KB/s|GPT|YT-TW|NF|D+|GM"
+    name: "\U0001F1F9\U0001F1FCTW_1|1.2MB/s|GPT|YT-TW|D+|GM"
     network: ws
     port: 43
     server: 220.128.110.108
@@ -72,26 +43,30 @@ proxies:
         Host: s3.sni565.netlib.re
       path: /proxyip=tw.sni2025.netlib.re
     servername: s3.sni565.netlib.re
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_2|821KB/s|GPT⁺|YT-US|NF|D+|GM|2%"
+  - alpn:
+      - http/1.1
+    client-fingerprint: random
+    name: "\U0001F1F8\U0001F1ECSG_2|6.9MB/s|GPT|YT-SG|NF|D+|GM|2%"
     network: ws
+    password: '0'
     port: 443
-    server: 193.124.18.13
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    server: 162.159.42.58
+    skip-cert-verify: true
+    sni: c03237cb.ba73fe85.netlib.re
+    type: trojan
+    udp: true
     ws-opts:
       headers:
-        Host: kuangbao.xiejiang.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s|GPT⁺"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.0MB/s|GPT⁺"
     obfs: ''
     port: 49003
     protocol: udp
@@ -102,10 +77,10 @@ proxies:
     up: '11'
     auth-str: dongtaiwang.com
   - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_3|836KB/s|GPT⁺|YT-US|NF|D+|GM|2%"
+    name: "\U0001F1FA\U0001F1F8US_1|4.9MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
     network: ws
-    port: 30004
-    server: 211.252.50.74
+    port: 443
+    server: 54.95.79.44
     tls: true
     type: vless
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
@@ -116,38 +91,14 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_1|3.3MB/s|GPT⁺|YT-DE|NF|15%"
-    obfs: salamander
-    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-    password: 737c41d4-0c33-4f1a-80e1-77a96f5e9ba1
-    port: 40000
-    server: fgsgfgffggfqa.qishuijc.top
-    skip-cert-verify: false
-    sni: fgsgfgffggfqa.qishuijc.top
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1FARU_1|1.3MB/s"
-    obfs: salamander
-    obfs-password: MWM0NDYzYmVjY2Q2YWFlNA==
-    password: 02d5cdeb-e711-44d9-99a2-b88b129df428
-    port: 40400
-    server: xbly.qishuijc.top
-    skip-cert-verify: false
-    sni: xbly.qishuijc.top
-    type: hysteria2
-    up: ''
   - alpn:
       - h3
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_3|818KB/s|GPT|YT-JP|NF|D+|GM"
+    name: "\U0001F1F0\U0001F1F7KR_1|816KB/s|YT-KR|NF|D+|GM"
     network: ws
-    port: 443
-    server: 130.33.68.45
+    port: 33143
+    server: 222.104.213.148
     tls: true
     type: vless
     udp: true
@@ -156,79 +107,123 @@ proxies:
       headers:
         Host: s3.sni565.netlib.re
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+          Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
       path: /proxyip=tw.sni2025.netlib.re
     xudp: true
     servername: s3.sni565.netlib.re
-  - alpn:
-      - http/1.1
-    client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_4|1016KB/s|GPT⁺|YT-US|NF|D+|GM|2%"
+  - encryption: none
+    name: "\U0001F1ED\U0001F1F0HK_1|2.9MB/s|YT-SG|NF|D+"
     network: ws
-    password: '0'
     port: 443
-    server: freeyx.cloudflare88.eu.org
-    skip-cert-verify: true
-    sni: c03237cb.ba73fe85.netlib.re
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
-          Safari/537.36
-      path: /
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|971KB/s|GPT⁺"
-    obfs: ''
-    port: 50011
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-    auth-str: dongtaiwang.com
-  - client-fingerprint: randomized
-    encryption: none
-    name: "\U0001F1ED\U0001F1F0HK_1|2.8MB/s|YT-HK|2%"
-    network: ws
-    port: 35951
-    server: 36.50.90.241
+    server: 95.40.61.115
     tls: true
     type: vless
-    udp: true
-    uuid: f1e8a538-98ae-4b38-bdcf-c73a4928b8c1
+    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
     ws-opts:
       headers:
-        Host: joss.gpj1.web.id
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.101 Safari/537.36
-      path: /Free-VPN-CF-Geo-Project/36.50.90.241=35951
-    xudp: true
-    servername: joss.gpj1.web.id
-  - client-fingerprint: randomized
-    name: "\U0001F1ED\U0001F1F0HK_2|4.9MB/s"
+        Host: s3.sni565.netlib.re
+      path: /proxyip=tw.sni2025.netlib.re
+    servername: s3.sni565.netlib.re
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F8\U0001F1ECSG_3|8.0MB/s|GPT⁺|YT-SG|NF|GM|4%"
     network: ws
-    password: c6b96097-fe2d-487d-b9ef-60c994b90db2
-    port: 35951
-    server: 36.50.90.241
+    port: 8443
+    server: www.ub888.cc
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
+    ws-opts:
+      headers:
+        HOST: sg.hietamei-qingzeuyq.top
+      path: /
+    servername: sg.hietamei-qingzeuyq.top
+  - auth: 66f807a9-bfa1-43e6-b016-87a86bd6dd85
+    name: "\U0001F1E9\U0001F1EADE_1|2.7MB/s|GPT⁺|YT-DE|NF|15%"
+    obfs: salamander
+    obfs-password: MTAzM2E2MWQzNjhlMDhkZA==
+    password: 66f807a9-bfa1-43e6-b016-87a86bd6dd85
+    port: 41200
+    ports: 41200-41450
+    server: fgsgfgffggfqa.qishuijc.top
+    skip-cert-verify: false
+    sni: fgsgfgffggfqa.qishuijc.top
+    type: hysteria2
+    udp: true
+  - auth: c1785de0-212f-11ef-92aa-f23c9164ca5d
+    name: "\U0001F1FA\U0001F1F8US_2|2.6MB/s|GPT⁺|YT-US|NF|GM|35%"
+    password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+    port: 443
+    ports: 30000-60000
+    server: 7c57e159-t6ccg0-tfpsin-1q3dm.us.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 7c57e159-t6ccg0-tfpsin-1q3dm.us.hyhuawei.com
+  - name: "\U0001F1F8\U0001F1ECSG_4|7.3MB/s|YT-SG|NF|D+|GM"
+    network: ws
+    password: 12345678-1234-1234-1234-123456789123
+    port: 2096
+    server: wangcai.cf.877774.xyz
     skip-cert-verify: false
     sni: joss.gpj1.web.id
     type: trojan
     udp: true
     ws-opts:
       headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
-      path: /Free-VPN-CF-Geo-Project/36.50.90.241=35951
+        Host: joss.gpj1.web.id
+      path: "/Free-VPN-CF-Geo-Project/HK?Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - auth: 82508c48-c489-4a30-845f-e51c97ed0ec7
+    name: "\U0001F1FA\U0001F1F8US_3|3.0MB/s|GPT⁺|YT-US|NF|D+|11%"
+    password: 82508c48-c489-4a30-845f-e51c97ed0ec7
+    port: 51000
+    ports: 51000-53000
+    server: 129.159.97.206
+    skip-cert-verify: true
+    sni: cn.cremedelamer.com
+    type: hysteria2
+    udp: true
+  - auth: da3f691a-62be-42e0-a69f-1bb8b8ce4ec2
+    down: 15
+    name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s|GPT⁺|YT-US|NF|2%"
+    password: da3f691a-62be-42e0-a69f-1bb8b8ce4ec2
+    port: 46553
+    ports: 45000-55000
+    server: 51.81.223.166
+    skip-cert-verify: true
+    sni: tv.apple.com
+    type: hysteria2
+    udp: true
+    up: 15
+  - auth: 29022955-ef4e-419a-a4b5-54b8a3b40cce
+    down: 15
+    name: "\U0001F1FA\U0001F1F8US_5|963KB/s|GPT⁺|D+|GM|2%"
+    password: 29022955-ef4e-419a-a4b5-54b8a3b40cce
+    port: 45822
+    ports: 45000-55000
+    server: 51.81.223.166
+    skip-cert-verify: true
+    sni: tv.apple.com
+    type: hysteria2
+    udp: true
+    up: 15
+  - auth: da3f691a-62be-42e0-a69f-1bb8b8ce4ec2
+    down: 15
+    name: "\U0001F1FA\U0001F1F8US_6|850KB/s|GPT⁺|YT-US|NF|GM"
+    password: da3f691a-62be-42e0-a69f-1bb8b8ce4ec2
+    port: 49213
+    ports: 45000-55000
+    server: 51.81.223.166
+    skip-cert-verify: true
+    sni: tv.apple.com
+    type: hysteria2
+    udp: true
+    up: 15
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
