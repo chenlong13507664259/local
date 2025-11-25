@@ -1,16 +1,6 @@
 proxies:
-  - name: "\U0001F1F0\U0001F1F7KR_1|6.0MB/s|GPT⁺|YT-KR|NF|D+|GM|12%"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
   - encryption: none
-    name: "\U0001F1ED\U0001F1F0HK_1|6.3MB/s|GPT|YT-HK|NF|D+|2%"
+    name: "\U0001F1ED\U0001F1F0HK_1|5.3MB/s|GPT⁺|YT-HK|NF|D+|2%"
     network: ws
     port: 2096
     server: freeyx.cloudflare88.eu.org
@@ -25,7 +15,7 @@ proxies:
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
   - encryption: none
-    name: "\U0001F1ED\U0001F1F0HK_2|5.6MB/s|GPT⁺|YT-HK|NF|D+|GM|2%"
+    name: "\U0001F1FA\U0001F1F8US_1|4.9MB/s|GPT⁺|YT-HK|NF|D+|2%"
     network: ws
     port: 2096
     server: 108.162.198.24
@@ -40,7 +30,7 @@ proxies:
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
   - encryption: none
-    name: "\U0001F1ED\U0001F1F0HK_3|3.9MB/s|GPT⁺|YT-HK|NF|D+|GM|2%"
+    name: "\U0001F1ED\U0001F1F0HK_2|6.9MB/s|GPT⁺|YT-US|NF|GM|2%"
     network: ws
     port: 2096
     server: 108.162.198.11
@@ -55,7 +45,7 @@ proxies:
       max-early-data: 2560
     servername: kuangbao.xiejiang.dpdns.org
   - encryption: none
-    name: "\U0001F1ED\U0001F1F0HK_4|2.6MB/s|GPT⁺|YT-HK|NF"
+    name: "\U0001F1ED\U0001F1F0HK_3|3.8MB/s|GPT⁺|YT-HK|NF|2%"
     network: ws
     port: 7000
     server: 202.85.53.160
@@ -73,7 +63,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|2.9MB/s|GPT⁺|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|4.8MB/s|GPT⁺|NF"
     obfs: ''
     port: 49003
     protocol: udp
@@ -87,7 +77,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.9MB/s|GPT⁺|NF"
     obfs: ''
     port: 35511
     protocol: udp
