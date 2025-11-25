@@ -1,161 +1,6 @@
 proxies:
-  - encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|6.0MB/s|GPT⁺|YT-JP|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 108.162.198.11
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_1|1.3MB/s|GPT⁺|YT-VN|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.12
-    type: ss
-    udp: true
-  - auth: dongtaiwang.com
-    name: "\U0001F1EB\U0001F1F7FR_1|2.7MB/s|GPT⁺|YT-FR|NF"
-    password: dongtaiwang.com
-    port: 33880
-    server: 195.154.206.231
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria2
-    udp: true
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_1|904KB/s|GPT|YT-US|NF|D+|GM|2%"
-    network: ws
-    port: 443
-    server: 193.124.18.13
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - alpn:
-      - h3
-    client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_1|2.4MB/s|GPT|YT-KR|NF|D+|GM"
-    network: ws
-    port: 30017
-    server: 121.151.58.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6923b959-c65f-764c-b072-94711382d716
-    ws-opts:
-      headers:
-        Host: s2.sni565.netlib.re
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/42.0.2311.135 Safari/537.36
-      path: /proxyip=tw.sni2025.netlib.re
-    xudp: true
-    servername: s2.sni565.netlib.re
-  - cipher: aes-256-cfb
-    name: "\U0001F1EB\U0001F1F7FR_2|914KB/s|GPT|YT-FR|NF|0%"
-    password: amazonskr05
-    port: 443
-    server: 35.180.122.182
-    type: ss
-    udp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|936KB/s|GPT⁺|YT-US|NF|10%"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: beec8ec6-2b8d-40e9-f85c-43b834f4527c
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.181 Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 100
-    name: "\U0001F1EB\U0001F1F7FR_3|1.1MB/s|GPT⁺|YT-FR|NF"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 100
-  - name: "\U0001F1F9\U0001F1F7TR_1|939KB/s|GPT⁺|YT-US|NF|D+|GM|0%"
-    password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-    port: 21105
-    server: tr.xn--gmq00sc0nuve.shop
-    skip-cert-verify: true
-    type: hysteria2
-    sni: tr.xn--gmq00sc0nuve.shop
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|2.3MB/s|GPT⁺|NF"
-    obfs: ''
-    port: 49003
-    protocol: udp
-    server: 51.159.226.1
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-    auth-str: dongtaiwang.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR_4|914KB/s|GPT⁺|NF"
-    port: 35511
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8 US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_2|3.0MB/s|GPT⁺|YT-US|NF|D+|GM|0%"
-    network: none
-    port: 53487
-    server: 38.84.201.21
-    skip-cert-verify: true
-    type: vmess
-    uuid: c3c1ec05-df2c-4975-9b42-e9b007564eb1
-    ws-path: /
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_2|8.3MB/s|GPT⁺|YT-JP|NF|GM|2%"
+    name: "\U0001F1FA\U0001F1F8US_1|4.0MB/s|GPT⁺|YT-JP|NF|GM"
     network: ws
     port: 2096
     server: 108.162.198.24
@@ -174,74 +19,99 @@ proxies:
       max-early-data: 2560
     xudp: true
     servername: kuangbao.xiejiang.dpdns.org
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1E8\U0001F1E6CA_1|888KB/s|GPT⁺|100%"
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_2|6.9MB/s|GPT|YT-JP|NF|D+|GM|2%"
     network: ws
-    port: 443
-    server: 12ygev.keeoomboom.de
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    ws-opts:
-      headers:
-        Host: 12ygev.keeoomboom.de
-      path: /video/ux9tb.m3u8
-    xudp: true
-    servername: 12ygev.keeoomboom.de
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s|GPT⁺|YT-US|NF|D+|0%"
-    network: none
-    port: 44805
-    server: 216.167.107.61
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: f7d62526-9e06-455e-82bd-241d368002e8
-    xudp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_4|898KB/s|GPT⁺|YT-US|NF|GM"
-    password: amazonskr05
-    port: 443
-    server: 107.23.148.46
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_2|1.3MB/s|GPT|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.209
-    type: ss
-    udp: true
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_5|1.5MB/s|YT-JP|NF|D+|GM"
-    network: ws
-    port: 443
-    server: 130.33.68.45
+    port: 2096
+    server: 108.162.198.11
     tls: true
     type: vless
-    udp: true
-    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
     ws-opts:
       headers:
-        Host: s3.sni565.netlib.re
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/43.0.2357.65 Safari/537.36
-      path: /proxyip=tw.sni2025.netlib.re
-    xudp: true
-    servername: s3.sni565.netlib.re
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_3|878KB/s|GPT|YT-US|NF|D+|GM|2%"
+    network: ws
+    port: 443
+    server: 193.124.18.13
+    tls: true
+    type: vless
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - auth: dongtaiwang.com
+    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|GPT⁺|YT-FR|NF"
+    password: dongtaiwang.com
+    port: 33880
+    server: 195.154.206.231
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria2
+    udp: true
   - alpn:
       - h3
     client-fingerprint: random
     encryption: none
-    name: "\U0001F1EB\U0001F1F7FR_5|1020KB/s|NF|D+"
+    name: "\U0001F1F0\U0001F1F7KR_1|1.3MB/s|GPT|YT-KR|NF|D+|GM"
+    network: ws
+    port: 30017
+    server: 121.151.58.209
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6923b959-c65f-764c-b072-94711382d716
+    ws-opts:
+      headers:
+        Host: s2.sni565.netlib.re
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/42.0.2311.135 Safari/537.36
+      path: /proxyip=tw.sni2025.netlib.re
+    xudp: true
+    servername: s2.sni565.netlib.re
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "\U0001F1F3\U0001F1F1NL_1|3.5MB/s|GPT⁺|NF"
+    obfs: ''
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55
+    name: "\U0001F1EB\U0001F1F7FR_2|1.3MB/s|GPT⁺|NF"
+    port: 35511
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
+  - alpn:
+      - h3
+    client-fingerprint: random
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7FR_3|1.2MB/s|YT-FR|D+"
     network: ws
     port: 8443
     server: 94.23.153.167
@@ -258,20 +128,23 @@ proxies:
       path: /proxyip=tw.sni2025.netlib.re
     xudp: true
     servername: s3.sni565.netlib.re
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_1|2.1MB/s|GPT⁺|YT-NL|NF|0%"
-    obfs: salamander
-    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-    password: 78baed84-fe7b-4dbf-9857-6e7ad6da76aa
-    port: 40000
-    server: dg.jgpyjc.top
-    skip-cert-verify: false
-    sni: dg.jgpyjc.top
-    type: hysteria2
-    up: ''
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1 ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1EB\U0001F1F7FR_4|2.8MB/s|GPT⁺|YT-PL|NF|0%"
+    network: ws
+    port: 443
+    server: 00yin6.keeoomboom.de
+    tls: true
+    type: vmess
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    ws-opts:
+      path: /
+    servername: 00yin6.keeoomboom.de
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_6|1.3MB/s|GPT⁺|YT-US|NF|29%"
+    name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s|GPT⁺"
     network: ws
     password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
     port: 443
@@ -286,122 +159,6 @@ proxies:
           Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
           Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /dilyfCPEmLvYr5hYXD
-  - name: "\U0001F1FA\U0001F1F8US_7|844KB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
-    network: ws
-    port: 443
-    server: 54.249.169.40
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_3|2.2MB/s|GPT⁺|YT-VN|NF"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.247
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_1|1.9MB/s|GPT⁺|YT-SG|NF"
-    network: tcp
-    port: 30812
-    server: 144.48.180.187
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    servername: www.alibaba.com
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_2|800KB/s|GPT⁺|YT-US|NF|D+|2%"
-    network: ws
-    port: 2096
-    server: freeyx.cloudflare88.eu.org
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_2|1.8MB/s|YT-KR|NF|D+|GM"
-    network: ws
-    port: 50000
-    server: 106.242.64.238
-    tls: true
-    type: vless
-    uuid: 6923b959-c65f-764c-b072-94711382d716
-    ws-opts:
-      headers:
-        Host: s2.sni565.netlib.re
-      path: /proxyip=tw.sni2025.netlib.re
-    servername: s2.sni565.netlib.re
-  - encryption: none
-    name: "\U0001F1ED\U0001F1F0HK_1|1.8MB/s|GPT⁺|YT-HK|NF|D+|2%"
-    network: ws
-    port: 7000
-    server: 202.85.53.67
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_8|1.4MB/s|GPT⁺|YT-JP|NF|D+|GM|2%"
-    network: ws
-    port: 443
-    server: 47.79.41.201
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - auth: a4d53fc7-0b22-41e6-9fa2-c50b117465a2
-    name: "\U0001F1EC\U0001F1E7GB_2|823KB/s|GPT⁺|YT-NL|NF|0%"
-    obfs: salamander
-    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
-    password: a4d53fc7-0b22-41e6-9fa2-c50b117465a2
-    port: 40000
-    ports: 40000-40050
-    server: dg.jgpyjc.top
-    skip-cert-verify: false
-    sni: dg.jgpyjc.top
-    type: hysteria2
-    udp: true
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_3|2.2MB/s|YT-KR|NF|D+"
-    network: ws
-    port: 33143
-    server: 222.104.213.148
-    tls: true
-    type: vless
-    udp: true
-    uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
-    ws-opts:
-      headers:
-        Host: s3.sni565.netlib.re
-      path: /proxyip=tw.sni2025.netlib.re
-    servername: s3.sni565.netlib.re
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
