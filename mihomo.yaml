@@ -1,108 +1,13 @@
 proxies:
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_1|4.0MB/s|GPT⁺|YT-HK|NF|D+|GM"
-    network: ws
-    port: 2096
-    server: 108.162.198.11
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - name: "\U0001F1ED\U0001F1F0HK_1|4.1MB/s|YT-HK|NF|D+|2%"
+  - name: "\U0001F1ED\U0001F1F0HK_1|7.1MB/s|YT-HK|NF|D+|2%"
     password: BxceQaOe
     port: 443
     server: 112.118.116.66
     skip-cert-verify: true
     sni: t.me%2Fripaojiedian
     type: trojan
-  - name: "\U0001F1ED\U0001F1F0HK_2|824KB/s|YT-HK|NF|D+|2%"
-    password: BxceQaOe
-    port: 443
-    server: 219.79.165.186
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_2|5.7MB/s|GPT⁺|YT-US|NF|GM|37%"
-    password: BxceQaOe
-    port: 1112
-    server: 116.49.237.130
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_3|1.3MB/s|GPT⁺|YT-US|NF|D+|GM|2%"
-    network: ws
-    port: 443
-    server: 193.124.18.13
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s|GPT⁺|YT-US|NF|D+|GM|43%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: vNWTKraW-w1e5fUKLJhjDpslQX7OFnRbavF2VHowNhk
-      short-id: cb37b04594
-    server: 154.31.113.124
-    tls: true
-    type: vless
-    udp: true
-    uuid: b964cfbe-5f8a-47ae-9f14-4a6e36bfed2b
-    xudp: true
-    servername: tesla.com
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_5|1.7MB/s|GPT⁺|YT-CN|NF|0%"
-    network: ws
-    port: 37934
-    server: 74.117.196.232
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
-    ws-opts:
-      headers:
-        Host: imafake.locker
-      path: /speedtest
-    xudp: true
-    servername: imafake.locker
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_6|1.0MB/s|GPT⁺|YT-CN|NF|0%"
-    network: ws
-    port: 37934
-    server: 74.117.196.232
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 12929592-a7bd-41eb-ab4d-d804f76c4ff9
-    ws-opts:
-      headers:
-        Host: imafake.locker
-      path: /speedtest
-    xudp: true
-    servername: imafake.locker
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_3|8.9MB/s|GPT⁺|YT-HK|NF|D+|2%"
+    name: "\U0001F1ED\U0001F1F0HK_2|6.2MB/s|GPT⁺|YT-HK|NF|D+|2%"
     network: ws
     port: 2096
     server: freeyx.cloudflare88.eu.org
@@ -121,11 +26,113 @@ proxies:
       max-early-data: 2560
     xudp: true
     servername: kuangbao.xiejiang.dpdns.org
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EB\U0001F1F7 FR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_3|4.5MB/s|YT-CN|NF|D+|0%"
+    network: none
+    port: 38141
+    server: 45.136.12.37
+    skip-cert-verify: true
+    type: vmess
+    uuid: fd291be6-b48d-43a1-da38-66c7f80e2f80
+    ws-path: /
+  - encryption: none
+    name: "\U0001F1ED\U0001F1F0HK_4|6.3MB/s|GPT⁺|YT-US|NF|D+|2%"
+    network: ws
+    port: 2096
+    server: 108.162.198.11
+    tls: true
+    type: vless
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - name: "\U0001F1FA\U0001F1F8US_1|4.9MB/s|GPT⁺|YT-US|NF|D+|GM|2%"
+    network: ws
+    port: 443
+    server: 193.124.18.13
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s|GPT⁺|YT-US|NF|D+|GM|43%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: vNWTKraW-w1e5fUKLJhjDpslQX7OFnRbavF2VHowNhk
+      short-id: cb37b04594
+    server: 154.31.113.124
+    tls: true
+    type: vless
+    udp: true
+    uuid: b964cfbe-5f8a-47ae-9f14-4a6e36bfed2b
+    xudp: true
+    servername: tesla.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EA\U0001F1F8ES_1|3.8MB/s|GPT⁺|YT-ES|NF|53%"
+    network: tcp
+    port: 18092
+    reality-opts:
+      public-key: MJ40ajh3_flpAxxkkNgKzvaYqM8E5c9qBRPb-41arVI
+      short-id: 13ec7fe402
+    server: bountyhunter.fonixapp.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: fea633c3-cacf-41d7-951a-a04b578b0dcf
+    xudp: true
+    servername: ilovepdf.com
+  - auth: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK_5|3.0MB/s|YT-HK|2%"
+    password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    port: 443
+    ports: 30000-60000
+    server: 1cd67f2c-t5bb40-t6lp0p-1lkt0.hk1.hyhuawei.com
+    skip-cert-verify: false
+    type: hysteria2
+    sni: 1cd67f2c-t5bb40-t6lp0p-1lkt0.hk1.hyhuawei.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_1|3.2MB/s|GPT⁺|YT-DE|NF|D+|21%"
+    network: tcp
+    port: 49722
+    reality-opts:
+      public-key: eRuDPGgOwmAbFaNZtqzEfgflU4Jaj2MJNYwAQPkp32s
+      short-id: 23f89c
+    server: broodmother.fonixapp.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1c1023ac-3d16-494d-be09-65a248f49cd7
+    xudp: true
+    servername: yelp.com
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|GPT⁺"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.9MB/s|GPT⁺|NF"
     obfs: ''
     port: 50011
     protocol: udp
@@ -139,7 +146,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_2|1.6MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_2|2.2MB/s|GPT⁺|NF"
     obfs: ''
     port: 35511
     protocol: ''
@@ -153,7 +160,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s|GPT⁺"
+    name: "\U0001F1F3\U0001F1F1NL_1|3.9MB/s|GPT⁺|NF"
     obfs: ''
     port: 49003
     protocol: ''
@@ -163,58 +170,21 @@ proxies:
     type: hysteria
     up: '11'
     auth-str: dongtaiwang.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s|GPT⁺|YT-DE|NF|D+|21%"
-    network: tcp
-    port: 49722
-    reality-opts:
-      public-key: eRuDPGgOwmAbFaNZtqzEfgflU4Jaj2MJNYwAQPkp32s
-      short-id: 23f89c
-    server: broodmother.fonixapp.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1c1023ac-3d16-494d-be09-65a248f49cd7
-    xudp: true
-    servername: yelp.com
-  - auth: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-    client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_4|5.9MB/s|YT-HK|NF|2%"
-    password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1E7\U0001F1E9BD"
+    name: "\U0001F1F0\U0001F1FFKZ_1|1.1MB/s|GPT⁺|NF|25%"
+    password: 4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk
     port: 443
-    ports: 30000-60000
-    server: 1cd67f2c-t5bb40-t6lp0p-1lkt0.hk1.hyhuawei.com
-    skip-cert-verify: false
-    type: hysteria2
-    sni: 1cd67f2c-t5bb40-t6lp0p-1lkt0.hk1.hyhuawei.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EA\U0001F1F8ES_1|1.4MB/s|GPT⁺|NF|53%"
-    network: tcp
-    port: 18092
-    reality-opts:
-      public-key: MJ40ajh3_flpAxxkkNgKzvaYqM8E5c9qBRPb-41arVI
-      short-id: 13ec7fe402
-    server: bountyhunter.fonixapp.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: fea633c3-cacf-41d7-951a-a04b578b0dcf
-    xudp: true
-    servername: ilovepdf.com
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1EB\U0001F1F7FR_3|1.0MB/s|GPT⁺|80%"
-    port: 30835
-    server: v35.hdacd.com
+    server: 103.106.3.82
+    type: ss
+  - country: "\U0001F1F7\U0001F1FA RU"
+    name: "\U0001F1F7\U0001F1FARU_1|4.1MB/s|YT-RU"
+    password: Qzy7tgpRhu
+    port: 443
+    server: 37.18.14.33
     skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    sni: m.vk.com
+    type: trojan
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
