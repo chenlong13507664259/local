@@ -1,78 +1,36 @@
 proxies:
-  - name: "\U0001F1ED\U0001F1F0HK_1|10.3MB/s|YT-HK|NF|D+|2%"
+  - name: "\U0001F1ED\U0001F1F0HK_1|6.7MB/s|YT-CN|NF|2%"
     password: BxceQaOe
     port: 443
     server: 112.118.116.66
     skip-cert-verify: true
     sni: t.me%2Fripaojiedian
     type: trojan
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_2|5.7MB/s|GPT|YT-HK|NF|D+"
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0 HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_2|2.6MB/s|GPT⁺|YT-HK|NF|D+|2%"
     network: ws
-    port: 2096
-    server: freeyx.cloudflare88.eu.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: f7d95364-607b-11ee-93af-f23c91369f2d
     ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: kuangbao.xiejiang.dpdns.org
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_1|4.6MB/s|GPT⁺|YT-US|NF|D+|GM|2%"
-    network: ws
-    port: 2096
-    server: 108.162.198.11
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
       headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - name: "\U0001F1FA\U0001F1F8US_2|2.9MB/s|GPT⁺|YT-US|NF|D+|GM|12%"
-    network: ws
-    port: 443
-    server: 193.124.18.13
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1E7\U0001F1E9BD"
-    name: "\U0001F1F0\U0001F1FFKZ_1|1.4MB/s|GPT⁺|NF|31%"
-    password: 4SaCIazlgumYkM8FkPzlmwjpyWBDZFBk
-    port: 443
-    server: 103.106.3.82
-    type: ss
+        Host: hkt.gotochinatown.net
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_1|1.9MB/s|GPT⁺|NF"
+    name: "\U0001F1F3\U0001F1F1NL_1|4.7MB/s|GPT⁺|NF"
     obfs: ''
-    port: 35511
+    port: 49003
     protocol: ''
-    server: 62.210.10.186
+    server: 51.159.226.1
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
@@ -82,7 +40,7 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_2|1.9MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.9MB/s|GPT⁺|NF"
     obfs: ''
     port: 50011
     protocol: udp
@@ -96,129 +54,52 @@ proxies:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|3.3MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_2|1.8MB/s|GPT⁺|NF"
     obfs: ''
-    port: 49003
+    port: 35511
     protocol: ''
-    server: 51.159.226.1
+    server: 62.210.10.186
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
     up: '11'
     auth-str: dongtaiwang.com
-  - cipher: aes-256-cfb
-    country: "\U0001F1F0\U0001F1F7 KR"
-    name: "\U0001F1F0\U0001F1F7KR_1|935KB/s|GPT⁺"
-    password: qwerREWQ@@
-    port: 4652
-    server: p141.panda001.net
-    type: ss
-  - alterId: 0
+  - alterId: 2
     cipher: auto
-    h2-opts: {}
-    http-opts:
-      method: GET
-      path:
-        - /
-    name: "\U0001F1F8\U0001F1ECSG_1|8.8MB/s|GPT⁺|YT-SG|NF|GM|0%"
-    network: http
-    port: 53784
-    server: 18.143.248.157
-    type: vmess
-    uuid: 3a480a7d-a4b3-46e1-d4c4-04256b77f045
-  - alterId: 0
-    cipher: auto
+    country: "\U0001F1ED\U0001F1F0 HK"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_3|4.5MB/s|GPT⁺|YT-US|NF|D+|GM|0%"
-    network: none
-    port: 36108
-    server: 216.167.49.157
+    name: "\U0001F1ED\U0001F1F0HK_3|1.4MB/s|GPT|YT-HK|NF|D+|2%"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
     type: vmess
-    uuid: ac9340c1-61d7-47bd-c5a2-9b888857dec6
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_1|972KB/s|GPT⁺|YT-VN|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.21
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR_3|4.4MB/s|GPT⁺|YT-FR|NF|2%"
-    password: amazonskr05
+    uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+    ws-opts:
+      path: /
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: hkt.gotochinatown.net
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1F0\U0001F1F7 KR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F0\U0001F1F7KR_1|4.8MB/s|GPT⁺|YT-KR|NF|GM|4%"
+    network: ws
     port: 443
-    server: 35.181.172.34
-    type: ss
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK_3|12.6MB/s|YT-HK|NF|D+|2%"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.30.175
+    server: seoul03.zgjok.com
     skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP_1|9.4MB/s|GPT⁺|YT-CN|NF|0%"
-    password: BxceQaOe
-    port: 5156
-    server: 52.195.176.26
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK_4|1.8MB/s|YT-CN|NF|D+|2%"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.53.8
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1F8\U0001F1ECSG_2|3.3MB/s|GPT⁺|YT-SG|NF|GM"
-    password: BxceQaOe
-    port: 1196
-    server: 52.199.79.149
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP_2|1.2MB/s|GPT⁺|YT-US|NF|0%"
-    password: 79314e99f0a473fe86efc7827942ad00
-    port: 1331
-    server: 160.16.138.24
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1F8\U0001F1ECSG_3|1.7MB/s|GPT⁺|YT-US|NF"
-    password: 79314e99f0a473fe86efc7827942ad00
-    port: 2760
-    server: 160.16.81.84
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1FA\U0001F1F8US_4|1.6MB/s|GPT⁺|YT-CN|NF|41%"
-    password: 79314e99f0a473fe86efc7827942ad00
-    port: 4054
-    server: 160.16.81.84
-    skip-cert-verify: true
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EE\U0001F1F1IL"
-    name: "\U0001F1EE\U0001F1F1IL_1|1020KB/s|GPT⁺|YT-IL|NF|100%"
-    password: 4lUEC91c1d8oeClzDbYpXA
-    port: 8618
-    server: 45.93.95.187
-    type: ss
+    tls: true
+    type: vmess
+    uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+    ws-opts:
+      headers:
+        HOST: seoul03.zgjok.com
+      path: /
+    servername: seoul03.zgjok.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
