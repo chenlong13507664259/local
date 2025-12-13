@@ -1,123 +1,37 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s|YT-HK|NF|D+|2%"
-    password: 76d630f2af6619c4a5de0ef953df3c6a
-    port: 443
-    server: 112.118.116.127
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|877KB/s|GPT⁺|NF"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
   - alpn:
       - h3
     auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1EB\U0001F1F7FR_2|1.2MB/s|GPT⁺"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s|GPT⁺"
     obfs: ''
-    port: 35511
-    protocol: ''
-    server: 62.210.10.186
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
     up: '11'
     auth-str: dongtaiwang.com
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s|GPT⁺|YT-US|NF|7%"
-    network: ws
-    port: 2083
-    server: www.speedtest.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 94a64eb4-b438-4088-b2bd-6f3ac279c418
-    ws-opts:
-      headers:
-        Host: golestan.hajalwi.ir.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/69.0.3497.100 Safari/537.36
-      path: >-
-        /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 8080
-    xudp: true
-    servername: golestan.hajalwi.ir.
   - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|2.3MB/s|GPT⁺|YT-US|NF|9%"
+    name: "\U0001F1E9\U0001F1EADE_1|954KB/s|GPT⁺|YT-US|NF|9%"
     network: ws
     port: 2082
     server: www.speedtest.net
     type: vless
     udp: true
-    uuid: e2b25837-a49b-4f9e-8a52-5dd73678dc73
+    uuid: df3267a7-980d-449c-cc71-04da04ed9fab
     ws-opts:
       headers:
         Host: >-
           novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
         User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
-          Chrome/63.0.3239.111 Mobile Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/52.0.2743.116 Safari/537.36
       path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2082
     xudp: true
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s|GPT|YT-US|NF|7%"
-    network: ws
-    port: 2083
-    server: www.speedtest.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: a47338c5-c793-4da3-acd8-c583fb6f344d
-    ws-opts:
-      headers:
-        Host: golestan.hajalwi.ir.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.67 Safari/537.36
-      path: >-
-        /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 8080
-    xudp: true
-    servername: golestan.hajalwi.ir.
-  - alpn:
-      - h3
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_3|824KB/s|GPT⁺"
-    obfs: ''
-    port: 50011
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-    auth-str: dongtaiwang.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
