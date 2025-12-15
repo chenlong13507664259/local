@@ -3,7 +3,7 @@ proxies:
       - h3
     auth-str: dongtaiwang.com
     down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s|GPT⁺|YT-FR|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|946KB/s|GPT⁺"
     port: 15010
     protocol: udp
     server: 195.154.200.40
@@ -11,30 +11,12 @@ proxies:
     sni: apple.com
     type: hysteria
     up: '100'
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|822KB/s|GPT⁺|GM|39%"
-    network: ws
-    port: 443
-    server: 69.84.182.13
-    tls: true
-    type: vless
-    udp: true
-    uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
-    ws-opts:
-      headers:
-        Host: jp1-jp1.aiopen.sbs
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /kbjc/jp1
-    xudp: true
-    servername: jp1-jp1.aiopen.sbs
   - alpn:
       - h2
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|941KB/s|GPT⁺|YT-US|NF|6%"
+    name: "\U0001F1E9\U0001F1EADE_1|883KB/s|GPT⁺|NF|6%"
     network: ws
     port: 2087
     server: www.speedtest.net
@@ -48,6 +30,61 @@ proxies:
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
           Gecko) Chrome/31.0.1650.57 Safari/537.36
+      path: >-
+        /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 8080
+    xudp: true
+    servername: dl4.hajalwi.ir.
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1EF\U0001F1F5JP_1|1.0MB/s|GPT⁺|YT-JP|NF|GM|12%"
+    password: 130ec091-df05-4af9-9695-dc982e98a8ec
+    port: 11670
+    reduce-rtt: false
+    request-timeout: 0
+    server: 168.138.194.92
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: 130ec091-df05-4af9-9695-dc982e98a8ec
+    version: 5
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_2|815KB/s|GPT⁺|NF"
+    port: 26691
+    protocol: udp
+    server: 62.210.196.68
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11 Mbps
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s|GPT⁺|D+|6%"
+    network: ws
+    port: 2087
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: bc6f95a3-a6e5-4a7a-afa5-1f3533e3329e
+    ws-opts:
+      headers:
+        Host: dl4.hajalwi.ir.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
       path: >-
         /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
       early-data-header-name: Sec-WebSocket-Protocol
