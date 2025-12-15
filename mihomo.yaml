@@ -2,8 +2,150 @@ proxies:
   - alpn:
       - h3
     auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_1|3.0MB/s|GPT⁺|YT-FR|NF"
+    obfs: ''
+    port: 26691
+    protocol: udp
+    server: 62.210.196.68
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+    auth-str: dongtaiwang.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_2|2.9MB/s|GPT⁺|YT-FR|NF"
+    port: 15010
+    protocol: udp
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8 US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US_1|867KB/s|GPT⁺|YT-US|NF|0%"
+    network: tcp
+    port: 59807
+    server: 38.14.99.163
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    servername: 38.14.99.163
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8 US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT⁺|YT-US|NF|0%"
+    network: tcp
+    port: 59807
+    server: 38.14.99.179
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  - name: "\U0001F1ED\U0001F1F0HK_1|4.4MB/s|YT-HK|NF|D+|2%"
+    password: BxceQaOe
+    port: 443
+    server: 219.79.214.159
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - name: "\U0001F1ED\U0001F1F0HK_2|3.5MB/s|YT-HK|NF|D+|2%"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.153
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_1|5.0MB/s|GPT⁺|YT-JP|NF|D+|GM|3%"
+    network: ws
+    port: 443
+    server: visa.com
+    tls: true
+    type: vless
+    uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+    ws-opts:
+      headers:
+        Host: asuka.boringdad.netlib.re
+      path: /
+    servername: asuka.boringdad.netlib.re
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|3.4MB/s|GPT⁺|YT-US|NF|9%"
+    network: ws
+    port: 2082
+    server: www.speedtest.net
+    type: vless
+    udp: true
+    uuid: d41d6815-7186-4ac1-ba54-73c69eb0490e
+    ws-opts:
+      headers:
+        Host: >-
+          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2082
+    xudp: true
+  - alpn:
+      - h2
+    grpc-opts:
+      grpc-service-name: db
+    name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s|21%"
+    network: grpc
+    password: ab47264dad8b0fbe
+    port: 443
+    server: 51aa8f7.hf.glados-config.net
+    sni: n2.gladns.com
+    type: trojan
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s|GPT⁺|YT-US|NF|33%"
+    network: ws
+    port: 443
+    server: 172.67.162.50
+    tls: true
+    type: vless
+    udp: true
+    uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+    ws-opts:
+      headers:
+        Host: eEedFR5.7777155.Xyz
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.89 Safari/537.36
+      path: /6OWLjRc26b0nHYr5hYXD
+    xudp: true
+    servername: eEedFR5.7777155.Xyz
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_2|2.2MB/s|GPT⁺|YT-JP|D+|GM|39%"
+    network: ws
+    port: 443
+    server: 69.84.182.13
+    tls: true
+    type: vless
+    udp: true
+    uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+    ws-opts:
+      headers:
+        Host: jp1-jp1.aiopen.sbs
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /kbjc/jp1
+    xudp: true
+    servername: jp1-jp1.aiopen.sbs
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s|GPT⁺"
+    name: "\U0001F1F3\U0001F1F1NL_1|3.2MB/s|GPT⁺|NF"
     obfs: ''
     port: 49003
     protocol: udp
@@ -13,25 +155,102 @@ proxies:
     type: hysteria
     up: '11'
     auth-str: dongtaiwang.com
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_3|1.6MB/s|GPT"
+    obfs: ''
+    port: 50011
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+    auth-str: dongtaiwang.com
   - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|954KB/s|GPT⁺|YT-US|NF|9%"
+    name: "\U0001F1EB\U0001F1EEFI_1|4.5MB/s|GPT|YT-US|NF|5%"
     network: ws
-    port: 2082
+    port: 8080
+    server: 104.17.147.22
+    type: vless
+    udp: true
+    uuid: Parsashonam-Bot-41
+    ws-opts:
+      headers:
+        Host: Fi.Parsashonam.CfD.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: >-
+        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2056
+    xudp: true
+  - encryption: none
+    name: "\U0001F1ED\U0001F1F0HK_3|6.6MB/s"
+    network: ws
+    port: 80
     server: www.speedtest.net
     type: vless
     udp: true
-    uuid: df3267a7-980d-449c-cc71-04da04ed9fab
+    uuid: 45d44338-30d2-439c-b765-90cb16f581c9
     ws-opts:
       headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+        Host: broad-lake-d615.hegegi9101.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: broad-lake-d615.hegegi9101.workers.dev
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|1.5MB/s|GPT⁺|YT-DE|NF|D+|7%"
+    network: ws
+    port: 2087
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9d6c0f0e-9409-48b3-9e10-bdc7f2a57d25
+    ws-opts:
+      headers:
+        Host: dl4.hajalwi.ir.
         User-Agent: >-
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      path: >-
+        /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
       early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
+      max-early-data: 8080
     xudp: true
+    servername: dl4.hajalwi.ir.
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL_2|1.9MB/s|GPT⁺|YT-RU|0%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
+      short-id: ''
+    server: node5.telegavpn.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: bce1b15a-38b1-4154-8530-3b04cb5bd927
+    xudp: true
+    servername: node5.telegavpn.org
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
