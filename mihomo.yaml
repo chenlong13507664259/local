@@ -2,62 +2,9 @@ proxies:
   - alpn:
       - h3
     auth-str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|946KB/s|GPT⁺"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|883KB/s|GPT⁺|NF|6%"
-    network: ws
-    port: 2087
-    server: www.speedtest.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: c1444d72-6b3c-4b4b-9525-2ea5ef08bc21
-    ws-opts:
-      headers:
-        Host: dl4.hajalwi.ir.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/31.0.1650.57 Safari/537.36
-      path: >-
-        /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 8080
-    xudp: true
-    servername: dl4.hajalwi.ir.
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1EF\U0001F1F5JP_1|1.0MB/s|GPT⁺|YT-JP|NF|GM|12%"
-    password: 130ec091-df05-4af9-9695-dc982e98a8ec
-    port: 11670
-    reduce-rtt: false
-    request-timeout: 0
-    server: 168.138.194.92
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: tuic
-    udp-relay-mode: native
-    uuid: 130ec091-df05-4af9-9695-dc982e98a8ec
-    version: 5
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_2|815KB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s|GPT⁺|YT-FR|NF"
     port: 26691
     protocol: udp
     server: 62.210.196.68
@@ -67,30 +14,128 @@ proxies:
     udp: true
     up: 11 Mbps
   - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s|GPT⁺|D+|6%"
-    network: ws
-    port: 2087
-    server: www.speedtest.net
-    tls: true
-    type: vless
+      - h3
+    auth-str: dongtaiwang.com
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_2|1.1MB/s|GPT⁺|YT-FR|NF"
+    port: 15010
+    protocol: udp
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '100'
+  - alpn:
+      - h3
+    auth: 7a88d322-eb4a-4a59-8c62-8c60d76abf4b
+    name: "\U0001F1EF\U0001F1F5JP_1|1.7MB/s|GPT⁺|YT-JP|NF|GM|4%"
+    password: 7a88d322-eb4a-4a59-8c62-8c60d76abf4b
+    port: 28253
+    server: 161.33.185.230
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
     udp: true
-    uuid: bc6f95a3-a6e5-4a7a-afa5-1f3533e3329e
-    ws-opts:
-      headers:
-        Host: dl4.hajalwi.ir.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/54.0.2840.71 Safari/537.36
-      path: >-
-        /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 8080
-    xudp: true
-    servername: dl4.hajalwi.ir.
+  - auth: c4d32d4a-9b49-4ba8-a4a2-e517f1902219
+    name: "\U0001F1FA\U0001F1F8US_1|2.2MB/s|GPT⁺|YT-US|NF|D+|GM|0%"
+    password: c4d32d4a-9b49-4ba8-a4a2-e517f1902219
+    port: 25200
+    ports: 25200-26200
+    server: us1.kaixincloud.top
+    skip-cert-verify: false
+    sni: us1.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - auth: 8aee373a-7189-4ec6-84d2-d4a2198c463c
+    name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s|GPT⁺|YT-US|NF|D+|GM|0%"
+    password: 8aee373a-7189-4ec6-84d2-d4a2198c463c
+    port: 25200
+    ports: 25200-26200
+    server: us1.kaixincloud.top
+    skip-cert-verify: false
+    sni: us1.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - auth: e85c5998-4e24-44c8-a75a-93f1e8e9d9dc
+    name: "\U0001F1E9\U0001F1EADE_1|1.9MB/s|GPT⁺|YT-NL|NF|D+|0%"
+    password: e85c5998-4e24-44c8-a75a-93f1e8e9d9dc
+    port: 27200
+    ports: 27200-28000
+    server: hl.kaixincloud.top
+    skip-cert-verify: false
+    sni: hl.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - auth: 8b0afc8a-bff5-4657-8dfd-0ee371824027
+    name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s|GPT⁺|YT-NL|NF|D+|0%"
+    password: 8b0afc8a-bff5-4657-8dfd-0ee371824027
+    port: 27200
+    ports: 27200-28000
+    server: hl.kaixincloud.top
+    skip-cert-verify: false
+    sni: hl.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - auth: 881c153c-cf33-4bfc-b7ff-4a90163c160f
+    name: "\U0001F1E9\U0001F1EADE_3|1.4MB/s|GPT⁺|YT-NL|NF|0%"
+    password: 881c153c-cf33-4bfc-b7ff-4a90163c160f
+    port: 25200
+    ports: 25200-26200
+    server: dg.kaixincloud.top
+    skip-cert-verify: false
+    sni: dg.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - auth: e85c5998-4e24-44c8-a75a-93f1e8e9d9dc
+    name: "\U0001F1E9\U0001F1EADE_4|1.9MB/s|GPT⁺|YT-NL|NF|0%"
+    password: e85c5998-4e24-44c8-a75a-93f1e8e9d9dc
+    port: 25200
+    ports: 25200-26200
+    server: dg.kaixincloud.top
+    skip-cert-verify: false
+    sni: dg.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - auth: 174ad6eb-d8d3-4ad4-8bfd-584ef863399c
+    name: "\U0001F1E9\U0001F1EADE_5|1.3MB/s|GPT⁺|0%"
+    password: 174ad6eb-d8d3-4ad4-8bfd-584ef863399c
+    port: 25200
+    ports: 25200-26200
+    server: dg.kaixincloud.top
+    skip-cert-verify: false
+    sni: dg.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - auth: c4d32d4a-9b49-4ba8-a4a2-e517f1902219
+    name: "\U0001F1E9\U0001F1EADE_6|1.5MB/s|GPT⁺|YT-NL|NF|0%"
+    password: c4d32d4a-9b49-4ba8-a4a2-e517f1902219
+    port: 25200
+    ports: 25200-26200
+    server: dg.kaixincloud.top
+    skip-cert-verify: false
+    sni: dg.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - auth: 8aee373a-7189-4ec6-84d2-d4a2198c463c
+    name: "\U0001F1E9\U0001F1EADE_7|1.8MB/s|GPT⁺|YT-NL|NF|0%"
+    password: 8aee373a-7189-4ec6-84d2-d4a2198c463c
+    port: 25200
+    ports: 25200-26200
+    server: dg.kaixincloud.top
+    skip-cert-verify: false
+    sni: dg.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE_8|3.5MB/s|GPT⁺|YT-DE|NF|17%"
+    network: none
+    port: 50255
+    server: 45.80.188.48
+    type: vmess
+    uuid: bc140c02-25a9-4feb-96bb-7d772b17fd17
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
