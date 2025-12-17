@@ -5,7 +5,7 @@ proxies:
     auth_str: dongtaiwang.com
     delay: 1664
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|932KB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.7MB/s|GPT|NF"
     port: 26691
     protocol: udp
     server: 62.210.196.68
@@ -14,6 +14,30 @@ proxies:
     type: hysteria
     udp: true
     up: 11 Mbps
+  - auth: 6b6fcd63-0c8b-4b82-be9e-bbbece208fa2
+    name: "\U0001F1E9\U0001F1EADE_1|2.0MB/s|GPT⁺|YT-NL|NF|0%"
+    password: 6b6fcd63-0c8b-4b82-be9e-bbbece208fa2
+    port: 25200
+    ports: 25200-26200
+    server: dg.kaixincloud.top
+    skip-cert-verify: false
+    sni: dg.kaixincloud.top
+    type: hysteria2
+    udp: true
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55
+    name: "\U0001F1EB\U0001F1F7FR_2|801KB/s|GPT"
+    port: 35511
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
