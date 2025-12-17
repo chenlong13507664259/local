@@ -1,49 +1,88 @@
 proxies:
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_1|1.3MB/s|GPT⁺|YT-US|NF|GM|0%"
+    network: ws
+    port: 80
+    server: 172.66.156.81
+    type: vless
+    udp: true
+    uuid: f9423717-ed92-432d-9d92-c09ea142cfa3
+    ws-opts:
+      headers:
+        Host: >-
+          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.skylinkserver.site.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
+          Safari/537.36
+      path: >-
+        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+    xudp: true
+  - encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_1|3.5MB/s|GPT⁺|YT-US|NF|5%"
+    network: ws
+    port: 8080
+    server: 104.17.147.22
+    type: vless
+    udp: true
+    uuid: Parsashonam-Bot-41
+    ws-opts:
+      headers:
+        Host: Fi.Parsashonam.CfD.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: >-
+        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2056
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT⁺|YT-CN|NF|0%"
+    network: tcp
+    port: 180
+    server: 82.198.246.97
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    servername: 82.198.246.97
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_3|923KB/s|GPT⁺|YT-CN|NF|0%"
+    network: tcp
+    port: 180
+    server: 82.198.246.97
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    servername: t.me%2Fripaojiedian
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_4|1020KB/s|GPT⁺|YT-CN|NF|0%"
+    network: tcp
+    port: 180
+    server: 82.198.246.97
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    servername: jp1.sstank.top
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|3.7MB/s|GPT⁺|YT-FR|NF"
-    port: 26691
+    down: 55
+    name: "\U0001F1EB\U0001F1F7FR_1|1.5MB/s|GPT⁺"
+    port: 35511
     protocol: udp
-    server: 62.210.196.68
+    server: 62.210.10.186
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
     udp: true
-    up: 11 Mbps
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_2|1.7MB/s|GPT⁺|YT-FR|NF"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F9\U0001F1FCTW_1|989KB/s|GPT⁺|YT-RU"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: I0fwGRiSwcXazqFy0qmyhMzaN3JOOBafmvDM6A-AaUs
-      short-id: 9c2378562188c3cb
-    server: 178.171.122.65
-    tls: true
-    type: vless
-    uuid: 0a97c5f3-68de-4d5e-bac2-c6bd94551fb6
-    servername: msk.capybara.press
+    up: 11
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_3|1.8MB/s|GPT⁺|NF"
+    name: "\U0001F1EB\U0001F1F7FR_2|1.4MB/s|GPT⁺"
     port: 50011
     protocol: udp
     server: 62.210.10.186
@@ -51,7 +90,14 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-  - name: "\U0001F1F0\U0001F1F7KR_1|2.3MB/s|GPT⁺|YT-KR|NF|D+|GM|12%"
+  - name: "\U0001F1ED\U0001F1F0HK_1|1.0MB/s|D+"
+    password: BxceQaOe
+    port: 443
+    server: 219.79.214.159
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+  - name: "\U0001F1F0\U0001F1F7KR_1|6.2MB/s|GPT⁺|YT-KR|NF|D+|GM|12%"
     password: test.+
     port: 30446
     server: testkr3.ssv.vc
@@ -61,76 +107,68 @@ proxies:
     udp: true
     username: test
     sni: testkr3.ssv.vc
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR_4|1.8MB/s|GPT⁺|NF"
-    port: 35511
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11
   - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|2.1MB/s|GPT⁺|YT-DE|NF|10%"
+    name: "\U0001F1ED\U0001F1F0HK_2|5.5MB/s|GPT|YT-HK|NF|D+"
     network: ws
-    port: 2095
-    server: test2.amin8263.ir
+    port: 80
+    server: www.speedtest.net
     type: vless
     udp: true
-    uuid: ddd02f94-4422-4242-835a-90e71a231704
+    uuid: 45d44338-30d2-439c-b765-90cb16f581c9
     ws-opts:
       headers:
-        Host: test3.amin8263.ir
+        Host: broad-lake-d615.hegegi9101.workers.dev
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: >-
-        /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE_2|1.0MB/s|GPT⁺|YT-DE|NF|10%"
-    network: ws
-    port: 2095
-    server: 172.67.146.171
-    type: vless
-    udp: true
-    uuid: ddd02f94-4422-4242-835a-90e71a231704
-    ws-opts:
-      headers:
-        Host: test3.amin8263.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.94 Safari/537.36
-      path: >-
-        /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s|GPT⁺|YT-RU|NF|D+|0%"
-    network: ws
-    port: 8880
-    server: Www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 49aefaed-ad06-4ce9-ad25-b75b6b489b0c
-    ws-opts:
-      headers:
-        Host: mx.amin8263.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
       path: /
       early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+      max-early-data: 2560
     xudp: true
+    servername: broad-lake-d615.hegegi9101.workers.dev
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_5|826KB/s|YT-US|NF|GM"
+    network: ws
+    port: 80
+    server: 185.18.184.66
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: hello.96xckkzx.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      path: /?ed=2048@v2ray_configs_pools--@v2ray_configs_pools
+    xudp: true
+    servername: hello.96xckkzx.workers.dev
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|883KB/s|GPT⁺|NF|D+|6%"
+    network: ws
+    port: 2087
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0368f05c-b1d5-4825-8785-b71e5c194ad5
+    ws-opts:
+      headers:
+        Host: dl4.hajalwi.ir.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: >-
+        /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 8080
+    xudp: true
+    servername: dl4.hajalwi.ir.
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
