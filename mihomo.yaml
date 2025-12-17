@@ -5,7 +5,7 @@ proxies:
     auth_str: dongtaiwang.com
     delay: 1664
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s|GPT⁺|YT-FR|NF"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s|GPT⁺|NF"
     port: 26691
     protocol: udp
     server: 62.210.196.68
@@ -14,12 +14,22 @@ proxies:
     type: hysteria
     udp: true
     up: 11 Mbps
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.7MB/s|GPT⁺|YT-KR|NF|D+|GM|12%"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 55
-    name: "\U0001F1EB\U0001F1F7FR_2|917KB/s|GPT⁺"
+    name: "\U0001F1EB\U0001F1F7FR_2|1023KB/s|GPT⁺"
     port: 35511
     protocol: udp
     server: 62.210.10.186
