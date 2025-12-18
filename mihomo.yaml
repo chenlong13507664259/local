@@ -1,20 +1,5 @@
 proxies:
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 1664
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s|GPT⁺|NF"
-    port: 26691
-    protocol: udp
-    server: 62.210.196.68
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11 Mbps
-  - name: "\U0001F1F0\U0001F1F7KR_1|1.7MB/s|GPT⁺|YT-KR|NF|D+|GM|12%"
+  - name: "\U0001F1F0\U0001F1F7KR_1|4.4MB/s|GPT⁺|YT-KR|NF|D+|12%"
     password: test.+
     port: 30446
     server: testkr3.ssv.vc
@@ -24,12 +9,254 @@ proxies:
     udp: true
     username: test
     sni: testkr3.ssv.vc
+  - name: "\U0001F1ED\U0001F1F0HK_1|7.2MB/s|YT-HK|NF|D+|2%"
+    password: e2722c0fb503f8a592436c12bce0509a
+    port: 443
+    server: 112.118.116.8
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN_1|1.5MB/s|GPT⁺|YT-US|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.21
+    type: ss
+  - encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_1|2.7MB/s|GPT⁺|YT-US|NF|5%"
+    network: ws
+    port: 8080
+    server: 104.17.147.22
+    type: vless
+    udp: true
+    uuid: Parsashonam-Bot-41
+    ws-opts:
+      headers:
+        Host: Fi.Parsashonam.CfD.
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko)
+          Chrome/11.0.696.3 Safari/534.24
+      path: >-
+        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2056
+    xudp: true
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1E9\U0001F1EADE_1|2.2MB/s|GPT⁺|YT-DE|NF"
+    network: grpc
+    port: 53479
+    server: 134.122.94.36
+    type: vless
+    udp: true
+    uuid: 0ae40bf3-d28b-4d2e-a01a-f1a01cabcb96
+    xudp: true
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_1|3.0MB/s|GPT⁺|YT-US|NF|GM|63%"
+    network: ws
+    port: 8880
+    server: 104.17.147.22
+    type: vless
+    udp: true
+    uuid: Parsashonam-Bot-41
+    ws-opts:
+      headers:
+        Host: Fi.Parsashonam.CfD.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: >-
+        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2056
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s|GPT⁺|YT-US|NF|GM|51%"
+    network: ws
+    port: 2053
+    server: root.api-music-fa.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: db162b74-0da8-4c69-8b17-2d89defabc24
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/54.0.2840.71 Safari/537.36
+      path: /J5aLQOY1R9ONWYCM
+    xudp: true
+    servername: root.api-music-fa.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E6\U0001F1F7AR_1|2.2MB/s|GPT⁺|YT-AR|GM|0%"
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    port: 990
+    server: 190.103.176.32
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_2|2.6MB/s|GPT⁺|YT-US|7%"
+    network: ws
+    port: 2053
+    server: dashboard.app-browser.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2d21f4d5-f9e1-466e-a7f5-d45e5e3b381a
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /J5aLQOY1R9ONWYCM
+    xudp: true
+    servername: dashboard.app-browser.org
+  - cipher: chacha20
+    name: "\U0001F1ED\U0001F1F0HK_2|4.6MB/s|YT-CN|NF|28%"
+    obfs: tls1.2_ticket_auth
+    password: mPQ5C9
+    port: 40155
+    protocol: auth_chain_a
+    protocol-param: '75625804:ROlzjL'
+    server: 194.99.79.31
+    type: ssr
+    udp: true
+  - cipher: chacha20
+    name: "\U0001F1ED\U0001F1F0HK_3|5.1MB/s|YT-CN|NF|28%"
+    obfs: tls1.2_ticket_auth
+    password: mPQ5C9
+    port: 40155
+    protocol: auth_chain_a
+    protocol-param: '75625804:ROlzjL'
+    server: 194.99.79.186
+    type: ssr
+    udp: true
+  - cipher: chacha20
+    name: "\U0001F1ED\U0001F1F0HK_4|3.6MB/s|YT-HK|NF|28%"
+    obfs: tls1.2_ticket_auth
+    password: mPQ5C9
+    port: 40155
+    protocol: auth_chain_a
+    protocol-param: '75625804:ROlzjL'
+    server: 194.99.79.62
+    type: ssr
+    udp: true
+  - cipher: chacha20
+    name: "\U0001F1ED\U0001F1F0HK_5|3.5MB/s|YT-HK|NF|D+|40%"
+    obfs: tls1.2_ticket_auth
+    password: mPQ5C9
+    port: 40155
+    protocol: auth_chain_a
+    protocol-param: '75625804:ROlzjL'
+    server: 92.223.121.59
+    type: ssr
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1EE\U0001F1F9IT"
+    delay: 1368
+    name: "\U0001F1EE\U0001F1F9IT_1|1.1MB/s|GPT⁺|YT-RU|NF|83%"
+    password: Q4t8T7hEYY3mD2Fn4wnxyK4X35AUzvR8
+    port: 443
+    server: 176.126.83.121
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_3|1.5MB/s|GPT⁺|YT-US|NF|GM|51%"
+    network: ws
+    port: 2053
+    server: root.api-music-fa.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: db162b74-0da8-4c69-8b17-2d89defabc24
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /J5aLQOY1R9ONWYCM
+    xudp: true
+    servername: root.api-music-fa.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_3|2.0MB/s|GPT⁺|YT-US|7%"
+    network: ws
+    port: 2053
+    server: dashboard.app-browser.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2d21f4d5-f9e1-466e-a7f5-d45e5e3b381a
+    ws-opts:
+      headers:
+        Host: ''
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /J5aLQOY1R9ONWYCM
+    xudp: true
+    servername: dashboard.app-browser.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_1|2.7MB/s|GPT⁺|D+"
+    network: ws
+    port: 700
+    server: 185.138.164.228
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: zybs.worker.ddns-ip.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /@Marisa_kristi
+    xudp: true
+    servername: zybs.worker.ddns-ip.net
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_2|2.0MB/s|GPT⁺|1%"
+    network: http
+    port: 19751
+    server: 43.165.7.71
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 6cfa6103-5d06-40cb-f452-b563db578288
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E9\U0001F1EADE_3|2.0MB/s|GPT⁺|YT-RU|NF|D+|53%"
+    password: Y52dYtnOWIKtbVTMcmhACO
+    port: 7048
+    server: h110vpnde.outlinekeys.net
+    type: ss
+    udp: true
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 55
-    name: "\U0001F1EB\U0001F1F7FR_2|1023KB/s|GPT⁺"
+    name: ❓Other_2|807KB/s|GPT⁺
     port: 35511
     protocol: udp
     server: 62.210.10.186
@@ -38,6 +265,207 @@ proxies:
     type: hysteria
     udp: true
     up: 11
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1E9\U0001F1EADE_4|2.8MB/s|GPT⁺|YT-US|NF|53%"
+    password: mU6HPdrefSuyBAlco1eXQI
+    port: 36456
+    server: 62.133.60.43
+    type: ss
+    udp: true
+  - cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_4|2.7MB/s|GPT⁺|YT-US|NF|GM|0%"
+    password: i2i17a39ixdfx3v8cu25
+    port: 17897
+    server: 205.209.104.94
+    type: ss
+    udp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1E9\U0001F1EADE_5|2.4MB/s|GPT⁺|YT-DE|NF|53%"
+    network: tcp
+    port: 7443
+    server: a.confignor.site
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: aa01c120-607e-4884-800e-602a4afe85f8
+    xudp: true
+  - name: ❓Other_3|4.6MB/s|GPT
+    port: 10808
+    server: 213.35.126.34
+    type: socks5
+    udp: true
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_5|1.7MB/s|YT-US|NF|D+"
+    network: ws
+    port: 80
+    server: 185.18.184.66
+    type: vless
+    udp: true
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    ws-opts:
+      headers:
+        Host: hello.96xckkzx.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /?ed=2048@v2ray_configs_pools--@v2ray_configs_pools
+    xudp: true
+    servername: hello.96xckkzx.workers.dev
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s|GPT⁺|YT-US|NF|GM|0%"
+    network: ws
+    port: 80
+    server: 172.66.156.81
+    type: vless
+    udp: true
+    uuid: 9c37743b-a887-447f-a8ba-a3ca70125da7
+    ws-opts:
+      headers:
+        Host: >-
+          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.skylinkserver.site.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: >-
+        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_6|3.0MB/s|GPT⁺|NF|10%"
+    network: ws
+    port: 2095
+    server: 172.67.146.171
+    type: vless
+    udp: true
+    uuid: eb5e2adb-8466-450f-a962-83b3228efa2d
+    ws-opts:
+      headers:
+        Host: test3.amin8263.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: >-
+        /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_7|2.7MB/s|GPT⁺|NF|10%"
+    network: ws
+    port: 80
+    server: usaa.fastlynew.hosting-ip.com
+    type: vless
+    udp: true
+    uuid: 0da7cec9-ef2a-4b79-efee-c16662086df4
+    ws-opts:
+      headers:
+        Host: mojhsjd.global.ssl.fastly.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /telegeam-@v2_city--
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_8|2.5MB/s|GPT⁺|D+|0%"
+    network: tcp
+    port: 56948
+    reality-opts:
+      public-key: YgFElAQlZGdZOaKuxv-SZX8HWBFtdEj5Q-rc7l93VgA
+      short-id: 3e81ed4b
+    server: 89.34.219.108
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0ea84d1f-2687-467d-97dd-ed8d5e8f3f42
+    xudp: true
+    servername: web.max.ru
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: Join-bede-Raiv2mmr
+    name: "\U0001F1EB\U0001F1F7FR_1|1.1MB/s|GPT⁺|NF|53%"
+    network: grpc
+    port: 443
+    server: early-carmina-inkieopdp-f285ef0a.koyeb.app
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+    xudp: true
+    servername: early-carmina-inkieopdp-f285ef0a.koyeb.app
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1FARU_1|2.3MB/s|YT-RU"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: tEt-vtWho9yRtM2sz5pjolmh4aAshJDxvgtPwR-FIEc
+      short-id: e74115
+    server: 95.163.251.240
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9818b579-3746-468b-88ac-65bd26b28e86
+    xudp: true
+    servername: www.vk.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 1664
+    down: 55 Mbps
+    name: ❓Other_1|2.1MB/s|GPT⁺|YT-FR|NF
+    port: 26691
+    protocol: udp
+    server: 62.210.196.68
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11 Mbps
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI_4|1.3MB/s|GPT⁺|NF|7%"
+    network: tcp
+    port: 2087
+    reality-opts:
+      public-key: apWDV3PACWUfkz4vHSEhoJrTQvO3deytV1n1nWwmzXo
+      short-id: f312
+    server: free.best-antiaging-reviews.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: e808b6fb-a99a-409c-99c9-d43d3208e9f9
+    xudp: true
+    servername: yahoo.com
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US_7|1.7MB/s|GPT⁺|YT-US|NF|GM|64%"
+    network: tcp
+    port: 4655
+    server: 194.113.73.136
+    type: vless
+    udp: true
+    uuid: 82f9beee-a609-47f2-9142-14c25258dc0b
+    xudp: true
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1EA\U0001F1E8EC_1|1.4MB/s|GPT⁺|YT-EC|NF|D+|33%"
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    port: 990
+    server: 38.165.231.25
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
