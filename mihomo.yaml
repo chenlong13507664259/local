@@ -1,55 +1,5 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc
-    name: "\U0001F1E6\U0001F1F9AT_1|1.6MB/s|18%"
-    network: grpc
-    port: 22955
-    reality-opts:
-      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-      short-id: 6ba85179e30d4fc2
-    server: 152.53.49.144
-    tls: true
-    type: vless
-    udp: true
-    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-    xudp: true
-    servername: one-piece.com
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK_1|873KB/s|GPT|YT-HK|NF|D+|2%"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
-  - name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s|GPT⁺|YT-US|NF|D+|4%"
-    network: ws
-    port: 2053
-    server: 25.129.197.138
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
-    ws-opts:
-      headers:
-        Host: khamenei.dpdns.org
-      path: >-
-        /eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: KhAmeneI.DPdNs.OrG
-  - name: "\U0001F1FA\U0001F1F8US_2|2.0MB/s|GPT⁺|YT-US|NF|D+|GM|4%"
+  - name: "\U0001F1FA\U0001F1F8US_1|1.3MB/s|GPT⁺|YT-US|NF|D+|GM|4%"
     network: ws
     port: 443
     server: 104.18.185.26
@@ -66,195 +16,10 @@ proxies:
       max-early-data: 2560
     servername: l.ayovo.netlib.re
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|1.7MB/s|GPT⁺|YT-CN|NF|0%"
-    password: BxceQaOe
-    port: 3760
-    server: 54.248.199.75
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_2|3.2MB/s|YT-HK|2%"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.53.219
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F0\U0001F1EDKH_1|1.1MB/s|GPT|YT-KH|0%"
-    password: 3b72ad57035835c7
-    port: 49696
-    server: 38.54.93.66
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_3|1.7MB/s|YT-HK|2%"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.130
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_4|1.6MB/s|YT-HK|NF|6%"
-    network: tcp
-    port: 47081
-    server: oss-4.qqa678.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: e49b8721-f124-4999-814a-fc777c0ae190
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F0\U0001F1EDKH_2|1.0MB/s|GPT|0%"
-    password: 3b72ad57035835c7
-    port: 49693
-    server: 38.54.93.66
-    type: ss
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_3|1008KB/s|GPT⁺|YT-US|NF|D+|GM|4%"
-    network: ws
-    port: 443
-    server: 104.21.224.5
-    tls: true
-    type: vless
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      headers:
-        Host: l.ayovo.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: l.ayovo.netlib.re
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F1\U0001F1FBLV_1|1.0MB/s|GPT⁺|YT-RU|NF|D+|22%"
-    port: 443
-    reality-opts:
-      public-key: 9ged75OhdD4P8yzPPXDESnRkdFM4br4I44OwXLWd_iY
-      short-id: 0a50b13e8fa3a7ef
-    server: rblx.fasti.win
-    tls: true
-    type: vless
-    uuid: 0d93b787-b66b-4696-a036-a0f549764f69
-    network: tcp
-    servername: rblx.fasti.win
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1FARU_1|927KB/s|YT-RU"
-    port: 443
-    reality-opts:
-      public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-      short-id: 1ed136481e0ede74
-    server: 91.243.82.82
-    tls: true
-    type: vless
-    uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
-    network: tcp
-    servername: khabarovsk.geodema.network
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK_5|2.1MB/s|YT-CN|D+|0%"
-    password: asd123456
-    port: 8388
-    server: 103.149.182.158
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s|GPT⁺|YT-US|NF|49%"
-    password: 98f7aedd8adda6fe
-    port: 45995
-    server: 207.244.226.239
-    type: ss
-    udp: true
-  - cipher: aes-128-gcm
-    name: "\U0001F1EF\U0001F1F5JP_2|986KB/s|GPT⁺|YT-JP|D+|GM|0%"
-    password: b637f2e47b7827b308ebf399008075d2
-    port: 26334
-    server: 223.95.183.132
-    type: ss
-    udp: true
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK_6|1.0MB/s|GPT⁺|YT-HK|D+|2%"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: hkt.gotochinatown.net
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: hkt.gotochinatown.net
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_1|881KB/s|GPT⁺|YT-US"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.219
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s|GPT⁺|YT-US|NF|GM|50%"
-    password: a7f8d870c0ca04bc
-    port: 11201
-    server: 147.135.78.88
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|GPT⁺|YT-RU|NF|GM|1%"
-    network: tcp
-    port: 7443
-    reality-opts:
-      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-      short-id: a20d3ed244c76426
-    server: 51.250.16.8
-    tls: true
-    type: vless
-    udp: true
-    uuid: bcf31ced-07e7-4bd3-ae6d-9280d9a47834
-    xudp: true
-    servername: ads.x5.ru
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1EB\U0001F1F7FR_1|997KB/s|GPT⁺|NF|52%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: 176.98.177.145
-    tls: true
-    type: vless
-    udp: true
-    uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
-    xudp: true
-    servername: de.reality.tv123.ru
-  - client-fingerprint: chrome
     encryption: none
     grpc-opts:
       grpc-service-name: grpc
-    name: "\U0001F1E6\U0001F1F9AT_2|3.3MB/s|GPT⁺|YT-DE|NF|D+|18%"
+    name: "\U0001F1E6\U0001F1F9AT_1|1.8MB/s|GPT⁺|YT-AT|NF|D+|18%"
     network: grpc
     port: 22955
     reality-opts:
@@ -269,93 +34,228 @@ proxies:
     servername: one-piece.com
   - client-fingerprint: chrome
     encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: "\U0001F1E6\U0001F1F9AT_2|1021KB/s|GPT⁺|YT-DE|NF|D+|18%"
+    network: grpc
+    port: 22955
+    reality-opts:
+      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+      short-id: 6ba85179e30d4fc2
+    server: 152.53.49.144
+    tls: true
+    type: vless
+    udp: true
+    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+    xudp: true
+    servername: one-piece.com
+  - client-fingerprint: chrome
+    encryption: none
     flow: xtls-rprx-vision
     http-opts:
       headers: {}
       path:
         - /
-    name: "\U0001F1EB\U0001F1EEFI_1|2.2MB/s|GPT⁺|NF|D+|0%"
+    name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s|GPT⁺|YT-RU|NF|GM|8%"
     network: tcp
-    port: 443
+    port: 7443
     reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: ''
-    server: fi4.node.sssrvpn.pro
+      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+      short-id: a20d3ed244c76426
+    server: 51.250.16.8
     tls: true
     type: vless
     udp: true
-    uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
+    uuid: bcf31ced-07e7-4bd3-ae6d-9280d9a47834
     xudp: true
-    servername: fi.reality.tv123.ru
-  - cipher: chacha20
-    name: "\U0001F1EF\U0001F1F5JP_3|1.1MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    obfs: tls1.2_ticket_auth
-    password: mPQ5C9
-    port: 40155
-    protocol: auth_chain_a
-    protocol-param: '77663185:K0bnFK'
-    server: 153.122.172.139
-    type: ssr
-    udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    delay: 1742
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EB\U0001F1F7FR_2|2.1MB/s|GPT|YT-US|NF|0%"
+    servername: ads.x5.ru
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_2|819KB/s|GPT⁺|YT-US|NF|D+|4%"
     network: ws
-    port: 8080
-    server: zula.ir
-    skip-cert-verify: true
-    type: vmess
-    uuid: nasnet
+    port: 443
+    server: 162.159.44.142
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
     ws-opts:
       headers:
-        HOST: nasnet-511952424.mcitel.co
-        Host: zula.ir
-      path: /nasnet/cdn
+        Host: l.ayovo.netlib.re
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36
+      path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-    servername: nasnet-511952424.mcitel.co
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_7|894KB/s|GPT⁺|YT-HK|NF|D+|2%"
+    xudp: true
+    servername: l.ayovo.netlib.re
+  - name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s|GPT⁺|YT-US|NF|D+|4%"
     network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+    port: 443
+    server: 162.159.45.232
+    tls: true
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
     ws-opts:
       headers:
-        Host: hkt.gotochinatown.net
-      path: /
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_8|975KB/s|GPT|YT-HK|2%"
+        Host: l.ayovo.netlib.re
+      path: /x-aniu/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: l.ayovo.netlib.re
+  - name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s|GPT⁺|YT-US|NF|D+|GM|4%"
     network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    tls: false
-    type: vmess
+    port: 443
+    server: cloudflare.182682.xyz
+    skip-cert-verify: false
+    tls: true
+    type: vless
     udp: true
-    uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
     ws-opts:
       headers:
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: hkt.gotochinatown.net
-  - cipher: chacha20-ietf
-    name: ❓Other_1|1.5MB/s
-    password: asd123456
-    port: 8388
-    server: 103.36.91.32
-    type: ss
+        Host: l.ayovo.netlib.re
+      path: /x-aniu/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: l.ayovo.netlib.re
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s|GPT⁺|YT-US|100%"
+    network: ws
+    port: 2096
+    server: api.dark-coffe.com
+    tls: true
+    type: vless
     udp: true
+    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+    ws-opts:
+      headers:
+        Host: TzS7v35LfD.sMaRtTeChZaAl.InFo
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.77 Safari/537.36
+      path: /
+    xudp: true
+    servername: TzS7v35LfD.sMaRtTeChZaAl.InFo
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_3|983KB/s|GPT⁺|YT-US|33%"
+    network: ws
+    port: 443
+    server: api.dark-coffe.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+    ws-opts:
+      headers:
+        Host: GfV5t2331T.sMaRtTeChZaAl.InFo
+        User-Agent: >-
+          Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /
+    xudp: true
+    servername: GfV5t2331T.sMaRtTeChZaAl.InFo
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_5|1022KB/s|GPT⁺|YT-US|NF|GM|67%"
+    obfs: ''
+    obfs-password: ''
+    password: 850d5445-c320-4be9-a7a7-20feca039164
+    port: 50001
+    server: lvs.jueduibupao.top
+    skip-cert-verify: true
+    sni: lvs.jueduibupao.top
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E9\U0001F1EADE_4|943KB/s|GPT⁺|YT-CN|NF|47%"
+    obfs: ''
+    obfs-password: ''
+    password: 850d5445-c320-4be9-a7a7-20feca039164
+    port: 42356
+    server: de1.jueduibupao.top
+    skip-cert-verify: true
+    sni: de1.jueduibupao.top
+    type: hysteria2
+    up: ''
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F7\U0001F1FARU_1|867KB/s|YT-RU"
+    port: 443
+    reality-opts:
+      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+      short-id: 048fe5c8be4bb687
+    server: 217.12.40.76
+    tls: true
+    type: vless
+    uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+    network: tcp
+    servername: sun9-38.userapi.com
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1EEFI_1|2.3MB/s|GPT⁺|YT-RU|D+|0%"
+    port: 47539
+    reality-opts:
+      public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+      short-id: 82a55f31981ea6be
+    server: 178.17.53.28
+    tls: true
+    type: vless
+    uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+    network: tcp
+    servername: yandex.ru
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: "\U0001F1FA\U0001F1F8US_6|944KB/s|GPT⁺|YT-US|NF|GM|6%"
+    network: grpc
+    port: 22955
+    reality-opts:
+      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+      short-id: 6ba85179e30d4fc2
+    server: 5.161.151.252
+    tls: true
+    type: vless
+    udp: true
+    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+    xudp: true
+    servername: one-piece.com
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: "\U0001F1FA\U0001F1F8US_7|977KB/s|GPT⁺|YT-US|NF|7%"
+    network: grpc
+    port: 22955
+    reality-opts:
+      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+      short-id: 6ba85179e30d4fc2
+    server: 178.156.215.143
+    tls: true
+    type: vless
+    udp: true
+    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+    xudp: true
+    servername: one-piece.com
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: "\U0001F1FA\U0001F1F8US_8|1.1MB/s|GPT⁺|YT-US|NF|GM|7%"
+    network: grpc
+    port: 22955
+    reality-opts:
+      public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+      short-id: 6ba85179e30d4fc2
+    server: 178.156.215.144
+    tls: true
+    type: vless
+    udp: true
+    uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+    xudp: true
+    servername: one-piece.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
