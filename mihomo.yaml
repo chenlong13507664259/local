@@ -1,76 +1,7 @@
 proxies:
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s|GPT⁺|YT-RU|42%"
-    port: 8443
-    reality-opts:
-      public-key: P-3bYKbPp5YeCefayC3S3PvLanBv_lp0p_5qfrjbM34
-      short-id: 39a1eb3ec417cd66
-    server: 194.87.31.160
-    tls: true
-    type: vless
-    uuid: 03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4
-    network: tcp
-    servername: st.okcdn.ru
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_1|1.4MB/s|GPT⁺|YT-RU|D+|42%"
-    port: 13760
-    reality-opts:
-      public-key: ktZ1lxOpDoIq3mk39kNAi1uK0z3qTA6f-6u2KbQmICg
-      short-id: 58a8787420b6a153
-    server: 109.172.55.232
-    tls: true
-    type: vless
-    uuid: 5fad3ad2-1a94-40d0-85bb-51eb83f5c7df
-    network: tcp
-    servername: yandex.ru
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|GPT⁺|YT-SG|D+|GM|0%"
-    network: ws
-    port: 443
-    server: sg.ok12345.ggff.net
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    uuid: d1dc3430-d0db-4a14-b727-cb3e1d5057e0
-    ws-opts:
-      headers:
-        Host: jp001.japansb3.ggff.net
-      path: /
-    servername: jp001.japansb3.ggff.net
-  - name: "\U0001F1F3\U0001F1F1NL_2|1.4MB/s|GPT⁺"
-    network: ws
-    port: 80
-    server: 104.18.32.47
-    tls: false
-    type: vless
-    uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
-    ws-opts:
-      headers:
-        Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
-      path: /?ed
-  - alterId: 0
-    cipher: auto
-    http-opts:
-      headers:
-        Host:
-          - fast.com
-      method: GET
-      path:
-        - /
-    name: "\U0001F1EC\U0001F1E7GB_1|918KB/s|GPT⁺|YT-US|NF|D+|42%"
-    network: http
-    port: 2086
-    server: 87.120.219.124
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: e6a866ca-1756-44ed-9866-a9949f2bad38
-  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F7\U0001F1FARU_1|2.6MB/s|GPT|YT-RU|NF|100%"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|GPT⁺|YT-RU|NF|D+|3%"
     network: tcp
     port: 8443
     reality-opts:
@@ -83,6 +14,52 @@ proxies:
     uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
     xudp: true
     servername: sun6-21.userapi.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1F7FR_2|970KB/s|GPT⁺|NF|D+|0%"
+    port: 443
+    reality-opts:
+      public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+      short-id: 4fa44664f6a566d3
+    server: fran.scroogethebest.com
+    tls: true
+    type: vless
+    uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+    network: tcp
+    servername: fran.scroogethebest.com
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s|GPT⁺|YT-CN|D+|7%"
+    port: 443
+    reality-opts:
+      public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
+      short-id: 66ed2fdd
+    server: 130.162.220.137
+    tls: true
+    type: vless
+    uuid: 9345f815-6ab0-4504-97f8-17539662676a
+    network: tcp
+    servername: www.lamer.com
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_1|2.3MB/s|GPT⁺|YT-US|NF|40%"
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 8080
+    server: 82.38.31.148
+    type: ss
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|YT-US|NF|D+|GM"
+    network: ws
+    port: 443
+    server: 209.102.207.120
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.navy
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    servername: sni.111000.v6.navy
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
