@@ -1,65 +1,141 @@
 proxies:
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|GPT⁺|YT-RU|NF|D+|3%"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-    server: fr.prod.n7.homes
-    tls: true
-    type: vless
-    udp: true
-    uuid: 010c8bf7-0a43-404f-a6c5-2427acb4d476
-    xudp: true
-    servername: sun6-21.userapi.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR_2|970KB/s|GPT⁺|NF|D+|0%"
-    port: 443
-    reality-opts:
-      public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-      short-id: 4fa44664f6a566d3
-    server: fran.scroogethebest.com
-    tls: true
-    type: vless
-    uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-    network: tcp
-    servername: fran.scroogethebest.com
-  - client-fingerprint: safari
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_1|1.8MB/s|GPT⁺|YT-CN|D+|7%"
-    port: 443
-    reality-opts:
-      public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
-      short-id: 66ed2fdd
-    server: 130.162.220.137
-    tls: true
-    type: vless
-    uuid: 9345f815-6ab0-4504-97f8-17539662676a
-    network: tcp
-    servername: www.lamer.com
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|2.3MB/s|GPT⁺|YT-US|NF|40%"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.148
-    type: ss
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|YT-US|NF|D+|GM"
+  - name: "\U0001F1EC\U0001F1E7GB_1|1.2MB/s|GPT⁺|YT-US|NF|GM|22%"
     network: ws
     port: 443
-    server: 209.102.207.120
+    server: 198.62.62.248
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
     ws-opts:
       headers:
-        Host: sni.111000.v6.navy
-      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
-    servername: sni.111000.v6.navy
+        Host: tar.alabama-tigr.info
+      path: /love
+    servername: tar.alabama-tigr.info
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_1|2.4MB/s|GPT⁺|YT-CN|NF|D+|0%"
+    network: tcp
+    port: 443
+    server: xbn-05.palmcraft.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
+    servername: xbn-05.palmcraft.net
+  - name: "\U0001F1E9\U0001F1EADE_2|2.0MB/s|GPT⁺|NF|D+|8%"
+    password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+    port: 443
+    server: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
+    tls: true
+    type: http
+    username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+    sni: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL_1|837KB/s|GPT⁺|YT-RU|NF|0%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+      short-id: 86e999a2cdc2
+    server: nl02-vlr01.tcp-reset-club.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
+    xudp: true
+    servername: hls-svod.itunes.apple.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_1|921KB/s|GPT⁺|NF|0%"
+    network: tcp
+    port: 23335
+    reality-opts:
+      public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+      short-id: 67b1e94e4dd1ef90
+    server: 1.cdnconn.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+    xudp: true
+    servername: icloud.com
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE_3|998KB/s|GPT⁺|YT-RU|NF|4%"
+    network: tcp
+    port: 6443
+    reality-opts:
+      public-key: 20kWWWp6YwJujT1penAu1FD_uvm6dcJoj2w-ZZ-JVSk
+      short-id: 9dfefbaf7319b348
+    server: 5.188.143.115
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
+    xudp: true
+    servername: ads.x5.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1FARU_1|1.2MB/s|GPT⁺|YT-RU|GM"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: sMMDn89-fJAD7VgeTJbdQTmyyUoyRucoMLMvVMm8hAM
+      short-id: cfdbaa7f996dd0e9
+    server: 37.139.34.237
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
+    xudp: true
+    servername: eh.vk.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_4|1.4MB/s|GPT⁺|YT-RU|NF|D+|40%"
+    network: tcp
+    port: 56864
+    reality-opts:
+      public-key: AIt19ZFk_JxCvW7OOwUn4mhE_1alZJlNj-xnQOpPZCI
+      short-id: 2e3c82922ef98049
+    server: 93.94.51.19
+    tls: true
+    type: vless
+    udp: true
+    uuid: 87580984-c2ef-4f44-9c7e-0b216f99aa87
+    xudp: true
+    servername: yandex.ru
+  - client-fingerprint: qq
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_2|848KB/s|GPT⁺|NF|0%"
+    port: 23335
+    reality-opts:
+      public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
+      short-id: 67b1e94e4dd1ef90
+    server: 144.31.130.58
+    tls: true
+    type: vless
+    uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+    network: tcp
+    servername: icloud.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
