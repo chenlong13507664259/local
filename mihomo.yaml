@@ -1,116 +1,7 @@
 proxies:
-  - name: "\U0001F1EC\U0001F1E7GB_1|1.2MB/s|GPT⁺|YT-US|NF|GM|22%"
-    network: ws
-    port: 443
-    server: 198.62.62.248
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-    ws-opts:
-      headers:
-        Host: tar.alabama-tigr.info
-      path: /love
-    servername: tar.alabama-tigr.info
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_1|2.4MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    network: tcp
-    port: 443
-    server: xbn-05.palmcraft.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: ec5796b3-678b-4b11-9c1d-a53171dfd897
-    servername: xbn-05.palmcraft.net
-  - name: "\U0001F1E9\U0001F1EADE_2|2.0MB/s|GPT⁺|NF|D+|8%"
-    password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-    port: 443
-    server: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
-    tls: true
-    type: http
-    username: bd515574-3b10-11ee-ac14-f23c9164ca5d
-    sni: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
   - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL_1|837KB/s|GPT⁺|YT-RU|NF|0%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 86e999a2cdc2
-    server: nl02-vlr01.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|921KB/s|GPT⁺|NF|0%"
-    network: tcp
-    port: 23335
-    reality-opts:
-      public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-      short-id: 67b1e94e4dd1ef90
-    server: 1.cdnconn.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-    xudp: true
-    servername: icloud.com
-  - client-fingerprint: firefox
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_3|998KB/s|GPT⁺|YT-RU|NF|4%"
-    network: tcp
-    port: 6443
-    reality-opts:
-      public-key: 20kWWWp6YwJujT1penAu1FD_uvm6dcJoj2w-ZZ-JVSk
-      short-id: 9dfefbaf7319b348
-    server: 5.188.143.115
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
-    xudp: true
-    servername: ads.x5.ru
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F7\U0001F1FARU_1|1.2MB/s|GPT⁺|YT-RU|GM"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: sMMDn89-fJAD7VgeTJbdQTmyyUoyRucoMLMvVMm8hAM
-      short-id: cfdbaa7f996dd0e9
-    server: 37.139.34.237
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8409d5d2-ae02-4027-b5a5-c3cca340ca6c
-    xudp: true
-    servername: eh.vk.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_4|1.4MB/s|GPT⁺|YT-RU|NF|D+|40%"
+    name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|GPT⁺|YT-RU|NF|D+|40%"
     network: tcp
     port: 56864
     reality-opts:
@@ -123,19 +14,67 @@ proxies:
     uuid: 87580984-c2ef-4f44-9c7e-0b216f99aa87
     xudp: true
     servername: yandex.ru
-  - client-fingerprint: qq
+  - client-fingerprint: chrome
+    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_2|848KB/s|GPT⁺|NF|0%"
-    port: 23335
+    name: "\U0001F1F3\U0001F1F1NL_1|1005KB/s|GPT⁺|NF|100%"
+    network: tcp
+    port: 443
     reality-opts:
-      public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-      short-id: 67b1e94e4dd1ef90
-    server: 144.31.130.58
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: c39cc7310a
+    server: 143.20.236.51
     tls: true
     type: vless
-    uuid: e384913f-8863-47b4-8858-a84b68abb4a6
+    udp: true
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+    xudp: true
+    servername: yahoo.com
+  - name: "\U0001F1FA\U0001F1F8US_1|938KB/s|GPT⁺|NF|22%"
+    network: ws
+    port: 443
+    server: 198.62.62.235
+    tls: true
+    type: vless
+    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+    ws-opts:
+      headers:
+        Host: bank.alaska-tigr.info
+      path: /love
+    servername: bank.alaska-tigr.info
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F3\U0001F1F1NL_2|2.3MB/s|GPT⁺|YT-CN|NF|34%"
     network: tcp
-    servername: icloud.com
+    port: 64013
+    server: pub.ap20251212.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: bc0cbcc2-2625-32f3-8568-f3e917d6541c
+    xudp: true
+  - auth: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
+    name: "\U0001F1EB\U0001F1F7FR_1|2.2MB/s|GPT⁺|YT-CN|D+|4%"
+    password: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
+    port: 35000
+    ports: 35000-39000
+    server: 129.151.251.122
+    skip-cert-verify: true
+    sni: www.lamer.com.hk
+    type: hysteria2
+    udp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F3\U0001F1F1NL_3|2.1MB/s|GPT|NF|34%"
+    port: 64013
+    server: pub.ap20251212.com
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: bc0cbcc2-2625-32f3-8568-f3e917d6541c
+    servername: pub.ap20251212.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
