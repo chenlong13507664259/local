@@ -1,102 +1,83 @@
 proxies:
+  - cipher: aes-256-cfb
+    name: "\U0001F1EA\U0001F1F8ES_1|1.8MB/s|GPT⁺|YT-ES|NF|23%"
+    password: M3t2ZEQcMGRWBjRa
+    port: 9011
+    server: 5.188.181.201
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1EA\U0001F1F8ES_2|800KB/s|GPT⁺|NF|23%"
+    password: VcFuyXvND2yQWSFY
+    port: 9054
+    server: 5.188.181.201
+    type: ss
+  - name: "\U0001F1E9\U0001F1EADE_1|983KB/s|GPT⁺|NF|D+|8%"
+    password: d70a9508-5477-11ef-bf61-f23c913c8d2b
+    port: 443
+    server: 934cbedd-tbbz40-tcj3xn-1o20w.de.oshuawei.com
+    tls: true
+    type: http
+    username: d70a9508-5477-11ef-bf61-f23c913c8d2b
+    sni: 934cbedd-tbbz40-tcj3xn-1o20w.de.oshuawei.com
+  - name: "\U0001F1FA\U0001F1F8US_1|854KB/s|GPT⁺|YT-US|NF|D+|GM|16%"
+    password: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
+    port: 15229
+    server: 42a43d44-tbbz40-tozbjw-1462e.cu.oshuawei.com
+    tls: true
+    type: http
+    username: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
+    sni: 42a43d44-tbbz40-tozbjw-1462e.cu.oshuawei.com
+  - name: "\U0001F1F8\U0001F1ECSG_1|996KB/s|GPT⁺|YT-SG|GM|43%"
+    password: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
+    port: 17235
+    server: 4afa1bc0-tbbz40-ttyjoe-ieln.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
+    sni: 4afa1bc0-tbbz40-ttyjoe-ieln.cm4.oshuawei.com
+  - name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT⁺|YT-US|NF|D+|GM|16%"
+    password: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+    port: 15229
+    server: 69f9db98-tbbz40-tn57fp-5ifr.cu.oshuawei.com
+    tls: true
+    type: http
+    username: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
+    sni: 69f9db98-tbbz40-tn57fp-5ifr.cu.oshuawei.com
   - client-fingerprint: chrome
-    name: "\U0001F1E6\U0001F1F9AT_1|1.8MB/s|GPT⁺|YT-RU|40%"
-    port: 61809
+    flow: xtls-rprx-vision
+    name: "\U0001F1E8\U0001F1EDCH_1|2.1MB/s|GPT⁺|YT-RU|0%"
+    port: 18122
     reality-opts:
-      public-key: 0Orr9QAz2hKT1K6aKa64azrlgdh4DMkwvTRg1FacNAI
-      short-id: 741a96cc25132fe3
-    server: 195.133.88.238
+      public-key: b8y-G1s0KMtKBVZR9b70nVrFvYma0FyDGV-ACq5qxyk
+      short-id: '78e225'
+    server: 84.201.171.134
     skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 899251ca-be66-4d21-84d8-bd7fbf10150b
+    uuid: 79cd8514-aea9-41b9-b950-db5aa8937497
     network: tcp
-    servername: yandex.ru
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|1.2MB/s|GPT⁺|YT-US|NF|40%"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.101
-    type: ss
-    udp: true
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s|GPT⁺|NF|0%"
-    port: 23335
-    reality-opts:
-      public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-      short-id: 67b1e94e4dd1ef90
-    server: 144.31.130.49
-    tls: true
-    type: vless
-    uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-    network: tcp
-    servername: icloud.com
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F9PT_1|836KB/s|GPT⁺|YT-RU|D+|22%"
-    port: 47910
-    reality-opts:
-      public-key: UfNUyUPOiqRvjHvk4d5M1x8MTzYxDzb810fGH9CB_kQ
-      short-id: d194cf18101d98de
-    server: 31.129.22.64
-    tls: true
-    type: vless
-    uuid: f651b25b-0a6a-4954-910f-7c07a1f6f664
-    network: tcp
-    servername: yandex.ru
-  - name: "\U0001F1E9\U0001F1EADE_1|3.7MB/s|GPT⁺|YT-DE|NF|D+|0%"
-    obfs: salamander
-    obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-    port: 35000
-    server: api.kermanshahi.org
-    skip-cert-verify: true
-    sni: api.kermanshahi.org
-    type: hysteria2
-  - client-fingerprint: chrome
+    servername: ads.x5.ru
+  - client-fingerprint: random
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_2|2.3MB/s|GPT⁺|YT-RU|0%"
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E6\U0001F1F1AL_1|2.1MB/s|GPT⁺|YT-RU|NF|D+|40%"
     network: tcp
     port: 443
     reality-opts:
-      public-key: 1LHMePKT5PP9F9WQ1HhZUWZlrK2p9AW_sUwKNfO4ZC0
-      short-id: dd8ca121bb77dad9
-    server: sahand.cocomelon.org
+      public-key: BxD77zyPkOaShiNfOkRbbJvpmSzFHIKx4xhhLR4PSQU
+      short-id: 9c2378562188c3cb
+    server: 78.159.131.16
     tls: true
     type: vless
     udp: true
-    uuid: 0a0d8e6f-8747-4ff6-afe0-e70aa97e7de8
+    uuid: 400c1f85-9d3a-444a-8a50-81b11f3b4c20
     xudp: true
-    servername: finance.yahoo.com
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1F7\U0001F1FA RU"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_2|2.7MB/s|GPT⁺|YT-US|NF|D+|GM|3%"
-    network: tcp
-    port: 31350
-    server: c86s3.portablesubmarines.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
-    ws-path: /
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1F5\U0001F1F9PT_2|1.2MB/s|GPT⁺|YT-CN|NF|D+|29%"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 185.231.233.112
-    type: ss
-  - name: "\U0001F1F3\U0001F1F1NL_3|2.0MB/s|GPT⁺|YT-NL|NF|0%"
-    password: VuyKYqyDTU1GFaxF3o
-    port: 443
-    server: 194.124.216.55
-    skip-cert-verify: false
-    sni: nl-4.tr202504.com
-    type: trojan
+    servername: alb.denditop.site
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
