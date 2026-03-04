@@ -1,59 +1,5 @@
 proxies:
-  - client-fingerprint: random
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E6\U0001F1F1AL_1|2.4MB/s|GPT⁺|YT-RU|NF|D+|38%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: BxD77zyPkOaShiNfOkRbbJvpmSzFHIKx4xhhLR4PSQU
-      short-id: 9c2378562188c3cb
-    server: 78.159.131.16
-    tls: true
-    type: vless
-    udp: true
-    uuid: 400c1f85-9d3a-444a-8a50-81b11f3b4c20
-    xudp: true
-    servername: alb.denditop.site
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL_1|2.1MB/s|GPT⁺|YT-RU|NF|11%"
-    port: 443
-    reality-opts:
-      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-      short-id: c39cc7310a
-    server: 143.20.236.51
-    tls: true
-    type: vless
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    network: tcp
-    servername: yahoo.com
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_1|988KB/s|GPT|YT-US|NF|D+|GM|5%"
-    network: ws
-    port: 8443
-    server: 92.243.74.4
-    tls: true
-    type: vless
-    uuid: 5ac6e21d-be89-2f3b-6f88-c7f89ea12ec1
-    ws-opts:
-      headers:
-        Host: snll300.sni-1.snx.loc.cc
-      path: /
-    servername: snll300.sni-1.snx.loc.cc
-  - name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s|GPT⁺|NF|D+|10%"
-    password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-    port: 443
-    server: 40a3d2c7-tbbz40-tifnix-1ro8s.de.oshuawei.com
-    tls: true
-    type: http
-    username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-    sni: 40a3d2c7-tbbz40-tifnix-1ro8s.de.oshuawei.com
-  - name: "\U0001F1E9\U0001F1EADE_2|1.7MB/s|GPT⁺|NF|D+|10%"
+  - name: "\U0001F1E9\U0001F1EADE_1|2.5MB/s|GPT⁺|NF|D+|10%"
     password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
     port: 443
     server: 79b073c7-tbbz40-tvb36r-1qwom.de.oshuawei.com
@@ -61,85 +7,106 @@ proxies:
     type: http
     username: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
     sni: 79b073c7-tbbz40-tvb36r-1qwom.de.oshuawei.com
-  - name: "\U0001F1FA\U0001F1F8US_2|1.0MB/s|GPT⁺|YT-US|NF|D+|GM|21%"
-    password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    port: 15229
-    server: d588f85d-tbdts0-tbnrmm-19xg1.cu.oshuawei.com
-    tls: true
-    type: http
-    username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    sni: d588f85d-tbdts0-tbnrmm-19xg1.cu.oshuawei.com
-  - name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s|GPT⁺|YT-US|NF|D+|GM|21%"
-    password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-    port: 15229
-    server: 895d9b70-tbbz40-thpx3l-141tv.cu.oshuawei.com
-    tls: true
-    type: http
-    username: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-    sni: 895d9b70-tbbz40-thpx3l-141tv.cu.oshuawei.com
-  - alpn:
-      - h3
-    client-fingerprint: random
+  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
-    network: ws
-    port: 8443
-    server: 154.208.10.70
-    tls: true
-    type: vless
-    udp: true
-    uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
-    ws-opts:
-      headers:
-        Host: 6f221d78.mfree.ccwu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
-          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-      path: '/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433'
-    xudp: true
-    servername: 6f221d78.mfree.ccwu.cc
-  - alpn:
-      - h3
-    client-fingerprint: random
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP_1|3.2MB/s|GPT|YT-JP|NF|D+|GM|5%"
+    name: "\U0001F1EC\U0001F1E7GB_1|1.4MB/s|GPT⁺|YT-US|21%"
     network: ws
     port: 443
-    server: 8.222.82.26
+    server: 198.62.62.248
     tls: true
     type: vless
     udp: true
-    uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
+    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
     ws-opts:
       headers:
-        Host: 6f221d78.mfree.ccwu.cc
+        Host: tar.alabama-tigr.info
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: '/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433'
+          Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /love
     xudp: true
-    servername: 6f221d78.mfree.ccwu.cc
-  - alpn:
-      - h3
-    client-fingerprint: random
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_1|1.7MB/s|GPT⁺|YT-KR|NF|D+|GM|5%"
+    servername: tar.alabama-tigr.info
+  - name: "\U0001F1ED\U0001F1F0HK_1|1.5MB/s|0%"
+    password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+    port: 5228
+    server: 28883611-tbdts0-ts3rye-mrtr.cm4.oshuawei.com
+    tls: true
+    type: http
+    username: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+    sni: 28883611-tbdts0-ts3rye-mrtr.cm4.oshuawei.com
+  - name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s|GPT⁺"
+    password: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9
+    port: 443
+    server: b6c306f4-tbdts0-tsjk4v-1atkp.fr.oshuawei.com
+    tls: true
+    type: http
+    username: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9
+    sni: b6c306f4-tbdts0-tsjk4v-1atkp.fr.oshuawei.com
+  - name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s|GPT⁺|NF|D+|GM|21%"
+    password: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+    port: 15229
+    server: af51046a-tbdts0-tq9o8d-1d3bw.cu.oshuawei.com
+    tls: true
+    type: http
+    username: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+    sni: af51046a-tbdts0-tq9o8d-1d3bw.cu.oshuawei.com
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
     network: ws
-    port: 11000
-    server: 59.27.133.60
+    port: 8443
+    server: 104.19.59.39
     tls: true
     type: vless
     udp: true
-    uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
+    uuid: ac84e665-e4f4-5c3e-691a-505b017be859
     ws-opts:
       headers:
-        Host: 6f221d78.mfree.ccwu.cc
+        Host: qrc8.ygk.edukg.dpdns.org
         User-Agent: >-
-          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko)
-          Chrome/11.0.696.3 Safari/534.24
-      path: '/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433'
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /
     xudp: true
-    servername: 6f221d78.mfree.ccwu.cc
+    servername: qrc8.ygk.edukg.dpdns.org
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|982KB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+    network: ws
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    port: 443
+    server: ct.877774.xyz
+    skip-cert-verify: false
+    sni: cm22-bgphhh.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+          Mobile Safari/537.36
+      path: >-
+        /hot/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_4|901KB/s|GPT⁺|YT-US|NF|D+|5%"
+    network: ws
+    port: 443
+    server: 162.159.24.74
+    tls: true
+    type: vless
+    udp: true
+    uuid: ac84e665-e4f4-5c3e-691a-505b017be859
+    ws-opts:
+      headers:
+        Host: 2635.kq9.edueu.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+      path: /
+    xudp: true
+    servername: 2635.kq9.edueu.dpdns.org
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
