@@ -1,33 +1,5 @@
 proxies:
-  - name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s|GPT⁺|YT-US|NF|GM|0%"
-    password: nfeIIOqUAjDo0mUL
-    port: 8443
-    server: 107.175.220.71
-    skip-cert-verify: true
-    sni: bing.com
-    tfo: false
-    type: hysteria2
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7GB_1|2.3MB/s|GPT⁺|YT-US|NF|21%"
-    network: ws
-    port: 443
-    server: 198.62.62.248
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-    ws-opts:
-      headers:
-        Host: tar.alabama-tigr.info
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /love
-    xudp: true
-    servername: tar.alabama-tigr.info
-  - name: "\U0001F1ED\U0001F1F0HK_1|976KB/s|GPT⁺|YT-HK|D+"
+  - name: "\U0001F1ED\U0001F1F0HK_1|2.4MB/s|GPT|YT-HK|D+|5%"
     network: ws
     port: 47790
     server: 36.50.90.241
@@ -39,132 +11,258 @@ proxies:
         Host: sni.111000.dynv6.net
       path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
     servername: sni.111000.dynv6.net
-  - name: "\U0001F1F0\U0001F1F7KR_1|925KB/s|GPT⁺|NF|GM|1%"
-    network: ws
-    port: 443
-    server: cf.cloudflare.182682.xyz
-    tls: true
-    type: vless
-    uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
-    ws-opts:
-      headers:
-        Host: sb9e.9kx.edueu.dpdns.org
-      path: /
-    servername: sb9e.9kx.edueu.dpdns.org
-  - name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s|GPT⁺|D+|10%"
-    password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-    port: 443
-    server: 622296bc-tbbz40-tbck4p-mv7m.de.oshuawei.com
-    tls: true
-    type: http
-    username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-    sni: 622296bc-tbbz40-tbck4p-mv7m.de.oshuawei.com
-  - name: "\U0001F1E9\U0001F1EADE_2|1006KB/s|GPT⁺|D+|10%"
-    password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-    port: 443
-    server: bf698b31-tbdts0-tc4puo-m0b9.de.oshuawei.com
-    tls: true
-    type: http
-    username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
-    sni: bf698b31-tbdts0-tc4puo-m0b9.de.oshuawei.com
-  - name: "\U0001F1E9\U0001F1EADE_3|1.1MB/s|GPT⁺|D+|10%"
-    password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
-    port: 443
-    server: 884603d9-tbdts0-tbpyfo-1phla.de.oshuawei.com
-    tls: true
-    type: http
-    username: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
-    sni: 884603d9-tbdts0-tbpyfo-1phla.de.oshuawei.com
   - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_4|2.0MB/s|GPT⁺|5%"
-    network: ws
-    port: 8443
-    server: F2.HaMrAhCoNf.Ir
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_1|2.1MB/s|GPT⁺|YT-RU|11%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: c39cc7310a
+    server: 143.20.236.51
     tls: true
     type: vless
     udp: true
-    uuid: f85c9efa-da9d-4f86-a497-e92a89ffb572
-    ws-opts:
-      headers:
-        Host: p3-sync-06.secoxi.site
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
     xudp: true
-    servername: sp.secoxi.site
-  - name: "\U0001F1F0\U0001F1F7KR_2|931KB/s|GPT⁺|YT-KR|D+|GM|5%"
+    servername: yahoo.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1EA\U0001F1F8ES_1|1.3MB/s|GPT⁺|YT-ES|NF|22%"
+    password: ZET59LF6DvCC8KVt
+    port: 9005
+    server: 5.188.181.201
+    type: ss
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1F8\U0001F1ECSG_1|884KB/s|NF|D+|0%"
+    password: asd123456
+    port: 8388
+    server: 103.36.91.32
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_1|2.4MB/s|GPT⁺|YT-US|21%"
     network: ws
-    port: 18091
-    server: 59.187.250.47
+    port: 443
+    server: 198.62.62.235
     tls: true
     type: vless
-    uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+    udp: true
+    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
     ws-opts:
       headers:
-        Host: dyj0.q78.eduin.indevs.in
-      path: /
-    servername: dyj0.q78.eduin.indevs.in
-  - name: "\U0001F1FA\U0001F1F8US_2|930KB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+        Host: bank.alaska-tigr.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
+      path: /love
+    xudp: true
+    servername: bank.alaska-tigr.info
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8US_1|973KB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+    network: ws
+    port: 443
+    server: 172.64.52.205
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: lirpeuijr.chinav.indevs.in
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /danfeng
+    xudp: true
+    servername: lirpeuijr.chinav.indevs.in
+  - client-fingerprint: random
+    name: "\U0001F1F9\U0001F1FCTW_1|887KB/s|GPT⁺|YT-TW|D+|GM|5%"
+    network: ws
+    port: 995
+    server: 60.251.232.240
+    tls: true
+    type: vless
+    udp: true
+    uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+    ws-opts:
+      headers:
+        Host: 6f221d78.mfree.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.112 Safari/537.36
+      path: '/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433'
+    xudp: true
+    servername: 6f221d78.mfree.ccwu.cc
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8US_2|949KB/s|GPT⁺|YT-US|NF|D+|GM"
+    network: ws
+    port: 2087
+    server: 192.0.54.31
+    tls: true
+    type: vless
+    udp: true
+    uuid: 69a6c1d3-9637-2e38-8f5c-4e75cd624317
+    ws-opts:
+      headers:
+        Host: 6f221d78.mfree.ccwu.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
+          Gecko) Chrome/26.0.1410.64 Safari/537.31
+      path: '/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433'
+    xudp: true
+    servername: 6f221d78.mfree.ccwu.cc
+  - cipher: 2022-blake3-aes-128-gcm
+    name: "\U0001F1ED\U0001F1F0HK_2|1.9MB/s|YT-CN|NF|D+|0%"
+    password: 3hNrhEp6pN7RbNQxJNrY0w==
+    port: 10032
+    server: 149.104.5.72
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|910KB/s|GPT⁺|YT-US|NF|GM|5%"
+    network: ws
+    port: 2053
+    server: www.gco.gov.qa
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      headers:
+        Host: ducqbvsi.chinav.eu.org
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: ducqbvsi.chinav.eu.org
+  - auth: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+    name: "\U0001F1FA\U0001F1F8US_4|1.5MB/s|GPT⁺|YT-US|GM|33%"
+    password: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+    port: 33222
+    server: buylas.fe-9.top
+    skip-cert-verify: true
+    sni: buylas.fe-9.top
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US_5|1005KB/s|GPT⁺|YT-US|NF|D+|GM|0%"
+    network: ws
+    port: 443
+    server: 135.84.64.66
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: sni.111000.dynv6.net
+  - name: "\U0001F1FA\U0001F1F8US_6|1.1MB/s|GPT⁺|YT-US|NF|D+|GM|5%"
+    network: ws
+    port: 443
+    server: 199.107.164.217
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: sni.111000.dynv6.net
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_7|810KB/s|GPT⁺|YT-US|NF|D+|GM|7%"
+    port: 443
+    reality-opts:
+      public-key: MrVc8uqpwhoXwJXD-2rOkZp-gXyIH15mYx0noP7joxM
+      short-id: 014c5bef3f
+    server: us1.miyazono-kaori.com
+    tls: true
+    type: vless
+    uuid: f6c7016b-6f94-4a32-975c-013f2494d312
+    network: tcp
+    servername: download-porter.hoyoverse.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_8|1.5MB/s|GPT⁺|YT-US|NF|D+|GM|7%"
+    port: 443
+    reality-opts:
+      public-key: OIVDQIpAT0W0VQ5E8qHlBZjXtcPOxrbWpx3CxN5L-iQ
+      short-id: 2714177825354e
+    server: us2.miyazono-kaori.com
+    tls: true
+    type: vless
+    uuid: f6c7016b-6f94-4a32-975c-013f2494d312
+    network: tcp
+    servername: download-porter.hoyoverse.com
+  - client-fingerprint: qq
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_9|1.2MB/s|GPT⁺|YT-RU|NF|GM|34%"
+    port: 443
+    reality-opts:
+      public-key: OyMR_bsXbxfwuJ6HCtDOisl2Xf78RWYZXbaXb3CEiks
+      short-id: d513ea7473969a0a
+    server: us.netvora.space
+    tls: true
+    type: vless
+    uuid: 2baffe9c-099d-481b-8d9c-7eb351c9bf35
+    network: tcp
+    servername: us.netvora.space
+  - name: "\U0001F1E9\U0001F1EADE_1|874KB/s|GPT⁺|NF|D+|5%"
     network: ws
     port: 8443
-    server: 104.19.59.39
+    server: 143.20.213.10
     tls: true
     type: vless
-    uuid: 8ae7cac7-36f7-d208-367d-2322dcb73973
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: bvqq.dks.edukg.dpdns.org
+        Host: sni.111000.dynv6.net
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: sni.111000.dynv6.net
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US_10|855KB/s|GPT⁺|YT-US|NF|GM|0%"
+    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+    port: 12589
+    server: ldu.izenny.com
+    type: ss
+    udp: true
+  - name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s|GPT⁺|YT-JP|D+|GM"
+    network: ws
+    port: 443
+    server: 126.220.82.161
+    tls: true
+    type: vless
+    uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+    ws-opts:
+      headers:
+        Host: 002.ljk-clouflare.dns.army
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: 002.ljk-clouflare.dns.army
+  - name: "\U0001F1F8\U0001F1ECSG_2|1.6MB/s|GPT⁺|YT-SG|D+|GM"
+    network: ws
+    port: 2083
+    server: 125.227.233.197
+    tls: true
+    type: vless
+    uuid: e3713ba4-a8fc-44ec-b401-3b736e67718d
+    ws-opts:
+      headers:
+        Host: 002.ljk-clouflare.dns.army
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: 002.ljk-clouflare.dns.army
+  - name: "\U0001F1FA\U0001F1F8US_11|2.2MB/s|GPT|YT-US|NF|D+|GM"
+    network: ws
+    port: 443
+    server: 135.84.74.118
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
       path: /
-    servername: bvqq.dks.edukg.dpdns.org
-  - name: "\U0001F1E9\U0001F1EADE_5|928KB/s|GPT⁺|NF|D+|5%"
-    network: ws
-    port: 443
-    server: 45.153.230.220
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
     servername: sni.111000.dynv6.net
-  - name: "\U0001F1EB\U0001F1F7FR_1|1011KB/s|GPT⁺|NF|D+|5%"
-    network: ws
-    port: 443
-    server: 217.60.39.10
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: sni.111000.dynv6.net
-  - name: "\U0001F1F0\U0001F1F7KR_3|1.4MB/s|GPT⁺|YT-KR|D+|GM|5%"
-    network: ws
-    port: 16035
-    server: 121.180.225.222
-    tls: true
-    type: vless
-    uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
-    ws-opts:
-      headers:
-        Host: 6f221d78.mfree.ccwu.cc
-      path: '/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433'
-    servername: 6f221d78.mfree.ccwu.cc
-  - name: "\U0001F1F9\U0001F1FCTW_1|878KB/s|GPT⁺|YT-TW|D+|GM|5%"
-    network: ws
-    port: 16000
-    server: 203.69.248.40
-    tls: true
-    type: vless
-    uuid: 69a647a9-c60f-1366-ec63-1332eb2d2105
-    ws-opts:
-      headers:
-        Host: 6f221d78.mfree.ccwu.cc
-      path: '/socks5=4b2c7676:6f0f4cbba5bb@38.111.30.111:26433'
-    servername: 6f221d78.mfree.ccwu.cc
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
