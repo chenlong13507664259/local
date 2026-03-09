@@ -1,147 +1,122 @@
 proxies:
-  - name: "\U0001F1F0\U0001F1F7KR_1|2.6MB/s|NF|5%"
-    network: ws
-    port: 30030
-    server: 121.153.38.160
-    tls: true
-    type: vless
-    uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863
-    ws-opts:
-      headers:
-        Host: apk.arises.dynv6.net
-      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
-    servername: apk.arises.dynv6.net
-  - name: "\U0001F1ED\U0001F1F0HK_1|1.6MB/s|GPT⁺|YT-HK|NF|D+|5%"
-    network: ws
-    port: 7000
-    server: 202.85.53.77
-    tls: true
-    type: vless
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    ws-opts:
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kuangbao.xiejiang.dpdns.org
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1FFUZ_1|962KB/s|GPT⁺|YT-RU|NF|13%"
-    port: 8443
-    reality-opts:
-      public-key: G1tysmIvHOz3fYUAyXIIUIXNjor4oyoXjq1ktGykdCY
-      short-id: 85998b6e877785ea
-    server: 31.13.208.89
-    tls: true
-    type: vless
-    uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
-    network: tcp
-    servername: stats.vk-portal.net
   - cipher: 2022-blake3-aes-128-gcm
-    name: "\U0001F1F2\U0001F1FAMU_1|2.5MB/s|GPT⁺|YT-CN|GM"
+    name: "\U0001F1F2\U0001F1FAMU_1|989KB/s|GPT⁺|YT-CN|NF|D+|GM|0%"
     password: 'MDhhMTdjZDI0MjI2ZWRlNg==:MmE2ODZkOTEtZGYxNS00NQ=='
     port: 39301
     server: dafeizhu.whtjdasha.com
     type: ss
     udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB_1|1023KB/s|GPT⁺|YT-US|21%"
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.9MB/s|YT-KR|D+"
     network: ws
-    port: 443
-    server: 198.62.62.235
-    tls: true
-    type: vless
-    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-    ws-opts:
-      headers:
-        Host: bank.alaska-tigr.info
-      path: /love
-    servername: bank.alaska-tigr.info
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E6\U0001F1EAAE_1|948KB/s|GPT⁺|YT-US|NF|D+|28%"
-    obfs: salamander
-    obfs-password: Faf^fv#mQCMKxxSM
-    password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-    port: 30000
-    server: sg2.shiyuandian.shop
-    skip-cert-verify: true
-    sni: sg2.shiyuandian.shop
-    type: hysteria2
-    up: ''
-  - encryption: none
-    name: "\U0001F1ED\U0001F1F0HK_2|2.2MB/s|GPT⁺|YT-HK|NF|D+|5%"
-    network: ws
-    port: 80
-    server: 104.16.158.162
-    type: vless
-    udp: true
-    uuid: a7444b2b-20fb-461f-9840-63e5c8c7d883
-    ws-opts:
-      headers:
-        Host: mute-violet-c674.poviy66273.workers.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - name: "\U0001F1FA\U0001F1F8US_1|2.4MB/s|GPT⁺|YT-CN|NF|0%"
-    password: alvin9999.com
-    port: 30088
-    server: 157.254.223.24
-    skip-cert-verify: true
-    sni: apple.com
-    tfo: false
-    type: hysteria2
-  - client-fingerprint: chrome
-    delay: 1299
-    name: "\U0001F1ED\U0001F1F0HK_3|2.6MB/s|YT-HK|NF|D+"
-    network: ws
-    password: trojan
-    port: 7000
-    server: 202.85.53.77
-    skip-cert-verify: true
-    sni: jflsjlaf.pages.dev
-    type: trojan
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: jflsjlaf.pages.dev
-      max-early-data: 2560
-      path: /
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_1|1.8MB/s|YT-RU|3%"
-    port: 8080
-    reality-opts:
-      public-key: w28tNIWZCfW4X9aQDLwXECK3pU59zihJ0GIMA13u5X8
-    server: finland.tortvpnbot.world
+    port: 11717
+    server: 121.157.190.209
     skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: a001c9c4-ece2-4dc1-9658-cbad90fcd2e0
-    network: tcp
-    servername: main.tortvpnbot.world
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: violet
-    name: "\U0001F1EE\U0001F1F9IT_1|2.0MB/s|GPT⁺|YT-IT|NF|100%"
-    network: grpc
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+      path: /TelegramU0001F1E8U0001F1F3@WangCai2
+    servername: ylnhh.cc.cd
+  - name: "\U0001F1ED\U0001F1F0HK_1|1.7MB/s|YT-HK|D+"
+    network: ws
     port: 443
-    server: itsea.osaip.net
+    server: 68.64.179.96
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: 0dc47a17-6082-433a-8589-f2a2c06de4fd
-    servername: itsea.osaip.net
-  - name: ❓Other_1|992KB/s|GPT⁺
-    port: 1090
-    server: 121.169.46.116
-    type: socks5
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: ylnhh.cc.cd
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s|YT-JP|NF|D+"
+    network: ws
+    port: 14772
+    server: 125.192.35.51
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/35.0.1916.153 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: ylnhh.cc.cd
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '1000'
+    name: "\U0001F1E9\U0001F1EADE_1|1.3MB/s|GPT⁺|YT-CN|NF|D+|0%"
+    obfs: ''
+    port: 20088
+    protocol: udp
+    server: 5.83.129.153
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '500'
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1ED\U0001F1F0HK_2|996KB/s|GPT⁺|YT-HK|NF|D+|5%"
+    network: ws
+    port: 2095
+    server: www.fbi.gov
+    tls: false
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    ws-opts:
+      headers:
+        Host: cnmfangbinxing.wcnm-fangbinxingnmsl.workers.dev
+      path: /
+  - name: "\U0001F1ED\U0001F1F0HK_3|1020KB/s|D+"
+    network: ws
+    port: 443
+    server: 68.64.179.250
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: ylnhh.cc.cd
+  - cipher: none
+    name: "\U0001F1EF\U0001F1F5JP_2|1.3MB/s|YT-JP|NF|D+"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: false
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\
+      tls: true
+    port: 443
+    server: 140.238.50.134
+    type: ss
+    udp: true
+  - name: "\U0001F1F0\U0001F1F7KR_2|1.9MB/s|YT-KR|D+"
+    network: ws
+    port: 10162
+    server: 211.195.135.214
+    tls: true
+    type: vless
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    servername: ylnhh.cc.cd
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
