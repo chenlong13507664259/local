@@ -1,209 +1,177 @@
 proxies:
-  - name: "\U0001F1EF\U0001F1F5JP_1|3.0MB/s|GPT⁺|YT-JP|NF|D+|GM"
-    password: fe0fda62-79ff-467e-bef4-983322c1d21b
-    port: 60002
-    server: 47.245.5.125
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s|GPT|YT-HK|NF|D+|2%"
-    network: ws
-    port: 80
-    server: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: 64
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s|YT-CN|NF|0%"
-    port: 52283
-    server: 103.181.164.237
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK_2|1.4MB/s|GPT|YT-HK|NF|D+|2%"
-    network: ws
-    port: 80
-    server: e6744b60-t70f40-t83wx3-19xg1.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: e6744b60-t70f40-t83wx3-19xg1.hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - name: "\U0001F1F0\U0001F1F7KR_1|1.4MB/s|YT-KR|5%"
-    network: ws
-    port: 50006
-    server: 175.199.169.221
-    tls: true
-    type: vless
-    uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-    ws-opts:
-      headers:
-        Host: snippet.fgfw.de5.net
-      path: /danfeng
-    servername: snippet.fgfw.de5.net
-  - name: "\U0001F1F8\U0001F1ECSG_1|860KB/s|YT-SG|D+|GM"
-    network: ws
-    port: 8443
-    server: 77.93.89.176
-    tls: true
-    type: vless
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    ws-opts:
-      headers:
-        Host: ylnhh.cc.cd
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    servername: ylnhh.cc.cd
-  - alpn:
-      - http/1.1
-    client-fingerprint: random
-    name: "\U0001F1F8\U0001F1ECSG_2|2.0MB/s|0%"
-    network: ws
-    port: 18264
-    server: 59.14.58.161
-    tls: true
-    type: vless
-    udp: true
-    uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-    ws-opts:
-      headers:
-        Host: snippet.fgfw.ccwu.cc
-      path: /danfeng
-    servername: snippet.fgfw.ccwu.cc
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_1|1009KB/s|GPT⁺|YT-RU|0%"
-    port: 443
-    reality-opts:
-      public-key: qrnqrRbyJ3KLRDdvO0Ed2ewMvTn1i5XWyF07q_4eunk
-      short-id: 8cb5caf3547681c1
-    server: 185.191.118.144
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7a37a4a1-0750-4311-a355-ff7d499c6797
-    network: tcp
-    servername: www.microsoft.com
-  - cipher: 2022-blake3-aes-256-gcm
-    name: "\U0001F1EF\U0001F1F5JP_2|1.2MB/s|GPT⁺|YT-JP|NF|D+|GM|0%"
-    password: >-
-      mtMkp+1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o=:AAvo+BsgpvvR5lJsdQU32vrMXL7ZAbZJZfETB7bddhQ=
-    port: 14625
-    server: toy4lkdzy0c.22b74943-12ad-47f4-b705-f2defb6ffea0.org
-    tfo: false
-    type: ss
-    udp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_1|2.0MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    network: ws
-    port: 12888
-    server: gtm1.ktmwan.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: bbd785de-9793-4453-be40-6a3fdc418203
-    ws-opts:
-      headers:
-        Host: baidu.com
-      path: /
-    xudp: true
-  - alterId: '2'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_3|1.0MB/s|GPT⁺|YT-HK|NF|D+|2%"
-    network: ws
-    port: 80
-    server: e6744b60-t70f40-t83wx3-19xg1.hkt.gotochinatown.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    ws-opts:
-      headers:
-        Host: e6744b60-t70f40-t83wx3-19xg1.hkt.gotochinatown.net
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_4|1.2MB/s|YT-CN|NF|D+|0%"
-    password: 4b18c59f-b249-4d78-95bc-fc560a41aab7
-    port: 34492
-    server: hkg.cylink.bond
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: trojan
-    udp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_3|806KB/s|GPT⁺|YT-CN|NF|D+|46%"
-    obfs: ''
-    obfs-password: ''
-    password: b7d213b3-e039-4ffb-8a3e-278604c71cf3
-    port: 21047
-    server: jp.xn--ehqa22b.site
-    skip-cert-verify: false
-    sni: jp.xn--ehqa22b.site
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_5|1.0MB/s|YT-HK|NF|5%"
-    password: 4b18c59f-b249-4d78-95bc-fc560a41aab7
-    port: 34490
-    server: hke.cylink.bond
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: trojan
-    udp: true
-  - cipher: chacha20
-    name: "\U0001F1ED\U0001F1F0HK_6|2.9MB/s|YT-CN|NF|30%"
-    obfs: tls1.2_ticket_auth
-    password: mPQ5C9
-    port: 40155
-    protocol: auth_chain_a
-    protocol-param: '82410044:6b2VgU'
-    server: 194.99.79.62
-    type: ssr
-    udp: true
   - alpn:
       - h2
-    name: "\U0001F1FF\U0001F1E6ZA_1|877KB/s|GPT|YT-CN|NF|D+|0%"
+    name: "\U0001F1FF\U0001F1E6ZA_1|1.1MB/s|GPT⁺|YT-CN|NF|D+|0%"
     password: dongtaiwang.com
     port: 59901
     server: 45.221.98.14
     skip-cert-verify: true
     type: anytls
     udp: true
-  - auth: 3418c21b-5f47-445f-9717-243625c803f2
-    name: "\U0001F1F2\U0001F1FEMY_1|830KB/s|GPT⁺|YT-US|49%"
-    password: 3418c21b-5f47-445f-9717-243625c803f2
-    port: 21605
-    server: my.xn--ehqa22b.site
-    skip-cert-verify: false
-    type: hysteria2
+  - alpn:
+      - http/1.1
+    client-fingerprint: random
+    name: "\U0001F1F0\U0001F1F7KR_1|1.4MB/s"
+    network: ws
+    port: 11754
+    server: 203.170.125.48
+    tls: true
+    type: vless
     udp: true
-    sni: my.xn--ehqa22b.site
+    uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+    ws-opts:
+      headers:
+        Host: snippet.danfeng.theworkpc.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: /danfeng
+    xudp: true
+    servername: snippet.danfeng.theworkpc.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1EA\U0001F1F8ES_1|936KB/s|GPT⁺|NF|100%"
+    password: M3t2ZEQcMGRWBjRa
+    port: 9011
+    server: 5.188.181.201
+    type: ss
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EF\U0001F1F5JP_1|1.4MB/s|GPT⁺|YT-JP|NF|GM|0%"
+    network: tcp
+    port: 61234
+    reality-opts:
+      public-key: Ck5v8Ja1m7hmsS5ahJaKZr3Z6ARwQWnX15jxDJtLwzM
+      short-id: 9c
+    server: high-speed-test-01.linkpc.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: ef092640-433a-4f17-99bd-d5d206435606
+    xudp: true
+    servername: www.nintendo.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EF\U0001F1F5JP_2|838KB/s|YT-JP|NF|D+|GM"
+    network: ws
+    port: 8443
+    server: 43.165.180.71
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: ylnhh.cc.cd
+  - client-fingerprint: chrome
+    encryption: none
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F2\U0001F1E9MD_1|1.1MB/s|GPT⁺|YT-RU|NF|22%"
+    network: tcp
+    port: 8181
+    reality-opts:
+      public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
+      short-id: 7dbf7d3233971d5c
+    server: 95.85.235.2
+    tls: true
+    type: vless
+    udp: true
+    uuid: b36fa3f7-daff-453a-85a1-429b1b981815
+    xudp: true
+    servername: max.ru
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_1|998KB/s|YT-KR|GM"
+    network: ws
+    port: 25524
+    server: 116.93.199.28
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: ylnhh.cc.cd
+  - name: "\U0001F1EE\U0001F1E9ID_1|3.2MB/s|GPT⁺|YT-ID|NF|25%"
+    password: 21a74582-f139-11ed-ab21-f23c913c8d2b
+    port: 32233
+    server: 1be202ec-tbqsg0-tetg39-146qr.id.oshuawei.com
+    tls: true
+    type: http
+    username: 21a74582-f139-11ed-ab21-f23c913c8d2b
+    sni: 1be202ec-tbqsg0-tetg39-146qr.id.oshuawei.com
+  - cipher: aes-256-cfb
+    name: "\U0001F1EA\U0001F1F8ES_2|1.2MB/s|GPT⁺|NF|100%"
+    password: VcFuyXvND2yQWSFY
+    port: 9054
+    server: 5.188.181.201
+    type: ss
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_1|3.1MB/s|GPT⁺|YT-HK|NF|D+|5%"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: false
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      tls: true
+    port: 443
+    server: cf.090227.xyz
+    type: ss
+    udp: true
+  - cipher: none
+    name: "\U0001F1FA\U0001F1F8US_2|1.5MB/s|GPT⁺|YT-US|NF|D+|5%"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: false
+      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      tls: true
+    port: 443
+    server: cdns.doon.eu.org
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: ❓Other_1|1.1MB/s|YT-SG|NF
+    network: ws
+    port: 443
+    server: 34.143.159.175
+    tls: true
+    type: vless
+    udp: true
+    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    ws-opts:
+      headers:
+        Host: ylnhh.cc.cd
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+    servername: ylnhh.cc.cd
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
