@@ -1,47 +1,5 @@
 proxies:
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_1|1.5MB/s|GPT⁺|YT-HK|D+"
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: mfvpn.fuchen.indevs.in
-      mode: websocket
-      mux: false
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-      tls: true
-    port: 443
-    server: store.ubi.com
-    type: ss
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK_2|1001KB/s|GPT⁺|YT-HK|NF|D+|7%"
-    network: ws
-    port: 443
-    server: 172.64.229.85
-    tls: true
-    type: vless
-    uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-    ws-opts:
-      headers:
-        Host: r.icy.de5.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: r.icy.de5.net
-  - name: "\U0001F1ED\U0001F1F0HK_3|1019KB/s|GPT⁺|YT-HK|D+|7%"
-    network: ws
-    port: 443
-    server: 104.19.58.74
-    tls: true
-    type: vless
-    uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-    ws-opts:
-      headers:
-        Host: r.icy.de5.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: r.icy.de5.net
-  - name: "\U0001F1ED\U0001F1F0HK_4|2.0MB/s|GPT⁺|YT-HK|NF|D+|7%"
+  - name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s|GPT|YT-HK|NF|D+|7%"
     network: ws
     port: 443
     server: 172.64.156.0
@@ -55,52 +13,10 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: r.icy.de5.net
-  - name: "\U0001F1F0\U0001F1F7KR_1|1.6MB/s|NF|GM"
-    network: ws
-    port: 8443
-    server: 59.3.3.161
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    ws-opts:
-      headers:
-        Host: ylnhh.cc.cd
-      path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2"
-    servername: ylnhh.cc.cd
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_1|939KB/s|GPT⁺|NF|D+|0%"
-    port: 18959
-    reality-opts:
-      public-key: '-hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA'
-      short-id: d557c6895d014075
-    server: 157.254.223.44
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-    network: tcp
-    servername: itunes.apple.com
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EC\U0001F1E7 GB"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F8\U0001F1ECSG_1|1.1MB/s|GPT⁺|YT-SG|NF|D+|GM|24%"
-    network: none
-    port: 17310
-    server: 82.21.80.224
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
-    ws-path: /
-  - name: "\U0001F1FA\U0001F1F8US_2|1.6MB/s|GPT⁺|YT-US|NF|D+|GM|7%"
+  - name: "\U0001F1ED\U0001F1F0HK_2|1.4MB/s|GPT|YT-HK|7%"
     network: ws
     port: 443
-    server: 193.9.49.65
+    server: 172.64.229.85
     tls: true
     type: vless
     uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
@@ -111,47 +27,76 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: r.icy.de5.net
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_5|2.7MB/s|GPT⁺|YT-HK|NF|D+|7%"
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: mfvpn.fuchen.indevs.in
-      mode: websocket
-      mux: false
-      path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-      tls: true
-    port: 443
-    server: cdns.doon.eu.org
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F0\U0001F1F7KR_2|1.1MB/s|GPT⁺|YT-KR|D+|GM|7%"
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1E9\U0001F1EADE_1|1.5MB/s|GPT⁺|YT-CN|NF|D+|0%"
+    password: dongtaiwang.com
+    port: 10088
+    reduce-rtt: false
+    request-timeout: 0
+    server: ip1.758733.xyz
+    skip-cert-verify: true
+    sni: apple.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
+    version: 5
+  - alpn:
+      - http/1.1
+    client-fingerprint: random
+    name: "\U0001F1F0\U0001F1F7KR_1|1.8MB/s|GPT⁺|YT-KR|D+|GM|7%"
     network: ws
-    port: 10911
-    server: 118.139.224.150
+    port: 443
+    server: 45.93.31.34
     tls: true
     type: vless
     udp: true
     uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
     ws-opts:
       headers:
-        Host: danfeng.sylu.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/43.0.2357.65 Safari/537.36
+        Host: chinam.sylu.net
       path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+    servername: chinam.sylu.net
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1E8\U0001F1E6CA_1|2.0MB/s|NF|53%"
+    network: ws
+    port: 80
+    server: abm96f00fby3.jkhkgj.xyz
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 0f868002-5230-45fb-be23-0fd0ed9bbdc4
+    ws-opts:
+      headers:
+        Host: abm96f00fby3.jkhkgj.xyz
+      path: /market/can
     xudp: true
-    servername: danfeng.sylu.cc
-  - name: "\U0001F1ED\U0001F1F0HK_6|3.4MB/s|GPT⁺|YT-HK|NF|D+|GM|2%"
-    password: fe0fda62-79ff-467e-bef4-983322c1d21b
-    port: 60002
-    server: 43.161.240.193
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_3|2.7MB/s|GPT|YT-HK|NF|D+|2%"
+    network: ws
+    port: 80
+    server: e12c25e8-t70f40-t87m8y-1pr35.hkt.gotochinatown.net
     skip-cert-verify: true
-    type: anytls
+    type: vmess
+    uuid: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: e12c25e8-t70f40-t87m8y-1pr35.hkt.gotochinatown.net
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - name: ❓Other_1|832KB/s
+    port: 1090
+    server: 121.169.46.116
+    type: socks5
     udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
