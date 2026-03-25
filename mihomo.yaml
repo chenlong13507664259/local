@@ -1,28 +1,18 @@
 proxies:
-  - client-fingerprint: chrome
-    delay: 924
-    name: "\U0001F1F0\U0001F1F7KR_1|1.2MB/s|YT-KR|D+|GM"
+  - name: "\U0001F1ED\U0001F1F0HK_1|1.0MB/s|D+|8%"
     network: ws
-    password: trojan
-    port: 29999
-    server: 59.20.121.139
-    skip-cert-verify: true
-    sni: jflsjlaf.pages.dev
-    type: trojan
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: jflsjlaf.pages.dev
-      max-early-data: 2560
-      path: /
-  - client-fingerprint: chrome
-    name: "\U0001F1F9\U0001F1FCTW_1|972KB/s|GPT⁺|YT-TW|NF|D+|GM|0%"
-    password: 3ac6a6ca99f74941b1eaf892818e2ddb
     port: 443
-    server: 85.237.207.189
-    skip-cert-verify: true
-    type: trojan
-    udp: true
+    server: 104.18.92.83
+    tls: true
+    type: vless
+    uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+    ws-opts:
+      headers:
+        Host: snip.zrf.gv.uy
+      path: /zrf
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: snip.zrf.gv.uy
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
