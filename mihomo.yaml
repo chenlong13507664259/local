@@ -1,20 +1,11 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|807KB/s|GPT⁺|YT-HK|NF|D+|8%"
-    network: ws
+  - name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s|GPT⁺|YT-US|NF|GM|0%"
+    password: 4123ae62-0999-4984-8ead-091630e594a9
     port: 443
-    server: www.charteredaccountantsanz.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: qt2cte0z61.gfw.hidns.co
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: qt2cte0z61.gfw.hidns.co
+    server: n1.chateditimage.com
+    skip-cert-verify: true
+    sni: n1.chateditimage.com
+    type: trojan
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
