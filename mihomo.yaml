@@ -1,11 +1,28 @@
 proxies:
-  - name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s|GPT⁺|YT-US|NF|GM|0%"
-    password: 4123ae62-0999-4984-8ead-091630e594a9
-    port: 443
-    server: n1.chateditimage.com
-    skip-cert-verify: true
-    sni: n1.chateditimage.com
-    type: trojan
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1E8\U0001F1FECY_1|1.1MB/s|GPT⁺|YT-RU"
+    obfs: ''
+    obfs-password: ''
+    password: 'hysteria2_fastlane_4il18i3ep:8OoOXsA2LkNBLA3NH5WL6vKUwtO9NlYB'
+    port: 1935
+    server: 150.241.79.201
+    skip-cert-verify: false
+    sni: de5.h.fastlanehosting.ru
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|GPT⁺|YT-RU|NF"
+    obfs: ''
+    obfs-password: ''
+    password: 'hysteria2_fastlane_bwyx9htpr:oEo7UUYjxOcBooNu080XVIFCbge59vqG'
+    port: 1935
+    server: 144.31.63.58
+    skip-cert-verify: false
+    sni: de4.h.fastlanehosting.ru
+    type: hysteria2
+    up: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
