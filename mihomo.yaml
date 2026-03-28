@@ -1,28 +1,52 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E8\U0001F1FECY_1|1.1MB/s|GPT⁺|YT-RU"
-    obfs: ''
-    obfs-password: ''
-    password: 'hysteria2_fastlane_4il18i3ep:8OoOXsA2LkNBLA3NH5WL6vKUwtO9NlYB'
-    port: 1935
-    server: 150.241.79.201
-    skip-cert-verify: false
-    sni: de5.h.fastlanehosting.ru
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|1.2MB/s|GPT⁺|YT-RU|NF"
-    obfs: ''
-    obfs-password: ''
-    password: 'hysteria2_fastlane_bwyx9htpr:oEo7UUYjxOcBooNu080XVIFCbge59vqG'
-    port: 1935
-    server: 144.31.63.58
-    skip-cert-verify: false
-    sni: de4.h.fastlanehosting.ru
-    type: hysteria2
-    up: ''
+  - delay: 1066
+    name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s|YT-US|NF|D+|GM"
+    network: ws
+    password: trojan
+    port: 7071
+    server: 154.17.234.78
+    skip-cert-verify: true
+    sni: jflsjlaf.pages.dev
+    type: trojan
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: jflsjlaf.pages.dev
+      max-early-data: 2560
+      path: /
+  - client-fingerprint: random
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1ED\U0001F1F0HK_1|2.1MB/s|YT-HK|NF|D+|0%"
+    network: tcp
+    port: 19001
+    reality-opts:
+      public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+      short-id: ''
+    server: hke01.jumperservice.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5ab22628-9dc7-48c4-c56e-f129da583baa
+    xudp: true
+    servername: www.speedtest.org
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT⁺|YT-CN|NF|D+|0%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+      short-id: 96e03e0f184639ef
+    server: 209.248.4.3
+    tls: true
+    type: vless
+    udp: true
+    uuid: 45838e8e58c44a21b229c2e43347934a
+    servername: peer.pan.baidu.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
