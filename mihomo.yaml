@@ -1,52 +1,50 @@
 proxies:
-  - delay: 1066
-    name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s|YT-US|NF|D+|GM"
-    network: ws
-    password: trojan
-    port: 7071
-    server: 154.17.234.78
+  - name: "\U0001F1F0\U0001F1F7KR_1|2.0MB/s|GPT⁺|YT-KR|NF|GM|7%"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
     skip-cert-verify: true
-    sni: jflsjlaf.pages.dev
-    type: trojan
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: jflsjlaf.pages.dev
-      max-early-data: 2560
-      path: /
-  - client-fingerprint: random
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1ED\U0001F1F0HK_1|2.1MB/s|YT-HK|NF|D+|0%"
-    network: tcp
-    port: 19001
-    reality-opts:
-      public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-      short-id: ''
-    server: hke01.jumperservice.com
     tls: true
-    type: vless
+    type: http
     udp: true
-    uuid: 5ab22628-9dc7-48c4-c56e-f129da583baa
-    xudp: true
-    servername: www.speedtest.org
+    username: test
+    sni: testkr3.ssv.vc
+  - allowInsecure: '1'
+    alpn:
+      - h2
+    name: "\U0001F1FF\U0001F1E6ZA_1|974KB/s|GPT⁺|NF|D+|0%"
+    password: dongtaiwang.com
+    port: 59901
+    server: 45.221.98.14
+    skip-cert-verify: true
+    type: anytls
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_1|989KB/s|GPT⁺|YT-US|NF|79%"
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 8080
+    server: 82.38.31.101
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F1NL_2|950KB/s|GPT⁺|79%"
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    port: 8080
+    server: 82.38.31.191
+    type: ss
+    udp: true
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    network: tcp
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: violet
+    name: "\U0001F1EE\U0001F1F9IT_1|878KB/s|GPT⁺|YT-US|NF|88%"
+    network: grpc
     port: 443
-    reality-opts:
-      public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-      short-id: 96e03e0f184639ef
-    server: 209.248.4.3
+    server: itsea.osaip.net
     tls: true
     type: vless
     udp: true
-    uuid: 45838e8e58c44a21b229c2e43347934a
-    servername: peer.pan.baidu.com
+    uuid: 8200ad63-84de-4c77-8426-eca5bcd9c6c9
+    servername: itsea.osaip.net
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
