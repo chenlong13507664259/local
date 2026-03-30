@@ -1,50 +1,106 @@
 proxies:
-  - name: "\U0001F1F0\U0001F1F7KR_1|2.0MB/s|GPT⁺|YT-KR|NF|GM|7%"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_1|2.4MB/s"
+    network: ws
+    port: 30047
+    server: 211.194.210.183
     tls: true
-    type: http
+    type: vless
     udp: true
-    username: test
-    sni: testkr3.ssv.vc
+    uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+    ws-opts:
+      headers:
+        Host: snippet.danfeng.loc.cc
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: snippet.danfeng.loc.cc
   - allowInsecure: '1'
     alpn:
       - h2
-    name: "\U0001F1FF\U0001F1E6ZA_1|974KB/s|GPT⁺|NF|D+|0%"
+    name: "\U0001F1FF\U0001F1E6ZA_1|1.4MB/s|GPT⁺|NF|D+|0%"
     password: dongtaiwang.com
     port: 59901
     server: 45.221.98.14
     skip-cert-verify: true
     type: anytls
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|989KB/s|GPT⁺|YT-US|NF|79%"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.101
-    type: ss
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1E8\U0001F1E6CA_1|1.1MB/s|GPT⁺|YT-CA|GM|32%"
+    network: ws
+    port: 12897
+    server: gtm1.ktmwan.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
     udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_2|950KB/s|GPT⁺|79%"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.191
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: violet
-    name: "\U0001F1EE\U0001F1F9IT_1|878KB/s|GPT⁺|YT-US|NF|88%"
-    network: grpc
+    uuid: 6d5d1d83-b04e-4c5d-873e-b027d59e0b36
+    ws-opts:
+      headers:
+        Host: baidu.com
+      path: /
+    xudp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F2\U0001F1E9MD_1|1.5MB/s|GPT⁺|NF"
+    network: ws
     port: 443
-    server: itsea.osaip.net
+    server: 192.200.160.20
     tls: true
     type: vless
     udp: true
-    uuid: 8200ad63-84de-4c77-8426-eca5bcd9c6c9
-    servername: itsea.osaip.net
+    uuid: c1a5ecfa-8a01-4070-91e0-0328b82388ad
+    ws-opts:
+      headers:
+        Host: 639073677243396643.camry-perma.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /phnkfhws
+    xudp: true
+    servername: 639073677243396643.camry-perma.info
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1ED\U0001F1F0HK_1|2.6MB/s|YT-HK|NF|D+|0%"
+    password: 16c2ce57-aed3-4f8a-9ba7-4ecb3a2f9fa1
+    port: 28039
+    server: cm2.kaochangcn.org
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EC\U0001F1E7GB_1|1.4MB/s|GPT⁺|D+|67%"
+    network: ws
+    port: 443
+    server: 192.0.63.49
+    tls: true
+    type: vless
+    udp: true
+    uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+    ws-opts:
+      headers:
+        Host: snippet.danfeng.theworkpc.com
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
+          Safari/537.36
+      path: /danfeng
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: snippet.danfeng.theworkpc.com
+  - name: "\U0001F1EC\U0001F1E7GB_2|839KB/s|GPT⁺|YT-JP|D+|GM|0%"
+    password: 5d1a1744-0d9d-42d0-b014-28b1bfc6a7e8
+    port: 25565
+    server: 82.40.45.79
+    skip-cert-verify: true
+    type: anytls
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
