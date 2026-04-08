@@ -1,20 +1,15 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|2.0MB/s|GPT⁺|YT-SG|NF|GM|3%"
-    obfs: salamander
-    obfs-password: OrT7yQQIMqcvKdet
-    password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-    port: 443
-    server: sg-hy2.onetaplink.app
-    skip-cert-verify: false
-    sni: hy2-sg.onetaplink.app
-    type: hysteria2
-    up: ''
+  - name: "\U0001F1ED\U0001F1F0HK_1|2.2MB/s|YT-CN|NF|D+|1%"
+    password: 6d00fde742644d11
+    port: 99
+    server: khk9527.vision.jp.eu.org
+    skip-cert-verify: true
+    type: trojan
+    sni: khk9527.vision.jp.eu.org
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision-udp443
-    name: "\U0001F1F0\U0001F1F7KR_1|1.3MB/s|GPT⁺|YT-KR|NF|6%"
+    name: "\U0001F1F0\U0001F1F7KR_1|2.5MB/s|GPT|6%"
     network: tcp
     port: 443
     server: ako.pagate.top
@@ -23,77 +18,170 @@ proxies:
     type: vless
     uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
     servername: ako.pagate.top
-  - name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s|YT-CN|NF|D+|1%"
-    password: 6d00fde742644d11
-    port: 99
-    server: khk9527.vision.jp.eu.org
-    skip-cert-verify: true
-    type: trojan
-    sni: khk9527.vision.jp.eu.org
-  - name: "\U0001F1EE\U0001F1F9IT_1|831KB/s|GPT⁺|YT-IT|D+|GM|9%"
-    network: ws
-    port: 7443
-    server: 222.167.202.15
-    tls: true
-    type: vless
-    uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-    ws-opts:
-      headers:
-        Host: 2026.hhhhh.eu.org
-      path: '/222.167.202.15:7443'
-    servername: 2026.hhhhh.eu.org
   - alpn:
       - h3
     congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    password: dongtaiwang.com
-    port: 10088
-    reduce-rtt: false
-    request-timeout: 0
-    server: ip1.758733.xyz
+    name: "\U0001F1F2\U0001F1E9MD_1|872KB/s|GPT⁺|YT-RU|NF"
+    password: strong-secret-pass-777
+    port: 50043
+    server: 45.120.179.89
     skip-cert-verify: true
-    sni: apple.com
     type: tuic
     udp-relay-mode: native
-    uuid: 9bbd1f42-7ae7-4239-bd10-a68de95e3295
-    version: 5
-  - cipher: aes-256-cfb
-    name: "\U0001F1EA\U0001F1F8ES_1|1.3MB/s|GPT⁺|100%"
-    password: XPtzA9sCug3SPR4c
-    port: 9025
-    server: 5.188.181.201
-    type: ss
-  - name: "\U0001F1FA\U0001F1F8US_1|960KB/s|GPT⁺|YT-JP|NF|D+|0%"
-    password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-    port: 443
-    server: 958b6264-td6n40-ten5li-mv7m.jp.oshuawei.com
-    tls: true
-    type: http
-    username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-    sni: 958b6264-td6n40-ten5li-mv7m.jp.oshuawei.com
-  - name: "\U0001F1F9\U0001F1FCTW_1|1.2MB/s|GPT⁺|YT-TW|NF|D+"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-  - alpn:
-      - h3
-    auth-str: alvin9999.com
-    auth_str: alvin9999.com
-    down: 1000
-    name: "\U0001F1E9\U0001F1EADE_2|1.5MB/s|GPT⁺|NF|D+|0%"
-    port: 23008
-    protocol: udp
-    server: ip1.758733.xyz
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
+    uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+    version: '5'
+  - auth: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    name: "\U0001F1EF\U0001F1F5JP_1|2.1MB/s|GPT⁺|YT-JP|GM|3%"
+    obfs: salamander
+    obfs-password: CF7WJGiw6r1c8imX
+    password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    port: 5443
+    server: jp-hy2.onetaplink.app
+    skip-cert-verify: false
+    sni: hy2-jp.onetaplink.app
+    type: hysteria2
     udp: true
-    up: 500
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EC\U0001F1E7 GB"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s|GPT⁺|YT-CN|NF|0%"
+    network: tcp
+    port: 180
+    server: 82.198.246.250
+    skip-cert-verify: true
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    ws-path: /
+  - name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s|GPT⁺|YT-DE|NF|100%"
+    password: 0f771058-7892-4d46-b77e-a69e811b9cbc
+    port: 443
+    server: 84.200.91.118
+    skip-cert-verify: true
+    sni: hls-svod.itunes.apple.com
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_2|885KB/s|GPT⁺|YT-US|NF|D+|GM|9%"
+    network: ws
+    port: 443
+    server: 172.64.52.232
+    tls: true
+    type: vless
+    uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
+    ws-opts:
+      headers:
+        Host: snip.zrfs.nn.kg
+      path: /Telegram@lsmoo&
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: snip.zrfs.nn.kg
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|1.7MB/s|GPT⁺|YT-US|NF|D+|GM|9%"
+    network: ws
+    port: 443
+    server: 108.162.198.172
+    tls: true
+    type: vless
+    uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
+    ws-opts:
+      headers:
+        Host: snip.cfv.pp.ua
+      path: /Telegram@lsmoo&
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: snip.cfv.pp.ua
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0 HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_2|1023KB/s|GPT|D+|1%"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_3|1.7MB/s|YT-CN|NF|D+|1%"
+    password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    port: 8443
+    server: 3ef52951-td8hs0-thtg7i-1lkt0.hkt2.cdnhuawei.com
+    skip-cert-verify: true
+    sni: 3ef52951-td8hs0-thtg7i-1lkt0.hkt2.cdnhuawei.com
+    type: anytls
+    udp: true
+    username: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+  - fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_4|1.9MB/s|YT-CN|NF|D+|1%"
+    password: cb96c846-fd6d-11ef-a910-f23c9164ca5d
+    port: 8443
+    server: b4e50fa9-td8hs0-teoi3e-1thts.hkt2.cdnhuawei.com
+    skip-cert-verify: true
+    sni: b4e50fa9-td8hs0-teoi3e-1thts.hkt2.cdnhuawei.com
+    type: anytls
+    udp: true
+    username: cb96c846-fd6d-11ef-a910-f23c9164ca5d
+  - fingerprint: ''
+    name: "\U0001F1FF\U0001F1E6ZA_1|1.4MB/s|GPT|YT-CN|NF|D+|0%"
+    password: dongtaiwang.com
+    port: 59901
+    server: 45.221.98.14
+    skip-cert-verify: true
+    sni: ''
+    type: anytls
+    udp: true
+    username: dongtaiwang.com
+    disable-sni: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_4|894KB/s|GPT⁺|YT-US|NF|GM|15%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: '-YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs'
+      short-id: feedbacc
+    server: 67.159.52.81
+    tls: true
+    type: vless
+    udp: true
+    uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+    xudp: true
+    servername: sg.fasti.win
+  - name: "\U0001F1ED\U0001F1F0HK_5|1.8MB/s|YT-HK|NF|D+|1%"
+    password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    port: 443
+    server: f8d200ae-td8hs0-thtg7i-1lkt0.hk2.hyhuawei.com
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: f8d200ae-td8hs0-thtg7i-1lkt0.hk2.hyhuawei.com
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: UpdateService
+    name: "\U0001F1F7\U0001F1FARU_1|1.6MB/s|GPT⁺|YT-RU"
+    network: grpc
+    port: 2083
+    reality-opts:
+      public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+      short-id: 6da16b1335651b38
+    server: 85.92.111.163
+    tls: true
+    type: vless
+    udp: true
+    uuid: 09b81314-7592-4ffb-9773-6351de8a7f74
+    xudp: true
+    servername: ir.ozone.ru
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
