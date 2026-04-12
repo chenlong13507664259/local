@@ -1,12 +1,35 @@
 proxies:
+  - down: 2000
+    name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s|GPT|YT-HK|NF|D+|GM|3%"
+    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+    port: 88
+    server: jpaws.ccwink.photos
+    skip-cert-verify: true
+    sni: hkak.ccwink.cc
+    type: hysteria2
+    up: 2000
   - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1EF\U0001F1F5JP_1|3.3MB/s|GPT|YT-CN|NF|D+|0%"
+    name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s|GPT⁺|YT-CN|NF|D+|0%"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
     server: vpn-jp-016.fastervpn.world
     skip-cert-verify: true
     sni: vpn-jp-016.fastervpn.world
     type: hysteria2
+  - name: "\U0001F1ED\U0001F1F0HK_2|1.5MB/s|YT-HK|D+|0%"
+    password: BxceQaOe
+    port: 39507
+    server: 18.162.243.187
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s|GPT⁺|YT-CN|NF|0%"
+    password: BxceQaOe
+    port: 14919
+    server: 16.163.129.49
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
