@@ -1,35 +1,122 @@
 proxies:
-  - down: 2000
-    name: "\U0001F1ED\U0001F1F0HK_1|2.5MB/s|GPT|YT-HK|NF|D+|GM|3%"
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 88
-    server: jpaws.ccwink.photos
-    skip-cert-verify: true
-    sni: hkak.ccwink.cc
-    type: hysteria2
-    up: 2000
   - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1EF\U0001F1F5JP_1|2.0MB/s|GPT⁺|YT-CN|NF|D+|0%"
+    name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s|GPT⁺|YT-CN|NF|D+|0%"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
     server: vpn-jp-016.fastervpn.world
     skip-cert-verify: true
     sni: vpn-jp-016.fastervpn.world
     type: hysteria2
-  - name: "\U0001F1ED\U0001F1F0HK_2|1.5MB/s|YT-HK|D+|0%"
-    password: BxceQaOe
-    port: 39507
-    server: 18.162.243.187
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_1|1.9MB/s|GPT⁺|YT-US|NF|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+    port: 443
+    server: 134.195.101.199
     skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - name: "\U0001F1FA\U0001F1F8US_1|2.6MB/s|GPT⁺|YT-CN|NF|0%"
-    password: BxceQaOe
-    port: 14919
-    server: 16.163.129.49
+    sni: www.apple.com
+    type: hysteria2
+    up: ''
+  - down: 2000
+    name: "\U0001F1ED\U0001F1F0HK_1|1.5MB/s|GPT⁺|YT-US|NF|GM|0%"
+    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+    port: 58
+    server: jpaws.ccwink.photos
     skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
+    sni: moak.ccwink.cc
+    type: hysteria2
+    up: 2000
+  - name: "\U0001F1FA\U0001F1F8US_2|3.0MB/s|GPT|GM|0%"
+    network: ws
+    port: 443
+    server: 104.19.58.118
+    tls: true
+    type: vless
+    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
+    ws-opts:
+      headers:
+        Host: us1-us1.aiopen.sbs
+      path: /kbjc/us1
+    servername: us1-us1.aiopen.sbs
+  - name: "\U0001F1ED\U0001F1F0HK_2|1.1MB/s|GPT⁺|YT-HK|NF|D+|9%"
+    network: ws
+    port: 443
+    server: 172.66.40.139
+    tls: true
+    type: vless
+    uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+    ws-opts:
+      headers:
+        Host: rAyAn-007.pArViN.DpDnS.OrG
+      path: /
+    servername: rAyAn-007.pArViN.DpDnS.OrG
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_1|953KB/s|GPT⁺|D+"
+    network: ws
+    port: 443
+    server: 193.233.232.9
+    tls: true
+    type: vless
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    ws-opts:
+      headers:
+        Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+      path: /
+    servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.4MB/s|GPT⁺|YT-KR|NF|6%"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_3|3.5MB/s|GPT⁺|YT-HK|NF|D+|9%"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 104.17.208.158
+    type: ss
+    udp: true
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_4|2.5MB/s|GPT⁺|YT-HK|NF|D+|9%"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 104.19.41.26
+    type: ss
+    udp: true
+  - cipher: none
+    name: "\U0001F1FA\U0001F1F8US_3|921KB/s|GPT⁺|YT-US|NF|D+|GM|9%"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 104.26.15.78
+    type: ss
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
