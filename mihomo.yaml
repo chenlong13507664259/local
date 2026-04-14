@@ -1,26 +1,6 @@
 proxies:
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-jp-016.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-016.fastervpn.world
-    type: hysteria2
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|1.9MB/s|GPT⁺|YT-US|NF|GM|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-    port: 443
-    server: 134.195.101.199
-    skip-cert-verify: true
-    sni: www.apple.com
-    type: hysteria2
-    up: ''
   - down: 2000
-    name: "\U0001F1ED\U0001F1F0HK_1|1.5MB/s|GPT⁺|YT-US|NF|GM|0%"
+    name: "\U0001F1ED\U0001F1F0HK_1|4.2MB/s|GPT⁺|YT-US|NF|GM|0%"
     password: 9e0f72bb-7ad6-4383-994a-497569a94d74
     port: 58
     server: jpaws.ccwink.photos
@@ -28,19 +8,7 @@ proxies:
     sni: moak.ccwink.cc
     type: hysteria2
     up: 2000
-  - name: "\U0001F1FA\U0001F1F8US_2|3.0MB/s|GPT|GM|0%"
-    network: ws
-    port: 443
-    server: 104.19.58.118
-    tls: true
-    type: vless
-    uuid: 340dee85-bfd7-4395-8d2e-87dbc2781a13
-    ws-opts:
-      headers:
-        Host: us1-us1.aiopen.sbs
-      path: /kbjc/us1
-    servername: us1-us1.aiopen.sbs
-  - name: "\U0001F1ED\U0001F1F0HK_2|1.1MB/s|GPT⁺|YT-HK|NF|D+|9%"
+  - name: "\U0001F1ED\U0001F1F0HK_2|990KB/s|GPT⁺|YT-HK|NF|D+|8%"
     network: ws
     port: 443
     server: 172.66.40.139
@@ -52,71 +20,113 @@ proxies:
         Host: rAyAn-007.pArViN.DpDnS.OrG
       path: /
     servername: rAyAn-007.pArViN.DpDnS.OrG
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8US_1|913KB/s|GPT⁺|YT-RU|NF|D+|63%"
+    obfs: salamander
+    obfs-password: PQ$hN78bzXWN
+    password: a4c1b618-024a-42d4-b78a-1c25c337a484
+    port: 10086
+    server: us1.xiaoliyu.cyou
+    skip-cert-verify: true
+    sni: us1.xiaoliyu.cyou
+    type: hysteria2
+    up: ''
   - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_1|953KB/s|GPT⁺|D+"
+    name: "\U0001F1ED\U0001F1F0HK_3|1.1MB/s|YT-CN|D+|1%"
+    password: BxceQaOe
+    port: 6313
+    server: 52.194.222.108
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_1|1.9MB/s|GPT|YT-CN|3%"
+    password: BxceQaOe
+    port: 3022
+    server: 52.194.222.108
+    skip-cert-verify: true
+    sni: t.me%252Fripaojiedian
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_2|2.2MB/s|GPT⁺|YT-CN|NF"
+    password: BxceQaOe
+    port: 23255
+    server: 16.162.122.123
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    name: "\U0001F1F8\U0001F1ECSG_1|2.6MB/s|GPT⁺|YT-SG|NF|GM|3%"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-sg-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-sg-002.fastervpn.world
+    type: hysteria2
+  - down: 2000
+    name: "\U0001F1ED\U0001F1F0HK_4|2.7MB/s|GPT⁺|YT-HK|NF|D+|GM|3%"
+    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+    port: 88
+    server: jpaws.ccwink.photos
+    skip-cert-verify: true
+    sni: hkak.ccwink.cc
+    type: hysteria2
+    up: 2000
+  - name: "\U0001F1EF\U0001F1F5JP_2|1.6MB/s|GPT⁺|YT-JP|NF|GM|3%"
+    obfs: salamander
+    obfs-password: CF7WJGiw6r1c8imX
+    password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+    port: 5443
+    server: jp-hy2.onetaplink.app
+    sni: hy2-jp.onetaplink.app
+    type: hysteria2
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_1|820KB/s|GPT⁺|YT-US|NF|GM"
     network: ws
     port: 443
-    server: 193.233.232.9
+    server: 18.245.54.3
+    skip-cert-verify: false
     tls: true
     type: vless
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
     ws-opts:
       headers:
-        Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+        Host: d24f6c9l7fxvak.cloudfront.net
       path: /
-    servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-  - name: "\U0001F1F0\U0001F1F7KR_1|1.4MB/s|GPT⁺|YT-KR|NF|6%"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
+    servername: d24f6c9l7fxvak.cloudfront.net
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_5|2.4MB/s|GPT⁺|YT-HK|D+|8%"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 104.17.150.140
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F2\U0001F1FEMY_1|3.5MB/s|GPT⁺|YT-MY|NF|GM"
+    port: 443
+    reality-opts:
+      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+    server: 47.250.36.199
     tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_3|3.5MB/s|GPT⁺|YT-HK|NF|D+|9%"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: 104.17.208.158
-    type: ss
-    udp: true
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_4|2.5MB/s|GPT⁺|YT-HK|NF|D+|9%"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: 104.19.41.26
-    type: ss
-    udp: true
-  - cipher: none
-    name: "\U0001F1FA\U0001F1F8US_3|921KB/s|GPT⁺|YT-US|NF|D+|GM|9%"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: 104.26.15.78
-    type: ss
-    udp: true
+    type: vless
+    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+    network: tcp
+    servername: evt.ilovepdf.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
