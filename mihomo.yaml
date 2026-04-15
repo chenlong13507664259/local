@@ -1,132 +1,56 @@
 proxies:
-  - down: 2000
-    name: "\U0001F1ED\U0001F1F0HK_1|4.2MB/s|GPT⁺|YT-US|NF|GM|0%"
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 58
-    server: jpaws.ccwink.photos
+  - auth: dongtaiwang.com
+    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|GPT⁺|YT-FR|NF|D+"
+    password: dongtaiwang.com
+    port: 40022
+    ports: 41000-42000
+    server: 163.172.113.118
     skip-cert-verify: true
-    sni: moak.ccwink.cc
+    sni: www.microsoft.com
     type: hysteria2
-    up: 2000
-  - name: "\U0001F1ED\U0001F1F0HK_2|990KB/s|GPT⁺|YT-HK|NF|D+|8%"
-    network: ws
-    port: 443
-    server: 172.66.40.139
-    tls: true
-    type: vless
-    uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
-    ws-opts:
-      headers:
-        Host: rAyAn-007.pArViN.DpDnS.OrG
-      path: /
-    servername: rAyAn-007.pArViN.DpDnS.OrG
+    udp: true
   - down: ''
     fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|913KB/s|GPT⁺|YT-RU|NF|D+|63%"
-    obfs: salamander
-    obfs-password: PQ$hN78bzXWN
-    password: a4c1b618-024a-42d4-b78a-1c25c337a484
-    port: 10086
-    server: us1.xiaoliyu.cyou
+    name: "\U0001F1EA\U0001F1F8ES_1|1.0MB/s|GPT⁺|YT-CN|D+|3%"
+    obfs: ''
+    obfs-password: ''
+    password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+    port: 35000
+    server: 143.47.56.230
     skip-cert-verify: true
-    sni: us1.xiaoliyu.cyou
+    sni: www.lamer.com.hk
     type: hysteria2
     up: ''
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_3|1.1MB/s|YT-CN|D+|1%"
-    password: BxceQaOe
-    port: 6313
-    server: 52.194.222.108
+    name: "\U0001F1F8\U0001F1ECSG_1|2.6MB/s|GPT⁺|YT-CN|NF|3%"
+    password: b97032af-7aac-4a67-913c-11c5b6d2657d
+    port: 50032
+    server: v12026.lalakw.com
     skip-cert-verify: true
-    sni: t.me/ripaojiedian
+    sni: v12026.lalakw.com
     type: trojan
     udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|1.9MB/s|GPT|YT-CN|3%"
-    password: BxceQaOe
-    port: 3022
-    server: 52.194.222.108
+  - auth: a4c1b618-024a-42d4-b78a-1c25c337a484
+    name: "\U0001F1ED\U0001F1F0HK_1|1.9MB/s|YT-CN|NF|D+|0%"
+    password: a4c1b618-024a-42d4-b78a-1c25c337a484
+    port: 23990
+    ports: 22000-27000
+    server: hk1.xiaoliyu.cyou
     skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|2.2MB/s|GPT⁺|YT-CN|NF"
-    password: BxceQaOe
-    port: 23255
-    server: 16.162.122.123
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1F8\U0001F1ECSG_1|2.6MB/s|GPT⁺|YT-SG|NF|GM|3%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-sg-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-sg-002.fastervpn.world
     type: hysteria2
-  - down: 2000
-    name: "\U0001F1ED\U0001F1F0HK_4|2.7MB/s|GPT⁺|YT-HK|NF|D+|GM|3%"
-    password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-    port: 88
-    server: jpaws.ccwink.photos
-    skip-cert-verify: true
-    sni: hkak.ccwink.cc
-    type: hysteria2
-    up: 2000
-  - name: "\U0001F1EF\U0001F1F5JP_2|1.6MB/s|GPT⁺|YT-JP|NF|GM|3%"
+    udp: true
+    sni: hk1.xiaoliyu.cyou
+  - auth: 'rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf'
+    name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s|GPT⁺|YT-NL|NF|7%"
     obfs: salamander
-    obfs-password: CF7WJGiw6r1c8imX
-    password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-    port: 5443
-    server: jp-hy2.onetaplink.app
-    sni: hy2-jp.onetaplink.app
+    obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
+    password: 'rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf'
+    port: 8932
+    server: nrealistic.nn-foto.ru
+    skip-cert-verify: true
+    sni: nrealistic.nn-foto.ru
     type: hysteria2
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_1|820KB/s|GPT⁺|YT-US|NF|GM"
-    network: ws
-    port: 443
-    server: 18.245.54.3
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
-    ws-opts:
-      headers:
-        Host: d24f6c9l7fxvak.cloudfront.net
-      path: /
-    servername: d24f6c9l7fxvak.cloudfront.net
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_5|2.4MB/s|GPT⁺|YT-HK|D+|8%"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: 104.17.150.140
-    type: ss
     udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F2\U0001F1FEMY_1|3.5MB/s|GPT⁺|YT-MY|NF|GM"
-    port: 443
-    reality-opts:
-      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-    server: 47.250.36.199
-    tls: true
-    type: vless
-    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-    network: tcp
-    servername: evt.ilovepdf.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
