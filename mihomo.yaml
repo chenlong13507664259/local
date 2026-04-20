@@ -1,36 +1,6 @@
 proxies:
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1FA\U0001F1F8US_1|860KB/s|GPT⁺|YT-US|NF|D+|GM|9%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-019.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-019.fastervpn.world
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_2|1.2MB/s|GPT⁺|YT-US|NF|D+|GM|9%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-018.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-018.fastervpn.world
-    type: hysteria2
-  - name: "\U0001F1FA\U0001F1F8US_3|3.3MB/s|GPT⁺|YT-US|NF|GM|0%"
-    password: 3780fcbcddd107f7d7c727eb18e28f4c
-    port: 8443
-    server: 20.230.191.53
-    skip-cert-verify: true
-    type: hysteria2
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1E9\U0001F1EADE_1|812KB/s|GPT⁺|NF"
-    port: 30833
-    server: v33.hdacd.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   - cipher: none
-    name: "\U0001F1F3\U0001F1F1NL_1|844KB/s|GPT⁺|NF|D+|8%"
+    name: "\U0001F1ED\U0001F1F0HK_1|2.9MB/s|GPT⁺|YT-HK|NF|D+"
     password: 79960b0b-7d31-4263-8915-6511b0e137a8
     plugin: v2ray-plugin
     plugin-opts:
@@ -40,45 +10,135 @@ proxies:
       path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
       tls: true
     port: 443
-    server: 89.169.8.223
+    server: 104.18.46.154
     type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_1|1.2MB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.24
-    type: ss
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_4|1.3MB/s|GPT⁺|YT-JP|NF|D+|GM|0%"
-    password: dcccacba-fa44-11ef-8400-f23c9164ca5d
-    port: 443
-    server: 984e37a0-tdsv40-tf681f-1j6h0.jp.oshuawei.com
-    tls: true
-    type: http
-    username: dcccacba-fa44-11ef-8400-f23c9164ca5d
-    sni: 984e37a0-tdsv40-tf681f-1j6h0.jp.oshuawei.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_1|2.5MB/s|GPT⁺|YT-JP|NF|GM|0%"
-    password: b5c64cdc-ec6b-47c6-83b3-732e6f31e150
-    port: 12308
-    server: 56.155.89.207
-    skip-cert-verify: true
-    sni: jp02.ulifeai.com
-    type: trojan
     udp: true
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s|GPT⁺|YT-US|NF|GM|50%"
+    name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s|GPT⁺|YT-CN|NF|0%"
     network: tcp
-    port: 18000
-    server: 38.110.1.246
+    port: 180
+    server: 82.198.246.250
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     xudp: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_1|5.6MB/s|GPT⁺|YT-JP|NF|GM|3%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-jp-001.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-jp-001.fastervpn.world
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1EF\U0001F1F5JP_2|2.7MB/s|GPT⁺|YT-CN|0%"
+    password: BxceQaOe
+    port: 1783
+    server: 13.192.183.245
+    skip-cert-verify: true
+    sni: t.me%252Fripaojiedian
+    type: trojan
+  - name: "\U0001F1F8\U0001F1ECSG_1|1.3MB/s|GPT⁺|YT-CN"
+    password: BxceQaOe
+    port: 28033
+    server: 18.183.182.241
+    skip-cert-verify: true
+    sni: t.me%252Fripaojiedian
+    type: trojan
+  - name: "\U0001F1ED\U0001F1F0HK_2|1.2MB/s|YT-HK|D+|1%"
+    password: BxceQaOe
+    port: 50612
+    server: 18.183.182.241
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - alterId: '0'
+    cipher: aes-128-gcm
+    name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s|GPT⁺|YT-CN|NF|0%"
+    network: tcp
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - name: "\U0001F1F0\U0001F1F7KR_1|868KB/s|GPT⁺|YT-KR|GM|5%"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
+  - cipher: none
+    name: "\U0001F1FA\U0001F1F8US_3|1.0MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: mfvpn.fuchen.indevs.in
+      mode: websocket
+      mux: false
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+      tls: true
+    port: 443
+    server: 199.181.197.38
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_1|1.7MB/s|GPT⁺|YT-US|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.30
+    type: ss
+    udp: true
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_3|914KB/s|GPT⁺|YT-HK|NF|D+|8%"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: 104.19.33.247
+    type: ss
+    udp: true
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK_4|1.4MB/s|GPT|YT-HK|NF|D+"
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: woshinidie-et3.pages.dev
+      mode: websocket
+      mux: false
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+      tls: true
+    port: 443
+    server: cf.zhetengsha.eu.org
+    type: ss
+    udp: true
+  - auth: dongtaiwang.com
+    name: "\U0001F1EB\U0001F1F7FR_1|2.4MB/s|GPT⁺|NF|D+"
+    password: dongtaiwang.com
+    port: 41283
+    ports: '40022,41000-42000'
+    server: 163.172.113.118
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
