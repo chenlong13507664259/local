@@ -1,136 +1,6 @@
 proxies:
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_1|2.9MB/s|GPT⁺|YT-HK|NF|D+"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: 104.18.46.154
-    type: ss
-    udp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_1|1.4MB/s|GPT⁺|YT-CN|NF|0%"
-    network: tcp
-    port: 180
-    server: 82.198.246.250
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    xudp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|5.6MB/s|GPT⁺|YT-JP|NF|GM|3%"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-jp-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-001.fastervpn.world
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1EF\U0001F1F5JP_2|2.7MB/s|GPT⁺|YT-CN|0%"
-    password: BxceQaOe
-    port: 1783
-    server: 13.192.183.245
-    skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    type: trojan
-  - name: "\U0001F1F8\U0001F1ECSG_1|1.3MB/s|GPT⁺|YT-CN"
-    password: BxceQaOe
-    port: 28033
-    server: 18.183.182.241
-    skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    type: trojan
-  - name: "\U0001F1ED\U0001F1F0HK_2|1.2MB/s|YT-HK|D+|1%"
-    password: BxceQaOe
-    port: 50612
-    server: 18.183.182.241
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - alterId: '0'
-    cipher: aes-128-gcm
-    name: "\U0001F1FA\U0001F1F8US_2|1.8MB/s|GPT⁺|YT-CN|NF|0%"
-    network: tcp
-    port: 180
-    server: 82.198.246.37
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    xudp: true
-  - name: "\U0001F1F0\U0001F1F7KR_1|868KB/s|GPT⁺|YT-KR|GM|5%"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - cipher: none
-    name: "\U0001F1FA\U0001F1F8US_3|1.0MB/s|GPT⁺|YT-US|NF|D+|GM|8%"
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: mfvpn.fuchen.indevs.in
-      mode: websocket
-      mux: false
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-      tls: true
-    port: 443
-    server: 199.181.197.38
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_1|1.7MB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.30
-    type: ss
-    udp: true
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_3|914KB/s|GPT⁺|YT-HK|NF|D+|8%"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: 104.19.33.247
-    type: ss
-    udp: true
-  - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK_4|1.4MB/s|GPT|YT-HK|NF|D+"
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-      tls: true
-    port: 443
-    server: cf.zhetengsha.eu.org
-    type: ss
-    udp: true
   - auth: dongtaiwang.com
-    name: "\U0001F1EB\U0001F1F7FR_1|2.4MB/s|GPT⁺|NF|D+"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s|GPT⁺|YT-FR|NF|D+"
     password: dongtaiwang.com
     port: 41283
     ports: '40022,41000-42000'
@@ -139,6 +9,94 @@ proxies:
     sni: www.microsoft.com
     type: hysteria2
     udp: true
+  - name: "\U0001F1EF\U0001F1F5JP_1|1.6MB/s|GPT⁺|YT-CN|NF|0%"
+    password: 1774240c00db2b77d5a99f6540c47b69
+    port: 9201
+    server: 3.112.12.32
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
+  - name: "\U0001F1EF\U0001F1F5JP_2|881KB/s|GPT⁺|YT-CN|NF|0%"
+    password: 1774240c00db2b77d5a99f6540c47b69
+    port: 9201
+    server: 18.183.89.184
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
+  - name: "\U0001F1EF\U0001F1F5JP_3|1.6MB/s|GPT⁺|YT-CN|NF|0%"
+    password: BxceQaOe
+    port: 1951
+    server: 18.177.137.225
+    skip-cert-verify: true
+    sni: t.me%252Fripaojiedian
+    type: trojan
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_1|1.4MB/s"
+    password: asd123456
+    port: 8388
+    server: 103.36.91.32
+    type: ss
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FF\U0001F1E6ZA_1|1.0MB/s|GPT|YT-ZA|GM|0%"
+    password: Xsy8Ox4yOV3xLlpxtjzs3X
+    port: 16233
+    server: 102.133.165.160
+    type: ss
+    udp: true
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.1MB/s|GPT|100%"
+    port: 1090
+    server: 121.169.46.116
+    type: socks5
+    udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s|GPT⁺|NF|0%"
+    port: 443
+    reality-opts:
+      public-key: '-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk'
+      short-id: c6118398
+    server: 144.31.127.61
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: d5f95f47-9399-49c6-a76b-aa6b289609ba
+    network: tcp
+    servername: gateway.icloud.com
+  - auth: github.com/Alvin9999-newpac/fanqiang
+    name: "\U0001F1E9\U0001F1EADE_1|1.9MB/s|GPT⁺|YT-NL|NF|D+|0%"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 29900
+    server: 178.18.147.66
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
+    udp: true
+  - alpn:
+      - h3
+    auth: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+    name: "\U0001F1ED\U0001F1F0HK_2|1.4MB/s|YT-HK|D+|0%"
+    password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+    port: 5555
+    server: 45.192.195.52
+    skip-cert-verify: true
+    type: hysteria2
+    udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F1F3\U0001F1F1NL"
+    name: "\U0001F1E6\U0001F1F9AT_1|1.2MB/s|GPT⁺|YT-PA|0%"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 51.15.23.63
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN_1|994KB/s|GPT⁺|YT-US|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.211
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
