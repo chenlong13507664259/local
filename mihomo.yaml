@@ -1,54 +1,7 @@
 proxies:
-  - name: "\U0001F1EF\U0001F1F5JP_1|4.9MB/s|GPT⁺|YT-JP|NF|0%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-jp-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-002.fastervpn.world
-    type: hysteria2
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1E6\U0001F1FAAU_1|1.7MB/s|GPT⁺|YT-AU|GM|15%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-au-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-au-001.fastervpn.world
-    type: hysteria2
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1FA\U0001F1F8US_1|927KB/s|GPT⁺|YT-US|NF|GM|3%"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-005.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-005.fastervpn.world
-    type: hysteria2
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_1|2.1MB/s|GPT⁺|YT-TW|NF|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-tw-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-tw-001.fastervpn.world
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FB\U0001F1F3VN_1|1009KB/s|GPT⁺|YT-VN"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-vn-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-vn-001.fastervpn.world
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_2|2.2MB/s|GPT⁺|YT-JP|NF|GM|0%"
+    name: "\U0001F1EF\U0001F1F5JP_1|1.3MB/s|GPT⁺|YT-JP|NF|GM|0%"
     obfs: ''
     obfs-password: ''
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -60,135 +13,198 @@ proxies:
     up: ''
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EE\U0001F1F3IN_1|1.2MB/s|GPT⁺|YT-IN|NF|GM"
+    name: "\U0001F1FB\U0001F1F3VN_1|1.4MB/s|GPT⁺|YT-VN|NF|GM"
     obfs: ''
     obfs-password: ''
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: vpn-in-001.fastervpn.world
+    server: vpn-vn-001.fastervpn.world
     skip-cert-verify: true
-    sni: vpn-in-001.fastervpn.world
+    sni: vpn-vn-001.fastervpn.world
     type: hysteria2
     up: ''
-  - name: "\U0001F1E9\U0001F1EADE_1|1.1MB/s|GPT⁺|D+|9%"
-    network: ws
-    port: 443
-    server: 95.85.234.9
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.latonyamadeline.ndjp.net
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: sni.latonyamadeline.ndjp.net
   - client-fingerprint: chrome
-    name: "\U0001F1F7\U0001F1FARU_1|1.1MB/s|YT-RU|9%"
-    network: ws
-    port: 443
-    server: 148.253.215.38
-    tls: true
-    type: vless
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.latonyamadeline.ndjp.net
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    servername: sni.latonyamadeline.ndjp.net
-  - cipher: aes-256-gcm
-    name: "\U0001F1FA\U0001F1F8US_2|1.4MB/s|GPT⁺|YT-US|NF|GM|3%"
-    password: dada1203
-    port: 80
-    server: 34.220.135.239
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_2|875KB/s|GPT⁺|D+"
-    network: ws
-    password: '1234567890'
-    port: 443
-    server: 185.219.84.221
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|1.1MB/s|GPT⁺|YT-US|NF|D+|GM|9%"
-    network: ws
-    port: 443
-    server: unpkg.com
+    encryption: none
+    grpc-opts:
+      grpc-service-name: update
+    name: "\U0001F1EF\U0001F1F5JP_2|1.4MB/s|YT-JP|NF|D+|GM|0%"
+    network: grpc
+    port: 10032
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: 686c0ef0
+    server: jp2-r.link-t7.com
     tls: true
     type: vless
     udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: l1ibp8ly.backend-node.gfw.hidns.co
-        User-Agent: >-
-          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-          Slackware/Chrome/12.0.742.100 Safari/534.30
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+    uuid: A537EA13-778F-4967-953F-EE29617B8E55
     xudp: true
-    servername: l1ibp8ly.backend-node.gfw.hidns.co
-  - cipher: aes-128-gcm
-    name: "\U0001F1FA\U0001F1F8US_4|1.1MB/s|GPT⁺|YT-US|NF|GM|100%"
-    password: shadowsocks
-    port: 443
-    server: 37.19.198.244
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F5\U0001F1F0PK_1|1.2MB/s|GPT⁺|YT-PK"
-    password: fec4e6f9e954aead
-    port: 29700
-    server: 119.159.245.24
-    type: ss
-    udp: true
+    servername: s0.awsstatic.com
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1F0\U0001F1F7KR_1|1.7MB/s|GPT⁺|YT-KR|GM|5%"
-    network: ws
-    port: 80
-    server: kr02.a0a.xyz
+    name: "\U0001F1FA\U0001F1F8US_1|2.1MB/s|GPT⁺|YT-CN|NF|48%"
+    network: tcp
+    port: 180
+    server: 82.198.246.214
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-    ws-opts:
-      headers:
-        Host: kr02.a0a.xyz
-      path: /cctv13.m3u8
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     xudp: true
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EC\U0001F1E7 GB"
-    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s|GPT⁺|NF|80%"
-    password: k1dBOmOB4oqi7Ump37a1bQ
-    port: 8080
-    server: 82.38.31.217
-    type: ss
-  - name: "\U0001F1FA\U0001F1F8US_5|1.4MB/s|GPT⁺|NF|D+|9%"
+  - flow: xtls-rprx-vision
+    name: "\U0001F1F7\U0001F1FARU_1|1.5MB/s|GPT⁺|YT-RU"
+    port: 52006
+    server: cluster-russia-1.firstvideocdn.ru
+    tls: true
+    type: vless
+    uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+    network: tcp
+    servername: cluster-russia-1.firstvideocdn.ru
+  - name: "\U0001F1E9\U0001F1EADE_1|1.6MB/s|GPT⁺|NF|9%"
     network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: 172.66.44.230
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
+    port: 44406
+    server: 194.107.126.20
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     ws-opts:
       headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: /tro8sFW1S91B6sZrM1
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+        Host: sni.latonyamadeline.ndjp.net
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.latonyamadeline.ndjp.net
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1EEFI_1|1.6MB/s|GPT⁺|YT-RU|NF|26%"
+    port: 443
+    reality-opts:
+      public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
+      short-id: d1f93724859d75ac
+    server: pl2-gws4.onnstreaming.ru
+    tls: true
+    type: vless
+    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+    network: tcp
+    servername: pl2-gws4.onnstreaming.ru
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_3|803KB/s|GPT⁺|YT-JP|NF|GM|3%"
+    obfs: salamander
+    obfs-password: xK9mN2pLq5vR8wB3
+    password: A537EA13-778F-4967-953F-EE29617B8E55
+    port: 20373
+    server: jp2.dexlos.com
+    skip-cert-verify: false
+    sni: jp2.dexlos.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_1|1.0MB/s|GPT⁺|YT-SG|NF|GM|3%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-sg-003.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-sg-003.fastervpn.world
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_2|1.0MB/s|GPT⁺|YT-SG|NF|0%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-sg-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-sg-002.fastervpn.world
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_4|808KB/s|GPT⁺|YT-JP|NF|GM|3%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-jp-018.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-jp-018.fastervpn.world
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EF\U0001F1F5JP_5|966KB/s|GPT⁺|YT-JP|NF|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-jp-003.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-jp-003.fastervpn.world
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1E9\U0001F1EADE_2|1.3MB/s|GPT|NF|D+|9%"
+    network: ws
+    port: 8443
+    server: 193.23.219.205
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.latonyamadeline.ndjp.net
+  - name: "\U0001F1E9\U0001F1EADE_3|1.3MB/s|GPT⁺|NF|D+|9%"
+    network: ws
+    port: 443
+    server: 144.31.116.136
+    tls: true
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.latonyamadeline.ndjp.net
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    servername: sni.latonyamadeline.ndjp.net
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F5\U0001F1F1PL_1|827KB/s|GPT⁺|NF|3%"
+    network: tcp
+    port: 443
+    server: pl74.mechvpn.online
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6d916d55-fead-4ff3-a3a9-83e175ea8ad7
+    servername: pl74.mechvpn.online
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_6|3.2MB/s|GPT|D+"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+      short-id: 2da72ce6
+    server: 176.97.73.155
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5bd2e197-30a5-4684-9778-5bdb9ec764fe
+    servername: navi.bankrate.com
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN_2|1.5MB/s|GPT⁺|YT-US|NF|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.36
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
