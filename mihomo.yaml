@@ -1,149 +1,182 @@
 proxies:
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|1.7MB/s|GPT⁺|YT-JP|NF|GM|0%"
+    name: "\U0001F1F0\U0001F1F7KR_1|4.9MB/s|GPT⁺|YT-KR|NF|D+|GM|0%"
     obfs: ''
     obfs-password: ''
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: vpn-jp-003.fastervpn.world
+    server: vpn-kr-003.fastervpn.world
     skip-cert-verify: true
-    sni: vpn-jp-003.fastervpn.world
+    sni: vpn-kr-003.fastervpn.world
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_1|852KB/s|GPT⁺|YT-TW|NF|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  - name: "\U0001F1F0\U0001F1F7KR_2|1.5MB/s|GPT⁺|YT-KR|NF|GM|2%"
+    network: ws
+    port: 39010
+    server: kr.baqi.indevs.in
+    type: vless
+    udp: true
+    uuid: f1b31d32-0dc9-4141-9818-45a0e8dd213b
+    ws-opts:
+      headers:
+        Host: d0a6b4d945dbfc846b18fade7d631883.mobgslb.tbcache.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /
+    xudp: true
+  - name: "\U0001F1EB\U0001F1F7FR_1|900KB/s|GPT⁺|YT-FR|NF|D+|10%"
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 38563
+    server: 83.243.86.103
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    tfo: false
+    type: hysteria2
+  - name: "\U0001F1FA\U0001F1F8US_1|1018KB/s|GPT⁺|YT-US|NF|D+|GM|10%"
+    network: ws
     port: 443
-    server: vpn-tw-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-tw-001.fastervpn.world
-    type: hysteria2
-    up: ''
+    server: 50.228.203.26
+    tls: true
+    type: vless
+    udp: true
+    uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+    ws-opts:
+      headers:
+        Host: babayaga-6i7.pages.dev
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    servername: babayaga-6i7.pages.dev
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_1|907KB/s|GPT⁺|D+|10%"
+    port: 9443
+    reality-opts:
+      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+      short-id: 2344766a270a6298
+    server: 159.195.82.187
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+    network: tcp
+    servername: yahoo.com
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1F8\U0001F1E8SC_1|3.4MB/s|YT-US|NF|GM|19%"
-    network: ws
-    port: 37849
-    server: 154.205.136.122
+    name: ❓Other_1|3.6MB/s
+    network: tcp
+    port: 9006
+    server: select-hk.ddnskunlun.com
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: 30e88f67-8445-43ca-ff2b-961bbf6339fc
-    ws-opts:
-      headers: {}
-      path: /
+    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
     xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1F7\U0001F1FARU_1|1.5MB/s|GPT|YT-RU|NF"
-    network: tcp
-    port: 2053
-    server: node-us.connectsuite.org
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 9b91e960-f8f7-41aa-ac67-f5c7b6b72e74
-    xudp: true
-    servername: node-us.connectsuite.org
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F5\U0001F1F1PL_1|1.3MB/s|GPT⁺|0%"
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-    port: 990
-    server: 193.135.174.135
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_2|3.5MB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-    port: 50099
-    server: r3mrcg0011499tl.cybervena.com
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_3|962KB/s|GPT⁺|YT-TW|NF|D+|GM"
-    password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
-    port: 50099
-    server: r3mrcg0011499tl.cybervena.com
-    type: ss
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_1|922KB/s|GPT⁺|YT-RU|NF|26%"
-    port: 443
-    reality-opts:
-      public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
-      short-id: d1f93724859d75ac
-    server: pl2-gws4.onnstreaming.ru
-    skip-cert-verify: false
+  - name: "\U0001F1FA\U0001F1F8US_2|1.3MB/s|GPT|YT-US|NF|GM|10%"
+    network: ws
+    port: 8443
+    server: 69.143.174.201
     tls: true
     type: vless
     udp: true
-    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-    network: tcp
-    servername: pl2-gws4.onnstreaming.ru
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1F3\U0001F1F1NL_1|1.5MB/s|GPT⁺|YT-CN|NF|100%"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.99
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_1|901KB/s|GPT⁺|YT-US|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.191
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_2|1.1MB/s|GPT⁺|YT-VN"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.66
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_3|814KB/s|GPT⁺|YT-VN|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.3
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN_4|1.8MB/s|GPT⁺|YT-US|NF"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.220
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK_1|3.3MB/s|YT-CN|NF|D+|1%"
-    password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-    port: 8443
-    server: a7d75baa-te5ts0-tip01z-1gevg.hkt2.cdnhuawei.com
+    uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+    ws-opts:
+      headers:
+        Host: babayaga-6i7.pages.dev
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    servername: babayaga-6i7.pages.dev
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7FR_2|1.3MB/s|GPT⁺|YT-FR|NF|D+"
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 40022
+    server: 163.172.113.118
     skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: a7d75baa-te5ts0-tip01z-1gevg.hkt2.cdnhuawei.com
-  - name: "\U0001F1EE\U0001F1E9ID_1|1.6MB/s|GPT⁺|YT-ID|NF|GM|22%"
-    password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-    port: 32233
-    server: eaceb8f1-te5ts0-tip01z-1gevg.id.oshuawei.com
-    tls: true
-    type: http
-    username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-    sni: eaceb8f1-te5ts0-tip01z-1gevg.id.oshuawei.com
-  - name: "\U0001F1F9\U0001F1FCTW_4|2.0MB/s|GPT⁺|YT-TW|NF|D+"
+    sni: www.microsoft.com
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1EF\U0001F1F5JP_1|3.1MB/s|GPT⁺|YT-JP|NF|D+|GM|0%"
     password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 22443
-    server: t4cache.71edgeiqiyi.com
+    port: 443
+    server: cj04.71edgeiqiyi.com
     tls: true
     type: http
+    udp: true
     username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: t4cache.71edgeiqiyi.com
+    sni: cj04.71edgeiqiyi.com
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE_2|874KB/s|GPT⁺|NF|D+|29%"
+    network: ws
+    port: 80
+    server: 104.20.5.134
+    type: vless
+    udp: true
+    uuid: fc53bae5-92f5-4572-9ce8-9e56901479f1
+    ws-opts:
+      headers:
+        Host: >-
+          尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞3亞團員亞團員.尼亞團員1尼亞團員2尼亞團員3尼亞團亞團員尼亞團尼亞團亞團員亞團員員亞團亞團員亞團員.com.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /amo-mohammad
+    xudp: true
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F9\U0001F1EDTH_1|961KB/s|GPT⁺|YT-TH|GM|0%"
+    network: ''
+    port: 57460
+    server: 117.18.125.183
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 8c99e6bf-a701-4534-cdde-abecd1d6826f
+    xudp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F1F0\U0001F1F7KR"
+    name: "\U0001F1F0\U0001F1F7KR_3|2.0MB/s|GPT⁺|YT-CN|NF|D+|2%"
+    password: qwerREWQ@@
+    port: 6123
+    server: 211.178.105.134
+    type: ss
+  - name: "\U0001F1EF\U0001F1F5JP_2|1.7MB/s|GPT⁺|YT-JP|NF|D+|GM|0%"
+    password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+    port: 443
+    server: 553d40d6-te9j40-tfpmu9-1m0fq.jp.oshuawei.com
+    tls: true
+    type: http
+    username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+    sni: 553d40d6-te9j40-tfpmu9-1m0fq.jp.oshuawei.com
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN_1|1.1MB/s|GPT⁺|YT-VN|GM"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.13
+    type: ss
+  - name: "\U0001F1EE\U0001F1E9ID_1|1.4MB/s|GPT⁺|YT-ID|NF|GM|20%"
+    password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+    port: 32233
+    server: 761fca9b-te9j40-tiv91g-1l0qa.id.oshuawei.com
+    tls: true
+    type: http
+    username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
+    sni: 761fca9b-te9j40-tiv91g-1l0qa.id.oshuawei.com
+  - auth: 'rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf'
+    name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s|GPT⁺|YT-NL|NF|8%"
+    obfs: salamander
+    obfs-password: CvxXZnSth1bVJKGFP2cof4rI52ifHJ2W
+    password: 'rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf'
+    port: 8932
+    server: nrealistic.nn-foto.ru
+    skip-cert-verify: true
+    sni: nrealistic.nn-foto.ru
+    type: hysteria2
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
