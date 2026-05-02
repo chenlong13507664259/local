@@ -16,7 +16,7 @@ proxies:
           like Gecko) Chrome/68.0.3440.106 Safari/537.36
       path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
   - auth: dongtaiwang.com
-    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|GPT⁺|YT-FR|NF|D+"
+    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|GPT⁺|YT-FR|NF|D+" 
     password: dongtaiwang.com
     port: 41484
     ports: '41283,41283,40022,41000-42000'
