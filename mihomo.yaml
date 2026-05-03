@@ -1,73 +1,11 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|1003KB/s|NF|GM"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 43.249.33.117
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/68.0.3440.106 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - auth: dongtaiwang.com
-    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s|GPT⁺|YT-FR|NF|D+"
-    password: dongtaiwang.com
-    port: 41484
-    ports: '41283,41283,40022,41000-42000'
-    server: 163.172.113.118
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_1|631KB/s|GPT⁺|YT-HK|NF|D+|67%"
-    network: ws
-    port: 21314
-    server: 38.147.190.31
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.dns.army
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    xudp: true
-    servername: sni.111000.dns.army
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_2|776KB/s|GPT⁺|YT-HK|NF|D+|37%"
-    network: ws
-    port: 38395
-    server: 38.22.94.220
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.dns.army
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/32.0.1700.107 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    xudp: true
-    servername: sni.111000.dns.army
   - cipher: 2022-blake3-aes-128-gcm
-    name: "\U0001F1F2\U0001F1FEMY_1|2.7MB/s|GPT⁺|YT-CN|NF"
+    name: "\U0001F1F2\U0001F1FEMY_1|2.1MB/s|GPT|YT-CN|NF"
     password: 'YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ=='
     port: 41431
     server: za.peaceandlove2017.com
     type: ss
-  - name: "\U0001F1ED\U0001F1F0HK_1|1.0MB/s|YT-HK|D+|1%"
+  - name: "\U0001F1ED\U0001F1F0HK_1|745KB/s|YT-HK|D+|1%"
     password: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
     port: 5228
     server: b87823b9-t9zts0-tb224g-1h0r9.cm4.oshuawei.com
@@ -76,25 +14,7 @@ proxies:
     type: http
     username: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
   - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_3|1.7MB/s|GPT|YT-HK|NF|D+|0%"
-    network: ws
-    port: 38345
-    server: 38.47.107.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.dns.army
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/52.0.2743.116 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    xudp: true
-    servername: sni.111000.dns.army
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_2|1.9MB/s|YT-HK|NF|D+"
+    name: "\U0001F1F8\U0001F1ECSG_1|650KB/s|YT-HK|D+"
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 15124
@@ -109,30 +29,6 @@ proxies:
           Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/67.0.3396.99 Safari/537.36
       path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - cipher: 2022-blake3-aes-128-gcm
-    name: "\U0001F1F8\U0001F1ECSG_3|3.1MB/s|GPT⁺|YT-SG|NF|GM|47%"
-    password: 'YTQ3YmEwMTQ5NDUxYzAzOA==:ZDZjYmNjNDUtOGRhZS00MQ=='
-    port: 28269
-    server: za.peaceandlove2017.com
-    type: ss
-  - client-fingerprint: chrome
-    name: "\U0001F1F1\U0001F1FBLV_4|1.5MB/s|GPT|YT-HK|NF|D+|20%"
-    network: ws
-    port: 51102
-    server: 38.47.108.176
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    ws-opts:
-      headers:
-        Host: sni.111000.dns.army
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/37.0.2062.120 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-    xudp: true
-    servername: sni.111000.dns.army
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
