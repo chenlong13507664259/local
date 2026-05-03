@@ -14,7 +14,7 @@ proxies:
     type: http
     username: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|650KB/s|YT-HK|D+"
+    name: "\U0001F1F8\U0001F1ECSG_1|650KB/s|YT-HK|D+" 
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 15124
