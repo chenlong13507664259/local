@@ -1,18 +1,6 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EC\U0001F1E7GB_1|2.9MB/s|GPT⁺|YT-GB|NF|3%"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-uk-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-uk-002.fastervpn.world
-    type: hysteria2
-    up: ''
   - delay: 858
-    name: "\U0001F1E9\U0001F1EADE_1|983KB/s|YT-US|NF|D+|GM"
+    name: "\U0001F1FA\U0001F1F8US_1|1.0MB/s|GPT|YT-US|NF|D+|GM"
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 2053
@@ -25,59 +13,12 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
       path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F3C1ZZ"
-    delay: 1332
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_1|1.7MB/s|GPT⁺|YT-US|NF|D+|10%"
-    network: ws
-    port: 443
-    server: cf.scpnb.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69
-    ws-opts:
-      headers:
-        HOST: partition-shepherd-vic-behalf.trycloudflare.com
-      path: /b4bb30b1-b4a2-4b76-90ed-c7d54ec71d69-vm
-    servername: partition-shepherd-vic-behalf.trycloudflare.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F0\U0001F1F7KR_1|4.3MB/s|GPT⁺|YT-KR|NF|GM|0%"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-kr-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-kr-001.fastervpn.world
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|1.0MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 8.223.63.189
-    skip-cert-verify: false
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.113 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 1000
-    name: "\U0001F1E9\U0001F1EADE_2|932KB/s|GPT⁺|YT-CN|D+|0%"
+    name: "\U0001F1E9\U0001F1EADE_1|634KB/s|GPT⁺|YT-CN|NF|D+|0%"
     port: 54177
     protocol: udp
     server: 5.83.129.90
@@ -86,21 +27,128 @@ proxies:
     type: hysteria
     udp: true
     up: 500
-  - name: ❓Other_1|694KB/s|D+
-    network: ws
-    port: 18789
-    server: 210.123.143.214
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_1|1.1MB/s|YT-CN|NF|D+|0%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 202.146.222.41
+    skip-cert-verify: true
+    sni: ''
+    type: hysteria2
+    up: ''
+    disable-sni: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_2|778KB/s|YT-CN|NF|D+|0%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 202.146.222.11
+    skip-cert-verify: true
+    sni: ''
+    type: hysteria2
+    up: ''
+    disable-sni: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F9\U0001F1FCTW_1|3.0MB/s|GPT⁺|YT-TW|NF|D+|GM|0%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 160.187.100.109
+    skip-cert-verify: true
+    sni: "https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_3|652KB/s|YT-CN|NF|D+|0%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 202.146.222.89
+    skip-cert-verify: true
+    sni: ''
+    type: hysteria2
+    up: ''
+    disable-sni: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_4|661KB/s|YT-CN|NF|D+|0%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 202.146.222.16
+    skip-cert-verify: true
+    sni: ''
+    type: hysteria2
+    up: ''
+    disable-sni: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_5|2.0MB/s|YT-CN|NF|D+|0%"
+    obfs: ''
+    obfs-password: ''
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: 202.146.222.29
+    skip-cert-verify: true
+    sni: ''
+    type: hysteria2
+    up: ''
+    disable-sni: true
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_6|4.0MB/s|YT-HK|NF|D+|0%"
+    obfs: ''
+    obfs-password: ''
+    password: fadab0a4-861d-4ebf-89ac-c9b34aef631a
+    port: 35000
+    server: 103.197.71.118
+    skip-cert-verify: true
+    sni: www.lamer.com.hk
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1ED\U0001F1F0HK_7|656KB/s|YT-HK|NF|D+|1%"
+    password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+    port: 5228
+    server: baf98563-ta1og0-ta7ccz-1j0a4.cm4.oshuawei.com
+    sni: baf98563-ta1og0-ta7ccz-1j0a4.cm4.oshuawei.com
     tls: true
-    type: vless
-    udp: true
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    type: http
+    username: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  - name: ❓Other_1|1.1MB/s
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 41607
+    server: 45.159.48.37
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
     ws-opts:
       headers:
-        Host: sni.111000.v6.army
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.v6.army
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - name: ❓Other_2|678KB/s
+    network: ws
+    port: 11019
+    security: tls
+    server: 165.246.171.218
+    tls: true
+    type: vless
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+      path: /@Marisa_kristifp=chrome
+    servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
