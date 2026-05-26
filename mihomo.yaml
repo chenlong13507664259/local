@@ -1,6 +1,6 @@
 proxies:
   - cipher: aes-128-gcm
-    name: "\U0001F1F8\U0001F1ECSG_1|1001KB/s|GPT⁺|YT-HK|NF|D+"
+    name: "\U0001F1F8\U0001F1ECSG_1|4.0MB/s|GPT|YT-HK|NF|D+|60%"
     password: '666'
     plugin: v2ray-plugin
     plugin-opts:
@@ -13,90 +13,6 @@ proxies:
     skip-cert-verify: false
     type: ss
     udp: false
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_2|820KB/s|YT-HK|NF|D+"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 28551
-    server: 116.206.178.228
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/56.0.2924.87 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 1000
-    name: "\U0001F1E9\U0001F1EADE_1|672KB/s|GPT⁺|YT-CN|D+|0%"
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 500
-  - name: "\U0001F1F8\U0001F1ECSG_3|600KB/s|GPT|YT-SG|NF|D+|GM"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 141.11.43.124
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    ws-opts:
-      path: /trTelegram
-  - cipher: none
-    name: "\U0001F1F8\U0001F1ECSG_4|804KB/s|YT-KR|D+|GM"
-    password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-    plugin: v2ray-plugin
-    plugin-opts:
-      host: woshinidie-et3.pages.dev
-      mode: websocket
-      mux: false
-      path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
-      tls: true
-    port: 10912
-    server: 218.150.34.228
-    type: ss
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5JP_1|1.1MB/s|GPT|YT-SG|NF|D+|GM"
-    network: ws
-    port: 41493
-    security: tls
-    server: 158.178.225.153
-    tls: true
-    type: vless
-    uuid: 00000000-0000-4000-8000-000000000000
-    ws-opts:
-      headers:
-        Host: 020g5uxcxmqlndg.luyuju.dpdns.org
-      path: /%40Marisa_kristi
-    servername: 020g5uxcxmqlndg.luyuju.dpdns.org
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_5|1.2MB/s|GPT⁺|YT-HK|NF|D+"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 21123
-    server: 149.104.26.24
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
-          Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
