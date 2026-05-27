@@ -1,6 +1,6 @@
 proxies:
   - cipher: aes-128-gcm
-    name: "\U0001F1F8\U0001F1ECSG_1|4.0MB/s|GPT|YT-HK|NF|D+|60%"
+    name: "\U0001F1F8\U0001F1ECSG_1|762KB/s|GPT⁺|YT-HK|NF|D+"
     password: '666'
     plugin: v2ray-plugin
     plugin-opts:
@@ -13,6 +13,37 @@ proxies:
     skip-cert-verify: false
     type: ss
     udp: false
+  - delay: 408
+    name: "\U0001F1F8\U0001F1ECSG_2|642KB/s|YT-HK|NF|D+"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 43.168.16.112
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_1|643KB/s|YT-HK|D+"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 16301
+    server: 38.207.172.108
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
