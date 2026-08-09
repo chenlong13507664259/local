@@ -1,451 +1,53 @@
 proxies:
-  - name: "\U0001F1F7\U0001F1F4RO_1|804KB/s|GPT⁺|NF|0%"
-    port: 9002
-    server: 84.239.49.49
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_1|1.7MB/s|GPT⁺|YT-US|NF|GM"
-    network: ws
-    password: MiTiVPN
-    port: 443
-    server: 188.114.97.6
-    skip-cert-verify: false
-    sni: >-
-      Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: >-
-        /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_2|1.4MB/s|GPT⁺|YT-DE|NF"
-    network: tcp
-    port: 11762
-    reality-opts:
-      public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU
-      short-id: ''
-    server: 157.90.165.181
+    name: "\U0001F1F3\U0001F1F1NL_1|1.9MB/s|GPT⁺|YT-RU|NF|D+|0%"
+    port: 443
+    server: ddc-chr.astralweb.tech
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 7c9b4360-6be9-47f2-ace9-b87297ea3d8f
-    xudp: true
-    servername: swdist.apple.com
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_3|2.3MB/s|GPT⁺|YT-RU|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 71cada65-d23e-418c-88e4-a06188d14689
+    uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+    network: tcp
+    servername: ddc-chr.astralweb.tech
+  - client-fingerprint: safari
+    grpc-opts:
+      grpc-service-name: grpc
+    name: "\U0001F1E9\U0001F1EADE_1|738KB/s|GPT|YT-RU|NF"
+    network: grpc
     port: 443
-    server: 144.31.166.91
-    skip-cert-verify: true
-    sni: de-two.quiet-rogue.site
-    type: hysteria2
-    up: ''
-  - fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_1|967KB/s|GPT|YT-CN|NF|0%"
-    password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-    port: 17968
-    server: jjz.jjznodenode.top
-    skip-cert-verify: false
-    sni: jjz.jjznodenode.top
-    type: anytls
+    reality-opts:
+      public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+      short-id: 3303c7a5
+    server: 194.93.0.28
+    tls: true
+    type: vless
     udp: true
-    username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  - fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_1|838KB/s|YT-TW|NF|D+|GM|0%"
-    password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-    port: 17964
-    server: jjz.jjznodenode.top
-    skip-cert-verify: false
-    sni: jjz.jjznodenode.top
-    type: anytls
-    udp: true
-    username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  - fingerprint: ''
-    name: "\U0001F1F8\U0001F1ECSG_1|826KB/s|GPT⁺|YT-SG|NF|D+|0%"
-    password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-    port: 17961
-    server: jjz.jjznodenode.top
-    skip-cert-verify: false
-    sni: jjz.jjznodenode.top
-    type: anytls
-    udp: true
-    username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1E9\U0001F1EADE_4|899KB/s|GPT⁺|YT-RU|NF|0%"
-    obfs: ''
-    obfs-password: ''
-    password: 71cada65-d23e-418c-88e4-a06188d14689
+    uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+    servername: media2.tcpdoor.net
+  - client-fingerprint: firefox
+    name: ❓Other_1|973KB/s
     port: 443
-    server: de-two.quiet-rogue.site
+    reality-opts:
+      public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+      short-id: 0b
+    server: 45.155.52.231
     skip-cert-verify: true
-    sni: de-two.quiet-rogue.site
-    type: hysteria2
-    up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F7\U0001F1F4RO_2|2.7MB/s|GPT⁺|YT-RU|NF|18%"
-    obfs: ''
-    obfs-password: ''
-    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-    port: 8443
-    server: 93.114.194.120
-    skip-cert-verify: false
-    sni: grape-zet-ro-turbo.bumbleshrimp.com
-    type: hysteria2
-    up: ''
-  - fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_1|947KB/s|GPT|YT-US|D+|GM|33%"
-    password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-    port: 17963
-    server: jjz.jjznodenode.top
-    skip-cert-verify: false
-    sni: jjz.jjznodenode.top
-    type: anytls
+    tls: true
+    type: vless
     udp: true
-    username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+    uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+    network: tcp
+    servername: ru2.skydrgn-online.online
   - alterId: 2
     cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_2|1.1MB/s|GPT⁺|YT-SG|NF|GM|54%"
+    name: "\U0001F1FA\U0001F1F8US_1|2.0MB/s|GPT⁺|52%"
     network: tcp
-    port: 30845
-    server: v45.hdacd.com
-    skip-cert-verify: false
-    tls: false
+    port: 30829
+    server: v29.hdacd.com
     type: vmess
     udp: true
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    xudp: true
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: chromenoalpn
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_5|1.8MB/s|GPT⁺"
-    network: ws
-    port: 443
-    server: www.speedtest.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c2b43d1-0a6a-4688-d1e1-a427f2e3ae1d
-    ws-opts:
-      headers:
-        Host: gga.nyanners.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.101 Safari/537.36
-      path: /
-    xudp: true
-    servername: gga.nyanners.ir
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: update
-    name: "\U0001F1F8\U0001F1ECSG_3|1.2MB/s|GPT⁺|YT-SG|NF|GM|3%"
-    network: grpc
-    port: 10036
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: 686c0ef0
-    server: sg1-r.link-t7.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-    xudp: true
-    servername: s0.awsstatic.com
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: update
-    name: "\U0001F1F8\U0001F1ECSG_4|1.3MB/s|GPT⁺|YT-SG|NF|D+|GM|0%"
-    network: grpc
-    port: 10037
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: 686c0ef0
-    server: sg2-r.link-t7.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-    xudp: true
-    servername: s0.awsstatic.com
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: update
-    name: "\U0001F1EF\U0001F1F5JP_2|2.4MB/s|GPT⁺|YT-JP|NF|GM|1%"
-    network: grpc
-    port: 10035
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: 686c0ef0
-    server: jp5-r.link-t7.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-    xudp: true
-    servername: s0.awsstatic.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1E9\U0001F1EADE_6|988KB/s|GPT⁺"
-    network: ws
-    port: 8443
-    server: 172.67.225.147
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3764c80e-0fd2-48bc-9072-25fccb9992bf
-    ws-opts:
-      headers:
-        Host: ftp.skylinknet.ir
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-    servername: ftp.skylinknet.ir
-  - name: "\U0001F1FA\U0001F1F8US_2|1007KB/s|GPT|YT-US|NF|GM|57%"
-    port: 9002
-    server: 156.146.59.30
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_3|769KB/s|GPT|NF"
-    port: 9002
-    server: 193.176.84.17
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - cipher: aes-256-cfb
-    name: "\U0001F1FA\U0001F1F8US_3|2.8MB/s|GPT|YT-US|NF|GM"
-    password: amazonskr05
-    port: 443
-    server: 100.31.139.112
-    type: ss
-    udp: true
-  - name: "\U0001F1F0\U0001F1F7KR_1|2.2MB/s|GPT⁺|YT-KR|NF|2%"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: test
-    sni: testkr3.ssv.vc
-  - name: "\U0001F1ED\U0001F1F0HK_1|1021KB/s|GPT⁺|YT-CN|NF|GM|0%"
-    password: Og==
-    port: 20000
-    server: 59.38.113.185
-    type: socks5
-    username: Og==
-  - auth: 'gf1:gfhysteria2024'
-    name: "\U0001F1E9\U0001F1F0DK_1|3.4MB/s|GPT⁺|YT-RU|NF|3%"
-    password: 'gf1:gfhysteria2024'
-    port: 443
-    server: 185.111.109.40
-    skip-cert-verify: true
-    sni: www.dell.com
-    type: hysteria2
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    password: dongtaiwang.com
-    port: 34567
-    server: 157.254.223.44
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - name: "\U0001F1ED\U0001F1F0HK_2|1021KB/s|GPT⁺|NF|GM|0%"
-    password: ''
-    port: 20000
-    server: 59.38.113.185
-    type: socks5
-    username: Og==
-  - cipher: aes-256-cfb
-    name: "\U0001F1EF\U0001F1F5JP_3|3.5MB/s|GPT⁺|NF|GM"
-    password: amazonskr05
-    port: 443
-    server: 13.114.17.103
-    type: ss
-  - name: "\U0001F1FA\U0001F1F8US_5|1.2MB/s|GPT⁺|YT-US|NF|GM|86%"
-    port: 9002
-    server: 138.199.35.218
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1FA\U0001F1F8US_6|577KB/s|GPT⁺|YT-US|NF|GM|10%"
-    port: 443
-    server: fan.596189.xyz
-    skip-cert-verify: true
-    sni: fan.596189.xyz
-    tls: true
-    type: http
-  - name: "\U0001F1FA\U0001F1F8US_7|656KB/s|GPT⁺|YT-US|NF|GM|72%"
-    port: 9002
-    server: 138.199.35.195
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1EC\U0001F1E7GB_1|579KB/s|GPT⁺|NF|68%"
-    password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
-    port: 443
-    server: 1762e001-tcxds0-th2ajx-1rnrp.uk.oshuawei.com
-    sni: 1762e001-tcxds0-th2ajx-1rnrp.uk.oshuawei.com
-    tls: true
-    type: http
-    username: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
-  - name: "\U0001F1EB\U0001F1F7FR_1|775KB/s|GPT⁺|NF|D+"
-    password: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-    port: 443
-    server: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
-    sni: 527b5b47-t9zts0-tighxj-12hj8.fr.oshuawei.com
-    tls: true
-    type: http
-    username: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-  - name: "\U0001F1F7\U0001F1F4RO_4|523KB/s|GPT⁺|0%"
-    port: 9002
-    server: 84.239.49.201
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1FA\U0001F1F8US_8|945KB/s|GPT⁺|YT-US|NF|D+|GM|0%"
-    port: 9002
-    server: 156.146.59.9
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_5|697KB/s|GPT⁺"
-    port: 9002
-    server: 193.176.84.20
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: "\U0001F1F7\U0001F1F4RO_6|671KB/s|GPT⁺|NF|0%"
-    port: 9002
-    server: 84.239.49.203
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_7|529KB/s|GPT|YT-US|NF|0%"
-    port: 9002
-    server: 84.239.49.173
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_8|511KB/s|GPT|YT-CN|NF|0%"
-    password: None
-    port: 9002
-    server: 84.239.49.39
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1FA\U0001F1F8US_9|543KB/s|GPT|YT-US|NF|GM|57%"
-    password: ''
-    port: 9002
-    server: 156.146.59.15
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: ''
-  - name: "\U0001F1F7\U0001F1F4RO_9|597KB/s|GPT⁺|NF|0%"
-    port: 9002
-    server: 84.239.14.159
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1E6\U0001F1FAAU_1|2.8MB/s|GPT⁺|YT-AU|GM|40%"
-    port: 443
-    server: 103.62.50.130
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_10|639KB/s|GPT⁺|YT-US|NF|0%"
-    password: ''
-    port: 9002
-    server: 84.239.49.182
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: ''
-  - name: "\U0001F1FA\U0001F1F8US_10|806KB/s|GPT⁺|YT-US|NF|GM|17%"
-    password: 32315324-cf6b-11ed-979b-f23c9164ca5d
-    port: 443
-    server: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-    sni: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-    tls: true
-    type: http
-    username: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  - name: "\U0001F1F7\U0001F1F4RO_11|1.0MB/s|GPT⁺|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.235
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_12|596KB/s|GPT⁺|NF|0%"
-    port: 9002
-    server: 84.239.49.240
-    skip-cert-verify: true
-    sni: www.bing.com
-    tls: true
-    type: http
-  - name: "\U0001F1FA\U0001F1F8US_11|1002KB/s|GPT⁺|YT-US|NF|D+|GM|57%"
-    password: None
-    port: 9002
-    server: 156.146.59.7
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_13|538KB/s|GPT⁺|NF|0%"
-    password: None
-    port: 9002
-    server: 84.239.49.229
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_14|1.3MB/s|GPT⁺|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.58
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_15|1.4MB/s|GPT⁺|YT-US|NF|0%"
-    port: 9002
-    server: 84.239.49.253
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: "\U0001F1F7\U0001F1F4RO_16|837KB/s|GPT⁺|YT-CN|NF|0%"
-    port: 9002
-    server: 84.239.49.239
-    skip-cert-verify: true
-    tls: true
-    type: http
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
