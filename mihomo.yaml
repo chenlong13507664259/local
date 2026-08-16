@@ -1,22 +1,10 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_1|3.7MB/s|GPT⁺|YT-RU|NF|D+|0%"
-    obfs: ''
-    obfs-password: ''
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    port: 443
-    server: vpn-tw-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-tw-002.fastervpn.world
-    type: hysteria2
-    up: ''
   - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_1|605KB/s|GPT⁺|NF|D+"
+    name: "\U0001F1EB\U0001F1F7FR_1|564KB/s|GPT⁺|NF|D+"
     network: ws
     password: humanity
     port: 443
-    server: render.com
+    server: 104.17.111.3
     skip-cert-verify: false
     sni: www.ignitelimit.com
     type: trojan
@@ -24,15 +12,15 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_2|755KB/s|GPT⁺|NF|D+"
+    name: "\U0001F1EB\U0001F1F7FR_2|812KB/s|GPT⁺|YT-US|D+"
     network: ws
     password: humanity
     port: 443
-    server: 104.17.111.4
+    server: 104.17.177.143
     skip-cert-verify: false
     sni: www.ignitelimit.com
     type: trojan
@@ -40,27 +28,28 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/70.0.3538.102 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
       path: /assignment
   - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR_3|520KB/s|GPT⁺|D+"
-    network: ws
-    password: humanity
-    port: 443
-    server: 216.24.57.1
-    skip-cert-verify: false
-    sni: www.ignitelimit.com
-    type: trojan
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+    name: "\U0001F1F7\U0001F1F8RS_1|626KB/s|GPT|YT-RU|NF"
+    network: grpc
+    port: 9888
+    reality-opts:
+      public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+      short-id: aabbccdd
+    server: 176.109.106.34
+    tls: true
+    type: vless
     udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.85 Safari/537.36
-      path: /assignment
+    uuid: 130e6aab-9eba-441e-9021-22cbccc72832
+    xudp: true
+    servername: dl.google.com
   - client-fingerprint: chrome
-    name: ❓Other_1|636KB/s|GPT⁺|NF|D+
+    name: "\U0001F1EB\U0001F1F7FR_3|935KB/s|GPT⁺|NF|D+"
     network: ws
     password: humanity
     port: 443
@@ -72,281 +61,325 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/70.0.3538.102 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
       path: /assignment
-  - name: "\U0001F1F8\U0001F1ECSG_1|3.1MB/s|GPT⁺|YT-SG"
-    password: e4b72b531a2d10900519
-    port: 443
-    server: 146.70.29.45
-    sni: 92461d2d.acsnet.co
-    tls: true
-    type: http
-    udp: true
-    username: testuser1
-  - client-fingerprint: qq
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_1|1.2MB/s|GPT⁺|YT-RU|NF|6%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: rkRBWVPGbMdh1UXAMu0I019NbBFWoBh4W1T856oyl2o
-      short-id: bbab5af2663db00a
-    server: nl1.murhost.network
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
-    servername: nl1.murhost.network
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_1|3.5MB/s|GPT⁺|GM|53%"
-    port: 30829
-    server: v29.hdacd.com
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_1|2.1MB/s|GPT⁺|YT-CN|D+|0%"
-    password: FH72359861
+    name: "\U0001F1EB\U0001F1F7FR_4|726KB/s|GPT⁺|NF|D+"
+    network: ws
+    password: humanity
     port: 443
-    server: charming-puma.rooster465.autos
+    server: 165.215.250.14
     skip-cert-verify: false
+    sni: www.ignitelimit.com
     type: trojan
     udp: true
-    sni: charming-puma.rooster465.autos
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_2|3.5MB/s|GPT|YT-US|NF|D+|GM|0%"
-    network: tcp
-    port: 27115
-    server: 366-1095.rabbitpro-in-3.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-    xudp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
+      path: /assignment
   - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_2|3.5MB/s|GPT⁺|YT-CN|D+|0%"
-    password: FH72359861
+    name: "\U0001F1EB\U0001F1F7FR_5|687KB/s|GPT⁺|NF|D+"
+    network: ws
+    password: humanity
     port: 443
-    server: massive-ocelot.rooster465.autos
+    server: 130.250.137.171
     skip-cert-verify: false
-    sni: massive-ocelot.rooster465.autos
+    sni: www.ignitelimit.com
     type: trojan
     udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /assignment
   - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_3|4.6MB/s|GPT⁺|YT-CN|0%"
-    password: FH72359861
+    name: "\U0001F1EB\U0001F1F7FR_6|588KB/s|GPT⁺|NF|D+"
+    network: ws
+    password: humanity
     port: 443
-    server: major-goose.rooster465.autos
+    server: 104.16.174.117
     skip-cert-verify: false
+    sni: www.ignitelimit.com
     type: trojan
     udp: true
-    sni: major-goose.rooster465.autos
-  - name: "\U0001F1EF\U0001F1F5JP_1|4.2MB/s|GPT⁺|YT-CN|0%"
-    password: FH72359861
-    port: 443
-    server: welcome-owl.rooster465.autos
-    type: trojan
-    sni: welcome-owl.rooster465.autos
-  - name: "\U0001F1EF\U0001F1F5JP_2|3.9MB/s|GPT⁺|YT-CN|0%"
-    password: FH72359861
-    port: 443
-    server: lucky-primate.rooster465.autos
-    type: trojan
-    udp: true
-    sni: lucky-primate.rooster465.autos
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_2|581KB/s|GPT⁺|YT-RU|NF|6%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: rkRBWVPGbMdh1UXAMu0I019NbBFWoBh4W1T856oyl2o
-      short-id: bbab5af2663db00a
-    server: 81.31.210.138
-    tls: true
-    type: vless
-    udp: true
-    uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
-    servername: nl1.murhost.network
-  - name: "\U0001F1EF\U0001F1F5JP_3|1.5MB/s|GPT⁺|YT-CN|1%"
-    password: FH72359861
-    port: 443
-    server: sterling-fowl.rooster465.autos
-    type: trojan
-    udp: true
-    sni: sterling-fowl.rooster465.autos
-  - name: "\U0001F1ED\U0001F1F0HK_1|4.1MB/s"
-    password: FH72359861
-    port: 443
-    server: growing-oyster.rooster465.autos
-    type: trojan
-    udp: true
-    sni: growing-oyster.rooster465.autos
-  - name: "\U0001F1F0\U0001F1F7KR_4|1.6MB/s|GPT⁺|YT-CN|D+|0%"
-    password: FH72359861
-    port: 443
-    server: precise-locust.rooster465.autos
-    type: trojan
-    udp: true
-    sni: precise-locust.rooster465.autos
-  - name: "\U0001F1F0\U0001F1F7KR_5|869KB/s|GPT⁺|YT-CN|D+|0%"
-    password: FH72359861
-    port: 443
-    server: elegant-horse.rooster465.autos
-    type: trojan
-    udp: true
-    sni: elegant-horse.rooster465.autos
-  - name: "\U0001F1F0\U0001F1F7KR_6|1.1MB/s|GPT⁺|YT-CN|D+"
-    password: FH72359861
-    port: 443
-    server: star-bluejay.rooster465.autos
-    type: trojan
-    udp: true
-    sni: star-bluejay.rooster465.autos
-  - name: "\U0001F1F8\U0001F1ECSG_2|778KB/s|GPT⁺|YT-CN|3%"
-    password: FH72359861
-    port: 443
-    server: leading-eel.rooster465.autos
-    type: trojan
-    udp: true
-    sni: leading-eel.rooster465.autos
-  - name: "\U0001F1F0\U0001F1F7KR_7|1.9MB/s|GPT⁺|YT-CN|D+|0%"
-    password: FH72359861
-    port: 443
-    server: aware-coyote.rooster465.autos
-    type: trojan
-    udp: true
-    sni: aware-coyote.rooster465.autos
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_4|4.9MB/s|GPT⁺|YT-JP|NF|D+|GM|33%"
-    network: tcp
-    port: 27124
-    server: 366-1095.rabbitpro-in-3.com
-    type: vmess
-    uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-  - alterId: '2'
-    cipher: auto
-    name: "\U0001F1F2\U0001F1FEMY_1|3.1MB/s|GPT⁺|YT-MY|NF|GM|0%"
-    network: tcp
-    port: 27125
-    server: 366-1095.rabbitpro-in-3.com
-    type: vmess
-    uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-  - name: "\U0001F1ED\U0001F1F0HK_2|931KB/s|YT-HK"
-    password: FH72359861
-    port: 443
-    server: natural-swan.rooster465.autos
-    type: trojan
-    udp: true
-    sni: natural-swan.rooster465.autos
-  - name: ❓Other_2|1.2MB/s|YT-HK|NF
-    password: FH72359861
-    port: 443
-    server: choice-worm.rooster465.autos
-    type: trojan
-    udp: true
-    sni: choice-worm.rooster465.autos
-  - name: "\U0001F1ED\U0001F1F0HK_3|631KB/s|YT-HK|NF"
-    password: FH72359861
-    port: 443
-    server: amused-peacock.rooster465.autos
-    type: trojan
-    udp: true
-    sni: amused-peacock.rooster465.autos
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_3|858KB/s|GPT⁺|YT-RU|NF|0%"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: IhbpvWBZmJEzDs4eI2zoFmL_a-1J_7Z7Sepyrn7-xF8
-      short-id: 6547735997055a35
-    server: 64.188.112.82
-    tls: true
-    type: vless
-    udp: true
-    uuid: d4d4d103-5074-47e9-96e6-5431f4e35c57
-    xudp: true
-    servername: nodefulcrum.mooo.com
-  - client-fingerprint: edge
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /assignment
+  - client-fingerprint: safari
+    encryption: none
     grpc-opts:
       grpc-service-name: grpc
-    name: "\U0001F1E9\U0001F1EADE_4|584KB/s|GPT|YT-RU|NF|0%"
+    name: "\U0001F1E9\U0001F1EADE_1|1.6MB/s|GPT⁺|YT-RU|NF|0%"
     network: grpc
     port: 443
     reality-opts:
       public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
       short-id: 3303c7a5
-    server: 46.8.221.218
+    server: 194.93.0.28
     tls: true
     type: vless
     udp: true
     uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
     xudp: true
     servername: media2.tcpdoor.net
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_7|1.3MB/s|GPT⁺|D+"
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.18.152.140
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
+      path: /assignment
+  - name: "\U0001F1F0\U0001F1F7KR_1|723KB/s|YT-KR"
+    password: ''
+    port: 1090
+    server: 121.169.46.116
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - multiplexing: MULTIPLEXING_LOW
+    name: "\U0001F1FA\U0001F1F8US_1|2.5MB/s|GPT⁺|YT-CN|NF|D+|0%"
+    password: dongtaiwang.com
+    port: 34567
+    server: 157.254.223.44
+    transport: TCP
+    type: mieru
+    username: dongtaiwang.com
+  - client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_8|1.5MB/s|GPT⁺|NF|D+"
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.18.152.143
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/39.0.2171.95 Safari/537.36
+      path: /assignment
+  - alpn:
+      - h3
+    auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    name: "\U0001F1E9\U0001F1F0DK_1|2.1MB/s|GPT⁺|YT-RU|NF|D+|0%"
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    port: 443
+    server: dk86.mechvpn.online
+    skip-cert-verify: true
+    sni: dk86.mechvpn.online
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1F7\U0001F1FARU_1|1.5MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    port: 2056
+    server: els1.mangshe.xyz
+    skip-cert-verify: true
+    sni: els1.mangshe.xyz
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1ED\U0001F1F0HK_1|1.9MB/s|YT-US|NF|D+|0%"
+    password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a2
+    port: 448
+    server: 119.147.134.47
+    skip-cert-verify: true
+    sni: ssp.vivo.com.cn
+    type: anytls
+  - fingerprint: ''
+    name: "\U0001F1ED\U0001F1F0HK_2|3.3MB/s|YT-US|NF|D+|GM|0%"
+    password: 2fd892b8-4f6c-4597-977e-85ec8a82c7a1
+    port: 448
+    server: 119.147.134.47
+    skip-cert-verify: true
+    sni: ssp.vivo.com.cn
+    type: anytls
+    udp: true
+    username: 2fd892b8-4f6c-4597-977e-85ec8a82c7a1
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR_9|1.5MB/s|GPT⁺|NF|D+"
+    network: ws
+    password: humanity
+    port: 443
+    server: join-telegram-channel.tirexnet.kdns.fr
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: /assignment
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: ❓Other_1|2.1MB/s|GPT⁺
+    network: ws
+    password: humanity
+    port: 443
+    server: 162.159.136.234
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
+    name: ❓Other_2|514KB/s|GPT⁺
+    network: ws
+    password: humanity
+    port: 443
+    server: 104.18.152.233
+    skip-cert-verify: false
+    sni: www.ignitelimit.com
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /assignment
+  - client-fingerprint: chrome
     http-opts:
       headers: {}
       path:
         - /
-    name: "\U0001F1EE\U0001F1F9IT_1|902KB/s|GPT⁺|YT-UA|NF|25%"
+    name: "\U0001F1EF\U0001F1F5JP_1|4.0MB/s|GPT⁺|YT-JP|NF|GM|0%"
     network: tcp
     port: 443
     reality-opts:
-      public-key: LS-zg9fF_5TvNfMCIKngy5AMue1hF-hsk3hShsHGXT4
-      short-id: e5fa48b9363c6a88
-    server: 46.28.68.63
+      public-key: Zi3V0K3Mg8xDRLdpPF5Srlc3sHWEWn_2g6laXmZNXEQ
+      short-id: 3f91fcb900e7b35e
+    server: 206.237.120.221
     tls: true
     type: vless
     udp: true
-    uuid: 44927d9f-1a75-4c03-ab8c-79898adaaece
+    uuid: 9caa5a2d-371d-4eb9-8960-6ae3cc20ac37
     xudp: true
     servername: www.cloudflare.com
   - client-fingerprint: chrome
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_2|645KB/s|GPT⁺|YT-US|NF|D+|GM|3%"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 7VxTJ07mi8LjFwq6js_slff3Y3YgEzGzR7x9SeT5N3U
+      short-id: 660d5a6915710e6e
+    server: 38.47.113.204
+    tls: true
+    type: vless
+    udp: true
+    uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
+    xudp: true
+    servername: www.cloudflare.com
+  - fingerprint: ''
+    name: "\U0001F1F8\U0001F1ECSG_1|3.2MB/s|GPT⁺|YT-SG|NF|GM|12%"
+    password: 13f0acfa-38c1-4e82-a758-583aa31740df
+    port: 45647
+    server: yazhouany02.twzq59.cc
+    skip-cert-verify: false
+    sni: yazhou11ak.2uuzhe.com
+    type: anytls
+    udp: true
+    username: 13f0acfa-38c1-4e82-a758-583aa31740df
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK_3|597KB/s|GPT⁺|YT-HK|D+|0%"
+    password: passwd
+    plugin: obfs
+    plugin-opts:
+      host: 43309-nIao34iu.download.microsoft.com
+      mode: http
+    port: 8101
+    server: cn01.somethingstranges.com
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL_1|1.3MB/s|GPT⁺|YT-FI|NF|0%"
+    port: 443
+    reality-opts:
+      public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
+      short-id: a91045bc
+    server: 163.5.153.153
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0a76a766-d141-44b8-944e-dff757d7116f
+    network: tcp
+    servername: www.samsung.com
+  - client-fingerprint: ios
     flow: xtls-rprx-vision
     http-opts:
       headers: {}
       path:
         - /
-    name: "\U0001F1ED\U0001F1F0HK_4|3.5MB/s|GPT⁺|YT-HK|NF|D+|0%"
+    name: "\U0001F1FA\U0001F1F8US_3|2.2MB/s|GPT⁺|YT-US|NF|50%"
     network: tcp
     port: 443
     reality-opts:
-      public-key: ZmT8Tizn4Dw0-f7H3yUN5gpNJTWqtq248U4Qpk16lXw
-      short-id: b0ca5b9b
-    server: hk.xswlbrand.xyz
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: c39cc7310a
+    server: 169.40.42.229
     tls: true
     type: vless
     udp: true
-    uuid: ce551b1c-95f5-4ea2-b6fc-5e9ef472fae1
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
     xudp: true
-    servername: hk4e-launcher-static.hoyoverse.com
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: rpc.v1.SyncService
-    name: "\U0001F1EC\U0001F1E7GB_1|1.6MB/s|GPT⁺|YT-RU|NF|D+|17%"
-    network: grpc
+    servername: yahoo.com
+  - client-fingerprint: ios
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1F8US_4|2.5MB/s|YT-US|NF|60%"
+    network: tcp
     port: 443
-    server: 164.37.100.59
+    reality-opts:
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: c39cc7310a
+    server: 169.40.42.74
     tls: true
     type: vless
     udp: true
-    uuid: 272b98b4-d02b-4dbc-bd8c-d8de5249b999
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
     xudp: true
-    servername: edge1.numberoneok.com
+    servername: yahoo.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
